@@ -36,6 +36,7 @@
   .btn{border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);background:white;
     border-radius:12px;padding:10px 14px;font-weight:850;font-size:13px;cursor:pointer;transition:.15s;font-family:inherit}
   .btn:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+  a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 
   /* ===== Hero（首页仅介绍） ===== */
   .hero{padding:58px 0 34px;min-height:60vh;display:flex;flex-direction:column;justify-content:center}
@@ -516,18 +517,63 @@
     .detail-grid{grid-template-columns:1fr}
   }
   @media(max-width:800px){
-    .nav{display:none}
-    .hero h1{font-size:46px}
+    .header{padding:10px 0}
+    .header .row{flex-wrap:wrap;row-gap:10px}
+    .actions{display:none}
+    .nav{order:3;display:flex;width:100%;margin:0;gap:8px;overflow-x:auto;padding:2px 2px 6px;
+      scrollbar-width:none;-webkit-overflow-scrolling:touch}
+    .nav::-webkit-scrollbar{display:none}
+    .nav a{flex:0 0 auto;border:2px solid var(--ink);border-radius:999px;background:#fff;padding:8px 12px;
+      min-height:40px;display:inline-flex;align-items:center;justify-content:center;font-size:13px}
+    .nav a.on{background:var(--ink);color:var(--cream);text-decoration:none}
+    .hero{padding-top:36px}
+    .hero h1{font-size:44px}
   }
   @media(max-width:600px){
-    .igrid{grid-template-columns:1fr}
-    .portal-grid{grid-template-columns:1fr}
-    .cur-grid{grid-template-columns:1fr}
-    .pick-grid{grid-template-columns:1fr}
-    .idp-head{padding:22px 18px}
-    .idp-panel{padding:18px}
+    .shell{width:min(1160px,calc(100% - 24px))}
+    .section{padding:28px 0 48px}
+    .grid,.igrid,.portal-grid,.cur-grid,.pick-grid,.foot{grid-template-columns:1fr}
+    .chips{flex-wrap:nowrap;overflow-x:auto;padding:2px 3px 8px;margin-inline:-3px;
+      scrollbar-width:none;-webkit-overflow-scrolling:touch}
+    .chips::-webkit-scrollbar{display:none}
+    .chip{flex:0 0 auto;min-height:40px}
+    .search input{min-width:0;padding:12px 13px}
+    .search button{min-width:54px;padding:0 14px}
+    .card .body{padding:15px 16px 17px}
+    .card h3{font-size:19px}
+    .lore-banner,.story-strip-sec,.planet-mission-sec,.tippy-story-sec,.tippy-stage-sec{padding:22px 18px;border-radius:20px}
+    .planet-mission-thumb-box{min-height:200px}
+    .tippy-radar-badge{right:0;font-size:10.5px;padding:5px 10px}
+    .detail-media,.detail-head,.prompt-panel,.idp-head,.idp-panel{padding:16px}
+    .tabs,.idp-tabs{gap:7px}
+    .tab,.idp-tab,.back-btn,.copy,.icopy{min-height:40px}
+    .tab,.idp-tab{padding:8px 11px;font-size:12px}
+    .idp-bc{line-height:1.5}
+    .idp-source{margin-left:0;width:100%}
     .idp-actions .btn{width:100%}
     .icard-foot{flex-wrap:wrap}
+    .rm-card{padding:14px;flex-wrap:wrap}
+    .rm-card .rm-date{margin-left:0}
+    .foot{gap:18px}
+    footer{padding:42px 0 32px;margin-top:48px}
+    .tippy-floating-pet{right:14px;bottom:14px;gap:8px}
+    .tippy-pet-avatar{width:52px;height:52px;border-radius:17px}
+    .tippy-pet-speech{width:min(210px,calc(100vw - 86px))}
+    .toast{left:12px;bottom:78px;max-width:calc(100vw - 24px)}
+  }
+  @media(max-width:380px){
+    .brand{font-size:20px;gap:6px}
+    .brand-logo-icon{width:24px;height:24px}
+    .brand .dot{width:8px;height:8px}
+    .hero h1{font-size:40px}
+    .hero p{font-size:16px}
+    .hero .cta-row{gap:10px;margin-top:24px}
+    .hero .cta-row .btn{padding:10px 12px}
+    .portal-card{padding:20px}
+    .portal-card .pavatar{width:64px;height:64px}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   }
   /* ===== 详情页「从哪来到哪去」overlay ===== */
   html.dl-lock, body.dl-lock{overflow:hidden}
