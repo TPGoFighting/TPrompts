@@ -604,12 +604,12 @@
 
 <div class="toast">已复制到剪贴板 ✓</div>
 
-<script src="prompts-data.js"></script>
-<script src="inspire-data.js"></script>
+<script src="prompts-data.js" defer></script>
+<script src="inspire-data.js" defer></script>
 <script src="curated-data.js"></script>
 <script>
 /* ================= 数据与工具 ================= */
-const D = window.PROMPTS_DATA;
+let D = window.PROMPTS_DATA || [];
 const $ = s => document.querySelector(s);
 const app = $('#app');
 const state = { cat: null, tag: '全部', q: '', tab: 'zh', page: 1, icat: '全部', iq: '', ipage: 1, itab: 'zh' };
@@ -697,9 +697,14 @@ function closeDetail() {
   setTimeout(finish, wasOpen ? 420 : 60);   /* 兜底：transitionend 可能不触发 */
 }
 
-const CATS = [...new Set(D.map(p => p.cat))].sort((a, b) =>
-  D.filter(p => p.cat === b).length - D.filter(p => p.cat === a).length);
-const CAT_COUNT = Object.fromEntries(CATS.map(c => [c, D.filter(p => p.cat === c).length]));
+let CATS = [];
+let CAT_COUNT = {};
+function refreshLibraryIndex() {
+  CATS = [...new Set(D.map(p => p.cat))].sort((a, b) =>
+    D.filter(p => p.cat === b).length - D.filter(p => p.cat === a).length);
+  CAT_COUNT = Object.fromEntries(CATS.map(c => [c, D.filter(p => p.cat === c).length]));
+}
+refreshLibraryIndex();
 
 /* type 归并：21 种原始类型 → 6 类笼统标签 */
 function typeGroup(p) {
@@ -717,6 +722,11 @@ function esc(s) {
 }
 function byId(id) { return D.find(p => p.id === id); }
 function go(hash) { location.hash = hash; }
+function localOriginalPath(p) { return `images/${encodeURI(String(p.imgLocal || ''))}`; }
+function localThumbPath(p) {
+  const source = String(p.imgLocal || '');
+  return /\.svg$/i.test(source) ? localOriginalPath(p) : `images/thumbs/${encodeURI(source)}.webp`;
+}
 
 async function copyText(text) {
   try { await navigator.clipboard.writeText(text); return true; }
@@ -747,6 +757,18 @@ function imgErr(el, id) {
   }
 }
 
+/* 缩略图缺失时回退到原图，保证旧部署或单个坏资源不影响卡片渲染 */
+function thumbErr(el, id) {
+  const p = byId(id);
+  if (p && p.imgLocal && el.dataset.fallback !== 'original') {
+    el.dataset.fallback = 'original';
+    el.onerror = () => imgErr(el, id);
+    el.src = localOriginalPath(p);
+    return;
+  }
+  imgErr(el, id);
+}
+
 /* 图片加载完成：移除 shimmer + 淡入 */
 function imgLoaded(el) {
   el.classList.add('loaded');
@@ -769,8 +791,8 @@ function imgUrl(u, w, q) {
 function thumbHTML(p, i) {
   const id = esc(p.id);
   if (p.imgLocal) {
-    /* 本地预览图（与模板一一对应，最高优先级；大 gif 走懒加载） */
-    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="images/${esc(p.imgLocal)}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+    /* 本地预览图优先使用 480px WebP，缺失时回退原图 */
+    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`;
   }
   if (p.img) {
     return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.img, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
@@ -797,7 +819,7 @@ function mediaHTML(p, i) {
     /* 封面（本地图/静态图/动图/兜底）+ ▶ 播放按钮，点击后在页面内播放 */
     const coverHTML = cover
       ? (p.imgLocal
-        ? `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="images/${esc(p.imgLocal)}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`
+        ? `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`
         : `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(imgUrl(cover, 960, 75))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`)
       : `<div class="thumb"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
     return `<div class="media-box" id="mb-${id}">
@@ -972,7 +994,7 @@ function renderList() {
 }
 
 /* ================= 灵感板块数据 ================= */
-const ID = window.INSPIRE_DATA || [];
+let ID = window.INSPIRE_DATA || [];
 
 /* 55 个 prompts.chat 分类 → 中文映射 */
 const CAT_ZH = {
@@ -993,13 +1015,18 @@ const CAT_ZH = {
   'workflows': '工作流', 'writing': '写作'
 };
 function icatZh(en) { return CAT_ZH[en] || en; }
-const ICATS = ['全部', ...new Set(ID.map(p => icatZh(p.cat)))].sort((a, b) => {
-  if (a === '全部') return -1;
-  if (b === '全部') return 1;
-  return ID.filter(p => icatZh(p.cat) === b).length - ID.filter(p => icatZh(p.cat) === a).length;
-});
-const ICAT_COUNT = Object.fromEntries(ICATS.map(c =>
-  [c, c === '全部' ? ID.length : ID.filter(p => icatZh(p.cat) === c).length]));
+let ICATS = [];
+let ICAT_COUNT = {};
+function refreshInspireIndex() {
+  ICATS = ['全部', ...new Set(ID.map(p => icatZh(p.cat)))].sort((a, b) => {
+    if (a === '全部') return -1;
+    if (b === '全部') return 1;
+    return ID.filter(p => icatZh(p.cat) === b).length - ID.filter(p => icatZh(p.cat) === a).length;
+  });
+  ICAT_COUNT = Object.fromEntries(ICATS.map(c =>
+    [c, c === '全部' ? ID.length : ID.filter(p => icatZh(p.cat) === c).length]));
+}
+refreshInspireIndex();
 
 /* ================= 品味策展数据 ================= */
 const CUR = window.CURATED_DATA || { sections: [] };
@@ -1066,7 +1093,7 @@ function renderHome() {
       <div class="portal-grid">
         <div class="portal-card" data-nav="#/library">
           <div class="portal-card-top">
-            <div class="pnum">${D.length}</div>
+            <div class="pnum">${D.length || '…'}</div>
             <img class="pavatar" src="assets/tippy/tippy_30.png" alt="提示词库" />
           </div>
           <div class="plabel">Prompt Library</div>
@@ -1077,7 +1104,7 @@ function renderHome() {
 
         <div class="portal-card" data-nav="#/inspire">
           <div class="portal-card-top">
-            <div class="pnum">${ID.length}</div>
+            <div class="pnum">${ID.length || '…'}</div>
             <img class="pavatar" src="assets/tippy/tippy_05.png" alt="灵感板块" />
           </div>
           <div class="plabel">Inspiration Planet</div>
@@ -1472,6 +1499,10 @@ function renderInspireList() {
 }
 
 function renderInspire() {
+  if (!ID.length) {
+    app.innerHTML = '<div class="shell section"><div class="empty">灵感库正在加载…</div></div>';
+    return;
+  }
   state.icat = state.icat || '全部'; state.iq = ''; state.ipage = 1;
   app.innerHTML = `
     <div class="shell section">
@@ -1495,6 +1526,10 @@ function renderInspire() {
 /* 灵感详情页（独立设计：idp-* 样式，区别于提示词库详情页；host 支持 overlay 模式） */
 function renderInspireDetail(id, host) {
   host = host || app;
+  if (!ID.length) {
+    host.innerHTML = '<div class="shell section"><div class="empty">灵感详情正在加载…</div></div>';
+    return;
+  }
   const p = ID.find(x => x.id === id);
   if (!p) { render404(); return; }
   const idx = ID.indexOf(p);
@@ -1879,6 +1914,23 @@ function render() {
 }
 
 window.addEventListener('hashchange', render);
+
+/* 大数据脚本使用 defer，先绘制壳层，再在 DOMContentLoaded 后补齐真实数据 */
+function refreshLoadedData() {
+  let changed = false;
+  if (Array.isArray(window.PROMPTS_DATA)) {
+    D = window.PROMPTS_DATA;
+    refreshLibraryIndex();
+    changed = true;
+  }
+  if (Array.isArray(window.INSPIRE_DATA)) {
+    ID = window.INSPIRE_DATA;
+    refreshInspireIndex();
+    changed = true;
+  }
+  if (changed) render();
+}
+document.addEventListener('DOMContentLoaded', refreshLoadedData, { once: true });
 
 document.addEventListener('keydown', e => {
   if (e.key === '/' && !/input|textarea/.test(document.activeElement.tagName)) {

@@ -7,9 +7,11 @@ TPrompts 是一个零运行时依赖的静态提示词检索站，包含提示�
 ```bash
 npm run check   # 校验数据、资源、HTML 和内联 JavaScript
 npm test        # 运行静态站点冒烟测试
-npm run build   # 生产前检查（静态站无需打包）
+npm run build   # 生成本地 WebP 缩略图并执行生产前检查
 npm run serve   # http://127.0.0.1:4173
 ```
+
+`npm run build` 需要本机安装 Pillow；缩略图写入 `images/thumbs/`，原始媒体保持不变。
 
 也可以直接双击 `index.html` 打开；站点使用 Hash 路由，不依赖后端服务。
 

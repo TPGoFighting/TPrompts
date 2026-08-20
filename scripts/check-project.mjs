@@ -113,6 +113,10 @@ export function checkProject() {
     if (prompt.imgLocal) {
       const resource = `images/${prompt.imgLocal}`;
       assert(localFileExists(resource), `PROMPTS_DATA.${prompt.id} 缺少本地预览图: ${resource}`);
+      if (!/\.svg$/i.test(prompt.imgLocal)) {
+        const thumbnail = `images/thumbs/${prompt.imgLocal}.webp`;
+        assert(localFileExists(thumbnail), `PROMPTS_DATA.${prompt.id} 缺少本地缩略图: ${thumbnail}`);
+      }
     }
   });
 
