@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "file": "tippy_01.png",
+    "size": "1536x1024",
+    "ratio": 1.5
+  },
+  {
+    "id": 2,
+    "file": "tippy_02.png",
+    "size": "1122x1402",
+    "ratio": 0.8
+  },
+  {
+    "id": 3,
+    "file": "tippy_03.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 4,
+    "file": "tippy_04.png",
+    "size": "1448x1086",
+    "ratio": 1.33
+  },
+  {
+    "id": 5,
+    "file": "tippy_05.png",
+    "size": "1122x1402",
+    "ratio": 0.8
+  },
+  {
+    "id": 6,
+    "file": "tippy_06.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 7,
+    "file": "tippy_07.png",
+    "size": "1122x1402",
+    "ratio": 0.8
+  },
+  {
+    "id": 8,
+    "file": "tippy_08.png",
+    "size": "1122x1402",
+    "ratio": 0.8
+  },
+  {
+    "id": 9,
+    "file": "tippy_09.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 10,
+    "file": "tippy_10.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 11,
+    "file": "tippy_11.png",
+    "size": "1536x1024",
+    "ratio": 1.5
+  },
+  {
+    "id": 12,
+    "file": "tippy_12.png",
+    "size": "1536x1024",
+    "ratio": 1.5
+  },
+  {
+    "id": 13,
+    "file": "tippy_13.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 14,
+    "file": "tippy_14.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 15,
+    "file": "tippy_15.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 16,
+    "file": "tippy_16.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 17,
+    "file": "tippy_17.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 18,
+    "file": "tippy_18.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 19,
+    "file": "tippy_19.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 20,
+    "file": "tippy_20.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 21,
+    "file": "tippy_21.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 22,
+    "file": "tippy_22.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 23,
+    "file": "tippy_23.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 24,
+    "file": "tippy_24.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 25,
+    "file": "tippy_25.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 26,
+    "file": "tippy_26.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 27,
+    "file": "tippy_27.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 28,
+    "file": "tippy_28.png",
+    "size": "1254x1254",
+    "ratio": 1.0
+  },
+  {
+    "id": 29,
+    "file": "tippy_29.png",
+    "size": "2048x1838",
+    "ratio": 1.11
+  },
+  {
+    "id": 30,
+    "file": "tippy_30.png",
+    "size": "2048x1636",
+    "ratio": 1.25
+  },
+  {
+    "id": 31,
+    "file": "tippy_31.png",
+    "size": "2048x1654",
+    "ratio": 1.24
+  },
+  {
+    "id": 32,
+    "file": "tippy_32.png",
+    "size": "2048x1652",
+    "ratio": 1.24
+  },
+  {
+    "id": 33,
+    "file": "tippy_33.png",
+    "size": "2048x1626",
+    "ratio": 1.26
+  },
+  {
+    "id": 34,
+    "file": "tippy_34.png",
+    "size": "2048x1688",
+    "ratio": 1.21
+  },
+  {
+    "id": 35,
+    "file": "tippy_35.png",
+    "size": "2048x1868",
+    "ratio": 1.1
+  },
+  {
+    "id": 36,
+    "file": "tippy_36.png",
+    "size": "2048x1170",
+    "ratio": 1.75
+  },
+  {
+    "id": 37,
+    "file": "tippy_37.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 38,
+    "file": "tippy_38.png",
+    "size": "2048x1610",
+    "ratio": 1.27
+  },
+  {
+    "id": 39,
+    "file": "tippy_39.png",
+    "size": "2048x1730",
+    "ratio": 1.18
+  },
+  {
+    "id": 40,
+    "file": "tippy_40.png",
+    "size": "2048x1828",
+    "ratio": 1.12
+  },
+  {
+    "id": 41,
+    "file": "tippy_41.png",
+    "size": "2048x1746",
+    "ratio": 1.17
+  },
+  {
+    "id": 42,
+    "file": "tippy_42.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 43,
+    "file": "tippy_43.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 44,
+    "file": "tippy_44.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 45,
+    "file": "tippy_45.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 46,
+    "file": "tippy_46.png",
+    "size": "1708x1706",
+    "ratio": 1.0
+  },
+  {
+    "id": 47,
+    "file": "tippy_47.png",
+    "size": "1454x1454",
+    "ratio": 1.0
+  },
+  {
+    "id": 48,
+    "file": "tippy_48.png",
+    "size": "1600x1600",
+    "ratio": 1.0
+  },
+  {
+    "id": 49,
+    "file": "tippy_49.png",
+    "size": "1286x1284",
+    "ratio": 1.0
+  },
+  {
+    "id": 50,
+    "file": "tippy_50.png",
+    "size": "1606x1606",
+    "ratio": 1.0
+  },
+  {
+    "id": 51,
+    "file": "tippy_51.png",
+    "size": "1798x1798",
+    "ratio": 1.0
+  },
+  {
+    "id": 52,
+    "file": "tippy_52.png",
+    "size": "1380x1378",
+    "ratio": 1.0
+  },
+  {
+    "id": 53,
+    "file": "tippy_53.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 54,
+    "file": "tippy_54.png",
+    "size": "2048x2048",
+    "ratio": 1.0
+  },
+  {
+    "id": 55,
+    "file": "tippy_55.png",
+    "size": "2048x1484",
+    "ratio": 1.38
+  },
+  {
+    "id": 56,
+    "file": "tippy_56.png",
+    "size": "2048x1704",
+    "ratio": 1.2
+  },
+  {
+    "id": 57,
+    "file": "tippy_57.png",
+    "size": "1690x1690",
+    "ratio": 1.0
+  },
+  {
+    "id": 58,
+    "file": "tippy_58.png",
+    "size": "2048x1296",
+    "ratio": 1.58
+  },
+  {
+    "id": 59,
+    "file": "tippy_59.png",
+    "size": "2048x1490",
+    "ratio": 1.37
+  },
+  {
+    "id": 60,
+    "file": "tippy_60.png",
+    "size": "2048x1786",
+    "ratio": 1.15
+  },
+  {
+    "id": 61,
+    "file": "tippy_61.png",
+    "size": "2048x1740",
+    "ratio": 1.18
+  },
+  {
+    "id": 62,
+    "file": "tippy_62.png",
+    "size": "2048x1680",
+    "ratio": 1.22
+  },
+  {
+    "id": 63,
+    "file": "tippy_63.png",
+    "size": "1842x1598",
+    "ratio": 1.15
+  },
+  {
+    "id": 64,
+    "file": "tippy_64.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  },
+  {
+    "id": 65,
+    "file": "tippy_65.png",
+    "size": "1600x2538",
+    "ratio": 0.63
+  },
+  {
+    "id": 66,
+    "file": "tippy_66.png",
+    "size": "2132x1600",
+    "ratio": 1.33
+  },
+  {
+    "id": 67,
+    "file": "tippy_67.png",
+    "size": "1806x1598",
+    "ratio": 1.13
+  },
+  {
+    "id": 68,
+    "file": "tippy_68.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  },
+  {
+    "id": 69,
+    "file": "tippy_69.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  },
+  {
+    "id": 70,
+    "file": "tippy_70.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  },
+  {
+    "id": 71,
+    "file": "tippy_71.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  },
+  {
+    "id": 72,
+    "file": "tippy_72.png",
+    "size": "2848x1600",
+    "ratio": 1.78
+  }
+]

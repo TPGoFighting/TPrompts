@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmj77u5uy0004wq0rjys1zadw_Create a Cultural Superhero Movie Poster.md

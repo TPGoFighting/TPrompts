@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjqbbwc80007jr04padro2up_Security Guard Image Prompt.md

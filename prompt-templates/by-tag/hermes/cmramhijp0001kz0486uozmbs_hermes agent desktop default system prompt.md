@@ -1,0 +1,1 @@
+../../by-category/skill/cmramhijp0001kz0486uozmbs_hermes agent desktop default system prompt.md

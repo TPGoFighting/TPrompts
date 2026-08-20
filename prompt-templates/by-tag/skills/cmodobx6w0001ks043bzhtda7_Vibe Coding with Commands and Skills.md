@@ -1,0 +1,1 @@
+../../by-category/coding/cmodobx6w0001ks043bzhtda7_Vibe Coding with Commands and Skills.md

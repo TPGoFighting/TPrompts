@@ -1,0 +1,1 @@
+../../by-category/vibe/cmjfsjsnk0001jy04gq5zoxzh_Landing Page Vibe Coding.md

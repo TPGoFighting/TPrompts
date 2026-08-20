@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmn8kfhf8000gk004qeoa2i5t_GitHub Enterprise Cloud -GHEC- administrator and power user.md

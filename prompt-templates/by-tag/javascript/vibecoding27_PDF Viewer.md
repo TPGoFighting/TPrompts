@@ -1,0 +1,1 @@
+../../by-category/vibe/vibecoding27_PDF Viewer.md

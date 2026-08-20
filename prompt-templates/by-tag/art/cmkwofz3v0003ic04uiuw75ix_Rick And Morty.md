@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmkwofz3v0003ic04uiuw75ix_Rick And Morty.md

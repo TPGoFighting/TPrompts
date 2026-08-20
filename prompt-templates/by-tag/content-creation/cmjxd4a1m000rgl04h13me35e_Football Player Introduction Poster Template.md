@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjxd4a1m000rgl04h13me35e_Football Player Introduction Poster Template.md

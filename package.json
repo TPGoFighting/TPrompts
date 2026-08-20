@@ -1,0 +1,15 @@
+{
+  "name": "tprompts-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TPrompts 静态提示词检索站",
+  "scripts": {
+    "check": "node scripts/check-project.mjs",
+    "test": "node --test test/*.test.mjs",
+    "build": "npm run check",
+    "serve": "python3 -m http.server 4173 --bind 127.0.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

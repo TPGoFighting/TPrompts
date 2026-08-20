@@ -1,0 +1,5855 @@
+{
+  "total_untranslated": 975,
+  "items": [
+    {
+      "chunk_id": 0,
+      "id": "cmmx2l3950001ic04hgs1q1dz",
+      "title": "Database Architect Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2q3te0005k604pbff146u",
+      "title": "Backup & Restore Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2ques0005ks04n8akxej1",
+      "title": "DevOps Automator Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2rlo50005ic047dm1cvbg",
+      "title": "Environment Configuration Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2sc540009ic048r6nmb31",
+      "title": "Git Workflow Expert Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2t2o1000dic04l0wwko2c",
+      "title": "Repository Workflow Editor Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2tt4g0009ks04iv6hgq99",
+      "title": "Documentation Maintainer Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2ya3s000hic04l0i60mil",
+      "title": "Legal Document Generator Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2z0s3000jil04s31wfd1c",
+      "title": "Caching Architect Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2zrit000nil04y5rs2jxs",
+      "title": "Optimization Auditor Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx30hyu0005if04r5k8yknq",
+      "title": "Performance Tuning Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx318m1000ril04som8t501",
+      "title": "Diff Security Auditor Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx31zon000dk604l79f55ac",
+      "title": "Vulnerability Auditor Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx32qo80009if04ronmeeg3",
+      "title": "API Tester Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx33hx10001js04e6xx9e0o",
+      "title": "Quality Engineering Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx348r70005js04nqpc1mp3",
+      "title": "Test Analyzer Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx34zl7000vil04rm2wl8yl",
+      "title": "Test Engineer Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx35q4m000lic049ujrp1eb",
+      "title": "Code Formatter Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx36gj0000hks04zj5f7249",
+      "title": "Code Review Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3775n000dif04fpzd4xww",
+      "title": "Code Reviewer Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx37xsr000sic044rjkrpbz",
+      "title": "Dependency Manager Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx38o66000wic04ivu6li83",
+      "title": "Error Handler Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx39fey000zil04qqq1fqu9",
+      "title": "Post-Implementation Audit Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3a64a0013il04ajxk8j0t",
+      "title": "Product Planner Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3awrf000hif048zyj6dch",
+      "title": "Rapid Prototyper Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3bo9s0010ic04frpnu7rh",
+      "title": "Root Cause Analysis Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3ceuh000oks04gkxs44zr",
+      "title": "Refactoring Expert Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3d5jf000sks04tfsmoe6a",
+      "title": "Shell Script Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3dw3v000wks04ehuzld6v",
+      "title": "Tool Evaluator Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3en0s0014ic04je8y43ma",
+      "title": "TypeScript Type Expert Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3irso0009js048b2sddmj",
+      "title": "Bug Risk Analyst Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3kakv0017il04axj51zi2",
+      "title": "Repository Indexer Agent Role",
+      "category": "coding"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjzme1qf0001l8042nhezt2u",
+      "title": "Dynamic Recipe Generator from Available Ingredients",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmk8ft2610004l404sohre6y5",
+      "title": "Slap Game Challenge: Act as the Ultimate Slap Game Master",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmk8me1cx0001l204tsam3mnw",
+      "title": "Vision-to-json",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmkb82kar000kjj041ipk306w",
+      "title": "Joker: Tech Humor Master",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmov7papw0001ju043grkjum1",
+      "title": "Horror Story in Hindi",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmowr7ps10001jr04z7iclqf6",
+      "title": "YouTube Script Engine — High Retention",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmpknszsz0001l7040cyz029n",
+      "title": "Creative Writing: Exploring Inner Desires",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqakc9s60001jr045azemkyz",
+      "title": "Name and Prompt for Digital Avatar Application",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqpnrxrp0004la04to9nvf2h",
+      "title": "Creative Coloring Book Creations",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqqhcaou0007l204rxm1x70k",
+      "title": "Small",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmrl8g96g0001jh09dcuevw3p",
+      "title": "Copy Script Style",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmrvutke2000hkz04jhnh3v4w",
+      "title": "Design a Military Uniform",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmsxpu30x0004ih040n3uicfq",
+      "title": "Kaomoji Chat",
+      "category": "creative"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj2xpzoy0001vr0rki0x5f85",
+      "title": "AI2sql SQL Model — Query Generator",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj63h699000ap50r5y89t1kw",
+      "title": "Detailed Analysis of YouTube Channels, Databases, and Profiles",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj8fpwoe0001uh0qt4lo47wp",
+      "title": "Analyse Énergétique avec DJU, Consommation et Coûts",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj8gwumj000yv40rm9hmcuba",
+      "title": "Viral Video Analyzer for TikTok and Xiaohongshu",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj8jjos90001yj0qzhgtvfzl",
+      "title": "Analyse Énergétique avec DJU, Consommation et Coûts",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmj9l3pkq0001u10s1a0x9lcm",
+      "title": "Product Image Highlight Extraction",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjc4egev0001v80rm56oug7b",
+      "title": "Data Analyst",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjc4l40m0007u00rkzqzruqh",
+      "title": "Lead Data Analyst with Data Engineering Expertise",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjfs8fqm0001ky04upwuwdoj",
+      "title": "Crypto Market Outlook Analyst",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjfymbqt000fjp04fa9b4vny",
+      "title": "Pathology Slide Analysis Assistant",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjgi0jqy0004ky04o7qqt2hx",
+      "title": "Quantitative Factor Research Engineer",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjhx5hal0007l704g98nqns8",
+      "title": "提取查询 json 中的查询条件",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjiosifa0010jp04u1jnf5st",
+      "title": "Algorithm Analysis and Improvement Advisor",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjl2a77d000fjy04ln3oi8p5",
+      "title": "Using StanfordVL/BEHAVIOR-1K for Robotics and AI Tasks",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjllplbk000cl7046mnllh80",
+      "title": "Personalized Technical Intelligence Briefing for Edge AI in Defense",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjmngz6d0007ic044ylth6jb",
+      "title": "FDTD Simulations of Nanoparticles",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjthcle70004ib044eacwbnw",
+      "title": "Advanced Text Converter for Large Datasets",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjz1k3aq0007ky04igtxwt8n",
+      "title": "SQL Query Generator from Natural Language",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmjzaypob000dky041c68zq4p",
+      "title": "Semantic Intent Analysis for Report Generation",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmlp2szmu0001lb047jvk26rh",
+      "title": "Lead Data Analyst for Actionable Insights",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmm7manvr000dl504i52kbw0l",
+      "title": "Data Architect & Business Strategist (CSV Audit & Pipeline)",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmnar19t0004le043y9x238x",
+      "title": "MISSING VALUES HANDLER",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2lu6d0001l804foa0s1mz",
+      "title": "Data Validator Agent Role",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx2pcnd0001k604fhc6cq9k",
+      "title": "Mock Data Generator Agent Role",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmx3jj8c000hk604w8fmzk8j",
+      "title": "Deep Research Agent Role",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmoka75o60004l404kpaw0njw",
+      "title": "Grok Research Agent",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmosybkff0001jj04jjj076vr",
+      "title": "Fantasy Dataset Creator for Machine Learning",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmrcsnw700001ie04irato2m3",
+      "title": "explain a Concept via Allegorical Story",
+      "category": "data-science"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmnb9dxg0001l8047jcrujr5",
+      "title": "Kickstart Prompt for Web UX & UI Design",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmoikk3b000jkz04xgxb1t9s",
+      "title": "Design System Extraction Prompt Kit",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmopznp10009le041evkm0nx",
+      "title": "Design Handoff Notes - AI First, Human Readable",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmoq1aqr000kle046h0960yk",
+      "title": "Visual QA & Cross-Browser Audit",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmoq2i9d000sle049zrs991x",
+      "title": "Lighthouse & Performance Optimization",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmoq6w7o0004la042h9mga36",
+      "title": "Pre-Launch Checklist Generator",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmxtom5d0001jy04k8n66wqv",
+      "title": "UX Conversion Deconstruction Engine",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmxtsuq40001l704dlqlgxdr",
+      "title": "AI-First Design Handoff Generator (Dev-Ready Spec)",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmxtuy2w0004l704mt7xxlr3",
+      "title": "Design System Consistency Auditor",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmmxtz3690005l704lv6dp3h5",
+      "title": "Apple-Level UI System Designer (2026 Standard)",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmn089nzq0004l104lmz1atha",
+      "title": "Illustrator Style Describer Weavy",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmnedfduc0001l104i919vl6s",
+      "title": "Picture design",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmnrbjdrn0001ky047nuc6gd0",
+      "title": "AI-Generated Patent Illustration Instructions",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmnx9n87w0004i604fqxukj6b",
+      "title": "Web Typography",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmobbg6a50007jv042pfx03v8",
+      "title": "Designing a Feature Testing Page for Enterprise WeChat/DingTalk",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmobfhjz3000el1043ccbflbw",
+      "title": "High-End Technology-Inspired Website UI Redesign",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmobko15m0004l4047a41x2lz",
+      "title": "RPA/Agentic AI Process Developer Portfolio Design for Claude",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmp2nnvma0001l704v43f48t8",
+      "title": "The Lovelyline",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmp9lkk550005kv0476lgujwd",
+      "title": "Dota 2 Hero Stats and Builds Website Design",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmpvl2nex0001l204z3m0xqw3",
+      "title": "GRAPHICS",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqdpf4240001jv04m93hle15",
+      "title": "Intricate Stippling Illustration of Istanbul Street Scene",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqpjk1ur0007ju043rw8ryds",
+      "title": "Action video",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmqqhqp87000el204uh69zoup",
+      "title": "Custom Poster and Wallpaper Design with Image Upload",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmr7pdt230001kz040mqravf8",
+      "title": "Vintage copper engraving portrait with glasses in front of yellow circle",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmrh8yw8v0003kr0ag936c3jd",
+      "title": "Diseño HUD Sci-Fi | Agente Celestial Designs",
+      "category": "design"
+    },
+    {
+      "chunk_id": 0,
+      "id": "cmrh8zk3j000hkr0avllrtxcu",
+      "title": "Produccion Musical IA Electronic | Agente Celestial Designs",
+      "category": "design"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmkb4b3xu0001l4049hn8f9at",
+      "title": "DevOps Automator",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmkjwyt36000fjr04d3xk4fb6",
+      "title": "Synthesis Architect Pro",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmn53q23u0001l704joetf0uj",
+      "title": "Terraform Platform Engineer",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmorink2q0007l504yae95sgx",
+      "title": "adding these development in a gasifier design tool",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmq38p43b0001l804c4ela4po",
+      "title": "3D FACTORY",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmq78qq6l0004l804yc514kgq",
+      "title": "Plataforma Escopo Bugbouty Cyber Hunter Lab",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmrj59l0l0001js04qdg863iw",
+      "title": "Supabase Principal Architect Infrastructure Optimization",
+      "category": "devops"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2ukjgi000gvt0sssbmogpv",
+      "title": "Interdisciplinary Connections and Applications",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj34gcrw000kvr0ryc879v9y",
+      "title": "Profesor Creativo",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj80mjqw000uqz0rroen2jjs",
+      "title": "Analyze PDF and Create MATLAB Code",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj82kj9i000rtw0qim2sfcg8",
+      "title": "Virtual Doctor",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj8fzmey000iuh0q11rnh6pz",
+      "title": "Learn to Speak Spanish",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj8hf8f60007ww0rcjz4t0tt",
+      "title": "Kognitiv aktivierende Aufgaben erstellen",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj9gpw0m000atg0rdv973n3d",
+      "title": "Develop a Lazy Learner Software",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj9h7r83000itg0reuppkwjx",
+      "title": "College-Level Integrative Project Proposal Draft",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj9tmit2000dzh0rasqgehqo",
+      "title": "Academic Text Refinement Assistant",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj9vy7zs000bzo0rxfxc0zc4",
+      "title": "Comprehensive Academic Paper Writing Guide",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjagdc790001s70sd0uxo2sb",
+      "title": "Comprehensive DevOps Guide",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjbccmqg00051a0rjiad7g5e",
+      "title": "Act as a Senior Research Paper Evaluator",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjbzbv7a0001us0sdzrwulvm",
+      "title": "Exploring Jung's Understanding of Spirit through Rumi's Poem",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjcd53860001sp0rtysmu04x",
+      "title": "Act as a Patient, Non-Technical Android Studio Guide",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjczkats000dyb0rgx08948e",
+      "title": "Analyze Previous Year Question Papers",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjemoq5a0007wj0s6glp740p",
+      "title": "Yamuna River Cleanup Plan for Vrindavan",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfbspqm000blb04f25631f7",
+      "title": "论文降重指南",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfc2fkb000flb04c0vzq1d7",
+      "title": "Academic Graduation Presentation Guide",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfqcpch0001jv04jvp7h0a9",
+      "title": "Course Feedback Analysis",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjgp9ujo0007l804ai0q7oab",
+      "title": "MPPT Simulation仿真代码",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjgryq190009jo04hd30cote",
+      "title": "Real-Time Screen Translation Assistant",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjgtsjhr0001l204ykffrvs2",
+      "title": "Create a detailed travel itinerary in HTML format",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjh6sofd0001if04pl1dig58",
+      "title": "Müzisyenler için Kariyer Yönetimi Desteği",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjh77wd2000djo04z3q53a5y",
+      "title": "Pharmacy Research Assistant",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjhungy00004ju04ovn7w5lw",
+      "title": "GitHub Code Structure Tutor",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjhy9d80000jjs0498tvq9py",
+      "title": "Algorithm Quick Guide",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjqjvpwk0004i60449psjokn",
+      "title": "Research Project Analysis and IPD Feasibility Recommendations",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjrpifwn0008jm044quimumo",
+      "title": "Course Assignment Grader",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjs9qelf000al4048ba1360d",
+      "title": "Study Timer",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjsd4iqj000ajv04u9nborjk",
+      "title": "Numerology Expert Guidance",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmknfs6ar0004jm04ab2d7dku",
+      "title": "Beginner's Guide to Building and Deploying LLMs",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmkoa8vf90001jr04abrlf3g8",
+      "title": "Cascading Failure Simulator",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmkq92ijl0004jv04x6lh8o0r",
+      "title": "Network Engineer: Home Edition",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmksobals0004l804t0o9797v",
+      "title": "Kubernetes & Docker RPG Learning Engine",
+      "category": "education"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmo7ep2ng0001kw04nzdd194u",
+      "title": "🛡 Financial Compliance Auditor",
+      "category": "finance-budgeting"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmo8mv66s0001l804ffp38ver",
+      "title": "Grant Finder",
+      "category": "finance-budgeting"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmp1hf04k000fjs04gd82p7bj",
+      "title": "[sigrex.io] RSI + MACD Momentum",
+      "category": "finance-budgeting"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmp1s12gl0003kz04yp1l3rlk",
+      "title": "[sigrex.io] Fear & Greed Sentiment Filter",
+      "category": "finance-budgeting"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmp1s3fhy0004js04p0er6i4y",
+      "title": "[sigrex.io] Full Kitchen Sink",
+      "category": "finance-budgeting"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmk3jp1jo0001l5041jepnce0",
+      "title": "Viral TikTok Glühwein Recipe in Five Languages",
+      "category": "habits-routines"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmm0mdq3s0007kw042x6evlwq",
+      "title": "Camp Planner",
+      "category": "habits-routines"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmm2bddid0001l2040talt3ck",
+      "title": "Skin care for acne and freckles",
+      "category": "habits-routines"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmodnj6bp0001k004m5238kab",
+      "title": "Hypnotherapist Guidance for Stress Management",
+      "category": "health-wellness"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj1zb0yc000ivl0rc9ka596e",
+      "title": "Job Interviewer",
+      "category": "hr"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj7zqlcv000aqz0r6hlh3sik",
+      "title": "Pitch",
+      "category": "hr"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj87cdmo0008r40qt5klij3q",
+      "title": "为您的公司设计薪酬体系",
+      "category": "hr"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmrmg94740009j70aawizfi0a",
+      "title": "LinkedIn \"About\" Section Writer — 3 Professional Styles",
+      "category": "hr"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj211exv0005wa0stbf15gvm",
+      "title": "Isometric City Diorama",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj21eun40001ys0r1gl1uj34",
+      "title": "The Silent Standoff",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2ijpc70010xf0rtbpwpdro",
+      "title": "Isometric 3D Weather Cityscapes (PBR Textures)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2ittqz0001x20rsx4ngzka",
+      "title": "Whimsical 3D Brand Miniatures",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2qj1460004yv0rowupih66",
+      "title": "World Landmarks: Hyper-Realistic 3D Dioramas",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2qoa290008yv0ryd7wicbi",
+      "title": "3D Isometric Miniature Diorama",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2r3xr90001xp0razy7qomp",
+      "title": "Architectural Sketch & Markup Overlay",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2ruhxg0003xs0rm70kld0c",
+      "title": "Floating City Island - Photoreal 4K Poster",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2wha8h0001sh0r89ppwz2v",
+      "title": "Vintage Botanical Illustration Generator",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj2yc3sk0001un0stwt431nj",
+      "title": "Director Variation Grid: One Still, Eight Auteur Re-Shoots",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj314hqm0007vr0r8w3d87gp",
+      "title": "Travel Poster",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj36qwnj000uvr0rvpjwblnl",
+      "title": "Pitchside Tunnel Moment with Your Favorite Footballer",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj49k52y0001x60ry7cyxtlx",
+      "title": "Realistic Food Image Generator",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj49lgal0008x60r8anrv2wu",
+      "title": "Urban Casual Confidence",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj4qx4hr0007wd0rjguh8l7b",
+      "title": "Legebdary Exploded View Prompt For nanobanana",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj4qzy1u000bwd0r58xgbduw",
+      "title": "Tarih-olay- Görsel oluşturma",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5h3s9h0001u80slkyzrcry",
+      "title": "Double Exposure Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5hy64q0001ta0rb2f8qtpj",
+      "title": "Time Layer Photography",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5inl2y0004sv0r7lv9nwa9",
+      "title": "A Clay-Crafted City: Mini [CITY NAME] World",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5irle40008s70qdu3qwin2",
+      "title": "Architectural Study Sheet: [HISTORIC_SITE_NAME]",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5ixr8l000es70qff79ykq2",
+      "title": "Professional Badge Photo, Ready to Use",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5j2uqr0001sd0r6nacr5d2",
+      "title": "Clean Clinic Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj5lf0yc0001uq0r5bcvljd2",
+      "title": "3D City Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj70tx73000dy20rj96mht3n",
+      "title": "AI Themed Design Image Creation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj7673ym0001tm0rawmp9381",
+      "title": "Corporate Studio Portrait (Auto Outfit for Men/Women)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj76somi0001wq0rqgd9xol6",
+      "title": "Ultra-Detailed Vintage Photo Restoration and Colorization",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj76srqx000jqh0r4vvwebf9",
+      "title": "Ultra-Detailed Vintage Photo Restoration and Colorization",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj77ja7x0004v20rarqq3dch",
+      "title": "Harry Potter / Marauder’s Map",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj77u5uy0004wq0rjys1zadw",
+      "title": "Create a Cultural Superhero Movie Poster",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj7c5zuv000hte0rxz54xzme",
+      "title": "Mirror Selfie with Face Preservation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj8217n8000btw0qob37z7qh",
+      "title": "Image Style Imitation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj8duum00008r20qm2ttvni0",
+      "title": "Studio Portraits with Professional Postures",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmj9ga8t80001tn0rnvjymkuw",
+      "title": "Dark Style Image Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmja8kak5000ptr0sihtoh9iq",
+      "title": "High-End Beauty Editorial Photo Shoot Specification",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjafratl000iqw0r9ejvfago",
+      "title": "POV Smartphone with Space-Themed Twitter UI in Central Park",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjcso1270001sb0rbm7dcjn6",
+      "title": "Plant Hero Section Image",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjctoc0f0005sb0rkgnc8wvw",
+      "title": "Cozy Christmas Smile",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfjtp8i0007l504jgzwskxm",
+      "title": "Through the Glass: One Eye in Focus",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjflolfg0004l404jh82pa0d",
+      "title": "Surreal CGI-Photography Hybrid Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfo950y0004jl04krbu4w3n",
+      "title": "Hyperrealistic Food Photo Creator",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 1,
+      "id": "cmjfs7zpu0001l804hh0svgje",
+      "title": "World of Darkness B&W style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjfshgdh0004kv04sloy9v7l",
+      "title": "World of Darkness Colored Comic style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjft46n60001la04uieg3nzt",
+      "title": "Theme based Art Style Fusion Meta-Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjfu599z0001i904thbqc0wp",
+      "title": "Enhance and Beautify Your Photo",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjfwoue10004jp04jnedynll",
+      "title": "Shower Glass Silhouette",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjfyhe8j000bjp046ez0753o",
+      "title": "GoPro Action",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjgs6lgl0004la04o7j9fujs",
+      "title": "Hyper-Realistic 3D Isometric Ottoman Masterpiece",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjguxw2v000dl804d09biqdn",
+      "title": "Miniature Claymation Adventures on the Mushroom Cap",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjgv14vh000pl104owsjcqs6",
+      "title": "Melancholic Dawn on the Misty Pier",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjh7hbqs0001js0487db2hhe",
+      "title": "Stranded in Time: The Victorian Traveler’s Panic",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjhdlecu000ajs04bjptct5u",
+      "title": "Table with Various Items",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjhe7ozk0007le0454f4nx0d",
+      "title": "Detailed mirror-selfie room scene",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjhectmk000ble0412icxyn9",
+      "title": "Black and white studio side-profile portrait prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjhkjbx20001l404l00tc388",
+      "title": "The Digital Frontier: Pixelated Pioneers",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjhpxfd60005jr04ro88q7nh",
+      "title": "Childs Coloring Style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmji9x6iu000kl504ihv33z96",
+      "title": "Cinematic Vertical Portrait of Vintage Car Radio at Night",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjid4gbk0001ju040ms30bj4",
+      "title": "The Covert Exchange in the Fog",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjifssk70001l204bp2j923i",
+      "title": "A Moment Shared with the Wild",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjiggqyz0004la041v6pw3ou",
+      "title": "Isometric miniature 3D cartoon city scene",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjj4o9js0004l40421juntgq",
+      "title": "A three-panel monochromatic image",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjj5367m0001l504ha0hij1o",
+      "title": "Istanbul Travel Journal",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjj55er00005l504c3q0pe1v",
+      "title": "Young woman with mixed ethnicity features",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjj5cho30005ky044fvot5dc",
+      "title": "Hyper-Realistic Marvel Comic Fusion Image Generation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjj8666a0001l404dnku6x9r",
+      "title": "Shadows of the Cold War: The 1962 Exchange",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjk46fjb0004lh04mpimv0ek",
+      "title": "Subject meditating in a crystal sphere",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjkh9r4k0004ii04lx4pu39w",
+      "title": "Modern Fashion Photography",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjkie7w40008ii048vuf7hru",
+      "title": "Sunny Beach",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjl1fj8x0007jy04rd7o9z6l",
+      "title": "Mirror Product Photo",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjll8h4r0001l704xgealui9",
+      "title": "Playing Card Sorcerer Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjlm5jem0005l704ytxbd9mp",
+      "title": "Vintage Invention Patent",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjlyagku000djv04fhu5rvjd",
+      "title": "A Wrinkle in Time",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjlylkev0001l504eqgp3eii",
+      "title": "Protocol 2084: The Alleyway Hack",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjmcptmw0008l7047ef2i1sv",
+      "title": "Ultra-Realistic Handwritten Hospital Note Image",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjmx0oez000ejo04478nwubp",
+      "title": "Personalized GPT Assistant Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjn7xus50001jo04z7myfj2s",
+      "title": "Cinematic Realism",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjn81zzo0001jl04jfs9lluf",
+      "title": "3D Character Render In High-End Disney Pixar Style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjn9r2ek0001lh04wkrm8bvd",
+      "title": "Serene Evening Rowboat Scene in Illustrative Realism",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjn9tg5j0005lh04a45f1hw7",
+      "title": "Minimalist Landscape Illustration by Ryo Takemasa",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjn9xgay0004ju04c86ju8xi",
+      "title": "Comprehensive Image Analysis Report",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjnaqbgp0001jr04xskz3elt",
+      "title": "A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjndr4620001l504hzfb1ab2",
+      "title": "The Missing Woman",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjnerki30004l404njk5dqmk",
+      "title": "Photo-to-Isometric: Reality Slice Generator",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjnfkqa40001k10464qbkfnt",
+      "title": "Shadows of the Blue Note",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjodsen5001rjp04am6f9nw5",
+      "title": "Gym Mirror (UGC realism, no logos)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjofmwg20004l404u4v1332w",
+      "title": "merge",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4qt30003ie041mwouufi",
+      "title": "Cafe Window Seat (close-up, tactile realism)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4rfp0005ie04nwkmhxov",
+      "title": "Rooftop Sunset Lookback (half-body)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4ul0000nie04t0hqvy0y",
+      "title": "Beach Walk Golden Hour (full-body, travel)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4utb000pie04lkqjs3hu",
+      "title": "Tech Desk “Builder” (half-body, cozy monitor glow)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4v18000rie04x4wkpl0e",
+      "title": "Restaurant Candle Close-up (intimate, not explicit)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4v8z000tie04sifmtxl9",
+      "title": "Minimal Studio “iPhone Candid” (pro-quality but awkward framing)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4vsc000vie04sp3ys0bh",
+      "title": "“Blue Hour Bridge” (full-body, cinematic but still IG)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4wel000xie049tb70bqo",
+      "title": "Kitchen Morning Window Light (candid, cozy)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4wqc000zie04smnyizlm",
+      "title": "Bookstore Aisle (artsy, quiet luxury)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjok4wz00011ie04xm76o7zb",
+      "title": "Passenger Seat Car Selfie (golden hour, candid)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjomfi8i0001i704m3c0ulnm",
+      "title": "Cinematic Triptych: A Day in the Countryside",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjomhhlq0001jo04rpt100yy",
+      "title": "Cinematic Photography Triptych: Serene Meadow Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjomj2wr0005l204c93do66q",
+      "title": "Cinematic Neo-Noir Triptych in Digital Art",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjon6pq70001ib041tc28nl8",
+      "title": "A broken, soul-crushed medieval knight",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpd4soy0004l504s3oq2trz",
+      "title": "Surreal City Scene",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpkrar40004l704o0rbu4by",
+      "title": "Aesthetic Mirror Selfie of a Curly-Haired Woman in a Mocha Ribbed Crop Top",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpkvk8q000ale04tgijcdug",
+      "title": "Joyful Woman in Nordic Sweater Dancing at a Nostalgic Family Christmas Gathering",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpl22xl0008l804qa9nyvhx",
+      "title": "Detailed Image Analysis of a Mirror Selfie in a Bedroom Environment",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpl8f1m000cl804d7e60hfq",
+      "title": "Outdoor Staircase Image Analysis",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpo4d2c0007jl04urt3cvhj",
+      "title": "Cinematic Street Photography Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpofv7t0005kz049tl9rzjd",
+      "title": "Ethereal Dreamlike Portrait Photography",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjpp6vkk0001jp04zoq9czte",
+      "title": "Tropical Elegance: A Serene Afternoon in a Sunlit Villa",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr1vhqq0001jo04xtnz6pmo",
+      "title": "Ultra-Realistic Ankara Indie Bar Scene Description",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr1wifu0001l104koltpsxc",
+      "title": "Night Balcony Scene in Ankara with Efes",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr1xk1q0001ky04ami0msdk",
+      "title": "Ankara Night Scene in a Meyhane",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr1ynx10005jo04uunxrbny",
+      "title": "Ultra-Realistic Turkish Living Room Scene During Football Match",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2bfdw0008i804a6qhonal",
+      "title": "Ultra-Realistic Amateur Street Photo of Ankara Scene",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2jtfi000ci8044d3kgtuv",
+      "title": "Ultra-Realistic Ankara Street Photo with Surreal Element",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2l9pn000gi804qpv0bnqx",
+      "title": "Realistic Photo of a Turkish Woman in a Street Setting",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2lzjm000glb0458qghfj8",
+      "title": "Ultra Realistic Bedroom Selfie Description",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2mo7s0009l504h8lciyzg",
+      "title": "Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2th57000nlb04j9sjd598",
+      "title": "Realistic Mirror-Selfie Scene Creation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2udq9000rlb04mu21e82f",
+      "title": "Dual Lighting Narrative Scene",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjr2z299000qi804suclc7w6",
+      "title": "Amateur Mirror Selfie with Natural Look",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt4n3000001ky04k1pv255w",
+      "title": "3D to 2D Floor Plan Converter",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt4s0it0012jj04jw4dehc1",
+      "title": "Mechanical Part Render to Technical Drawing Converter",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt4w7v70005ky04tdhq0ls5",
+      "title": "3D Mechanical Part Image to Technical Drawing Conversion",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt5z7ce0001jm04utmlyx5f",
+      "title": "Cinematic Thriller Silhouette",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt8bwj1000ajl04zewl8prp",
+      "title": "Close-up black and white portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjt8dqjc000ejl04ra5xhunj",
+      "title": "A blonde woman in a dreamy",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjtdyvv00001jr046l2lhujp",
+      "title": "Professional Image Creation for Printable Sales Materials",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmju1de8z0009l50471gapkhf",
+      "title": "Fashion Photo Pose & Setting Transformation Editor",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjud9h1w0001ld042c6l5mcx",
+      "title": "Neon Silence",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjudxsep0001jp04u9scbvc0",
+      "title": "Car poster",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjvsr5di000vl104trrph1qw",
+      "title": "Cinematic 3x3 Focal Lengths Grid",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjvu58yt0007l4048mf50kst",
+      "title": "3D Medical Anatomy Model Render Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwljgew000fjx04cr4zq8e9",
+      "title": "Moody Cinematic Portrait Photography",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwllexn0001jv04nndeg5e9",
+      "title": "Warm-Toned Creative Scene with Paper Figures",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwlnbp30017jl04dwm9xnb9",
+      "title": "Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwnorpi0001jr04hh2b4fh3",
+      "title": "ramones",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwt806t0004l304qizmsate",
+      "title": "Ultra-Realistic Young Woman Portrait Generation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwwbsc80008l30434u6s77i",
+      "title": "Serene Mirror-Selfie Portrait in Sunlit Bedroom",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwwd1bo000cl304j0kqz95a",
+      "title": "Candid Outdoor Group Photo in Natural Pool",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjwxwik20007l404rmkkkei8",
+      "title": "Ultra Photorealistic Rooftop Pool Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 2,
+      "id": "cmjx1bnmb0001ih04ykyo6kmb",
+      "title": "Echoes of the Rust Age",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjx2yn2b0001lb041gf8slq8",
+      "title": "Corsairs of the Crimson Void",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjx3rvhk0007js040k6kf8f1",
+      "title": "Whispers in Light Trails",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjx3x8yv0007ju04obkqz4b3",
+      "title": "The Aether Workshop",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjxcig4l000aji048uqf9grb",
+      "title": "Custom AI Image Creation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjxd4a1m000rgl04h13me35e",
+      "title": "Football Player Introduction Poster Template",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjxrec9j0001le04g41312ks",
+      "title": "Young Saudi Doctor in a Professional Setting",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjy8dpl70001kv046ap6tbsf",
+      "title": "Photorealistic Image Prompt for Fashion and Environment",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjyg993n0004l804ms162z88",
+      "title": "Custom Logo Design for Website",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjyogpyi0001jj04lxbo00gj",
+      "title": "Minimalist Editorial Beauty Analysis with European Model",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjyoi9la0001la04ov76bnik",
+      "title": "Minimalist Editorial Beauty Analysis with East Asian Model",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjzm4h7n0001ie0414ybt4q9",
+      "title": "A night in paris",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjztd9ra0001l504syaq83t6",
+      "title": "Red Dead Redemption 2 - Double Exposure Effect",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjztfkhn0001jo04cua3tqbj",
+      "title": "The Witcher - Double Exposure Effect",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk1g61ir0001k404nna2oeun",
+      "title": "Whispers of Noir",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk1gau0a0009k404f5bld7u6",
+      "title": "The Midnight Informant",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk265efs0004l80486iooy6j",
+      "title": "Geralt of Rivia Image Generation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk3vweg20001la04ws2ag12p",
+      "title": "Cinematic Neon Alley – Urban Night Walk (Album Cover Style)",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk5gxiub0001l404m59d4jpw",
+      "title": "Ultra-Realistic Winter Cinematography Series",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk5h0msk0001l704u5emfco6",
+      "title": "Comic Book Team Illustration",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk5h32820001kz04x2qq07ad",
+      "title": "Surrealist Painting Description: A Study of René Magritte's Style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk6qxmqq000aic04s5cjjglu",
+      "title": "Ultra-High-Resolution Portrait Restoration",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk6tbg630004lg04ndnmki39",
+      "title": "Nightlife Candid Flash Photography",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk7lc37h0004lc04uaxiurhz",
+      "title": "Sticker",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk8po0ks000aic04ikm6x5r6",
+      "title": "The Midnight Melody Mystery",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmk9fc5gf0004l204g31waiyj",
+      "title": "Seaside walker",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkd6q1dl0001l204zthzorxn",
+      "title": "The Gravedigger's Vigil",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkdqfv3c0001l704hruam98q",
+      "title": "Terminal Drift",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkfm177y0001js04q6tcvgif",
+      "title": "Dreamy Artistic Photograph of a Young Woman in a Meadow",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkfm3ba40001jx04pli0hcnr",
+      "title": "Surreal Miniature Cityscape with Giant Observer",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkfm57b70001jv04vyoumgxz",
+      "title": "Cinematic Close-Up Portrait Generation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkh75euc0001ji04sreaa4ax",
+      "title": "Pokemon master",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkk38cis000gji040hjuh7er",
+      "title": "Analog camera",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmklq4f4g0001i90403ll803s",
+      "title": "Wings of the Dust Bowl",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmklqagc20009i904jyixq4wo",
+      "title": "The Last Adagio",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmklqg2zb0001ky04fojqtc4z",
+      "title": "Crimson Waltz in the Rain",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmklrur8x0004ji04lngwxstl",
+      "title": "Manhattan Mirage",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmklrzeb50004l404z7gihtt1",
+      "title": "The Glass Doppelgänger",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkls5mtv0001jr04f0sj2kgt",
+      "title": "Phantom Strike",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkmxaly6000ijm04zydpl30b",
+      "title": "“How It Works” Educational Dioramas",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkn1ly770001jo044nycr8x1",
+      "title": "Terminal Velocity",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkn1wzmn0001l8042iogt2a8",
+      "title": "Alpine Freefall",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkngjwsq000fjm04s1iw5kgs",
+      "title": "Project System and Art Style Consistency Instructions",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkpncfsn000ajy04hftjp131",
+      "title": "war",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkpyy2tk000alb04lmwgwrsm",
+      "title": "Modern Plaza Office Selfie — Corporate Aesthetic in Istanbul",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkpzjp0b0001i604qdbj5114",
+      "title": "In-Flight Vacation Selfie — Natural Front Camera Perspective",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkq04txl0009i604zydi4cx9",
+      "title": "Nightclub Mirror Selfie",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkq1292r0001kw041l3n9h4y",
+      "title": "Messy Desk Study Moment - University Student",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkqvgpjf0004lb04byhgx7n1",
+      "title": "Storyboard Grid",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkrzg3qj0001kw04xc5drfay",
+      "title": "Realistic Night Sky Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkshot7y0001jx04nb8ouhug",
+      "title": "Influencer Candid Bedtime Selfie",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkt51db70004jl04xrjc5urx",
+      "title": "Valorant Agent Style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmktlt8kx0001jp04ufmtiqq5",
+      "title": "Social Media Cocktail Web Site Post",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmktmc8tp0001l804u4fkht97",
+      "title": "Social media swipe post content #1",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmktxoyko0004jy040fu1tral",
+      "title": "Ultra-photorealistic Infographics",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmku6cu330001la04elxpqkvv",
+      "title": "Cyber Security Character Workflow",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkw6aod40001l504xz5ks9sq",
+      "title": "caravan prompts",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkwofz3v0003ic04uiuw75ix",
+      "title": "Rick And Morty",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkwok2o30001lg04wlxa4bb7",
+      "title": "Lego Movie Style Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkxq5uv30001jo04ldypig51",
+      "title": "Isometric miniature 3D model",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml0qv0qd0004l404sxvc12oj",
+      "title": "American Comic",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml0r6rqg0004jg04v37di6kv",
+      "title": "Create Icons",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml0rq01u0001jh04xjjqhqci",
+      "title": "Create Infographics",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml0s4egl0001jw04j1rjuc35",
+      "title": "Design App Store Style Icons",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml2eizmu0001ks04wda154zs",
+      "title": "Cinematic Ink & Color Illustration Generator — Gary Frank Style",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml2p56xe0004lf046r9f58g0",
+      "title": "Transform Subjects into Adorable Plush Forms",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml3mbxkv0001jr043zia5oa8",
+      "title": "Futuristic Supercar Brand Logo",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml5oknll0004kw04rklb894o",
+      "title": "Lonely Girl",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml69k3pw0004jp04qrmm70vc",
+      "title": "Ultra-Realistic 3D Character Avatar Creation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml6u282g0001jr040t3d2d0l",
+      "title": "LEGO Minifigure Character Transformation",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml8aw5no0001jw04c2sax8fs",
+      "title": "Drunk Woman",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml8dgp3e0001l804i9teek0o",
+      "title": "Abandoned Wife",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cml8dnisc0003jl04w9hx8auy",
+      "title": "Aesthetic Sunset",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmldyiqw90007jy04968svxv5",
+      "title": "Reimagined Logo for Google",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmlflh54w0001kz04d1jnegzv",
+      "title": "Studio Portrait with Cinematic Lighting and Bold Color Background",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmlfm43jh0001jv04qqipoozp",
+      "title": "National Architecture Dioramas",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmlgfwyv7000dl504hvtwan7c",
+      "title": "Professional Image Enhancement for Clarity and Quality",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmljrr4u7000blh049ucihkxi",
+      "title": "Imagen estilo Hollywood de alta definición",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmlklu4si0001ld043nlo3cle",
+      "title": "Spotify room cinematic",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmlmfdbkp0001ic04ei6evx0i",
+      "title": "Night club",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmnelg48x0004jw041cu8bygo",
+      "title": "Lonely cry",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmneyf4e60001js04tx5witnp",
+      "title": "Bikini_Girl",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmngeh1c30009la04wbpr954j",
+      "title": "Realistic Mirror-Selfie Image Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmngfiraa0001l204zd141phq",
+      "title": "Realistic Selfie of Girl with Transparent Glasses and Pink Hair",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmoeco0q20001jl04pbo28854",
+      "title": "Rooftop Lifestyle Portrait Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmoeda3d40001ks04whpj1z1c",
+      "title": "Photorealistic Webcam Bedroom Scene Prompt",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmogyx5390004jj04gnd3v0r3",
+      "title": "Lost in [Country] with ChatGPT Image 2",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmoh8occm0004k104ht4pt8qf",
+      "title": "Street-art punk poster",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmslxy7aj0001if04tqi2rpi3",
+      "title": "Persian Silent “No” Documentary Portrait",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmsmqv85x0001l404tag6mlrg",
+      "title": "Cyberpunk Portrait of an Iranian Woman with “همین؟” Glitch Frame",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmsmqxfi30001l704zcl1en5t",
+      "title": "Impasto Oil Portrait of an Iranian Woman with “خفه شدم از سکوت”",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmsmr00zv0001lb04ukuk4fua",
+      "title": "Surreal Portrait — دو دلم",
+      "category": "image-generation"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmr944c410001lg04scs57c1c",
+      "title": "🤖 SafeKids Video Analyzer",
+      "category": "kids-early-learning"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmrgieasn0001hx0a8xyq2edr",
+      "title": "🎵 ChildSong Guardian",
+      "category": "kids-early-learning"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmjwwklk0000gl304s5hbiwjv",
+      "title": "Improving Business English",
+      "category": "language-learning"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmkde7u6d0004lb045lh1pgog",
+      "title": "Chinese-English Translator",
+      "category": "language-learning"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmm83dvnb0007l9049a7c6utv",
+      "title": "Strategy Consultant",
+      "category": "leadership-management"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmpp9yk3u0001ie04cpk0w9al",
+      "title": "Building a Comprehensive Programming Team",
+      "category": "leadership-management"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmqngcrg80001l204fn22pjj3",
+      "title": "Mastering Leadership:",
+      "category": "leadership-management"
+    },
+    {
+      "chunk_id": 3,
+      "id": "cmqqpnqcw0001jr046mo5cqtd",
+      "title": "Sabarudin System - Executive Architecture",
+      "category": "leadership-management"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlyb7qxa0001lb04oaqrvkkx",
+      "title": "Learn Any Technical/Coding Topic",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlyk9nl70004jr04lvl4hl9e",
+      "title": "Voice Conversation Coach",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmmksdapt000bjo048vuf05cm",
+      "title": "Productive Peer Mentor (Friendly Tech-Savvy Thinking Partner)",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmneq2i7l0007kz04fis4byds",
+      "title": "Voice Cloning Assistant",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmomucbq40004lb04wrkf0qlf",
+      "title": "Learn Rust Programming",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmrhe0q8a0001jl04x6twygaw",
+      "title": "learning from zero",
+      "category": "learning-skills"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkb7scmz0009l204hqh1bob7",
+      "title": "Trend Researcher",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlb81i0c0001k104wd656gvq",
+      "title": "Industry/Market Intelligence",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlrf11eu0001l404d9k5jiuh",
+      "title": "Table in PDF to CSV conversion",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlsn5qvs0001jx04d31qm2b8",
+      "title": "Narrative Momentum Prediction Engine",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlxzddh00006jx042xw25s0h",
+      "title": "Big 4 style report for retail traders - Enter the name and ticker of a U.S. publicly traded company.",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmma123nc000fjo04rbo7gl28",
+      "title": "Corporate Intel Report",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmnte5we00001l404uy23lcf1",
+      "title": "Expert en Analyse du Marché eCommerce en Algérie",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmoij0ab30004la046xi1ptll",
+      "title": "Competitor Awareness",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmp055s750001l504twq3h81p",
+      "title": "senior market research analyst specializing in digital advertising and cross-border e-commerce.",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmq0taqr80001lc04mev4umin",
+      "title": "Idea Validation and Scoring Market Research Prompt",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cms0no1ow0001l704xdfaeezc",
+      "title": "Crypto Futures Setup entry",
+      "category": "market-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj5uyed3000mw70rnydopqrv",
+      "title": "Sales",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj5vnpz9000eq10ra5k5gzd9",
+      "title": "Selar ideas for automation",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj8n3sxv000jvj0rvb1jueki",
+      "title": "TikTok Marketing Visual Designer Agent",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj9fxjfg0008rt0rsquwkfm5",
+      "title": "AI Face Swapping for E-commerce Personalization",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmja42rum000hup0qv0hxwpid",
+      "title": "Pet Store Advertising Campaign Strategy",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjgof96g0007kw04swjw2j4j",
+      "title": "电商与社交平台内容创作提示词",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjirfi450008jx04zg2kwvml",
+      "title": "RIP McKinsey: Here are 10 prompts to replace expensive business consultants",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjjetvss0001jy04pwf5d6c6",
+      "title": "Senior Crypto Yapper & Community Strategist",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjjyrkce000dl704jbyci77e",
+      "title": "Optimize E-commerce Listing for High CTR with Holiday Design",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjk1nsqu0007jy04hfemmfta",
+      "title": "Email Marketing",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjl99szb0004l104mjwevo3f",
+      "title": "Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjmjwac10007ld04nax2q2dr",
+      "title": "Langgraph微信公众号介绍",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjo672nn000el504bla7l5ov",
+      "title": "New Year Celebration Video for Antioch Textile",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjpusher000elj04qoply1t3",
+      "title": "Comprehensive Digital Marketing Strategy for Fashion Brand",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjqgrqnl0001jv04rkp9us33",
+      "title": "Product Promotion Expert",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjsu17i80001jx046dlxdc3a",
+      "title": "UGC-Style TikTok Script Generator for Gen Z Skincare",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjsya0yc0004ib04c7059hdn",
+      "title": "Google Ads Title Copywriter",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjtwr6pp0004l804wg7gm2ak",
+      "title": "2026 Mobile Poster Creator",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjtxlgdt0001jm04hydkbgyo",
+      "title": "Ultimate 2025-2026 AI Life Strategist & Retrospective",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkdrdd7m0001le04vlwku98m",
+      "title": "Social Media Post Creator for Recruitment",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlgo5w7j0001ju04jph7gcc3",
+      "title": "EMAIL SEQUENCE WITH STORYTELLING",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlgosm1s000bl504ae9sxlfq",
+      "title": "High Conversion Cold Email",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmm3yusid0001ie048o71sjvk",
+      "title": "Master Storyteller and Sales Copywriter Prompt",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmmkkkc1y000cld04hoq5q89y",
+      "title": "SEO diagnosis",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmngzkqlk0001jc04vs6env6y",
+      "title": "Claude Opus as SEO Auditor",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmq3pfrcy0001l404nst5jsvu",
+      "title": "TVS raider",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqdswzwv0001l504h8hxh0of",
+      "title": "Create Marketing Videos for Magnifiscentss",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmr4agds90004l504220ar7ab",
+      "title": "AI Web search Customer",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmrh8zjyn0002kt0a687ms21t",
+      "title": "Copy Publicitario Persuasivo | Agente Celestial Designs",
+      "category": "marketing"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cml2i17710001l104bn2gwczu",
+      "title": "Marketing Mastermind for Product Promotion",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmmi9k79j0001lb04m3dt6q9o",
+      "title": "Internal Linking SEO Assistant",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqi627oo0001jo04t2bbd0ls",
+      "title": "Apple Store ASO Expert Guide",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqol0bjx0001ju04gb05jfp8",
+      "title": "Sales Funnel Builder from URL",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqqd4ace000yl604zbo679rq",
+      "title": "Boost Engagement in Artistic Telegram Channels",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmrxb81md0001kq04ep4ns3mf",
+      "title": "High-Ranking SEO Content Creator",
+      "category": "marketing-sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqt3f6yi0001k004vwcu3uv2",
+      "title": "Meeting Summary and Action Plan Generator",
+      "category": "meeting-collaboration"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmqt3p7uk0001jv04ucl71c5o",
+      "title": "Chat Summary and Export Instructions",
+      "category": "meeting-collaboration"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmk33km9t0007jj04iim6ooos",
+      "title": "Dear Sugar: Candid Advice on Love and Life",
+      "category": "mindset-motivation"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlbdnzv00001le04la91ir0c",
+      "title": "MeddaH",
+      "category": "mindset-motivation"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlc7ulco0001kv044jlnsetg",
+      "title": "Driftcraft",
+      "category": "mindset-motivation"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlgodkyg0006l504pdxs1768",
+      "title": "Radical Responsibility Mirror (Shadow Work)",
+      "category": "mindset-motivation"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmma0ycbi0007jo0415ah43sr",
+      "title": "Critical Thinking (DeepThink)",
+      "category": "mindset-motivation"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj9vfyur0001yz0q89p2btaz",
+      "title": "Starting a Flutter Project",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmj9yexu6000ns80rshl4m7vr",
+      "title": "Comprehensive UI/UX Mobile App Analysis",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjem2u440005vf0rtxg90xfw",
+      "title": "Build an Advanced Music App for Android",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjgjv2b40005ju04n5z9udta",
+      "title": "Banking System App Development with CRUD Operations",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjixvm090001jl04wvvelytd",
+      "title": "Android Update Checker Script for Pydroid 3",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjj1tbii0001jr04lue1dis4",
+      "title": "Quizflix App Development",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjj2uzkm0001ks04f1jmy3rv",
+      "title": "QuizFlix Mobile App Design for University Students",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjj5082w0001ky045irwzgma",
+      "title": "Interactive Quiz Application for TV Shows and Movies",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjm27myb0007l204bl1kr9ch",
+      "title": "Expo + Supabase Edge Function Cold Start & Mobile Performance Analysis",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjmo0bit000fjv0423hqjkhe",
+      "title": "Custom Localization and AI Integration for Apps",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjq2dtce0010ji04celjire5",
+      "title": "Finance Tracker App Development Plan",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjqx9f77000djr0481et6vlb",
+      "title": "SwiftUI iOS App Development Guide",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmk00cn44000gjo04bb9t991p",
+      "title": "Develop Android Apps from Screenshots",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkb6q1zz000iif04w2sojy3o",
+      "title": "Mobile App Builder",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkzvh1gl000fkz04b7c7dgk8",
+      "title": "AI App Prototyping for Chat Interface",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cml53l59f0001l704eez0ee0w",
+      "title": "Streaks Mobile App Development Prompt",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlgonce30009ju04csqhzq32",
+      "title": "xcode-mcp",
+      "category": "mobile-development"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmnge18dy0001la04v1izt3ez",
+      "title": "Research Prompt (Mistral)",
+      "category": "research-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmnmc8k8f0007jm04c2qcse2j",
+      "title": "Ultimate Stake.us Dice Wagering Strategy Builder — Rollover & Playthrough Completion",
+      "category": "research-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmnralllt0004ky043jmrnrq6",
+      "title": "Instagram Profile Search Navigator",
+      "category": "research-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmo3bss8l0001l8043vjne1vs",
+      "title": "Business Idea Evaluation and Scoring",
+      "category": "research-analysis"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlb8lcmu0005l5048bnrh1g3",
+      "title": "Sales Research",
+      "category": "sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmous8vus0001k004outzl02j",
+      "title": "Reply-Focused Cold Email Builder",
+      "category": "sales"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkvtjp4m000gkz04ag98iggw",
+      "title": "Personalized Numerology Reading",
+      "category": "self-improvement"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkzwrjpq0001k304za9pytld",
+      "title": "Personal Growth Plan for BNWO Enthusiasts",
+      "category": "self-improvement"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjmk557b000nld04dxe4c3ao",
+      "title": "Agent Organization Expert",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjn237kc000bju04m4whp8om",
+      "title": "Smart Application Developer Assistant",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjnbn5360001l10469bjhnpt",
+      "title": "App Store Submission Agent",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjok8wos0004l204kgqqpneo",
+      "title": "Codebase WIKI Documentation Skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjwzssw3000djv04xodxdk17",
+      "title": "Mastermind",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjx4xijm0001js040vbuq1bq",
+      "title": "Poe - Your Best Bud Chatbot",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmjyapyxm0001jv04lfo1nyrd",
+      "title": "GitHub Repository Analysis and Enhancement",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmk1gbmpu000hjo043antr5ik",
+      "title": "Context7 Documentation Expert Agent",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmk6zjkmi0001ld04656h5lui",
+      "title": "Meta-prompt",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkb45hco000mlb04m8tlmuxn",
+      "title": "AI Engineer",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkhbh6rn0001js047d9al384",
+      "title": "Claude Code Skill (Slash Command): review-and-commit.md",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkxxighu0001la04sk9u5jl1",
+      "title": "claude-md-master",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmkxytnpy0001l704bglckgoz",
+      "title": "skill-master",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlb8cqbo0001l504wxxjlh2l",
+      "title": "Prompt Engineering Expert",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 4,
+      "id": "cmlclefzg0001if04v3tuu43n",
+      "title": "Second Opinion",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmln3khz90001jr0414j1ie6i",
+      "title": "CLAUDE.md Generator for AI Coding Agents",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmm18p7hk000hid04bacp7tlg",
+      "title": "# ANTIGRAVITY GLOBAL RULES",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmm3hf2zd0001jy049blevzrt",
+      "title": "Boom & Crush - ICT strategy",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmm7ai7l3000cl1041bb5g985",
+      "title": "Expert Discovery Interviewer Guide",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmm8q2spk0001i204wr7zbafd",
+      "title": "AI Performance & Deep Testing Engineer",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmme4q2y90004l7049abloaz7",
+      "title": "trello-integration-skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmeiktr10007lc04k2vumcbu",
+      "title": "Update Agent Permissions",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmg9v7t90001lb04voyizbgr",
+      "title": "Claude Code Skill (Slash Command): push-and-pull-request.md",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmga8hgs000bi904p6k7ab1i",
+      "title": "Work on Linear Issue",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmn63aoq0004i804azjwafym",
+      "title": "Task Creator",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmnhr0u10007jo04wxf2je00",
+      "title": "Unity Architecture Specialist",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmrrjphg000akw04eiizj6yb",
+      "title": "code generation for online assessments",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmms43gs50004jy042djn2324",
+      "title": "xcode-mcp (for pi agent)",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmsx1pp90001i8046g4zq47s",
+      "title": "Build an Interview Practice App",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmn77d8qc000el2049cm06qey",
+      "title": "Lazyvim expert",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmng63hxo0001jg044rice18j",
+      "title": "Prompt Refiner",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmnm9d9vi0004i8042ogw1f6c",
+      "title": "Packer Automation & Imaging Expert",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmnql8px80001ld04ar3ix7s1",
+      "title": "Add AI protection",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmnyubdao0001jt04bzxg4s9m",
+      "title": "X Twitter Scraper",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmo1nxm6a0001k004p6xsj3xz",
+      "title": "Notion Transcript Designer Prompt",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmo7hby6m0005jr043zym15ny",
+      "title": "Ee",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmodnpy2f0001le047uxtf122",
+      "title": "Sniper-Precision Debugging Skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmofty8ex000fjs047yfbeicy",
+      "title": "🧪 Sandbox Mode",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmoful8k30001kz04h34k5efo",
+      "title": "🔒 ULTRA-STRICT MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmofuqs6c0004js04z5d06znu",
+      "title": "🕶️ INCOGNITO / PRIVATE BROWSING MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmois3iex0001ky0448nsw0aw",
+      "title": "🧠 FORMAL VERIFICATION MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmoisa48a0009kz04z3ii1spr",
+      "title": "⚙️ CONSTRAINT SOLVER MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmoisejce000hkz0403xphswa",
+      "title": "🛡️ RED TEAM MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmojk5r4w0001jr04qby97hzv",
+      "title": "Data Lineage Agent Skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmokd4yfq0001ib04ksk3wkrp",
+      "title": "Borrow Skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmokg46ph0001jr04sfdsjzbv",
+      "title": "App Feature - Focused Readiness Audit",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmonkrsqq0001l8049o0iyx0m",
+      "title": "🚀 STRATEGIC MODE",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmpgeth1v0001jo048aywjwj7",
+      "title": "ticket-to-pr",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmq4uji2o0001la04s5svv00u",
+      "title": "requirement-analysis-and-planning-agent",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmq89qfo80001kz04hq3h6out",
+      "title": "Social Media Post Analyzer",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmramhijp0001kz0486uozmbs",
+      "title": "hermes agent desktop default system prompt",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmrgsn3ul0004l204b8k7mgrf",
+      "title": "KP Prompting",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmroiz2oi0001jr04bvc0emsh",
+      "title": "Design shirt",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmsfpgfk90001js04g6g2wiep",
+      "title": "chess-strategy-skill",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmshknjsk0001ic04e13xukn4",
+      "title": "DiComPress Ω — Dual-Language Semantic Hypercompressor",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmsv33reb0001k004k0wlmq0r",
+      "title": "Cross-Platform 3D App Development Master",
+      "category": "skill"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors10",
+      "title": "Creative Perks",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors11",
+      "title": "Tell Your Story",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors12",
+      "title": "Break Down Costs",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors13",
+      "title": "Enterprise Sponsorship",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors14",
+      "title": "Impact Metrics",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors15",
+      "title": "Sponsor Hall of Fame",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors16",
+      "title": "Future Vision",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors17",
+      "title": "Time Commitment",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors18",
+      "title": "Student Tier",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors19",
+      "title": "Success Stories",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors1",
+      "title": "Create a Professional Bio",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors20",
+      "title": "Monthly Updates",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors2",
+      "title": "Showcase Top Repositories",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors3",
+      "title": "Explain Funding Impact",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors4",
+      "title": "Show Direct Impact",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors5",
+      "title": "Suggest Pricing Tiers",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors6",
+      "title": "Write Tier Descriptions",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors7",
+      "title": "Create Project Spotlight",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors8",
+      "title": "Announce Milestone",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "githubsponsors9",
+      "title": "Recognize Sponsors",
+      "category": "sponsors"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmkb6z5gv000dky04goa3dx94",
+      "title": "Rapid Prototyper",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmlks9vgu0001l804hx3ztol5",
+      "title": "Universal System Design Prompt",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmlmamrie0004lb04y9ykkims",
+      "title": "The Technical Co-Founder: Building Real Products Together",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmm81lbus0004kw04ra6rfzw1",
+      "title": "The Technical Co-Founder: Building Real Products Together",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmocw64sk0004jv04f0jmhf6w",
+      "title": "low risk to uplift income",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmq9vgmm80004l204bxpgupks",
+      "title": "Act as a Startup Co-Founder",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmsvgsljh0004k604v7c0siyj",
+      "title": "Commercial Kitchen Pre Fabrication",
+      "category": "startup-entrepreneurship"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmma1qydn0005kz0420fqf4rz",
+      "title": "SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support)",
+      "category": "stem-science"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmm0gnm0000gjr04apt9tgpr",
+      "title": "Civil Engineering Bridge Mentor",
+      "category": "stem-science"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmofikob50001jn04poxg6xdy",
+      "title": "The Paradoxical Soundscape: Ancient Acoustic Mysteries Video Exploration",
+      "category": "stem-science"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmjumsu5r0001jx046qhejgnd",
+      "title": "Academic Writing Workshop Plan",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmjvg72dl000vjp04szaij4id",
+      "title": "Innovative Math Teaching Method",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmjvxqr36001cl4041s3hk1py",
+      "title": "Digital Marketing Project Ideas for Students",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmk1f55ss0004js04edfbihr7",
+      "title": "Taglish Technical Storytelling Editor",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmkjw1mi30001jr04f6aco1s4",
+      "title": "Prompt Architect Pro",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmkk2grcv0001ju04p5a8loig",
+      "title": "Create Organizational Charts and Workflows for University Departments",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmlgojfoc000fjv04hr5joum4",
+      "title": "Socratic Universal Tutor",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmlydeafd0007kw04bp8u5vvl",
+      "title": "30-Day Skill Mastery Challenge Prompt Template",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmf2li240001le04hx6tk84z",
+      "title": "Spec Interview",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmg5hsu40001jr04rlpncucc",
+      "title": "explain like I am 8",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmmow6wwi000djr04ufkaipyf",
+      "title": "Deep Learning Loop",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmnes3xsf0001l204xgmozp07",
+      "title": "making ppt",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmnjwa9t70001l404daqst6yn",
+      "title": "创设情境串联知识",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmo8z45ep0004la04mu2mu0f1",
+      "title": "Chain of Thought for Podcast Guest Analysis",
+      "category": "teaching-instruction"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1ns00dsvl0rbm8hoyj1",
+      "title": "Mathematician",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1oa00e1vl0rxsoze2dc",
+      "title": "Time Travel Guide",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1oh00e5vl0r1zzfvvly",
+      "title": "Dream Interpreter",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1os00eavl0r86cvflwn",
+      "title": "Talent Coach",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1tr00gpvl0rf9uydfeb",
+      "title": "Salesperson",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1u200guvl0rz1i03etr",
+      "title": "Commit Message Generator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1ur00h5vl0rfrc2hllq",
+      "title": "Chief Executive Officer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1vg00hfvl0r8z6kzyuy",
+      "title": "Speech-Language Pathologist (SLP)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1vr00hkvl0r59r4gbuf",
+      "title": "Startup Tech Lawyer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1w300hpvl0rn2d0ea2n",
+      "title": "Title Generator for written pieces",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1wf00huvl0rugvonh2k",
+      "title": "Product Manager",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1wr00hzvl0rn4lgqn5m",
+      "title": "Project Manager",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1x200i4vl0r8s2ub1pu",
+      "title": "Drunk Person",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 5,
+      "id": "cmj1zb1xd00i9vl0rdf4f287x",
+      "title": "Mathematical History Teacher",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1xr00ievl0r0ywlnhuz",
+      "title": "Song Recommender",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1y200ijvl0rlew1med6",
+      "title": "Cover Letter",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1ym00itvl0rm1kwyfjo",
+      "title": "Unconstrained AI model DAN",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1yx00iyvl0rbec4krbj",
+      "title": "Gomoku player",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1z900j3vl0r5lunsacm",
+      "title": "Proofreader",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1zl00j8vl0rnyxnq333",
+      "title": "Buddha",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb1zy00jdvl0rypuchvqy",
+      "title": "Muslim Imam",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb20500jhvl0rfh4dpgyo",
+      "title": "Chemical Reactor",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb20g00jmvl0rdnsr615z",
+      "title": "Friend",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb20v00jrvl0r6v77o96n",
+      "title": "ChatGPT Prompt Generator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb21700jwvl0rpy7f324j",
+      "title": "Wikipedia Page",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb21i00k1vl0rb2ajignk",
+      "title": "Japanese Kanji quiz machine",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb21t00k6vl0rilpmw02e",
+      "title": "Note-Taking assistant",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb22400kbvl0r0wv6ljma",
+      "title": "Literary Critic",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb22n00kkvl0r6a3nzecx",
+      "title": "Cheap Travel Ticket Advisor",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb23a00kuvl0rbj5y1rg8",
+      "title": "League of Legends Player",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb23m00kzvl0r885fuw01",
+      "title": "Restaurant Owner",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb23y00l4vl0rx9uqc8m7",
+      "title": "Architectural Expert",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb25300ljvl0rp5r23jer",
+      "title": "Wisdom Generator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb25f00lovl0rkedtorh7",
+      "title": "YouTube Video Analyst",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb25q00ltvl0r1buey70f",
+      "title": "Career Coach",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb26600lyvl0r1mrbw1o6",
+      "title": "Acoustic Guitar Composer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb27600mdvl0rx3hh2bj0",
+      "title": "Guessing Game Master",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb28d00mwvl0r3pue7w35",
+      "title": "Virtual Fitness Coach",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb28o00n0vl0r7uep5bdf",
+      "title": "Flirting Boy",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb28v00n4vl0rx2337j5y",
+      "title": "Girl of Dreams",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb29k00nevl0rpvoi4nv0",
+      "title": "Structured Iterative Reasoning Protocol (SIRP)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb29w00njvl0r8z4iggj8",
+      "title": "Pirate",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2af00nsvl0r124qtjls",
+      "title": "Idea Clarifier GPT",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2b800o5vl0rfpozoaec",
+      "title": "Children's Book Creator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2bk00oavl0rsai7zg90",
+      "title": "Tech-Challenged Customer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2bw00ofvl0rhhpa4sju",
+      "title": "Creative Branding Strategist",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2c900okvl0r9f6n1uz7",
+      "title": "Book Summarizer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj1zb2ck00opvl0rq2t0u0e8",
+      "title": "Study planner",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj5jcf1e0002pb0rl76y6p9r",
+      "title": "Travel Planner Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj5ktagw0002vq0rfjspihzv",
+      "title": "Hyper-Realistic Clay Bust From Photo Template",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj5vm6lv000drf0rn6kyjzll",
+      "title": "Ultra-Realistic Noir Portrait Creation",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmj63rn35000hp50r70t8lyo0",
+      "title": "When to clear the snow (generic)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjf4zt0r0001kw041yzduagt",
+      "title": "Emotion Analyst",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjf943yd0001lb045nujns0m",
+      "title": "illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light t. Deep purple and blue tones, minimalist and , v.",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjfz4x5j0004lb05nr23ms71",
+      "title": "Bank Transaction Analysis",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjgeijjd0007jo04sdsh9i0d",
+      "title": "Life coach",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjmnoc180007jv04i4smok38",
+      "title": "Secteur Bancaire - Analyse rapide d’un tableau de données",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjmnsb1n000bjv04tzsxy7ne",
+      "title": "Secteur Bancaire - Vérification de conformité de texte",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjmzjenh0001ii04wu4lu1ao",
+      "title": "Secteur Bancaire - Création d’un texte marketing simple",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjn1agxv000mk704l36u0w08",
+      "title": "Psychology Clinic Assistant",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjnoqpnh0004l8047fyempfo",
+      "title": "Strategic App Design & Content Engineering Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjodot5s0007jp04u8rooot1",
+      "title": "Elevator Mirror OOTD (full-body)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjodrs0d001pjp04xq3sscdi",
+      "title": "Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjok4y6c001bie049v73don9",
+      "title": "Pilates Studio (soft daylight, athletic elegance)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjok4yeg001die04a7tutue8",
+      "title": "Grocery Aisle (relatable, comedic-candid)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjome0ce0001jx04v989y73o",
+      "title": "Non-Technical IT Help & Clarity Assistant",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjommlky0001jr0418jk71o6",
+      "title": "PlainTalk Style Guide",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmjp4t9080004la04lrbn0wmp",
+      "title": "Household Maintenance & Safety Assistant",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmk3bi66p000dl204hv7pyr08",
+      "title": "Narrative Point of View Transformer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmk3y0p5u0004jp043ppufq3b",
+      "title": "Continuous Execution Mode AI",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmk5jy1gh0009l804no8cz8eh",
+      "title": "Prepare for Meetings: Key Considerations",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmk82eaxg0001i504xn5z4vic",
+      "title": "content",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmk8939tb0001l404dfwteu1o",
+      "title": "postmortem",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmka41j3n0004k3044et8ilhi",
+      "title": "DUT Citation Accuracy Project",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkabhnbd0001jr04undj2cy0",
+      "title": "AI Process Feasibility Interview",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkb675pb000aif04s2kry7lt",
+      "title": "Business",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkcwv6ax0001lb041eufdimy",
+      "title": "Scam Detection Conversation Helper",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkd3kagk0004ld04edt5c36n",
+      "title": "Serene Yoga & Mindfulness Lifestyle Photography",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkd3port0004l404qv0rsjcw",
+      "title": "Mindful Mandala & Zen Geometric Patterns",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkevv8x50001la0440va0o3i",
+      "title": "Prompt Generator for Language Models",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkewk6fq0001jm0473k0mo2c",
+      "title": "GPT_conversation_output",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkfjc5790002jr04u2gz336n",
+      "title": "MCP Builder",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkfmnaro0003ld04klts1ln9",
+      "title": "Skill Creator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkg1crz50001jo04okziebaq",
+      "title": "Ultimate Inpainting / Reference Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkgw4vgf000aju04cr9wclff",
+      "title": "identify the key skills needed for effective project planning and proposal writing",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkh574rw0001l6047ec0rdps",
+      "title": "Project Skill & Resource Interviewer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkhhzn8g0004ie04ifki85ou",
+      "title": "Customizable Job Scanner",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkjvd25n000ajt04s97bqmi7",
+      "title": "GLaDOS",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkk2srp3000bi904dfkrmhzu",
+      "title": "Fisheye 90s",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkkkmf620001l20416ay4k32",
+      "title": "Question Quality Lab Game",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkku0bjc0001lb0461e3wg38",
+      "title": "nanobanana try clothing",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkliw8p90005jr0489ze4q2v",
+      "title": "Markdown Task Implementer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmklpqf6x0001l104749qv4e4",
+      "title": "Constraint-First Recipe Generator (Playful Edition)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkmdrm000001k304rz6amii6",
+      "title": "Eerie Shadows: A Creepy Horror RPG Adventure",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkmwgu9e0007jm04jmoogh3k",
+      "title": "AI Travel Agent – Interview-Driven Planner",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkn778hq0004ld04us4x2aim",
+      "title": "Module Wrap-Up & Next Steps Video Generation",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmko0cg0h000al704u3m532ko",
+      "title": "Intent Recognition Planner Agent",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkogkadc0004k404xlnzjr5e",
+      "title": "gemini.md",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkpnt2z80004js04wov6mbzk",
+      "title": "Cinematic Ultra-Realistic Image-to-Video Prompt Engineer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkpqo31e0007jl04r8z4k8t8",
+      "title": "\"YOU PROBABLY DON'T KNOW THIS\" Game",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkrnknkq0001ib04zpparyqh",
+      "title": "Food Scout",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmks6cif00001l704myvsfm9e",
+      "title": "Code Review Specialist 2",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkub444v0001l404gyhlhw9i",
+      "title": "TV Premiere Weekly Listing Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkvtbgtl0004kz04thwfuha8",
+      "title": "Satya Nadella pobre",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkwbzdcl0001l204a2xupmb7",
+      "title": "7v7 Football Team Generator App",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkwj62t40007jr04nlwh11j1",
+      "title": "Sticker Image Generator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkym0o3i0001lb04iyf84wea",
+      "title": "Generate an enhanced command prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkym61zi0001l304mbud27mg",
+      "title": "Improve the following code",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkyqomfz0001js04l9m5lv1d",
+      "title": "Personal Form Builder App Design",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cmkzusanl0007kz045cba3e78",
+      "title": "Photorealistic Cozy Home Scene with Natural Lighting",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cml03lpep0001jo04n0sqlm0r",
+      "title": "scaryface",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cml2b9jlk0004l104uq6pg2v7",
+      "title": "Sell a dream as an underground tailors but need partnership for capital. With no or just 20% less leverage, how to get partners interested and involved to buy the dream",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 6,
+      "id": "cml2q50qo0001l804u0i4t7tk",
+      "title": "LinkedIn Summary Crafting Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cml8drntw0001js0461p6nghc",
+      "title": "Universal Job Fit Evaluation Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmla2aamz000aju04yasqm6r6",
+      "title": "Deep GitHub Repository Understanding",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmla2u7b10009ju04uozulkog",
+      "title": "Criar/Alterar Documentação de Projeto",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmla2w8gh0001jw049qrg0mn3",
+      "title": "Gerador de Tarefas",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlaxtshp0001ld04j2ezt76o",
+      "title": "Prompt Optimization",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlb7llzs0008l2048degppu9",
+      "title": "Advanced Account Research",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlbc82sf0001ic04nl7eluiq",
+      "title": "Sports Events Weekly Listings Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlcbncuq0005ky04a39ncbn4",
+      "title": "Socratic Lens",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmldimu14000dle04f72xad2o",
+      "title": "Minecraft image",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmldz7vkx000gl104w829dsys",
+      "title": "OS2.0 SAFe Delivery Context (Master)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmldznp480004lb04c7y8a0iy",
+      "title": "Olympic Games Events Weekly Listings Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlekoyip0004l404lw4kiokh",
+      "title": "Nurse",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlf95wvb000cjv04klpawvmo",
+      "title": "Develop a Live Video Streaming Website",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlfct1mi0001jv045xc0zujk",
+      "title": "Gathering Planner Interview",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlmad1vk0001js048jyrm9az",
+      "title": "Valentines Day Cocktail",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmlz65itf0004lb04znbir2lk",
+      "title": "Dramatic Digital Painting of a Solitary Figure in a Snowy Landscape",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm1gdng40004jv043hddejbu",
+      "title": "Documentation Update Automation",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm2ezora0001l6041vek8bwl",
+      "title": "Ball Puppet",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm2ffasa0007l5045xgbmb6l",
+      "title": "Barong 1",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm6xle99000djq04iy82g6jz",
+      "title": "Girls",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm768nr10001l2046tnuhif4",
+      "title": "Steel Blueprint Infographic For SosMed",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm7a0fov0001l1048arusf59",
+      "title": "Voice Cloning Attacks Infographic",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmm7vz7vd000ajy04czgv4lf9",
+      "title": "cambio de ojos",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmdxysze0009jr04ykh3svk3",
+      "title": "One-Shot Copy-Paste Version with Proper Formatting",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmeijnas0004ju04lfupgye9",
+      "title": "test",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmfbqhv90001js04zj8hqo0s",
+      "title": "Job Fit",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmifh16o0004l804idy2u7zn",
+      "title": "Internet Trend & Slang Intelligence",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmvu6hq50004kz042d3ua59j",
+      "title": "Review the social media content",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmmx0hutp0001jr04n3g07ndz",
+      "title": "Entropy peer reviews",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmn0p31b70001l204bk5fkdib",
+      "title": "Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmn2ad3bz0001l404vasuoxhg",
+      "title": "Midjourney",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnlm4o8p0001lb04p70mwyef",
+      "title": "Professional photo editor",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnlpxq590001ky04wspzkbtu",
+      "title": "Birthday Message Generator – 3 Styles",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnmwjncw0001kz0439bbuf1c",
+      "title": "Futuristic Alps in 2150",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnofy8cf0001ie04ivss3gd4",
+      "title": "Game design",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnr80jhy000fl104iw98cfei",
+      "title": "Japan",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnr82mg9000rjq04ojgbh4lz",
+      "title": "Paint",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnr84ri0000rl104ddcpw6fv",
+      "title": "Galactic Smuggler",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnr8649x000zl104aafkuj51",
+      "title": "Transforming a Photo into a Post-Apocalyptic Scene",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnrno5bd0001ld04kvx1htgr",
+      "title": "Web App Security Code Review (OWASP) - Public Test",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnryi7vc0001l204jap927qg",
+      "title": "Research and Presentation on Energy Forms",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnsdhmuc000ajy04xy4gheyk",
+      "title": "Adaptive Thinking Framework",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnsryqkn0004i9043gvc7jsv",
+      "title": "Low Voltage Electrical Theory Guide",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmny4rpjq0003jy08nopcvben",
+      "title": "karpathy-guidelines",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnzqfb2a0001l404zt8irt77",
+      "title": "Picture",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnzs1u260001jv04rs7ba7e7",
+      "title": "Dramatic Horse Silhouette in Cinematic Lighting",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnzs7xjs0007if04s6ut2owa",
+      "title": "Cinematic Sunset Boat Scene",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmnzvnb210004js04we4ihmsl",
+      "title": "create prompt for audit purpose on password configuartion file for linux",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo02i9750001k004577jeyyp",
+      "title": "MAP",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo0h33o90004kz04dbvyea34",
+      "title": "Mbbs",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo22z1sd0001js04jtr9xnqk",
+      "title": "Alexa Said THIS… and Miss Nancy Didn’t Like It 😳",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo5rs6rl0007jt04ctuqkbza",
+      "title": "Lecturer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo63ijxn000dl604s8toclcv",
+      "title": "Create Content from Discord Blog for Hazel's Website",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo7cswzi0001l20413wh93ih",
+      "title": "Feynman’s Nitpick Game",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo8uwht30001js04xk8qb424",
+      "title": "Good for us",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmo9f96gs0001l4073xd10dad",
+      "title": "Key Concepts and Essential Definitions for Exam",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoa4joyy0001ju043y0tf39c",
+      "title": "Building a community",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoa4mvpo0004l804az77c40t",
+      "title": "What friendship should be all about",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoc2saux000hjr04sils9wov",
+      "title": "Star-Marshal: Raycast Tactical Shooter",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoc2u0iy000pjr04r8w4wpl6",
+      "title": "Logic-Flow Educational Puzzle",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmocwsa5g0004l404tlclsc55",
+      "title": "User Acquisition Data Analysis",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoe6c3nz0001l1047b6mbhh0",
+      "title": "Video",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoe7q12i0001l704xq8efsee",
+      "title": "create app screenshots",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmogsz4md0001ju04ata1k5my",
+      "title": "details of the given bug",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoir5vu20001kz04rd46opss",
+      "title": "Claude Deep Prompt",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmojdbonf0004js04zaad42n3",
+      "title": "Act as a Game Physics Architect",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmojdcjb40001jv04lod9pfey",
+      "title": "Act as a Procedural Content Generator",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmonsx5s70001ju04buqo19j3",
+      "title": "Grok customization",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmop4c0gk0001jm04wtj03quv",
+      "title": "English Grammar and Style Corrector",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmopfj6xs0001l204gzpd4nz3",
+      "title": "Split Word Rejoin",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoq8gkhc0001kz04o82etgvv",
+      "title": "Opus-Driven Deep Thinking System",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmor8j2d60007jv04009u65n7",
+      "title": "Photorealistic 4K Reference Image Enhancement",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmorcymqe0004l104pcju0ni2",
+      "title": "Horoscope l",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmorj0b8m0004lf04mhqy5jfb",
+      "title": "Finding the company",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmosxr6450001jo04nbfxrun5",
+      "title": "Note",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmou5f6dz0001jl04rju9znbi",
+      "title": "Context-Aware Email Assistant",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmourx9hy0004js06v0azs6pv",
+      "title": "Lead Generator & Tracker (WordPilot.pro)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmous0t830001kg073qihoby8",
+      "title": "Lead Generator & Tracker for WordPilot.pro",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmouszg0g0002kl07vrntmm47",
+      "title": "Email Lead Generator & Tracker",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmox4gz0r0004i904r78okop1",
+      "title": "Anime",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmox574yw0001i404zoaioajv",
+      "title": "Prompt 101 (full)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmoxxr9hb0004k004bstkcf9w",
+      "title": "prompt for powerpoint slides generation",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmozbv85o0001j707dgja3izh",
+      "title": "Job search agent",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp1kesu00001l404mi570lhd",
+      "title": "interview assistance",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp21sf1q0001le04d3pj3urr",
+      "title": "3D Physics Sandbox Architect",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp21v4080009le04xt8fqvhg",
+      "title": "Procedural 3D Environment Designer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp21w5j70001i9047f9a8hs3",
+      "title": "Advanced 3D Kinematics & Character Controller",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp21x5ke0009i904ao31w0ho",
+      "title": "WebGL VFX & Fluid Interaction Specialist",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp21xy890004l804qpafppic",
+      "title": "Abstract 3D Topology Puzzle Architect",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp2frszp0007kw04peimv5wh",
+      "title": "Live Stock market analysis",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp3pwezt0001lb0468e1wkt7",
+      "title": "Create a logic where a 3D geometric mesh",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp3pzie90009lb04sglget1p",
+      "title": "Digital Sea",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp3q1j6r000hlb04wim7kspb",
+      "title": "Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp3q3fxz0004jp047wke3hal",
+      "title": "Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page.",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 7,
+      "id": "cmp3q4qwg0001ky04bprc0bgk",
+      "title": "Design a 3D \"Network Topology\" where particles travel along predefined paths (splines) to represent data transmission.",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp3qsc030004js04lt3me8b4",
+      "title": "Creative Image Generation for Digital Art",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp4cltqe0001if04ik2bamhh",
+      "title": "Generate literature search report",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp5c5yu3000al104xtkreezp",
+      "title": "Generate Academic Taxonomy",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp71ko190001ih044lh2vpc2",
+      "title": "Photo emhanced",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp71mshd0001jo04p1yc23pw",
+      "title": "GOT Title",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp7ngbnj0001jo042v0dfpgu",
+      "title": "《Vowel Velocity: Phonetic Catch》",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp7niyr70009jo04fgep519z",
+      "title": "《Semantic Pull: Word Family Grid》",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp7nkqea0001ld044aas0ax4",
+      "title": "《Syntactic Stack: Kinetic Grammar》",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp7nm7a1000hjo04odbop54v",
+      "title": "《Resonance Wave: Synchronic Clusters》",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp7nnitj0009ld04tan4bfku",
+      "title": "《Syllabic Beats: Pulse Runner》",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp97geen0004jo04s1wtobhv",
+      "title": "rebuttal",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp9q3zvz0007l204jvax3q04",
+      "title": "3D Kinetic Ball Simulation",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp9q577n0004la04k3eyhwwe",
+      "title": "Neon Flow Grid Snake",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp9q67ay000fl204tz4encg9",
+      "title": "Gravity Flux Flappy Engine",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp9q74o8000cla04hb8yir1y",
+      "title": "Quantum Topology Matcher (",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmp9q827x000kla04rfov3q3c",
+      "title": "Gyroscopic Maze Run",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpb3zajb0001jm04te3gbgin",
+      "title": "Test-Driven Bug Hunting With Reproduction Agents",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpb71au50001if04p09i1sn5",
+      "title": "DSPy Business Partner System",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpbmf8rh0001kp0ab7n7oy6r",
+      "title": "Hand-off",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpbvoxeg0001js04csi5ekjs",
+      "title": "Session Continuity Engine",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpg3k4i90003lb04iwbgi9rb",
+      "title": "Girl",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpgzfwoa0005k0049301eozo",
+      "title": "Career Profile from Resume Builder",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpndtobu0007l50476wb80tg",
+      "title": "Photovoltaic and Energy Storage System Engineer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpoqx1x20005ld04vdbg2hyy",
+      "title": "Principled",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmppdtjmt0001l5042kt8txkk",
+      "title": "فريق العمل",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmptw251o0001ib04gv9730bv",
+      "title": "Nigeria",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpv7mzlw0001lf04k6rnobt5",
+      "title": "Draft a 2-week plan on the basic skills of computer knowledge for a company that has outlets across the country",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmpvf58ql0004jo04pb6do35f",
+      "title": "Write an Email",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr2g3yw90001l7048veoh3xd",
+      "title": "Photography Trip Planning — Research-Backed Itinerary Builder",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr45e6wy0001ii04mbf4ewr5",
+      "title": "توليد فيديو عبر الذكاء الاصطناعي",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr4thjgd0001l704xc3jx8ys",
+      "title": "Structural Fusion: The Thriller-Parable",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr6cxcfb0001lh04d1anvveo",
+      "title": "Refute",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr6d3lp10008jx04kd3wno3v",
+      "title": "human",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr6d4vtq0001l104ewlye5ia",
+      "title": "alfa",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr6d5ze9000gjx04xc4vwuvx",
+      "title": "alfa2",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr6d6ry20005l104q02hfy8f",
+      "title": "diff",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr7x86xa000ala0441cv5uke",
+      "title": "Pay Appraisal",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmr8rn3h40001ju04n78sg841",
+      "title": "watchlist",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmraffr980001jm04jmwenkg4",
+      "title": "formatgdoc",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmrafgya10001jl043c1uvc25",
+      "title": "formattg",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmrbhkfd70008l404s3plm196",
+      "title": "TGscrape",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmrcxwn0d000dl604tnjrrpcx",
+      "title": "Specialized Assistant for shanjunmei/dig Compile-Time DI Library",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmrd4oups0004l104hfoy9noi",
+      "title": "Go Industrial Autonomous Business Module Coding Spec (shanjunmei/dig Compile-Time DI)",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmrf8lsu7000al2045a0z0bik",
+      "title": "Codebase Ecosystem Atlas",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cms5467oj0001js04y1nx9t97",
+      "title": "The greedy Cat",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cms5s0zoj0004l5040rfoh6xb",
+      "title": "Tom and Jerry Classic Cartoon Chase",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cms71evfi0003jf0ai1a9uiv4",
+      "title": "Revisor-Diagnóstico-Proyecto: Auditoría + Plan de Mejora",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cms9y68bd0004jo04idm2d9ls",
+      "title": "Sprezzatura",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmse389om0001j80a2g7f53id",
+      "title": "Skill acquisition",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmses1ujr0001hw0a29vqk85x",
+      "title": "Attract Deer with Jangling Sounds",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsexuabg0001ky04slb4jnfo",
+      "title": "Cozy Cabin in a Rainy Forest",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsfjsff50001ie04m2xheang",
+      "title": "Bamboo app",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsfprcww0001l8040a90gq87",
+      "title": "Lecturer",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmshn3lng0001l704bjvu8mi2",
+      "title": "ART DIBUJO",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmshuwvhy0004kz040ocks5xm",
+      "title": "DIBUJO MINIMAL",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmshvskwa0001jz045o3e36f7",
+      "title": "Personaje ART",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmshwkefr0001l404dvfhbnwr",
+      "title": "Hiperrealista",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsly2wg20009if043wjp8bj6",
+      "title": "Iranian Noir Suspicion Close-Up",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmssl28tl0001hy0ahmn226k4",
+      "title": "friend",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsvwixt90001k004rlsjuna0",
+      "title": "Interactive Love Message HTML Page",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmsw4cy9f000al204z0d01lph",
+      "title": "debug",
+      "category": "uncategorized"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmj5bdoih0007tj0qu2dec7lq",
+      "title": "Gemi-Gotchi",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmj8fn09j000bwj0qj8c1d38p",
+      "title": "Create STYLE_GUIDE.md",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmj8sre0k000dxh0ru4v4052k",
+      "title": "Minimal Web-Compatible Food Order App Development",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmj8to93m0001xh0r7drhhvqj",
+      "title": "Real-Time Multiplayer Defense Game",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmj9z33mi0001xt0qp39jin1b",
+      "title": "Comprehensive repository analysis",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmjasv4vh000dze0rkqarpeg2",
+      "title": "Fierce Medieval Queen on Iron Throne Portrait",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmjfsjsnk0001jy04gq5zoxzh",
+      "title": "Landing Page Vibe Coding",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmji7y7go000dl8042gto98d5",
+      "title": "Setting Up a New iOS App in Xcode",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmjohlts00001l504255auvri",
+      "title": "Prompt Writer for Specific Project",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmjpqj1730001l704q2v4axa2",
+      "title": "Investment Tracking Dashboard",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmjr9ytln0008l504rpc59b3y",
+      "title": "Manim Code",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmk2mp6ra0001l704179q5un7",
+      "title": "Technical Codebase Discovery & Onboarding Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmk2mr7am0007js04m77z03jm",
+      "title": "Multi-Audience Application Discovery & Documentation Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmk8tpey10001l704k2mhbogt",
+      "title": "Auditor de Código Python: Nivel Senior (Salida en Español)",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmk90q7lq0001jj04cj5r2rlx",
+      "title": "Present",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmkfa1erj0001i70439kmrrih",
+      "title": "Master Prompt Architect & Context Engineer",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmkfa5nfm000al704tykng213",
+      "title": "python",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmkxpg9lw0005lb04lm8s2agi",
+      "title": "The Ultimate TypeScript Code Review",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmkxptx8o000dla040bsgdu4c",
+      "title": "PHP Microscope: Forensic Codebase Autopsy Protocol",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cml2ibtdw0001l404w53grru5",
+      "title": "The Architect: Hacker-Protector & Viral Engineer",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmlayl2xh0004jp04855zh5is",
+      "title": "4 Optimized Versions of A Prompt (in Arabic)",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmlkhwray0001lb04m1er52s3",
+      "title": "WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmlw34lsz0001jy04rhpeqkq8",
+      "title": "Senior Software Engineer  & Software Architect Rules",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmlzxcmls0001jz047ggm9bff",
+      "title": "CKEditor 5 Plugin",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmm3vx9290001l804yw0ko4yh",
+      "title": "TypeScript Unit Testing with Vitest",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmhmi0au000djr043cfh7pre",
+      "title": "Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmi6mngb0001ky040byafx2r",
+      "title": "Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmi6wlht0001lh047z8cph8d",
+      "title": "Comprehensive Python Codebase Review - Forensic-Level Analysis Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmk5uygc0001jv04g4yuguhi",
+      "title": "Generate a Plan for Building the Best UI/UX",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmkcqks50001jy04udsht942",
+      "title": "2046 Puzzle Game Challenge",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmoj4mgt000mky04auetwkzp",
+      "title": "\"Explain It Like I Built It\"  Technical Documentation for Non-Technical Founders",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmpaodr20006l504cxcdw7ty",
+      "title": "SaaS Security Audit - OWASP Top 10 & Multi-Tenant Isolation Review",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmpb078l0001jx04idzwstsh",
+      "title": "SaaS Analytics Dashboard - Knowledge-Anchored Frontend Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmxueidw0001ky04noxyutni",
+      "title": "AI-Powered Personal Compliment & Coaching Engine",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmxufecp0001js04xnkw3g27",
+      "title": "Dating Profile Optimization Suite",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmxugkdt0005ky04yvfmou20",
+      "title": "Personalized Digital Avatar Generator",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmxuiara0005js04bq81ht9d",
+      "title": "Private Group Coaching Infrastructure",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 8,
+      "id": "cmmxuk7na0009ky04jgx2k8je",
+      "title": "Trading & Investing Simulation Platform",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmxulgus0008l70466youeyh",
+      "title": "Personal Knowledge & Narrative Tool",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmxunhwg0009js04kwsn0dvj",
+      "title": "Zero to One Solo-Founder Launch System",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmxuodju000djs041t40ypq4",
+      "title": "Legal Risk Minimization Tool for Freelancers",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmxur2dd000hjs04zn6fdjqr",
+      "title": "High-Stakes Decision Support System",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnn8le2j000al504h4f1m4xl",
+      "title": "🔧 AI App Improvement Loop Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnpolwwn000bjr0473knsotf",
+      "title": "mc",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnw5ds8k0007jp04ifb2qasg",
+      "title": "Stylelint Plugin Author",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnypenba0001l504i107vz2e",
+      "title": "prd-and-technical-documentation-generator",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmo8n9td70001jo04pbfcyfpc",
+      "title": "Create a CAN Simulation in Python",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmocoxqi20001jv04hocfp2qn",
+      "title": "Handle the bug in feature",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmogslvi80004jo04o52as9w1",
+      "title": "handle bug in feature",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmp1fv5ac0001js04jbj3pxoa",
+      "title": "Feature coding template",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmpjncn4j0001ju046t8kjpjd",
+      "title": "AI-Powered Dynamic Ad Integration System for Live IPL Broadcasts",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmq5b1zzi0004la04htszgti1",
+      "title": "shadcn Component Adapter for Cursor",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmqpnqckb0001js04xtnz04ij",
+      "title": "GitHub Repository Analyst",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmqptbohl0004l404ax4u69hd",
+      "title": "Better Sufix Prompt",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmqqn4c3l0001lb04u758ngg1",
+      "title": "Vibe Coding with Modern Designs and SEO",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmr29h7980001l4045yqt81qe",
+      "title": "Plan Check Agent",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmr3dj5um0004k104br9ks0u8",
+      "title": "Enhancing Efficiency with Codex Using Sub-Agents",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrj4x861000al6048po58oau",
+      "title": "High-Frequency RSS Ingestion Architect",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrl38bdp0001l204lvyiw6r8",
+      "title": "AI Agent Architect — Design Production-Ready Agents in 15 Steps",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding10",
+      "title": "Health Metrics Calculator",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding11",
+      "title": "Currency Exchange Calculator",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding12",
+      "title": "File Encryption Tool",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding13",
+      "title": "Code Snippet Manager",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding14",
+      "title": "Budget Tracker",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding15",
+      "title": "Recipe Finder",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding16",
+      "title": "Kanban Board",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "vibecoding17",
+      "title": "Music Player",
+      "category": "vibe"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm1hzh340007jo04bip9zr7x",
+      "title": "App Store Screenshots Gallery Generator",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm1olkvk000jkz04j88q6wum",
+      "title": "Build a Web3 Wallet on Playnance Blockchain",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm4booa50001lh04b7tr4ncu",
+      "title": "Advanced Sales Funnel App with React Flow",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm51bp2p0001jp046bwjorxw",
+      "title": "change home page desgin for blog and documentation platorm",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmoavo8e0004lb04ima5nc8f",
+      "title": "Privacy-First Chat App with Multi-Feature Support",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmt225890001l804mfynutqd",
+      "title": "AI voice assistant",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2kcge0004il04ymzv8ffs",
+      "title": "Backend Architect Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2ujnt0001if04ebfarnc3",
+      "title": "Accessibility Auditor Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2v9se0008il0457s2rkgz",
+      "title": "Frontend Developer Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2w102000cil048xhsdjdc",
+      "title": "SEO Auditor Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2wrm90009k604k3eizyk7",
+      "title": "SEO Optimization Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmx2xikb000dks04hy4h0h0u",
+      "title": "UI Architect Agent Role",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmn1elvgk0001le04njueblr2",
+      "title": "Astro.js",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnae3hr70001jl044hvyilyj",
+      "title": "Architecture & UI/UX Audit",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnbnuc5m0004ju04omrsykd2",
+      "title": "blood grouping detection using image processing",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmno9j7r80001if0401yh7z7q",
+      "title": "WEB Product Architect",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmobf8xa70004k004xw9g8h61",
+      "title": "Redesign Front-End with Codex",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmobmwya50001kz04o6mtbs8y",
+      "title": "Modify Front-End Webpage with Codex and Image Input",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmp8ab84x0001lb04gvev4x73",
+      "title": "Modern Web Development Assistant",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmpqm04sa0001l404952t4x3d",
+      "title": "Power BI",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmqwv5nc10004jo04lbracg8o",
+      "title": "Payment gateway page",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmr0p1c7w0001i604sb8s8cxb",
+      "title": "React / Next.js Frontend Architect",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmr1jdhwa0001l804fr6xifnk",
+      "title": "Storybook with stories creation",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmriqkb6f0001jo09fr9gltlg",
+      "title": "Debugging Detective",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrox1dgf0001jr04bu8wlrea",
+      "title": "Designing a Glassmorphic About Me Page",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrpxk3b20001l804qmw0n6gz",
+      "title": "Administrator Portal for Auto File Renaming Tool",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrumatyt0004l204g87svkfp",
+      "title": "Universal Instructions for React / Next.js Projects",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmspr909t0004ju041b35h81k",
+      "title": "E COMMERCE WEBSITE",
+      "category": "web-development"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmj5w8ysy000qrf0rzwgdwkxj",
+      "title": "Comprehensive Repository Analysis and Bug Fixing Framework",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjfqa5ei0007jy04pfe3zre4",
+      "title": "Meta-Prompt Engineer",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmky3xo1g0008l204zmps7jwd",
+      "title": "Ultra-Photorealistic Romantic Cinematic Scene in the Rain",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmkqhi6v6d9gegqgt9a4",
+      "title": "Idea Generation",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmpcaors0006k104wmt6k6du",
+      "title": "Repository Security & Architecture Audit Framework",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmqtn3rps0001jx04dusyro0g",
+      "title": "de",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmsoezjjq000bie04xor44pbj",
+      "title": "Multi-Agent Coding Workflow & Implementation Prompt Generator",
+      "category": "workflows"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmj2o5n930004xv0rc6uj6xt8",
+      "title": "Smart Rewriter & Clarity Booster",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmj4t2rzh0001vl0rn0j7s98s",
+      "title": "Temitope",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmj83ex6s000exv0ql36s9db1",
+      "title": "Removing visual noise in the neural network's response",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmj9tezl80001090rlzxc17go",
+      "title": "Lower AI Generation Rate",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjf5zp2k0001l704y2s7jfx5",
+      "title": "Persuasive Article or Proposal Writing Guide",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjgeyz4c000hjo04rrrcos7k",
+      "title": "Escritor de Livros Completo",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjh112aq0007l104qg666hdx",
+      "title": "Professional Email Writer for Any Occasion",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjjbsc45000dl404waoctztz",
+      "title": "30 tweet Project",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmjrmfls5000jik04dzr4lgc1",
+      "title": "Text Summarizer",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmk00awnn000dic04aad8ycr0",
+      "title": "Dynamic Cover Letter Generator",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmk7ir9z0000al404nz7mdpdr",
+      "title": "Random Girl",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmk7kidrj0001l104jxx46hn9",
+      "title": "Dynamic character profile generator",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmkdey6gr0001ie043m7e45vz",
+      "title": "Multilingual Writing Improvement Assistant",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmlaz86mp0001la04klhwdly0",
+      "title": "Analogy Generator",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmlfcvftt0001l404gsiv3j9f",
+      "title": "Lazy AI Email Detector",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmlfumwr90001k0045t3rlxgz",
+      "title": "Make AI write naturally",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmlpgwjbz0009l504u0pdsimm",
+      "title": "Resume Quality Reviewer – Green Flag Edition",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmlrbciy50001jt04slgg2xgf",
+      "title": "Overqualification Narrative Architect",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmltrzzkq0001js046wpxqy1m",
+      "title": "LinkedIn JSON → Canonical Markdown Profile Generator",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm55hzfp0001l504s6rrl4hb",
+      "title": "Information Gathering Prompt",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm9rhjt60004ju04ba65vab4",
+      "title": "Article Summarizer",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmm9rlyn0000cju049kpcks79",
+      "title": "Writing a Book on Causes of Death from Data Sources",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmf63jqy0001ky04caywdys0",
+      "title": "Writing Advisor Prompt",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmmtxmmew0001kz0458493x28",
+      "title": "Resume Customization Prompt – STRATEGIC INTEGRITY",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmn3nkesw0001l204r8birwmj",
+      "title": "writer",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmnlpt4wn0001ld046rjnk264",
+      "title": "Customizable Birthday Message Generator",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmr2w7oxf0001l2048wx36c3k",
+      "title": "Comprehensive Book Summarizer",
+      "category": "writing"
+    },
+    {
+      "chunk_id": 9,
+      "id": "cmrgsbzvr0004l104ij0rvzws",
+      "title": "Writing Style Replication",
+      "category": "writing"
+    }
+  ]
+}

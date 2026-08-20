@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmj2r3xr90001xp0razy7qomp_Architectural Sketch - Markup Overlay.md

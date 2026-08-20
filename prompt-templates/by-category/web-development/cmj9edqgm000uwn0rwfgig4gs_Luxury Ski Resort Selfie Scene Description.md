@@ -1,0 +1,252 @@
+# Luxury Ski Resort Selfie Scene Description
+
+**Description:** A detailed JSON structure describing a luxury ski resort hallway selfie scene, capturing the essence of a post-club night with a revealing cold-weather outfit and a specific camera perspective.
+
+**Type:** TEXT
+**Author:** cipeberre
+**Created:** 2025-12-17T02:33:45.527Z
+**Votes:** 0
+**Views:** 0
+
+**Tags:** Art, Fashion
+
+**Category:** Web Development
+
+## Prompt Content
+
+```
+{
+  "scene_type": "luxury ski resort hallway selfie, post-club drunk glow, cold-weather outfit but extremely revealing underneath",
+
+  "camera_perspective": {
+    "pov": "we ARE her phone screen",
+    "phone_visibility": "not visible",
+    "angle": "slightly high angled selfie, classic hot-girl angle",
+    "framing": "face + cleavage + micro skirt + thigh-highs fully visible"
+  },
+
+  "subject": {
+    "action": "leaning against wooden ski-lodge hallway wall after club night, taking a selfie while slightly tipsy, jacket slipping off shoulder",
+    "pose": {
+      "stance": "one leg crossed over the other, knee turned inward to look shy-hot",
+      "hip": "pushed out naturally, exaggerating curves",
+      "upper_body": "jacket sliding down one arm, revealing tight top",
+      "arm": "one arm extended holding phone, the other gripping jacket collar"
+    },
+
+    "expression": {
+      "eyes": "warm, glossy bedroom eyes looking slightly up at camera",
+      "mouth": "soft parted lips with bitten-lip energy",
+      "overall": "club-tired but insanely hot, knows she looks good"
+    },
+
+    "physical": {
+      "age": "early 20s",
+      "body": "slim-thick, narrow waist, soft curves, thighs full",
+      "hair": {
+        "color": "dark brunette",
+        "style": "long loose waves, slightly messy from dancing",
+        "details": "snowflakes melting in hair from outside"
+      },
+      "skin": "cool-toned from winter air, slight pink flush on cheeks"
+    },
+
+    "outfit": {
+      "jacket": {
+        "type": "oversized white faux-fur ski jacket",
+        "state": "falling off one shoulder, exposing outfit underneath"
+      },
+      "top": {
+        "type": "tight black corset top",
+        "fit": "pushing cleavage up dramatically",
+        "details": "laced front, shiny material catching hallway lights"
+      },
+      "bottom": {
+        "type": "micro mini skirt",
+        "color": "silver metallic",
+        "fit": "ultra-short, barely covering anything",
+        "motion": "slightly lifted from her pose, showing upper thighs"
+      },
+      "legs": {
+        "item": "black thigh-high stockings",
+        "texture": "opaque but with subtle sheen",
+        "fit": "tight around thighs, soft squeeze, natural skin texture visible above band"
+      },
+      "shoes": {
+        "type": "heeled winter boots",
+        "style": "white faux fur trim"
+      }
+    }
+  },
+
+  "accessories": {
+    "earrings": "large silver hoops",
+    "necklace": "thin chain with tiny snowflake pendant",
+    "rings": "multiple silver rings",
+    "nails": "dark wine-red glossy polish"
+  },
+
+  "environment": {
+    "location": "luxury ski resort hallway at night",
+    "elements": [
+      "warm yellow lantern-style lights",
+      "wooden lodge walls",
+      "window showing falling snow outside",
+      "a pair of abandoned ski goggles on a bench"
+    ],
+    "lighting": "warm indoor lights contrasting with her cool winter skin flush",
+    "vibe": "end of night, cozy-warm building but she still looks like trouble"
+  },
+
+  "camera": {
+    "quality": "iPhone selfie quality, slight grain from low light",
+    "aspect": "9:16",
+    "effect": "warm tone from lights + glossy reflections from outfit"
+  },
+
+  "realism_details": {
+    "makeup": "slightly smudged eyeliner, lips glossy but fading from drinks",
+    "hair": "some strands stuck to lip gloss, snow melting into frizz at ends",
+    "skin": "natural shine from dancing, slight cold flush",
+    "clothes": "corset slightly shifted, mini skirt wrinkled from sitting earlier"
+  },
+
+  "vibe": "hot ski-resort party girl energy, drunken warmth, dangerously pretty, the girl guys fall in love with for no reason"
+}
+```
+
+**Source:** https://prompts.chat/prompts/cmj9edqgm000uwn0rwfgig4gs_luxury-ski-resort-selfie-scene-description
+
+## 中文翻译
+
+### 标题
+豪华滑雪场自拍场景描述
+
+### 提示词内容
+
+```
+{
+  "scene_type": "豪华滑雪场走廊自拍，夜店醉酒后的容光焕发，寒冷天气的服装，但内心却极其暴露",
+
+  “相机透视”：{
+    "pov": "我们是她的手机屏幕",
+    "phone_visibility": "不可见",
+    "angle": "稍高角度的自拍，经典辣妹角度",
+    “取景”：“脸+乳沟+微裙+长筒袜完全可见”
+  },
+
+  “主题”：{
+    “action”：“俱乐部之夜后靠在滑雪小屋的木质走廊墙上，微醉时自拍，夹克从肩上滑落”，
+    “姿势”：{
+      "stance": "一腿交叉在另一腿上，膝盖向内转，看起来很害羞",
+      "hip": "自然推出，夸张曲线",
+      "upper_body": "夹克从一只手臂滑落，露出紧身上衣",
+      "arm": "一只手臂伸直握住手机，另一只手臂握住夹克领子"
+    },
+
+    “表达式”：{
+      “眼睛”：“温暖、有光泽的卧室眼睛微微抬头看着镜头”，
+      “嘴”：“柔软张开的嘴唇，带有咬唇能量”，
+      “总体”：“在俱乐部里疲惫不堪，但非常性感，知道她看起来不错”
+    },
+
+    “物理”：{
+      “年龄”：“20岁出头”，
+      "body": "瘦粗、腰细、曲线柔和、大腿丰满",
+      “头发”：{
+        “颜色”：“深褐色”，
+        "style": "长长的松散波浪，跳舞时略显凌乱",
+        “details”：“雪花从外面融化在头发中”
+      },
+      “皮肤”：“冬天空气中的冷色调，脸颊上有轻微的粉红色红晕”
+    },
+
+    “服装”：{
+      “夹克”：{
+        "type": "超大白色人造毛皮滑雪夹克",
+        “state”：“从肩膀上掉下来，露出下面的衣服”
+      },
+      “顶部”：{
+        "type": "紧身黑色紧身胸衣",
+        “fit”：“大幅提升乳沟”，
+        “details”：“前面系带，闪亮的材料捕捉走廊的灯光”
+      },
+      “底部”：{
+        "type": "微型迷你裙",
+        “颜色”：“银色金属”，
+        "fit": "超短，几乎覆盖不了任何东西",
+        “motion”：“稍微抬起姿势，露出大腿上部”
+      },
+      “腿”：{
+        "item": "黑色长筒袜",
+        “texture”：“不透明但具有微妙的光泽”，
+        “合身”：“紧贴大腿，轻柔挤压，带子上方可见自然皮肤纹理”
+      },
+      “鞋子”：{
+        "type": "高跟冬靴",
+        “style”：“白色人造毛皮饰边”
+      }
+    }
+  },
+
+  “配件”：{
+    “耳环”：“大银圈”，
+    "necklace": "带有小雪花吊坠的细链",
+    "rings": "多个银戒指",
+    “指甲”：“深酒红色光泽抛光剂”
+  },
+
+  “环境”：{
+    "location": "夜间豪华滑雪场走廊",
+    “元素”：[
+      “温暖的黄色灯笼式灯光”，
+      “木屋的墙壁”，
+      “窗户显示外面飘落的雪花”，
+      “长凳上一副废弃的滑雪镜”
+    ],
+    “lighting”：“温暖的室内灯光与她凉爽的冬季皮肤形成鲜明对比”，
+    “vibe”：“夜幕降临，舒适温暖的建筑，但她看起来仍然像个麻烦”
+  },
+
+  “相机”：{
+    "quality": "iPhone 自拍质量，低光下出现轻微颗粒",
+    “方面”：“9:16”，
+    “效果”：“灯光的暖色调+服装的光泽反射”
+  },
+
+  “现实主义细节”：{
+    “妆容”：“眼线轻微晕染，嘴唇有光泽，但因饮料而褪色”，
+    “头发”：“一些发丝粘在唇彩上，雪在末端融化成卷曲”，
+    “skin”：“舞蹈带来的自然光泽，轻微的冷潮”，
+    "clothes": "紧身胸衣稍微移位，迷你裙因之前坐而皱起来"
+  },
+
+  “vibe”：“火辣的滑雪场派对女孩活力，醉人的温暖，危险的美丽，男人们无缘无故爱上的女孩”
+}
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。A detailed JSON structure describing a luxury ski resort hallway selfie scene, capturing the essence of a post-club night with a revealing cold-weather outfit and a specific camera perspective.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

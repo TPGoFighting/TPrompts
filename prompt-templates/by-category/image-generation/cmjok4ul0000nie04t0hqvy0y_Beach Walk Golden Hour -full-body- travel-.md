@@ -1,0 +1,212 @@
+# Beach Walk Golden Hour (full-body, travel)
+
+**Description:** Create a photorealistic travel influencer image capturing a Turkish-looking adult woman during a beach walk at golden hour. The scene includes specific styling and environmental details to evoke a dreamy, carefree, and warm mood. Ensure constraints such as no logos or texts are adhered to while maintaining a high level of realism and technical quality.
+
+**Type:** IMAGE
+**Author:** beatstobytes
+**Created:** 2025-12-27T17:11:21.300Z
+**Votes:** 1
+**Views:** 0
+
+**Category:** Image Generation
+
+## Prompt Content
+
+```
+{
+  "category": "BEACH_WALK_GOLDEN_HOUR_FULLBODY",
+  "subject": {
+    "demographics": "Adult woman, 21-29, Turkish-looking, travel influencer vibe.",
+    "hair": {
+      "color": "Dark brown",
+      "style": "Loose waves, wind-touched",
+      "texture": "Natural strands, flyaways",
+      "movement": "Hair moving lightly with sea breeze"
+    },
+    "face": {
+      "eyes": "Happy, squinting slightly in sun",
+      "skin_details": "Realistic texture, sun-kissed glow (not oily)",
+      "makeup": "Minimal beach look"
+    },
+    "clothing": {
+      "outfit": "Linen dress or beach cover-up (no logos)",
+      "fabric": "Linen weave visible, gentle wrinkles",
+      "movement": "Dress hem moving naturally"
+    },
+    "accessories": {
+      "jewelry": ["Silver hoops"]
+    }
+  },
+  "pose": {
+    "type": "Full-body walking candid",
+    "orientation": "Mid-step along shoreline",
+    "hands": "One hand holding dress hem, other brushing hair back",
+    "gaze": "Looking down laughing, then glancing toward camera vibe",
+    "posture": "Carefree, relaxed"
+  },
+  "setting": {
+    "environment": "Beach shoreline",
+    "background_elements": [
+      "Soft sunset reflections on water",
+      "Footprints in sand",
+      "Subtle haze (natural sea air, not smoke)"
+    ],
+    "depth": "Subject sharp, background softly blurred"
+  },
+  "camera": {
+    "shot_type": "Full-body travel photo",
+    "angle": "Eye-level",
+    "focal_length_equivalent": "26mm phone or 35mm editorial",
+    "framing": "4:5",
+    "focus": "Face readable; motion blur minimal"
+  },
+  "lighting": {
+    "source": "Golden hour sunlight",
+    "direction": "Back/side rim light on hair and shoulders",
+    "highlights": "Controlled sun flare",
+    "shadows": "Soft, warm"
+  },
+  "mood_and_expression": {
+    "tone": "Dreamy, carefree, warm",
+    "expression": "Natural laughter",
+    "atmosphere": "Wanderlust candid"
+  },
+  "style_and_realism": {
+    "style": "Photoreal travel influencer",
+    "imperfections": "Slight motion blur on dress hem allowed; face stays detailed"
+  },
+  "technical_details": {
+    "aspect_ratio": "4:5",
+    "noise": "Low to mild",
+    "motion_blur": "Subtle in fabric only"
+  },
+  "constraints": {
+    "adult_only": true,
+    "no_text": true,
+    "no_logos": true,
+    "no_watermarks": true
+  },
+  "negative_prompt": [
+    "watergun splash", "fake water texture",
+    "extra limbs", "warped horizon",
+    "readable text", "logos", "watermark"
+  ]
+}
+```
+
+**Source:** https://prompts.chat/prompts/cmjok4ul0000nie04t0hqvy0y_beach-walk-golden-hour-full-body-travel
+
+## 中文翻译
+
+### 标题
+海滩漫步黄金时段（全身、旅行）
+
+### 提示词内容
+
+```
+{
+  "类别": "BEACH_WALK_GOLDEN_HOUR_FULLBODY",
+  “主题”：{
+    "demographics": "成年女性，21-29岁，土耳其长相，旅游影响者氛围。",
+    “头发”：{
+      “颜色”：“深棕色”，
+      "style": "松散的波浪，随风飘扬",
+      "texture": "自然股线，飞扬",
+      “movement”：“头发随海风轻轻飘动”
+    },
+    “脸”：{
+      "eyes": "快乐，在阳光下微微眯眼",
+      "skin_details": "逼真的质感，阳光亲吻的光泽（不油腻）",
+      "makeup": "简约海滩妆容"
+    },
+    “服装”：{
+      "outfit": "亚麻连衣裙或沙滩罩衫（无徽标）",
+      "fabric": "亚麻编织可见，皱纹柔和",
+      "movement": "衣服下摆自然移动"
+    },
+    “配件”：{
+      "jewelry": ["银圈"]
+    }
+  },
+  “姿势”：{
+    "type": "全身行走坦诚",
+    "orientation": "沿着海岸线的中间台阶",
+    "hands": "一只手握住衣服下摆，另一只手将头发向后梳",
+    "gaze": "低头大笑，然后看向相机氛围",
+    "position": "无忧无虑、放松"
+  },
+  “设置”：{
+    "environment": "海滩海岸线",
+    “背景元素”：[
+      “水面上柔和的夕阳倒影”，
+      《沙子里的脚印》，
+      “微妙的薄雾（自然的海洋空气，不是烟雾）”
+    ],
+    “深度”：“主体清晰，背景柔和模糊”
+  },
+  “相机”：{
+    "shot_type": "全身旅行照",
+    "angle": "眼睛水平",
+    "focal_length_equivalent": "26mm 手机或 35mm 编辑",
+    “取景”：“4：5”，
+    "focus": "面部可读；运动模糊最小"
+  },
+  “照明”：{
+    “来源”：“黄金时段阳光”，
+    "direction": "头发和肩膀上的后/侧边缘光",
+    "highlights": "受控太阳耀斑",
+    “shadows”：“柔软、温暖”
+  },
+  “心情和表达”：{
+    "tone": "梦幻、悠闲、温暖",
+    "express": "自然的笑声",
+    “气氛”：“坦率的旅行癖”
+  },
+  “风格和现实主义”：{
+    "style": "真实的旅行影响者",
+    “缺陷”：“裙子下摆允许轻微运动模糊；脸部保持细节”
+  },
+  “技术细节”：{
+    “纵横比”：“4：5”，
+    "noise": "低到轻微",
+    "motion_blur": "仅在织物中微妙"
+  },
+  “约束”：{
+    “仅限成人”：正确，
+    “无文本”：正确，
+    “no_logos”：正确，
+    “无水印”：正确
+  },
+  “否定提示”：[
+    “水枪飞溅”、“假水纹理”、
+    “额外的肢体”、“扭曲的地平线”、
+    “可读文本”、“徽标”、“水印”
+  ]
+}
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。Create a photorealistic travel influencer image capturing a Turkish-looking adult woman during a beach walk at golden hour. The scene includes specific styling and environmental details to evoke a dreamy, carefree, and warm mood. Ensure constraints such as no logos or texts are adhered to while maintaining a high level of realism and technical quality.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

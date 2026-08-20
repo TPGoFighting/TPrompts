@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmnc1y6zg0001l404cjsmvqt6_comparison of social groups.md

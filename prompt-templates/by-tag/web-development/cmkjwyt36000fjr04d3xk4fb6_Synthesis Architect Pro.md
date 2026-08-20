@@ -1,0 +1,1 @@
+../../by-category/devops/cmkjwyt36000fjr04d3xk4fb6_Synthesis Architect Pro.md

@@ -1,0 +1,1 @@
+../../by-category/hr/cmjicdcik000ljq0434xnwf5g_Müşteri temsilcisi eğitimi.md

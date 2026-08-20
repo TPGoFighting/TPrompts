@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmkngjwsq000fjm04s1iw5kgs_Project System and Art Style Consistency Instructions.md

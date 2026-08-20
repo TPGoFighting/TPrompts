@@ -1,0 +1,1 @@
+../../by-category/learning-skills/cmkag89dn0001l704mdz8xdov_12-Month AI and Computer Vision Roadmap for Defense Applications.md

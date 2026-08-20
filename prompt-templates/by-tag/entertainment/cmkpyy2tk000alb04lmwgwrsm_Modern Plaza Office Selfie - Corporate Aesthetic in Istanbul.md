@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmkpyy2tk000alb04lmwgwrsm_Modern Plaza Office Selfie - Corporate Aesthetic in Istanbul.md

@@ -1,0 +1,1 @@
+../../by-category/automations/cmj7xtpdb0004rj0rf202wt8l_Readability Logic Simulator - 全功能翻译版.md

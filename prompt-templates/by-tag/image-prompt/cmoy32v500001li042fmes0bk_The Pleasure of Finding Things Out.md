@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmoy32v500001li042fmes0bk_The Pleasure of Finding Things Out.md

@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmnrb60b5000fl504ucwsl9gz_Patent Illustration Design with SolidWorks and Origin Styles.md

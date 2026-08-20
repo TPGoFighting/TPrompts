@@ -1,0 +1,1 @@
+../../by-category/skill/cmoisa48a0009kz04z3ii1spr_-- CONSTRAINT SOLVER MODE.md

@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjlm5jem0005l704ytxbd9mp_Vintage Invention Patent.md

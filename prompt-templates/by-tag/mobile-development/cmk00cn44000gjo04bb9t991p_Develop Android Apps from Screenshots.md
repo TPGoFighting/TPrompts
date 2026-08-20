@@ -1,0 +1,1 @@
+../../by-category/mobile-development/cmk00cn44000gjo04bb9t991p_Develop Android Apps from Screenshots.md

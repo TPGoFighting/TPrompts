@@ -1,0 +1,1 @@
+../../by-category/skill/cmjsfmdcj000gjr046h3wetij_NBX.md

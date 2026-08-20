@@ -1,0 +1,1 @@
+../../by-category/vibe/cmk8tpey10001l704k2mhbogt_Auditor de Código Python- Nivel Senior -Salida en Español-.md

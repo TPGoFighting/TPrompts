@@ -1,0 +1,1 @@
+../../by-category/business/cmlu7s4px0001jp04i4qbgt7p_Micro-SaaS -Vibecoder- Architect.md

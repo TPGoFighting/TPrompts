@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjn9tg5j0005lh04a45f1hw7_Minimalist Landscape Illustration by Ryo Takemasa.md

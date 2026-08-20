@@ -1,0 +1,1 @@
+../../by-category/skill/cmln3khz90001jr0414j1ie6i_CLAUDE-md Generator for AI Coding Agents.md

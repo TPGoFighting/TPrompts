@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmqdoskhq0001jo04h0rwmy80_Seinen Manga Masterpiece Transformation.md

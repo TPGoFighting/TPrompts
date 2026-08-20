@@ -1,0 +1,1 @@
+../../by-category/mindset-motivation/cmma0ycbi0007jo0415ah43sr_Critical Thinking -DeepThink-.md

@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjfs7zpu0001l804hh0svgje_World of Darkness B-W style.md

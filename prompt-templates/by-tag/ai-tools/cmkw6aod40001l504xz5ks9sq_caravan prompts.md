@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmkw6aod40001l504xz5ks9sq_caravan prompts.md

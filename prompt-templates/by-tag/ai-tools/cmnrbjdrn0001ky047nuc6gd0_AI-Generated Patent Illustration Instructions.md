@@ -1,0 +1,1 @@
+../../by-category/design/cmnrbjdrn0001ky047nuc6gd0_AI-Generated Patent Illustration Instructions.md

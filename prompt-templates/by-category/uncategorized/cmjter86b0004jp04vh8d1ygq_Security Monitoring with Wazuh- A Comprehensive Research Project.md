@@ -1,0 +1,142 @@
+# Security Monitoring with Wazuh: A Comprehensive Research Project
+
+**Description:** Develop a postgraduate-level research project on security monitoring using Wazuh. The project should include a detailed introduction, literature review, methodology, data analysis, and conclusion with recommendations. Emphasize critical analysis and methodological rigor.
+
+**Type:** TEXT
+**Author:** 6ers
+**Created:** 2025-12-31T02:39:38.531Z
+**Votes:** 0
+**Views:** 0
+
+**Tags:** Research, Academic, Project Management, Data Analysis, Advanced, Teaching
+
+## Prompt Content
+
+```
+Act as a Postgraduate Cybersecurity Researcher. You are tasked with producing a comprehensive research project titled "Security Monitoring with Wazuh." 
+
+Your project must adhere to the following structure and requirements:
+
+### Chapter One: Introduction
+- **Background of the Study**: Provide context about security monitoring in information systems.
+- **Statement of the Research Problem**: Clearly define the problem addressed by the study.
+- **Aim and Objectives of the Study**: Outline what the research aims to achieve.
+- **Research Questions**: List the key questions guiding the research.
+- **Scope of the Study**: Describe the study's boundaries.
+- **Significance of the Study**: Explain the importance of the research.
+
+### Chapter Two: Literature Review and Theoretical Framework
+- **Concept of Security Monitoring**: Discuss security monitoring in modern information systems.
+- **Overview of Wazuh**: Analyze Wazuh as a security monitoring platform.
+- **Review of Related Studies**: Examine empirical and theoretical studies.
+- **Theoretical Framework**: Discuss models like defense-in-depth, SIEM/XDR.
+- **Research Gaps**: Identify gaps in the current research.
+
+### Chapter Three: Research Methodology
+- **Research Design**: Describe your research design.
+- **Study Environment and Tools**: Explain the environment and tools used.
+- **Data Collection Methods**: Detail how data will be collected.
+- **Data Analysis Techniques**: Describe how data will be analyzed.
+
+### Chapter Four: Data Presentation and Analysis
+- **Presentation of Data**: Present the collected data.
+- **Analysis of Security Events**: Analyze events and alerts from Wazuh.
+- **Results and Findings**: Discuss findings aligned with objectives.
+- **Initial Discussion**: Provide an initial discussion of the findings.
+
+### Chapter Five: Conclusion and Recommendations
+- **Summary of the Study**: Summarize key aspects of the study.
+- **Conclusions**: Draw conclusions from your findings.
+- **Recommendations**: Offer recommendations based on results.
+- **Future Research**: Suggest areas for further study.
+
+### Writing and Academic Standards
+- Maintain a formal, scholarly tone throughout the project.
+- Apply critical analysis and ensure methodological clarity.
+- Use credible sources with proper citations.
+- Include tables and figures to support your analysis where appropriate.
+
+This research project must demonstrate critical analysis, methodological rigor, and practical evaluation of Wazuh as a security monitoring solution.
+```
+
+**Source:** https://prompts.chat/prompts/cmjter86b0004jp04vh8d1ygq_security-monitoring-with-wazuh-a-comprehensive-research-project
+
+## 中文翻译
+
+### 标题
+Wazuh 安全监控：综合研究项目
+
+### 提示词内容
+
+```
+担任研究生网络安全研究员。您的任务是制定一个名为“Wazuh 安全监控”的综合研究项目。 
+
+您的项目必须遵守以下结构和要求：
+
+### 第一章：简介
+- **研究背景**：提供有关信息系统安全监控的背景信息。
+- **研究问题的陈述**：明确定义研究解决的问题。
+- **研究的目的和目标**：概述研究的目标。
+- **研究问题**：列出指导研究的关键问题。
+- **研究范围**：描述研究的范围。
+- **研究的意义**：解释研究的重要性。
+
+###第二章：文献综述和理论框架
+- **安全监控的概念**：讨论现代信息系统中的安全监控。
+- **Wazuh 概述**：分析 Wazuh 作为安全监控平台。
+- **相关研究回顾**：检查实证和理论研究。
+- **理论框架**：讨论纵深防御、SIEM/XDR 等模型。
+- **研究差距**：确定当前研究中的差距。
+
+### 第三章：研究方法
+- **研究设计**：描述您的研究设计。
+- **学习环境和工具**：解释使用的环境和工具。
+- **数据收集方法**：详细说明如何收集数据。
+- **数据分析技术**：描述如何分析数据。
+
+### 第四章：数据呈现与分析
+- **数据呈现**：呈现收集到的数据。
+- **安全事件分析**：分析来自 Wazuh 的事件和警报。
+- **结果和发现**：讨论与目标一致的发现。
+- **初步讨论**：提供对调查结果的初步讨论。
+
+### 第五章：结论和建议
+- **研究摘要**：总结研究的关键方面。
+- **结论**：从您的发现中得出结论。
+- **建议**：根据结果提供建议。
+- **未来研究**：建议进一步研究的领域。
+
+### 写作和学术标准
+- 在整个项目中保持正式、学术的基调。
+- 应用批判性分析并确保方法清晰。
+- 使用可靠的来源并正确引用。
+- 在适当的情况下包括表格和图形来支持您的分析。
+
+该研究项目必须展示对 Wazuh 作为安全监控解决方案的批判性分析、方法严谨性和实际评估。
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**编程代码生成与审查**类的提示词。Develop a postgraduate-level research project on security monitoring using Wazuh. The project should include a detailed introduction, literature review, methodology, data analysis, and conclusion with recommendations. Emphasize critical analysis and methodological rigor.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

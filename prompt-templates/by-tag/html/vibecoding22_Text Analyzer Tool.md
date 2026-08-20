@@ -1,0 +1,1 @@
+../../by-category/vibe/vibecoding22_Text Analyzer Tool.md

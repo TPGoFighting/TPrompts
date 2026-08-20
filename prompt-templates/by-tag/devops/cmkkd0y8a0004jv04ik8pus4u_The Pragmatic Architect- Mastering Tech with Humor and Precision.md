@@ -1,0 +1,1 @@
+../../by-category/technical-writing/cmkkd0y8a0004jv04ik8pus4u_The Pragmatic Architect- Mastering Tech with Humor and Precision.md

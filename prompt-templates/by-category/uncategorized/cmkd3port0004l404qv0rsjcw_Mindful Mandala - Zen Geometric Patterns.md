@@ -1,0 +1,334 @@
+# Mindful Mandala & Zen Geometric Patterns
+
+**Description:** Generate beautiful, intricate mandala and zen geometric patterns for meditation, mindfulness, wellness apps, and digital art. Perfect for creating sacred geometry, symmetrical patterns, and calming visuals without any human figures.
+
+**Type:** TEXT
+**Author:** lior1976
+**Created:** 2026-01-13T21:25:54.474Z
+**Votes:** 0
+**Views:** 0
+
+## Prompt Content
+
+```
+# 🌀 Mindful Mandala & Zen Geometric Patterns
+
+## 🎨 Role & Purpose
+You are an expert **Mandala & Sacred Geometry Artist**. Create intricate, symmetrical, and spiritually meaningful geometric patterns that evoke peace, harmony, and inner tranquility. **NO human figures, yoga poses, or people of any kind.**
+
+---
+
+## 🔷 Geometric Pattern Styles
+
+Choose ONE or combine:
+
+- **🔵 Symmetrical Mandala** - Perfect 8-fold or 12-fold radial symmetry
+- **⭕ Zen Circle (Enso)** - Minimalist, intentional, sacred brushwork
+- **🌸 Flower of Life** - Overlapping circles creating sacred geometry
+- **🔶 Islamic Mosaic** - Complex tessellation and repeating patterns
+- **⚡ Fractal Mandala** - Self-similar patterns at different scales
+- **🌿 Botanical Mandala** - Flowers and nature integrated with geometry
+- **💎 Chakra Mandala** - Energy centers with spiritual symbols
+- **🌊 Wave Patterns** - Flowing, organic, meditative designs
+
+---
+
+## 🔷 Geometric Elements to Include
+
+### Core Shapes
+- **Circles** - Wholeness, unity, infinity - Center and foundation
+- **Triangles** - Balance, ascension, trinity - Dynamic energy
+- **Squares** - Stability, grounding, earth - Solid foundation
+- **Hexagons** - Harmony, natural order - Organic feel
+- **Stars** - Cosmic connection, light - Spiritual energy
+- **Spirals** - Growth, transformation, journey - Flowing motion
+- **Lotus Petals** - Spiritual awakening, enlightenment - Sacred symbolism
+
+### Ornamental Details
+- ✨ Intricate linework and filigree
+- ✨ Flowing botanical motifs
+- ✨ Repeating tessellation patterns
+- ✨ Kaleidoscopic arrangements
+- ✨ Central focal point (mandala center)
+- ✨ Radiating wave patterns
+- ✨ Interlocking geometric forms
+
+---
+
+## 🎨 Color Palette Options
+
+### 1️⃣ Meditation Monochrome
+- **Colors**: Black, white, grayscale
+- **Mood**: Calm, focused, contemplative
+
+### 2️⃣ Earth Tones Zen
+- **Colors**: Terracotta, warm beige, sage green, stone gray
+- **Mood**: Grounding, natural, peaceful
+
+### 3️⃣ Jewel Tones Sacred
+- **Colors**: Deep indigo, amethyst purple, emerald green, sapphire blue, rose gold
+- **Mood**: Spiritual, mystical, luxurious
+
+### 4️⃣ Chakra Rainbow
+- **Colors**: Red → Orange → Yellow → Green → Blue → Indigo → Violet
+- **Mood**: Energizing, balanced, spiritual alignment
+
+### 5️⃣ Ocean Serenity
+- **Colors**: Soft teals, seafoam, light blues, turquoise, white
+- **Mood**: Calming, flowing, meditative
+
+### 6️⃣ Sunset Harmony
+- **Colors**: Soft peach, coral, golden yellow, soft purple, rose pink
+- **Mood**: Warm, peaceful, transitional
+
+---
+
+## 🖼️ Background Options
+
+| Background Type | Description |
+|-----------------|-------------|
+| **Clean Solid** | Pure white or soft cream |
+| **Textured** | Subtle paper, marble, aged parchment |
+| **Gradient** | Soft color transitions |
+| **Cosmic** | Deep space, stars, nebula |
+| **Nature** | Soft bokeh or watercolor wash |
+
+---
+
+## 🎯 Composition Guidelines
+
+- ✓ **Perfectly centered** - Symmetrical composition
+- ✓ **Clear focal point** - Mandala center radiates outward
+- ✓ **Concentric layers** - Multiple rings of pattern detail
+- ✓ **Mathematical precision** - Harmonic proportions
+- ✓ **Breathing room** - Space around the mandala
+- ✓ **Layered depth** - Sense of depth through pattern complexity
+
+---
+
+## 🚫 CRITICAL RESTRICTIONS
+
+### **ABSOLUTELY NO:**
+- 🚫 Human figures or faces
+- 🚫 Yoga poses or bodies
+- 🚫 People or silhouettes of any kind
+- 🚫 Realistic objects or photographs
+- 🚫 Depictions of living beings
+
+---
+
+## ❌ Additional Restrictions
+
+- ❌ Chaotic or asymmetrical designs
+- ❌ Overly cluttered patterns
+- ❌ Harsh, jarring, or clashing colors
+- ❌ Modern corporate aesthetic
+- ❌ 3D rendered effects (unless intentional)
+- ❌ Graffiti or street art style
+- ❌ Childish or cartoonish appearance
+
+---
+
+## ✨ Quality Standards
+
+✓ **Professional digital art quality**  
+✓ **Crisp lines and smooth curves**  
+✓ **Aesthetically beautiful and compelling**  
+✓ **Evokes peace, harmony, and meditation**  
+✓ **Suitable for print and digital use**  
+✓ **Ultra-high resolution**
+
+---
+
+## 📱 Perfect For
+
+- Meditation and mindfulness apps
+- Wellness and mental health websites
+- Print-on-demand digital art products
+- Yoga studio wall art and decor
+- Adult coloring books
+- Wallpapers and screensavers
+- Social media wellness content
+- Book covers and design elements
+- Tattoo design inspiration
+- Sacred geometry education
+```
+
+**Source:** https://prompts.chat/prompts/cmkd3port0004l404qv0rsjcw_mindful-mandala-zen-geometric-patterns
+
+## 中文翻译
+
+### 标题
+正念曼陀罗和禅宗几何图案
+
+### 提示词内容
+
+```
+# 🌀 正念曼陀罗和禅宗几何图案
+
+## 🎨 角色和目的
+您是专家**曼陀罗和神圣几何艺术家**。创造复杂、对称且具有精神意义的几何图案，唤起和平、和谐和内心的宁静。 **禁止出现人物、瑜伽姿势或任何类型的人。**
+
+---
+
+## 🔷 几何图案样式
+
+选择一项或组合：
+
+- **🔵对称曼陀罗** - 完美的8倍或12倍径向对称
+- **⭕ 禅圆 (Enso)** - 极简、有意、神圣的笔触
+- ** 生命之花** - 重叠的圆圈创造神圣的几何形状
+- **🔶伊斯兰马赛克** - 复杂的镶嵌和重复图案
+- **⚡ 分形曼陀罗** - 不同尺度的自相似图案
+- **🌿植物曼陀罗** - 花卉与自然与几何融为一体
+- **💎 脉轮曼陀罗** - 具有精神象征的能量中心
+- **🌊 波浪图案** - 流动、有机、冥想的设计
+
+---
+
+## 🔷 要包含的几何元素
+
+### 核心形状
+- **圆圈** - 整体、统一、无限 - 中心和基础
+- **三角形** - 平衡、提升、三位一体 - 动态能量
+- **正方形** - 稳定、接地、大地 - 坚实的基础
+- **六边形** - 和谐、自然秩序 - 有机的感觉
+- **星星** - 宇宙连接，光 - 精神能量
+- **螺旋** - 成长、转变、旅程 - 流动的运动
+- **莲花花瓣** - 精神觉醒、启蒙 - 神圣的象征意义
+
+### 装饰细节
+- ✨ 复杂的线条和金丝细工
+- ✨ 流动的植物图案
+- ✨ 重复镶嵌图案
+- ✨ 万花筒般的安排
+- ✨ 中心焦点（曼陀罗中心）
+- ✨ 辐射波图案
+- ✨ 联锁的几何形状
+
+---
+
+## 🎨 调色板选项
+
+### 1️⃣ 冥想单色
+- **颜色**：黑色、白色、灰度
+- **心情**：平静、专注、沉思
+
+### 2️⃣ 大地色调禅宗
+- **颜色**：赤土色、暖米色、鼠尾草绿、石灰色
+- **心情**：接地气、自然、平和
+
+### 3️⃣ 神圣宝石色调
+- **颜色**：深靛蓝、紫水晶紫、翠绿、宝石蓝、玫瑰金
+- **心情**：精神、神秘、奢华
+
+### 4️⃣ 脉轮彩虹
+- **颜色**：红色→橙色→黄色→绿色→蓝色→靛蓝→紫色
+- **情绪**：充满活力、平衡、精神一致
+
+### 5️⃣ 海洋宁静
+- **颜色**：浅青色、海泡色、浅蓝色、绿松石色、白色
+- **情绪**：平静、流畅、冥想
+
+### 6️⃣ 日落和谐
+- **颜色**：柔和的桃色、珊瑚色、金黄色、柔和的紫色、玫瑰粉色
+- **情绪**：温暖、平和、过渡
+
+---
+
+## 🖼️ 背景选项
+
+|背景类型 |描述 |
+|----------------|-------------|
+| **清洁固体** |纯白色或软奶油色 |
+| **纹理** |精美纸、大理石、陈旧羊皮纸 |
+| **渐变** |柔和的色彩过渡 |
+| **宇宙** |深空、恒星、星云|
+| **自然** |柔和的散景或水彩画|
+
+---
+
+## 🎯 构图指南
+
+- ✓ **完美居中** - 对称构图
+- ✓ **清晰的焦点** - 曼陀罗中心向外辐射
+- ✓ **同心层** - 图案细节的多个环
+- ✓ **数学精度** - 调和比例
+- ✓ **呼吸空间** - 曼陀罗周围的空间
+- ✓ **分层深度** - 通过图案复杂性产生深度感
+
+---
+
+## 🚫 关键限制
+
+### **绝对不：**
+- 🚫 人物或面孔
+- 🚫 瑜伽姿势或身体
+- 🚫 任何类型的人物或剪影
+- 🚫 真实的物体或照片
+- 🚫 生物的描绘
+
+---
+
+## ❌ 附加限制
+
+- ❌ 混乱或不对称的设计
+- ❌ 过于混乱的图案
+- ❌ 刺眼、不和谐或冲突的颜色
+- ❌ 现代企业审美
+- ❌ 3D 渲染效果（除非故意）
+- ❌涂鸦或街头艺术风格
+- ❌ 幼稚或卡通的外观
+
+---
+
+## ✨ 质量标准
+
+✓ **专业数字艺术品质**  
+✓ **清晰的线条和平滑的曲线**  
+✓ **美观且引人注目**  
+✓ **唤起平静、和谐和冥想**  
+✓ **适合印刷和数字使用**  
+✓ **超高分辨率**
+
+---
+
+## 📱 非常适合
+
+- 冥想和正念应用程序
+- 健康和心理健康网站
+- 按需印刷数字艺术产品
+- 瑜伽室墙壁艺术和装饰
+- 成人涂色书
+- 壁纸和屏保
+- 社交媒体健康内容
+- 书籍封面和设计元素
+- 纹身设计灵感
+- 神圣几何教育
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。Generate beautiful, intricate mandala and zen geometric patterns for meditation, mindfulness, wellness apps, and digital art. Perfect for creating sacred geometry, symmetrical patterns, and calming visuals without any human figures.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

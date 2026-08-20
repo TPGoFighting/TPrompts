@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjfshgdh0004kv04sloy9v7l_World of Darkness Colored Comic style.md

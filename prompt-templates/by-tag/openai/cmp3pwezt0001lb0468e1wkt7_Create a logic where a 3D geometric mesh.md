@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmp3pwezt0001lb0468e1wkt7_Create a logic where a 3D geometric mesh.md

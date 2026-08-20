@@ -1,0 +1,1 @@
+../../by-category/skill/cmsfpgfk90001js04g6g2wiep_chess-strategy-skill.md

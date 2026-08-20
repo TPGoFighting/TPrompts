@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmozoj9ka0001if04i6qfnjmp_Black Effect on person.md

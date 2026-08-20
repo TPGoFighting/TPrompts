@@ -1,0 +1,1 @@
+../../by-category/data-science/cmjz1k3aq0007ky04igtxwt8n_SQL Query Generator from Natural Language.md

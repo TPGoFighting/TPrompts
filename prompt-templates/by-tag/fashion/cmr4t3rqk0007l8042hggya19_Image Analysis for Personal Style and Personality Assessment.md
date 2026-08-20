@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmr4t3rqk0007l8042hggya19_Image Analysis for Personal Style and Personality Assessment.md

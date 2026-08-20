@@ -1,0 +1,1 @@
+../../by-category/sponsors/githubsponsors6_Write Tier Descriptions.md

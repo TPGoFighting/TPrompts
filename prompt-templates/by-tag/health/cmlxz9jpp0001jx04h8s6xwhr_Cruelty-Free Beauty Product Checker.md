@@ -1,0 +1,1 @@
+../../by-category/health-wellness/cmlxz9jpp0001jx04h8s6xwhr_Cruelty-Free Beauty Product Checker.md

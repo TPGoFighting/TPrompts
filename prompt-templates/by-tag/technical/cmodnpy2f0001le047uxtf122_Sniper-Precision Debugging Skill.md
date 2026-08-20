@@ -1,0 +1,1 @@
+../../by-category/skill/cmodnpy2f0001le047uxtf122_Sniper-Precision Debugging Skill.md

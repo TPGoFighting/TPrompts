@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjsdbtud0001jr0445i15js2_Man in a City.md

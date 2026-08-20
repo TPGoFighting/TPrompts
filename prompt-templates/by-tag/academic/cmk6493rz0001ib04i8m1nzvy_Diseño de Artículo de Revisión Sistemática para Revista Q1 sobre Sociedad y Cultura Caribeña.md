@@ -1,0 +1,1 @@
+../../by-category/academic-writing/cmk6493rz0001ib04i8m1nzvy_Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña.md

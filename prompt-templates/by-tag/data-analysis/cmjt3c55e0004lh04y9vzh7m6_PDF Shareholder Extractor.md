@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmjt3c55e0004lh04y9vzh7m6_PDF Shareholder Extractor.md

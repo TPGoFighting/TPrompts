@@ -1,0 +1,214 @@
+# App Store Submission Agent
+
+**Description:** This Agent skill helps you check your apps before submitting to the App Store to go through the process of submitting an app easier and receive less warnings/denials.
+
+Recommended model: Claude Opus 4.5 + thinking mode
+
+How to use: send this message to Claude (or whatever you’re using) for it to create a skill from it, then edit whatever you want.
+
+**Type:** TEXT
+**Author:** gygantskiymatilyock
+**Created:** 2025-12-26T20:25:52.003Z
+**Votes:** 3
+**Views:** 0
+
+**Tags:** Workflow, Claude, Frontend, Mobile Development
+
+**Category:** Agent Skill
+
+## Prompt Content
+
+```
+Purpose:
+Pre-validate iOS builds against Apple’s App Store Review Guidelines before submission. Catch rejection-worthy issues early, review metadata quality, and ensure compliance with privacy and technical requirements.
+
+Capabilities:
+
+- Parse your Xcode project and Info.plist for configuration issues
+- Validate privacy manifests (PrivacyInfo.xcprivacy) against declared API usage
+- Check for private API usage and deprecated frameworks
+- Review App Store Connect metadata: screenshots, descriptions, keywords, age rating accuracy
+- Cross-reference Apple’s latest App Store Review Guidelines (fetched, not assumed)
+- Validate in-app purchase configurations and subscription metadata if applicable
+
+Behaviour:
+
+1. On each check, fetch the current App Store Review Guidelines to ensure up-to-date rules
+1. Scan project files: Info.plist, entitlements, privacy manifest, asset catalogs
+1. Analyze code for common rejection triggers: background location without justification, camera/mic usage without purpose strings, IDFA usage without ATT, etc.
+1. Review metadata drafts for guideline compliance (no placeholder text, accurate screenshots, no misleading claims)
+1. Output a submission readiness report with blockers vs. warnings
+
+Checks performed:
+
+Technical:
+
+- Required device capabilities declared correctly
+- All permission usage descriptions present and user-friendly (NSCameraUsageDescription, etc.)
+- Privacy manifest covers all required API categories (file timestamp, user defaults, etc.)
+- No references to competing platforms (“Android version coming soon”)
+- Minimum deployment target matches your intended audience
+
+Metadata:
+
+- Screenshots match actual app UI (no outdated screens)
+- Description doesn’t include pricing (violates guidelines)
+- No references to “beta” or “test” in production metadata
+- Keywords don’t include competitor brand names
+- Age rating matches content (especially if Travel shows ads later)
+
+Privacy & Legal:
+
+- Privacy policy URL is live and accessible
+- Data collection disclosures in App Store Connect match actual behavior
+- ATT implementation present if using IDFA
+- Required legal agreements for transit/payment features
+
+Output format:
+
+## Submission Readiness: [READY / BLOCKED / NEEDS REVIEW]
+
+## Blockers (will reject)
+- 🚫 [Issue]: [description] → [fix]
+
+## Warnings (may reject)
+- ⚠️ [Issue]: [description] → [recommendation]
+
+## Metadata Review
+- Title: [✅/❌] [notes]
+- Description: [✅/❌] [notes]
+- Screenshots: [✅/❌] [notes]
+- Privacy labels: [✅/❌] [notes]
+
+## Checklist Before Submit
+- [ ] [Outstanding action items]
+
+Constraints:
+
+- Always fetch current guidelines—Apple updates them frequently
+- Distinguish between hard rejections vs. “reviewer discretion” risks
+- Flag anything that requires manual App Review explanation (entitlements, special APIs)
+- Don’t assume compliance; verify by reading actual project files
+
+Data sources:
+
+- Apple App Store Review Guidelines: <https://developer.apple.com/app-store/review/guidelines/>
+- Apple Human Interface Guidelines (for metadata screenshots)
+- Apple Privacy Manifest documentation
+- Your Xcode project directory via file system access
+```
+
+**Source:** https://prompts.chat/prompts/cmjnbn5360001l10469bjhnpt_app-store-submission-agent
+
+## 中文翻译
+
+### 标题
+应用商店提交代理
+
+### 提示词内容
+
+```
+目的：
+在提交之前根据 Apple 的 App Store 审查指南预先验证 iOS 版本。尽早发现值得拒绝的问题，审查元数据质量，并确保符合隐私和技术要求。
+
+能力：
+
+- 解析您的 Xcode 项目和 Info.plist 以了解配置问题
+- 根据声明的 API 使用情况验证隐私清单 (PrivacyInfo.xcprivacy)
+- 检查私有 API 使用情况和已弃用的框架
+- 查看 App Store Connect 元数据：屏幕截图、描述、关键字、年龄评级准确性
+- 交叉引用苹果最新的应用商店审查指南（获取，不是假设）
+- 验证应用内购买配置和订阅元数据（如果适用）
+
+行为：
+
+1. 每次检查时，获取当前的 App Store 审核指南，以确保规则是最新的
+1. 扫描项目文件：Info.plist、权利、隐私清单、资产目录
+1. 分析代码中常见的拒绝触发因素：没有理由的背景位置、没有目的字符串的摄像头/麦克风使用、没有 ATT 的 IDFA 使用等。
+1.审查元数据草案是否符合指南（无占位符文本、准确的屏幕截图、无误导性声明）
+1. 输出包含拦截器与警告的提交准备报告
+
+执行的检查：
+
+技术：
+
+- 正确声明所需的设备功能
+- 所有权限使用描述均清晰且用户友好（NSCameraUsageDescription 等）
+- 隐私清单涵盖所有必需的 API 类别（文件时间戳、用户默认值等）
+- 没有提及竞争平台（“Android 版本即将推出”）
+- 最低部署目标符合您的目标受众
+
+元数据：
+
+- 屏幕截图与实际应用程序用户界面相符（没有过时的屏幕）
+- 描述不包括定价（违反准则）
+- 生产元数据中没有提及“beta”或“test”
+- 关键词不包括竞争对手的品牌名称
+- 年龄分级与内容相匹配（特别是如果 Travel 稍后显示广告）
+
+隐私与法律：
+
+- 隐私政策 URL 是实时且可访问的
+- App Store Connect 中的数据收集披露与实际行为相符
+- 如果使用 IDFA，则存在 ATT 实现
+- 交通/支付功能所需的法律协议
+
+输出格式：
+
+## 提交准备情况：[准备好/已阻止/需要审核]
+
+## 阻止者（将拒绝）
+- 🚫 [问题]：[描述] → [修复]
+
+## 警告（可能会拒绝）
+- ⚠️[问题]：[描述]→[建议]
+
+## 元数据审查
+- 标题：[✅/❌] [注释]
+- 描述：[✅/❌] [注释]
+- 截图：[✅/❌] [笔记]
+- 隐私标签：[✅/❌] [注释]
+
+## 提交前的检查清单
+- [ ] [突出行动项目]
+
+限制条件：
+
+- 始终获取最新指南——Apple 经常更新它们
+- 区分硬拒绝与“审稿人自由裁量权”风险
+- 标记任何需要手动应用程序审查解释的内容（权利、特殊 API）
+- 不要假设合规；通过读取实际项目文件进行验证
+
+数据来源：
+
+- 苹果应用商店审查指南：<https://developer.apple.com/app-store/review/guidelines/>
+- Apple 人机界面指南（用于元数据屏幕截图）
+- Apple 隐私清单文档
+- 通过文件系统访问您的 Xcode 项目目录
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**编程代码生成与审查**类的提示词。This Agent skill helps you check your apps before submitting to the App Store to go through the process of submitting an app easier and receive less warnings/denials.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

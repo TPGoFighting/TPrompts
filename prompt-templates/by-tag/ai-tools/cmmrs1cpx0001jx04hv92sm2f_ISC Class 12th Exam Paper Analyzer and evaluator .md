@@ -1,0 +1,1 @@
+../../by-category/exam-preparation/cmmrs1cpx0001jx04hv92sm2f_ISC Class 12th Exam Paper Analyzer and evaluator .md

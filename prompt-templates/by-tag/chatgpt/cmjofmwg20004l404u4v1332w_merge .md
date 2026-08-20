@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjofmwg20004l404u4v1332w_merge .md

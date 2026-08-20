@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Ambient Glow -->
+  <circle cx="400" cy="200" r="180" fill="#6366f1" opacity="0.15" filter="blur(60px)" />
+  <circle cx="250" cy="280" r="140" fill="#a855f7" opacity="0.12" filter="blur(50px)" />
+  
+  <!-- Glass Container -->
+  <rect x="60" y="50" width="680" height="350" rx="24" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  
+  <!-- Header Tag -->
+  <rect x="100" y="90" width="140" height="32" rx="16" fill="rgba(99,102,241,0.2)" stroke="rgba(129,140,248,0.4)" stroke-width="1" />
+  <text x="170" y="111" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#a5b4fc" text-anchor="middle">Fintech</text>
+  
+  <!-- Title -->
+  <text x="100" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" fill="url(#textGrad)">Remit Race</text>
+  
+  <!-- Description -->
+  <text x="100" y="225" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#94a3b8">
+    <tspan x="100" dy="0">MotionSites.ai 前端设计模板 · Mobile</tspan>
+    <tspan x="100" dy="28">dark deep navy-purple background phone mockups row fintech payments app heavy black display font paired with rounded fri...</tspan>
+  </text>
+  
+  <!-- Bottom Bar Info -->
+  <line x1="100" y1="330" x2="700" y2="330" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <text x="100" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">React · Vite · Tailwind CSS v4 · Framer Motion</text>
+  <text x="700" y="365" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#818cf8" text-anchor="end">MotionSites High-Fidelity UI</text>
+</svg>

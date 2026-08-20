@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjt4w7v70005ky04tdhq0ls5_3D Mechanical Part Image to Technical Drawing Conversion.md

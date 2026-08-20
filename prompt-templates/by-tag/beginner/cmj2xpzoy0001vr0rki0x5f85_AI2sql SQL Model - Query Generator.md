@@ -1,0 +1,1 @@
+../../by-category/data-science/cmj2xpzoy0001vr0rki0x5f85_AI2sql SQL Model - Query Generator.md

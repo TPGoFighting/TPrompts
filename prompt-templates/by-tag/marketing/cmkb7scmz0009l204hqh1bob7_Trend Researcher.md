@@ -1,0 +1,1 @@
+../../by-category/market-analysis/cmkb7scmz0009l204hqh1bob7_Trend Researcher.md

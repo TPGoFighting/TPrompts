@@ -1,0 +1,70 @@
+# Photo-to-Isometric: Reality Slice Generator
+
+**Description:** Transforms any uploaded architectural image into a photorealistic, floating isometric city block. It analyzes the source to preserve original style, lighting, and details, converting the scene into a high-end miniature maquette on a pure white background.
+
+**Type:** IMAGE
+**Author:** mehmetaltugakgul
+**Created:** 2025-12-26T21:53:17.451Z
+**Votes:** 2
+**Views:** 0
+
+**Tags:** Art, Nano Banana
+
+**Category:** Image Generation
+
+## Prompt Content
+
+```
+{
+  "prompt": "Create an ultra realistic isometric diorama based strictly on the uploaded image. Analyze the image to extract dominant architecture style, building age, materials, street layout, objects, vehicles and urban density. Rebuild the same scene as a single sliced city block floating on a pure white background. Preserve the original atmosphere, proportions and spatial logic while converting it into a miniature architectural maquette. Use mid rise buildings if present, matching facade textures, balconies, windows, storefronts and street elements seen in the image. Keep only elements visible in the source image. Remove anything not present. Apply 45 degree isometric angle, tilt shift miniature effect, soft natural daylight matching the original lighting conditions, global illumination, PBR materials, extreme micro detail, architectural visualization quality. Clean studio lighting. No sky, no horizon.",
+  "negative_prompt": "invented objects, extra buildings, fantasy elements, cartoon, anime, illustration, low poly, flat shading, fisheye, distortion, surreal details, inconsistent scale, random props",
+  "aspect_ratio": "1:1",
+  "style": "photorealistic",
+  "quality": "high"
+}
+```
+
+**Source:** https://prompts.chat/prompts/cmjnerki30004l404njk5dqmk_photo-to-isometric-reality-slice-generator
+
+## 中文翻译
+
+### 标题
+照片到等距：现实切片生成器
+
+### 提示词内容
+
+```
+{
+  "prompt": "严格根据上传的图像创建超逼真的等距立体模型。分析图像以提取主要建筑风格、建筑年代、材料、街道布局、物体、车辆和城市密度。将同一场景重建为漂浮在纯白色背景上的单个切片城市街区。保留原始氛围、比例和空间逻辑，同时将其转换为微型建筑模型。如果存在，请使用中层建筑，匹配外观纹理、阳台、窗户、店面和街道元素。仅保留源图像中可见的元素。应用 45 度等距角度、倾斜移位微型效果、与原始照明条件相匹配的柔和自然光、全局照明、PBR 材质、极端的微观细节、干净的工作室照明。”
+  "negative_prompt": "发明的物体、额外的建筑物、奇幻元素、卡通、动漫、插图、低多边形、平面阴影、鱼眼、扭曲、超现实的细节、不一致的比例、随机道具",
+  “纵横比”：“1：1”，
+  “风格”：“真实感”，
+  “质量”：“高”
+}
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。Transforms any uploaded architectural image into a photorealistic, floating isometric city block. It analyzes the source to preserve original style, lighting, and details, converting the scene into a high-end miniature maquette on a pure white background.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

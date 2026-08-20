@@ -1,0 +1,1 @@
+../../by-category/teaching-instruction/cmlydeafd0007kw04bp8u5vvl_30-Day Skill Mastery Challenge Prompt Template.md

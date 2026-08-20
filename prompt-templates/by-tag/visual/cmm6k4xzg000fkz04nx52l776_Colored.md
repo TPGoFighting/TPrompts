@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmm6k4xzg000fkz04nx52l776_Colored.md

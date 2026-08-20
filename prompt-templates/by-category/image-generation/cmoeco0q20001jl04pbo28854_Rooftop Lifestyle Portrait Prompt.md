@@ -1,0 +1,220 @@
+# Rooftop Lifestyle Portrait Prompt
+
+**Description:** This prompt provides a detailed photorealistic description for generating a natural, candid lifestyle portrait of a young female subject in an outdoor urban setting. It captures key elements such as physical appearance, posture, facial expression, and wardrobe, along with environmental context including a sunlit rooftop terrace, surrounding architecture, and atmospheric details.
+
+**Type:** IMAGE
+**Author:** krebetem
+**Created:** 2026-04-25T13:03:08.715Z
+**Votes:** 3
+**Views:** 0
+
+**Tags:** image-generation, image-prompt, ChatGPT
+
+**Category:** Image Generation
+
+## Prompt Content
+
+```
+{
+  "subject": {
+    "description": "A young blonde woman with fair skin sitting outdoors in direct sunlight, relaxed and slightly smiling with a soft squint due to bright light.",
+    "body": {
+      "type": "female, slim build",
+      "details": "light skin tone, straight blonde hair worn loose, natural makeup, slightly sunlit skin",
+      "pose": "reclining on a modern outdoor chair, body angled slightly to the right, legs extended forward, hands resting near her lap holding a phone"
+    },
+    "face": {
+      "expression": "soft smile, slightly squinting eyes due to sunlight, relaxed and confident",
+      "gaze_direction": "towards camera",
+      "head_tilt": "slight tilt to the right",
+      "skin": "smooth, natural skin with sunlight highlights and minimal imperfections"
+    },
+    "wardrobe": {
+      "top": "white fitted t-shirt",
+      "bottom": "light blue ripped jeans with knee tears",
+      "outerwear": "black jacket casually draped over shoulders",
+      "accessories": "sunglasses resting on top of head, minimal jewelry"
+    },
+    "hair": "loose blonde hair, naturally falling over shoulders with slight sun highlights"
+  },
+  "scene": {
+    "description": "A rooftop terrace during daytime with urban residential buildings in the background.",
+    "location": "Outdoor terrace in a city (Mediterranean/European style architecture).",
+    "setting": "Rooftop seating area",
+    "background_elements": "wooden planter boxes with green plants, concrete floor tiles, nearby buildings with windows and rooftops",
+    "lighting": "strong natural sunlight casting sharp shadows",
+    "atmosphere": "casual, sunny, relaxed daytime vibe"
+  },
+  "environment": {
+    "ambience": "bright daylight, outdoor, airy",
+    "style": "candid lifestyle moment",
+    "depth_of_field": "moderate depth of field, subject in focus, background slightly softened but still readable"
+  },
+  "camera": {
+    "device": "iPhone 13 rear camera",
+    "mode": "standard photo mode",
+    "lens": "wide lens (~26mm equivalent)",
+    "angle": "slightly top-down angle, as if standing above subject",
+    "aspect_ratio": "4:5",
+    "framing": "full body seated framing, subject centered slightly lower in frame",
+    "focus": "sharp focus on subject",
+    "stability": "handheld"
+  },
+  "image_quality": {
+    "resolution": "standard mobile resolution",
+    "grain": "very subtle grain",
+    "sharpness": "natural smartphone sharpening",
+    "compression_artifacts": "minimal",
+    "dynamic_range": "bright highlights with slight clipping in strongest sunlight areas"
+  },
+  "lighting": {
+    "type": "direct sunlight",
+    "quality": "harsh, high contrast lighting with strong shadows",
+    "effects": "sunlight highlights on hair and skin, sharp shadow edges on ground and chair"
+  },
+  "color_grading": {
+    "tone": "natural daylight",
+    "temperature": "slightly warm",
+    "contrast": "moderate to high contrast due to sunlight",
+    "saturation": "realistic, slightly vibrant",
+    "highlights": "bright, slightly blown in sunlit areas",
+    "shadows": "defined and darker"
+  },
+  "rendering": {
+    "style": "photorealistic smartphone photography",
+    "quality": "clean, natural, unfiltered look",
+    "skin_texture": "natural with sunlight reflections",
+    "post_processing": "minimal, straight-out-of-camera feel"
+  },
+  "artifacts": {
+    "lens_flare": "very subtle possible sunlight flare",
+    "noise_pattern": "minimal",
+    "motion_blur": "none",
+    "chromatic_aberration": "slight on high contrast edges"
+  },
+  "constraints": {
+    "focus_priority": "subject must remain primary focal point",
+    "avoid": "over-processed skin, artificial lighting, studio look, cinematic grading"
+  }
+}
+```
+
+**Source:** https://prompts.chat/prompts/cmoeco0q20001jl04pbo28854_rooftop-lifestyle-portrait-prompt
+
+## 中文翻译
+
+### 标题
+屋顶生活方式肖像提示
+
+### 提示词内容
+
+```
+{
+  “主题”：{
+    "description": "一位年轻的金发女郎，皮肤白皙，坐在阳光直射的户外，放松地微笑着，由于明亮的光线，她眯着眼睛。",
+    “身体”：{
+      "type": "女性，身材苗条",
+      “细节”：“浅肤色，松散的金色直发，自然妆容，轻微阳光照射的皮肤”，
+      “pose”：“斜倚在现代户外椅子上，身体稍微向右倾斜，双腿向前伸展，双手放在膝盖附近，拿着手机”
+    },
+    “脸”：{
+      “表情”：“笑容柔和，眼睛因阳光而微微眯起，轻松又自信”，
+      "gaze_direction": "朝向相机",
+      "head_tilt": "稍微向右倾斜",
+      “皮肤”：“光滑、自然的皮肤，阳光下的亮点和最小的瑕疵”
+    },
+    “衣柜”：{
+      "top": "白色合身T恤",
+      "bottom": "浅蓝色破洞牛仔裤，膝盖有撕裂",
+      "outerwear": "黑色夹克随意地披在肩上",
+      “配件”：“头顶上的太阳镜，最小的珠宝”
+    },
+    “头发”：“宽松的金发，自然垂落在肩上，带有轻微的阳光亮点”
+  },
+  “场景”：{
+    "description": "白天的屋顶露台，背景是城市住宅楼。",
+    "location": "城市的户外露台（地中海/欧式建筑）。",
+    "setting": "屋顶座位区",
+    "background_elements": "带有绿色植物的木制花盆、混凝土地砖、附近有窗户和屋顶的建筑物",
+    “照明”：“强烈的自然阳光投射出锐利的阴影”，
+    “atmosphere”：“休闲、阳光、轻松的白天氛围”
+  },
+  “环境”：{
+    "ambience": "明亮的日光、户外、通风",
+    "style": "坦率的生活方式时刻",
+    "depth_of_field": "中等景深，主体清晰，背景稍微柔化，但仍然可读"
+  },
+  “相机”：{
+    "device": "iPhone 13 后置摄像头",
+    "mode": "标准照片模式",
+    "lens": "广角镜头（~26mm 等效）",
+    "angle": "略微自上而下的角度，就好像站在主体上方一样",
+    “纵横比”：“4：5”，
+    "framing": "全身坐姿取景，拍摄对象居中稍低的位置",
+    “focus”：“聚焦于主题”，
+    “稳定性”：“手持”
+  },
+  “图像质量”：{
+    "resolution": "标准移动分辨率",
+    "grain": "非常微妙的颗粒",
+    "sharpness": "自然智能手机锐化",
+    "compression_artifacts": "最小",
+    "dynamic_range": "明亮的高光，在阳光最强的区域有轻微的剪裁"
+  },
+  “照明”：{
+    “type”：“直射阳光”，
+    “质量”：“严酷、高对比度的照明和强烈的阴影”，
+    “效果”：“头发和皮肤上的阳光高光，地面和椅子上的锐利阴影边缘”
+  },
+  “颜色分级”：{
+    “tone”：“自然光”，
+    "温度": "稍热",
+    "contrast": "因阳光而产生的中等到高对比度",
+    "saturation": "现实，略带活力",
+    "highlights": "明亮，在阳光照射的地方有轻微的风吹",
+    “shadows”：“清晰且更暗”
+  },
+  “渲染”：{
+    "style": "逼真的智能手机摄影",
+    “质量”：“干净、自然、未经过滤的外观”，
+    "skin_texture": "自然的阳光反射",
+    "post_processing": "最小的、直接从相机中出来的感觉"
+  },
+  “文物”：{
+    "lens_flare": "可能非常微妙的阳光耀斑",
+    "noise_pattern": "最小",
+    "motion_blur": "无",
+    "chromatic_aberration": "高对比度边缘轻微"
+  },
+  “约束”：{
+    "focus_priority": "拍摄对象必须保持主要焦点",
+    “避免”：“过度处理的皮肤、人工照明、工作室外观、电影分级”
+  }
+}
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。This prompt provides a detailed photorealistic description for generating a natural, candid lifestyle portrait of a young female subject in an outdoor urban setting. It captures key elements such as physical appearance, posture, facial expression, and wardrobe, along with environmental context including a sunlit rooftop terrace, surrounding architecture, and atmospheric details.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

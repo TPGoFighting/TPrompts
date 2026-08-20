@@ -1,0 +1,1893 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>TPrompts · 提示词模板库</title>
+<link rel="icon" type="image/svg+xml" href="assets/tippy_logo.svg" />
+<link rel="icon" type="image/png" href="assets/tippy_logo_transparent.png" />
+<link rel="apple-touch-icon" href="assets/tippy_logo_final.png" />
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:#fff9f1;color:#1f1b19;
+    font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif
+  }
+  :root{
+    --coral:#ff6b57; --sky:#a8ddff; --pink:#ffc5d8; --lime:#d9ef7f;
+    --ink:#1f1b19; --cream:#fff9f1; --sand:#ffd4a8; --grape:#d8cbff
+  }
+  .shell{width:min(1160px,calc(100% - 32px));margin:auto}
+
+  /* ===== 导航（保持参考模板风格，集成官方提仔 Logo） ===== */
+  .header{padding:16px 0;border-bottom:2px solid var(--ink);position:sticky;top:0;
+    background:rgba(255,249,241,.92);backdrop-filter:blur(14px);z-index:50}
+  .row{display:flex;align-items:center}
+  .brand{font-weight:950;font-size:22px;letter-spacing:-.05em;text-decoration:none;color:inherit;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+  .brand-logo-icon{width:28px;height:28px;object-fit:contain;transition:transform .2s ease;filter:drop-shadow(1px 1px 0 rgba(0,0,0,0.2))}
+  .brand:hover .brand-logo-icon{transform:scale(1.18) rotate(8deg)}
+  .brand .dot{display:inline-block;width:10px;height:10px;background:var(--coral);border-radius:50%;margin-left:1px}
+  .nav{margin-left:42px;display:flex;gap:22px}
+  .nav a{text-decoration:none;color:inherit;font-size:14px;font-weight:650;cursor:pointer}
+  .nav a:hover{text-decoration:underline}
+  .nav a.on{text-decoration:underline;text-decoration-thickness:3px;text-decoration-color:var(--coral)}
+  .actions{margin-left:auto}
+  .btn{border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);background:white;
+    border-radius:12px;padding:10px 14px;font-weight:850;font-size:13px;cursor:pointer;transition:.15s;font-family:inherit}
+  .btn:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+
+  /* ===== Hero（首页仅介绍） ===== */
+  .hero{padding:58px 0 34px;min-height:60vh;display:flex;flex-direction:column;justify-content:center}
+  .kicker{font-size:12px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+  .hero h1{font-size:clamp(52px,8.5vw,100px);line-height:.86;letter-spacing:-.075em;margin:15px 0 28px;max-width:980px;font-weight:950}
+  .hero h1 .hl{display:inline-block;background:var(--lime);padding:0 .08em;transform:rotate(-2deg)}
+  .hero p{font-size:18px;line-height:1.7;max-width:620px;color:#4a4542}
+  .hero .cta-row{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+
+  /* ===== 板块 ===== */
+  .section{padding:38px 0 64px}
+  .section-title{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px;gap:16px;flex-wrap:wrap}
+  .section-title h2{font-size:34px;letter-spacing:-.04em;margin:0}
+  .section-title .note{font-size:13px;font-weight:800}
+  .back-btn{display:inline-flex;align-items:center;gap:6px;border:2px solid var(--ink);background:#fff;
+    border-radius:10px;padding:8px 14px;font-weight:850;font-size:13px;cursor:pointer;
+    box-shadow:2px 2px 0 var(--ink);transition:.15s;font-family:inherit}
+  .back-btn:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+
+  /* ===== chips ===== */
+  .chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+  .chip{border:2px solid var(--ink);background:#fff;border-radius:999px;padding:8px 16px;
+    font-size:13px;font-weight:850;cursor:pointer;box-shadow:3px 3px 0 var(--ink);transition:.15s;font-family:inherit}
+  .chip:hover{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--ink)}
+  .chip.on{background:var(--ink);color:var(--cream)}
+
+  /* ===== 搜索 ===== */
+  .search{display:flex;gap:8px;margin-bottom:22px}
+  .search input{width:100%;border:2px solid var(--ink);border-radius:13px;padding:13px 16px;background:white;
+    font-size:15px;outline:none;font-family:inherit}
+  .search input:focus{box-shadow:4px 4px 0 var(--ink)}
+  .search button{border:2px solid var(--ink);border-radius:13px;background:var(--coral);color:#fff;
+    font-weight:900;font-size:15px;padding:0 22px;cursor:pointer;box-shadow:3px 3px 0 var(--ink);transition:.15s;font-family:inherit}
+  .search button:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+
+  /* ===== 卡片（预览图直接内嵌，圆角统一；动图/视频亦可作封面） ===== */
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .card{border:2px solid var(--ink);border-radius:18px;background:white;
+    box-shadow:5px 5px 0 var(--ink);display:flex;flex-direction:column;
+    transition:.18s;cursor:pointer;overflow:hidden}
+  .card:hover{transform:translate(-2px,-4px);box-shadow:8px 9px 0 var(--ink)}
+  .thumb{position:relative;aspect-ratio:16/9;background:#fff6e9;border-bottom:2px solid var(--ink);overflow:hidden}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .thumb video{width:100%;height:100%;object-fit:cover;display:block;background:#1a1613}
+  .thumb .play-hint{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(31,27,25,.25);color:#fff;font-weight:950;font-size:26px;pointer-events:none;
+    transition:opacity .18s;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+  .thumb:hover .play-hint{opacity:0}
+  .thumb .shimmer{position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(100deg,#fff6e9 40%,#ffe9d6 50%,#fff6e9 60%);
+    background-size:200% 100%;animation:shimmer 1.3s linear infinite}
+  @keyframes shimmer{to{background-position:-200% 0}}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .35s ease}
+  .thumb img.loaded{opacity:1}
+  .thumb video{width:100%;height:100%;object-fit:cover;display:block;background:#1a1613}
+  .thumb .play-hint.big{font-size:15px;letter-spacing:.06em;pointer-events:auto;cursor:pointer;
+    background:rgba(31,27,25,.45);border-radius:12px;flex-direction:column;gap:6px}
+  .thumb .play-hint.big:hover{background:var(--coral)}
+  .media-box video{width:100%;display:none;border-radius:14px;background:#000}
+  .thumb-fb{width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+    font-weight:950;font-size:clamp(44px,6vw,72px);letter-spacing:-.04em;color:var(--ink)}
+  .fb-1{background:var(--sky)} .fb-2{background:var(--pink)} .fb-3{background:var(--lime)}
+  .fb-4{background:var(--sand)} .fb-5{background:var(--grape)} .fb-6{background:#c7f0e0}
+  .body{padding:16px 18px 18px;flex:1;display:flex;flex-direction:column}
+  .card .meta{display:flex;justify-content:space-between;font-weight:950;font-size:12px}
+  .card h3{font-size:20px;line-height:1.15;margin:16px 0 8px;letter-spacing:-.02em}
+  .card p{font-size:13.5px;line-height:1.6;color:#625d59;
+    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .card-foot{margin-top:auto;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap}
+  .tag{background:var(--lime);border:1.5px solid var(--ink);border-radius:999px;padding:4px 8px;font-size:11px;font-weight:850;white-space:nowrap}
+  .copy{border:2px solid var(--ink);background:var(--ink);color:#fff;border-radius:10px;
+    padding:7px 13px;font-weight:900;font-size:12px;cursor:pointer;transition:.15s;white-space:nowrap;font-family:inherit}
+  .copy:hover{background:var(--coral);border-color:var(--coral)}
+  .copy.done{background:var(--coral);border-color:var(--coral)}
+  .empty{grid-column:1/-1;text-align:center;padding:56px 0;font-weight:900;font-size:16px}
+  #list{scroll-margin-top:96px}
+
+  /* ===== 分页 ===== */
+  .pager{display:flex;gap:8px;justify-content:center;margin-top:30px;flex-wrap:wrap;align-items:center}
+  .pg{border:2px solid var(--ink);background:#fff;border-radius:10px;min-width:40px;height:40px;
+    padding:0 13px;font-weight:850;font-size:13px;cursor:pointer;box-shadow:2px 2px 0 var(--ink);
+    transition:.15s;font-family:inherit;color:var(--ink)}
+  .pg:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+  .pg.on{background:var(--ink);color:var(--cream)}
+  .pg.dis{opacity:.35;pointer-events:none}
+  .pg.dots{pointer-events:none;border:0;box-shadow:none;background:transparent;min-width:20px;padding:0}
+
+  /* ===== 分页 ===== */
+  .pager{display:flex;gap:8px;justify-content:center;margin-top:30px;flex-wrap:wrap;align-items:center}
+  .pg{border:2px solid var(--ink);background:#fff;border-radius:10px;min-width:40px;height:40px;
+    padding:0 13px;font-weight:850;font-size:13px;cursor:pointer;box-shadow:2px 2px 0 var(--ink);
+    transition:.15s;font-family:inherit;color:var(--ink)}
+  .pg:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+  .pg.on{background:var(--ink);color:var(--cream)}
+  .pg.dis{opacity:.35;pointer-events:none}
+  .pg.dots{pointer-events:none;border:0;box-shadow:none;background:transparent;min-width:20px;padding:0}
+
+  /* ===== 灵感页（文本优先，无封面） ===== */
+  .igrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .icard{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:18px 20px;
+    box-shadow:4px 4px 0 var(--ink);cursor:pointer;transition:.15s;display:flex;flex-direction:column;
+    position:relative;overflow:hidden}
+  .icard:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}
+  .icard::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--coral)}
+  .icard:nth-child(3n+2)::before{background:var(--sky)}
+  .icard:nth-child(3n)::before{background:var(--lime)}
+  .icat{display:inline-block;background:var(--ink);color:var(--cream);border-radius:999px;
+    padding:3px 10px;font-size:10px;font-weight:900;letter-spacing:.06em;align-self:flex-start}
+  .ai-badge{display:inline-block;background:var(--grape);color:var(--ink);border:1.5px solid var(--ink);
+    border-radius:999px;padding:2px 8px;font-size:9.5px;font-weight:900;letter-spacing:.05em;white-space:nowrap}
+  .icard h3{font-size:19px;letter-spacing:-.02em;line-height:1.2;margin:12px 0 4px}
+  .ien{font-size:12px;font-weight:700;color:#9a928a;margin-bottom:8px;overflow:hidden;
+    text-overflow:ellipsis;white-space:nowrap}
+  .idesc{font-size:13px;line-height:1.65;color:#625d59;display:-webkit-box;-webkit-line-clamp:3;
+    -webkit-box-orient:vertical;overflow:hidden;flex:1}
+  .icard-foot{margin-top:12px;padding-top:10px;border-top:1.5px dashed #e8e2d8;display:flex;
+    align-items:center;justify-content:space-between;gap:8px}
+  .icard-tags{display:flex;gap:6px;flex-wrap:wrap;min-width:0}
+  .itag{border:1.5px solid var(--ink);border-radius:999px;padding:2px 7px;font-size:10px;
+    font-weight:850;white-space:nowrap;color:var(--ink)}
+  .icopy{border:2px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;
+    padding:5px 10px;font-weight:900;font-size:11px;cursor:pointer;transition:.15s;
+    white-space:nowrap;font-family:inherit;flex-shrink:0}
+  .icopy:hover{background:var(--coral);border-color:var(--coral)}
+  .icopy.done{background:var(--coral);border-color:var(--coral)}
+
+  /* ===== 灵感详情页（独立设计，区别于提示词库） ===== */
+  .idp{max-width:720px;margin:0 auto}
+  .idp-head{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:28px 30px;
+    box-shadow:5px 5px 0 var(--ink);position:relative;overflow:hidden;margin-bottom:16px}
+  .idp-head::before{content:'';position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--coral)}
+  .idp-bc{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:850;margin-bottom:14px}
+  .idp-bc a{color:inherit;cursor:pointer;text-decoration:underline}
+  .idp-bc a:hover{color:var(--coral)}
+  .idp-title{font-size:clamp(26px,4vw,38px);letter-spacing:-.04em;font-weight:950;line-height:1.05;margin:0 0 10px}
+  .idp-desc{font-size:14px;line-height:1.7;color:#625d59}
+  .idp-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;align-items:center}
+  .idp-badge{background:var(--ink);color:var(--cream);border-radius:999px;padding:4px 12px;
+    font-size:11px;font-weight:900;letter-spacing:.05em}
+  .idp-tag{border:1.5px solid var(--ink);border-radius:999px;padding:4px 10px;font-size:11px;font-weight:850}
+  .idp-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+  .idp-actions .btn{font-size:13px;padding:10px 18px}
+  .idp-source{margin-left:auto;font-size:11px;font-weight:800;opacity:.45;letter-spacing:.04em;
+    display:flex;align-items:center;gap:4px}
+  .idp-source::before{content:'';display:inline-block;width:8px;height:8px;border-radius:50%;
+    background:var(--coral)}
+  .idp-tabs{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+  .idp-tab{border:2px solid var(--ink);border-radius:10px;background:#fff;padding:9px 16px;
+    font-weight:850;font-size:13px;cursor:pointer;box-shadow:2px 2px 0 var(--ink);
+    transition:.15s;font-family:inherit}
+  .idp-tab:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+  .idp-tab.on{background:var(--ink);color:var(--cream)}
+  .idp-panel{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:24px 26px;
+    box-shadow:5px 5px 0 var(--ink)}
+  .idp-panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;
+    gap:10px;flex-wrap:wrap}
+  .idp-panel-label{font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+  .idp-panel .md-body{font-size:13.5px;line-height:1.8}
+  .idp-nav{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .daily{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:22px;box-shadow:5px 5px 0 var(--ink)}
+  .daily .label{display:inline-block;background:var(--coral);color:#fff;border:2px solid var(--ink);
+    border-radius:999px;padding:4px 12px;font-size:11px;font-weight:900;margin-bottom:14px}
+  .daily h3{font-size:26px;letter-spacing:-.03em;margin-bottom:8px}
+  .daily .why{font-size:14px;line-height:1.65;color:#625d59;margin-bottom:16px}
+  .daily pre{font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;
+    background:#fff6e9;padding:16px;border:1.5px dashed var(--ink);border-radius:14px;
+    margin-bottom:16px;max-height:260px;overflow:auto}
+  .ideas{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+  .idea{border:2px solid var(--ink);border-radius:16px;padding:18px;background:#fff;box-shadow:4px 4px 0 var(--ink)}
+  .idea:nth-child(2){background:var(--pink)}
+  .idea:nth-child(3){background:var(--sand)}
+  .idea b{display:block;font-size:15px;margin-bottom:6px}
+  .idea span{font-size:13px;line-height:1.6;color:#4a4542}
+
+  /* ===== 品味页 ===== */
+  .coll-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .coll{border:2px solid var(--ink);border-radius:20px;padding:25px;min-height:170px;
+    box-shadow:4px 4px 0 var(--ink);display:flex;flex-direction:column;transition:.18s;cursor:pointer}
+  .coll:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}
+  .coll:nth-child(1){background:var(--sky)}
+  .coll:nth-child(2){background:var(--pink)}
+  .coll:nth-child(3){background:var(--lime)}
+  .coll:nth-child(4){background:var(--sand)}
+  .coll .curator{font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+  .coll h3{font-size:24px;letter-spacing:-.03em;margin:12px 0 8px}
+  .coll p{font-size:14px;line-height:1.6;color:#4a4542}
+  .coll .count{margin-top:auto;padding-top:14px;font-size:12px;font-weight:950}
+
+  /* ===== 品味页（策展版） ===== */
+  .cur-note{border:2px solid var(--ink);border-radius:16px;background:#fff;padding:18px 22px;
+    box-shadow:4px 4px 0 var(--ink);margin-bottom:26px;font-size:14px;line-height:1.8;font-weight:700}
+  .cur-sec{margin-bottom:34px}
+  .cur-head{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .cur-head h3{font-size:22px;letter-spacing:-.03em}
+  .cur-badge{background:var(--ink);color:var(--cream);border-radius:999px;padding:4px 12px;
+    font-size:10px;font-weight:900;letter-spacing:.08em}
+  .cur-sub{font-size:13px;font-weight:800;color:#8a837c;margin-left:auto}
+  .cur-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .cur-grid > *,.pick-grid > *,.igrid > *,.portal-grid > *{min-width:0}
+  .cur-card{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:18px 20px;
+    box-shadow:4px 4px 0 var(--ink);cursor:pointer;transition:.15s;display:flex;flex-direction:column}
+  .cur-card:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}
+  .cur-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .cur-src{border-radius:999px;padding:3px 9px;font-size:10px;font-weight:900;letter-spacing:.06em;
+    border:1.5px solid var(--ink)}
+  .cur-src.lib{background:var(--sky)}
+  .cur-src.ins{background:var(--lime)}
+  .cur-card h4{font-size:17px;letter-spacing:-.01em;line-height:1.25;margin-bottom:8px}
+  .cur-quote{font-size:13px;line-height:1.7;color:#625d59;flex:1}
+  .cur-quote::before{content:'“';color:var(--coral);font-weight:950}
+  .cur-quote::after{content:'”';color:var(--coral);font-weight:950}
+  .cur-foot{margin-top:12px;padding-top:10px;border-top:1.5px dashed #e8e2d8;font-size:11.5px;
+    font-weight:850;color:#8a837c;display:flex;justify-content:space-between;gap:8px}
+  .cur-foot .tag{font-size:10px}
+
+  /* ===== 首页门户 + 提仔 IP 视觉体系 ===== */
+  .hero-tippy-wrap{display:grid;grid-template-columns:1fr 380px;gap:36px;align-items:center}
+  @media(max-width:920px){.hero-tippy-wrap{grid-template-columns:1fr}}
+  .tippy-hero-img-box{position:relative;display:flex;justify-content:center;align-items:center}
+  .tippy-hero-img{width:100%;max-width:360px;height:auto;border-radius:24px;border:3px solid var(--ink);
+    box-shadow:8px 8px 0 var(--ink);background:var(--lime);transition:all .3s cubic-bezier(0.34, 1.56, 0.64, 1);animation:heroFloat 4s ease-in-out infinite}
+  @keyframes heroFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(-1deg)}}
+  .tippy-hero-img:hover{transform:rotate(-2deg) scale(1.04);box-shadow:12px 14px 0 var(--ink)}
+  .tippy-radar-badge{position:absolute;top:-14px;right:-10px;background:var(--ink);color:var(--lime);
+    border:2.5px solid var(--lime);border-radius:999px;padding:6px 14px;font-size:11.5px;font-weight:950;
+    letter-spacing:.05em;display:flex;align-items:center;gap:6px;box-shadow:4px 4px 0 var(--ink);animation:radarGlow 2s infinite ease-in-out}
+  @keyframes radarGlow{0%,100%{transform:scale(1);box-shadow:4px 4px 0 var(--ink)}50%{transform:scale(1.08);box-shadow:0 0 16px var(--lime), 4px 4px 0 var(--ink)}}
+  .tippy-dot{width:8px;height:8px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime)}
+
+  .portal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
+  @media(max-width:820px){.portal-grid{grid-template-columns:1fr}}
+  .portal-card{border:2.5px solid var(--ink);border-radius:24px;padding:26px;box-shadow:6px 6px 0 var(--ink);
+    display:flex;flex-direction:column;transition:all .22s cubic-bezier(0.34, 1.56, 0.64, 1);cursor:pointer;position:relative;overflow:hidden}
+  .portal-card:hover{transform:translate(-4px,-6px);box-shadow:10px 12px 0 var(--ink)}
+  .portal-card:nth-child(1){background:var(--sky)}
+  .portal-card:nth-child(2){background:var(--pink)}
+  .portal-card:nth-child(3){background:var(--sand)}
+  .portal-card-top{display:flex;justify-content:space-between;align-items:flex-start}
+  .portal-card .pnum{font-size:46px;font-weight:950;letter-spacing:-.05em;line-height:1}
+  .portal-card .pavatar{width:76px;height:76px;border-radius:18px;border:2.5px solid var(--ink);
+    object-fit:cover;background:#fff;box-shadow:3px 3px 0 var(--ink);transition:transform .2s ease}
+  .portal-card:hover .pavatar{transform:scale(1.08) rotate(3deg)}
+  .portal-card .plabel{font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;
+    margin-top:14px;color:#4a4542}
+  .portal-card h3{font-size:25px;letter-spacing:-.03em;margin:4px 0 8px;font-weight:950}
+  .portal-card p{font-size:14px;line-height:1.65;color:#4a4542;flex:1}
+  .portal-card .pgo{margin-top:18px;font-size:13px;font-weight:950;display:inline-flex;align-items:center;gap:4px;transition:gap .2s ease}
+  .portal-card:hover .pgo{gap:8px}
+
+  /* ===== 提仔 IP 设定与世界观展区 ===== */
+  .lore-banner{margin-top:48px;border:3px solid var(--ink);border-radius:26px;background:var(--ink);
+    color:var(--cream);padding:36px 40px;box-shadow:6px 6px 0 var(--coral);position:relative;overflow:hidden}
+  .lore-banner h2{font-size:clamp(26px,3.8vw,36px);letter-spacing:-.03em;line-height:1.2;margin-bottom:12px;font-weight:950}
+  .lore-banner h2 .lime-txt{color:var(--lime)}
+  .lore-banner p{font-size:15px;line-height:1.8;color:#d5cec5;max-width:860px}
+  .lore-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+  @media(max-width:820px){.lore-grid{grid-template-columns:1fr}}
+  .lore-card{border:2px solid rgba(255,249,241,.25);border-radius:18px;background:rgba(255,255,255,.06);
+    padding:22px;display:flex;flex-direction:column;gap:10px;transition:transform .2s ease}
+  .lore-card:hover{transform:translateY(-3px);background:rgba(255,255,255,.09);border-color:var(--lime)}
+  .lore-card-head{display:flex;align-items:center;gap:12px}
+  .lore-card-img{width:48px;height:48px;border-radius:14px;border:2px solid var(--lime);object-fit:cover;background:#fff;box-shadow:2px 2px 0 var(--lime)}
+  .lore-card h4{font-size:18px;font-weight:950;color:#fff}
+  .lore-card p{font-size:13.5px;line-height:1.7;color:#b8b0a6}
+
+  /* ===== 提仔《TP makes Prompts.》故事剧场 ===== */
+  .story-strip-sec{margin-top:54px;border:2.5px solid var(--ink);border-radius:26px;background:#fff;
+    padding:36px;box-shadow:7px 7px 0 var(--ink)}
+  .story-strip-head{display:flex;align-items:center;gap:14px;margin-bottom:24px;flex-wrap:wrap}
+  .story-strip-head h3{font-size:26px;letter-spacing:-.03em;font-weight:950}
+  .story-chapters{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  @media(max-width:860px){.story-chapters{grid-template-columns:1fr}}
+  .chapter-box{border:2.5px solid var(--ink);border-radius:20px;padding:22px;background:var(--cream);
+    box-shadow:4px 4px 0 var(--ink);display:grid;grid-template-columns:140px 1fr;gap:20px;align-items:center;transition:all .2s ease}
+  .chapter-box:hover{transform:translate(-3px,-3px);box-shadow:7px 7px 0 var(--ink);background:#fff}
+  @media(max-width:560px){.chapter-box{grid-template-columns:1fr}}
+  .chapter-img{width:100%;aspect-ratio:1/1;border-radius:16px;border:2.5px solid var(--ink);object-fit:cover;background:#fff;box-shadow:3px 3px 0 var(--ink);transition:transform .2s ease}
+  .chapter-box:hover .chapter-img{transform:scale(1.05) rotate(1deg)}
+  .chapter-body .ch-tag{font-size:11px;font-weight:950;background:var(--sand);border:1.5px solid var(--ink);border-radius:999px;padding:3px 10px;display:inline-block;margin-bottom:8px}
+  .chapter-body h4{font-size:19px;font-weight:950;margin-bottom:6px;line-height:1.3}
+  .chapter-body p{font-size:13.5px;line-height:1.7;color:#524c47}
+
+  /* ===== Prompt Planet · 提仔星际漫游与灵感播种计划 ===== */
+  .planet-mission-sec{margin-top:54px;border:3px solid var(--ink);border-radius:26px;background:linear-gradient(135deg, #181614 0%, #26221f 100%);
+    color:var(--cream);padding:36px;box-shadow:8px 8px 0 var(--lime);position:relative;overflow:hidden}
+  .planet-mission-sec::before{content:'';position:absolute;top:-60px;right:-60px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle, rgba(199,240,64,0.15) 0%, transparent 70%);pointer-events:none}
+  .planet-mission-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+  .planet-mission-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  @media(max-width:860px){.planet-mission-grid{grid-template-columns:1fr}}
+  .planet-mission-card{border:2.5px solid rgba(255,255,255,0.25);border-radius:20px;background:rgba(255,255,255,0.05);
+    padding:24px;display:flex;flex-direction:column;gap:16px;box-shadow:4px 4px 0 rgba(0,0,0,0.5);transition:all .25s ease}
+  .planet-mission-card:hover{transform:translate(-3px,-4px);border-color:var(--lime);box-shadow:8px 10px 0 var(--lime);background:rgba(255,255,255,0.08)}
+  .planet-mission-thumb-box{position:relative;border-radius:16px;overflow:hidden;border:2px solid rgba(255,255,255,0.25);background:#ffffff;display:flex;align-items:center;justify-content:center;padding:12px;min-height:260px}
+  .planet-mission-thumb-box.bg-card1{background:#fefefe}
+  .planet-mission-thumb-box.bg-card2{background:#f9f7f5}
+  .planet-mission-thumb{max-height:240px;width:100%;object-fit:contain;display:block;transition:transform .3s cubic-bezier(0.34, 1.56, 0.64, 1)}
+  .planet-mission-card:hover .planet-mission-thumb{transform:scale(1.06) rotate(1deg)}
+  .planet-mission-card-body{display:flex;flex-direction:column;gap:8px}
+  .planet-mission-card-title{font-size:18px;font-weight:950;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .planet-mission-card-desc{font-size:13.5px;line-height:1.75;color:#c5beb5}
+
+  /* ===== 提仔工作流画廊（8步循环） ===== */
+  .tippy-story-sec{margin-top:54px;border:2.5px solid var(--ink);border-radius:26px;background:#fff;
+    padding:36px;box-shadow:7px 7px 0 var(--ink)}
+  .tippy-story-head{display:flex;align-items:center;gap:14px;margin-bottom:24px;flex-wrap:wrap}
+  .tippy-story-head h3{font-size:26px;letter-spacing:-.03em;font-weight:950}
+  .tippy-story-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  @media(max-width:960px){.tippy-story-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:540px){.tippy-story-grid{grid-template-columns:1fr}}
+  .story-step-card{border:2.5px solid var(--ink);border-radius:20px;background:var(--cream);padding:18px;
+    display:flex;flex-direction:column;box-shadow:4px 4px 0 var(--ink);transition:all .2s cubic-bezier(0.34, 1.56, 0.64, 1)}
+  .story-step-card:hover{transform:translate(-3px,-4px);box-shadow:7px 8px 0 var(--ink);background:#fff}
+  .story-step-thumb{aspect-ratio:1/1;border-radius:16px;border:2px solid var(--ink);overflow:hidden;
+    margin-bottom:12px;background:#fff;display:flex;align-items:center;justify-content:center;padding:8px}
+  .story-step-thumb img{max-width:100%;max-height:100%;object-fit:contain;display:block;transition:transform .25s ease}
+  .story-step-card:hover .story-step-thumb img{transform:scale(1.08) rotate(2deg)}
+  .story-step-num{font-size:11px;font-weight:950;background:var(--lime);border:1.5px solid var(--ink);
+    border-radius:999px;padding:3px 9px;align-self:flex-start;margin-bottom:8px}
+  .story-step-card h4{font-size:17.5px;font-weight:950;margin-bottom:4px}
+  .story-step-card p{font-size:13px;line-height:1.65;color:#5a544f}
+
+  /* ===== 提仔互动百态交互实验室 (Tippy Interactive Stage) ===== */
+  .tippy-stage-sec{margin-top:54px;border:3px solid var(--ink);border-radius:26px;background:#fff;
+    padding:36px;box-shadow:7px 7px 0 var(--ink);position:relative;overflow:hidden}
+  .stage-layout{display:grid;grid-template-columns:320px 1fr;gap:32px;align-items:center;margin-top:24px}
+  @media(max-width:820px){.stage-layout{grid-template-columns:1fr}}
+  .stage-avatar-box{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center}
+  .stage-avatar-img{width:100%;max-width:260px;aspect-ratio:1/1;object-fit:contain;border-radius:22px;
+    border:3px solid var(--ink);background:#ffffff;box-shadow:6px 6px 0 var(--ink);padding:10px;
+    transition:all .3s cubic-bezier(0.34, 1.56, 0.64, 1)}
+  .stage-quote-bubble{margin-top:16px;background:var(--ink);color:var(--cream);border-radius:16px;
+    padding:14px 18px;font-size:14px;font-weight:900;line-height:1.5;box-shadow:4px 4px 0 var(--coral);
+    border:2px solid var(--coral);transition:all .2s ease;min-height:58px;display:flex;align-items:center;justify-content:center;text-align:center;width:100%;max-width:280px}
+  .mood-buttons{display:flex;flex-direction:column;gap:12px}
+  .mood-btn{border:2.5px solid var(--ink);background:var(--cream);border-radius:18px;padding:16px 20px;
+    cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;
+    box-shadow:3px 3px 0 var(--ink);transition:all .2s ease;font-family:inherit;text-align:left}
+  .mood-btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);background:#fff}
+  .mood-btn.active{background:var(--ink);color:var(--cream);transform:translate(3px,3px);box-shadow:0 0 0 var(--ink)}
+  .mood-btn.active .mood-btn-tag{background:var(--lime);color:var(--ink)}
+  .mood-btn-info b{display:block;font-size:15.5px;letter-spacing:-.01em}
+  .mood-btn-info span{font-size:12.5px;opacity:.78;margin-top:3px;display:block}
+  .mood-btn-tag{border:1.5px solid var(--ink);border-radius:999px;padding:3px 10px;font-size:10.5px;
+    font-weight:950;background:var(--sand);color:var(--ink);white-space:nowrap}
+
+  /* ===== 浮动提仔互动挂件 (Floating Tippy Companion) ===== */
+  .tippy-floating-pet{position:fixed;bottom:24px;right:24px;z-index:99;display:flex;align-items:flex-end;
+    gap:12px;pointer-events:auto;cursor:pointer;animation:floatPet 3s ease-in-out infinite}
+  @keyframes floatPet{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .tippy-pet-avatar{width:60px;height:60px;border-radius:20px;border:2.5px solid var(--ink);
+    background:var(--lime);box-shadow:4px 4px 0 var(--ink);object-fit:contain;padding:4px;transition:transform .2s ease;flex-shrink:0}
+  .tippy-floating-pet:hover .tippy-pet-avatar{transform:scale(1.15) rotate(6deg);box-shadow:6px 6px 0 var(--ink)}
+  .tippy-pet-speech{background:#fff;border:2.5px solid var(--ink);border-radius:16px;padding:10px 14px;
+    font-size:12.5px;font-weight:900;line-height:1.5;box-shadow:4px 4px 0 var(--ink);width:210px;white-space:normal;word-break:break-word;
+    opacity:0;transform:translateY(6px);transition:all .2s ease;pointer-events:none;color:var(--ink)}
+  .tippy-floating-pet:hover .tippy-pet-speech, .tippy-pet-speech.active{opacity:1;transform:translateY(0)}
+
+  /* ===== 编辑推荐位 ===== */
+  .pick-zone{margin-top:60px;margin-bottom:20px}
+  .pick-zone .pick-head{display:flex;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+  .pick-zone .pick-head h3{font-size:24px;letter-spacing:-.02em;font-weight:950;margin:0}
+  .pick-zone .pick-head .more{margin-left:auto;font-size:13px;font-weight:900;cursor:pointer;text-decoration:underline}
+  .pick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .pick-card{border:2.5px solid var(--ink);border-radius:18px;background:#fff;padding:18px 20px;
+    box-shadow:4px 4px 0 var(--ink);cursor:pointer;transition:all .18s ease;display:flex;flex-direction:column}
+  .pick-card:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}
+  .pick-card .cur-src{align-self:flex-start;margin-bottom:10px}
+  .pick-card h4{font-size:17px;line-height:1.3;letter-spacing:-.01em;margin-bottom:6px;font-weight:950}
+  .pick-card .pick-note{font-size:13px;line-height:1.65;color:#625d59;flex:1;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* ===== Roadmap 时间线 ===== */
+  .roadmap{position:relative;padding-left:34px;margin-top:8px}
+  .roadmap::before{content:'';position:absolute;left:9px;top:8px;bottom:8px;width:2px;background:var(--ink);
+    opacity:.18}
+  .rm-item{position:relative;margin-bottom:20px}
+  .rm-item::before{content:'';position:absolute;left:-31px;top:4px;width:16px;height:16px;border-radius:50%;
+    border:2.5px solid var(--ink);background:var(--cream)}
+  .rm-item.done::before{background:var(--lime)}
+  .rm-item.wip::before{background:var(--sand)}
+  .rm-item.planned::before{background:#fff}
+  .rm-card{border:2px solid var(--ink);border-radius:16px;background:#fff;padding:16px 20px;
+    box-shadow:3px 3px 0 var(--ink);display:flex;gap:14px;align-items:flex-start}
+  .rm-card:hover{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--ink)}
+  .rm-badge{border-radius:999px;padding:4px 11px;font-size:10px;font-weight:900;letter-spacing:.06em;
+    flex-shrink:0;border:1.5px solid var(--ink)}
+  .rm-badge.done{background:var(--lime)}
+  .rm-badge.wip{background:var(--sand)}
+  .rm-badge.planned{background:#fff}
+  .rm-body{flex:1}
+  .rm-body b{font-size:15px;letter-spacing:-.01em;display:block;margin-bottom:4px}
+  .rm-body p{font-size:13px;line-height:1.65;color:#625d59}
+  .rm-card .rm-date{margin-left:auto;font-size:11px;font-weight:850;color:#a49b92;white-space:nowrap}
+
+  /* ===== 详情页 ===== */
+  .detail-grid{display:grid;grid-template-columns:340px 1fr;gap:16px;align-items:start;margin-bottom:16px}
+  .detail-media{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:14px;
+    box-shadow:5px 5px 0 var(--ink)}
+  .detail-media .thumb{border-radius:14px;border-bottom:0}
+  .detail-media .plabel{font-size:11px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-top:12px;text-align:center}
+  .detail-head{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:26px;
+    box-shadow:5px 5px 0 var(--ink)}
+  .crumb{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:850;flex-wrap:wrap}
+  .crumb a{color:inherit;cursor:pointer;text-decoration:underline}
+  .detail-head h1{font-size:clamp(28px,4.5vw,44px);letter-spacing:-.04em;margin:16px 0 10px;line-height:1.05}
+  .detail-head .desc{font-size:15px;line-height:1.7;color:#4a4542}
+  .meta-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px;align-items:center}
+  .meta-row .tag{font-size:12px;padding:5px 11px}
+  .media-link{margin-left:auto;font-size:12.5px;font-weight:850;color:inherit;text-decoration:underline}
+  .tabs{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+  .tab{border:2px solid var(--ink);border-radius:12px;background:#fff;padding:9px 16px;
+    font-weight:850;font-size:13.5px;cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:.15s;font-family:inherit}
+  .tab:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+  .tab.on{background:var(--ink);color:var(--cream)}
+  .prompt-panel{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:22px;
+    box-shadow:5px 5px 0 var(--ink)}
+  .panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:10px;flex-wrap:wrap}
+  .panel-head .plabel{font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+  .prompt-panel pre{font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;
+    background:#fff6e9;padding:18px;border:1.5px dashed var(--ink);border-radius:14px}
+  .usage-panel pre{font:14px/1.8 ui-sans-serif,system-ui,"PingFang SC",sans-serif;white-space:pre-wrap;
+    background:#f7f4ec;padding:18px;border:1.5px dashed var(--ink);border-radius:14px}
+
+  /* ===== Markdown 渲染 ===== */
+  .md-body{font-size:13.5px;line-height:1.8;color:#3d3935;word-break:break-word}
+  .md-body h3{font-size:16px;font-weight:850;letter-spacing:-.01em;margin:20px 0 8px;color:var(--ink)}
+  .md-body h4{font-size:14.5px;font-weight:800;margin:14px 0 6px;color:var(--ink)}
+  .md-body h5{font-size:13.5px;font-weight:800;margin:12px 0 6px}
+  .md-body p{margin:7px 0}
+  .md-body ul,.md-body ol{margin:8px 0;padding-left:22px}
+  .md-body li{margin:3px 0}
+  .md-body code{background:#f0e9d8;border:1px solid #e5dcc4;border-radius:5px;
+    padding:1px 6px;font:12px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;color:#6b4a00}
+  .md-body pre.md-code{background:#fff6e9;border:1.5px dashed var(--ink);border-radius:12px;
+    padding:16px;margin:10px 0;overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+  .md-body pre.md-code code{background:transparent;border:0;padding:0;font:12.5px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;color:#4a4542}
+  .md-body table{border-collapse:collapse;margin:12px 0;width:100%;font-size:12.5px;display:block;overflow-x:auto}
+  .md-body th,.md-body td{border:1px solid #ddd5c2;padding:6px 10px;text-align:left;vertical-align:top}
+  .md-body th{background:#fff6e9;font-weight:800;white-space:nowrap}
+  .md-body tr:nth-child(even) td{background:#fbf7ee}
+  .md-body hr{border:0;border-top:2px dashed var(--ink);margin:16px 0;opacity:.25}
+  .md-body a{color:var(--coral);font-weight:700;word-break:break-all}
+  .md-body img{max-width:100%;border-radius:10px;border:1.5px solid var(--ink);margin:8px 0}
+  .pn-nav{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+
+  /* ===== 404 ===== */
+  .nf{text-align:center;padding:90px 0}
+  .nf h1{font-size:clamp(60px,12vw,140px);letter-spacing:-.06em;font-weight:950;line-height:1}
+  .nf .nf-emoji{font-size:56px;margin-bottom:10px}
+  .nf p{color:#625d59;font-weight:700;margin:14px 0 26px}
+
+  /* ===== 页脚（全新高级暗黑新丑风卡片系统） ===== */
+  footer{border-top:3px solid var(--ink);padding:60px 0 48px;background:var(--ink);color:var(--cream);margin-top:72px}
+  .foot{display:grid;grid-template-columns:1.3fr 0.9fr;gap:48px}
+  .foot-brand-card{background:rgba(255,255,255,0.06);border:2px solid rgba(255,255,255,0.15);border-radius:20px;padding:24px;box-shadow:4px 4px 0 rgba(0,0,0,0.3)}
+  .foot-title{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .foot-title h4{font-size:18px;font-weight:950;letter-spacing:-.02em;color:#fff;margin:0}
+  .foot p{font-size:14px;line-height:1.8;color:#c5beb5}
+  .foot h4.sec-h4{font-size:13px;font-weight:950;letter-spacing:.12em;text-transform:uppercase;color:var(--sand);margin-bottom:16px}
+  .foot ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+  .foot li{font-size:13.5px;line-height:1.6;color:#d5cec5;display:flex;align-items:center;gap:8px}
+  .foot li::before{content:"✦";color:var(--lime);font-size:11px;font-weight:900}
+  .foot-tpspace-btn{background:var(--lime);color:var(--ink);border:2px solid var(--lime);border-radius:12px;padding:10px 18px;font-weight:950;font-size:13px;text-decoration:none;display:inline-flex;align-items:center;gap:8px;box-shadow:3px 3px 0 rgba(0,0,0,0.4);transition:all .18s ease}
+  .foot-tpspace-btn:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--coral);background:#fff;border-color:#fff;color:var(--ink)}
+  .copyright{margin-top:40px;font-size:12.5px;font-weight:800;color:#8a837c;border-top:1px solid rgba(255,255,255,0.12);padding-top:24px}
+
+  /* ===== Toast ===== */
+  .toast{position:fixed;left:24px;bottom:24px;background:var(--ink);color:white;border-radius:999px;
+    padding:11px 16px;font-weight:700;font-size:14px;opacity:0;transform:translateY(8px);
+    transition:.2s;z-index:99;max-width:80vw}
+  .toast.show{opacity:1;transform:none}
+
+  @media(max-width:1024px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .igrid{grid-template-columns:repeat(2,1fr)}
+    .ideas{grid-template-columns:1fr}
+    .detail-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:800px){
+    .nav{display:none}
+    .hero h1{font-size:46px}
+  }
+  @media(max-width:600px){
+    .igrid{grid-template-columns:1fr}
+    .portal-grid{grid-template-columns:1fr}
+    .cur-grid{grid-template-columns:1fr}
+    .pick-grid{grid-template-columns:1fr}
+    .idp-head{padding:22px 18px}
+    .idp-panel{padding:18px}
+    .idp-actions .btn{width:100%}
+    .icard-foot{flex-wrap:wrap}
+  }
+  /* ===== 详情页「从哪来到哪去」overlay ===== */
+  html.dl-lock, body.dl-lock{overflow:hidden}
+  #app{transition:opacity .24s ease, filter .24s ease}
+  #app.dimmed{opacity:.18;filter:grayscale(.4) brightness(.94);pointer-events:none}
+  #dl{position:fixed;inset:0;z-index:80;display:none;overflow-y:auto;overscroll-behavior:contain;
+    background:var(--cream);-webkit-overflow-scrolling:touch}
+  #dl.anim-in{transform:translate(var(--dx),var(--dy)) scale(var(--sx),var(--sy));
+    opacity:0;border-radius:18px;box-shadow:0 24px 80px rgba(31,27,19,.45)}
+  #dl.anim-in.play{transform:translate(0,0) scale(1,1);opacity:1;border-radius:0;
+    box-shadow:0 0 0 rgba(31,27,19,0);
+    transition:transform .36s cubic-bezier(.22,1,.36,1),opacity .3s ease,border-radius .36s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+  .dl-bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;
+    padding:16px 0;border-bottom:2px solid var(--ink);background:rgba(255,249,241,.94);backdrop-filter:blur(10px)}
+  #dl-content .shell.section{padding-top:26px}
+  #dl-content .dl-in-fade{animation:dlFade .4s ease both}
+  @keyframes dlFade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="shell row">
+    <a class="brand" href="#/"><img class="brand-logo-icon" src="assets/tippy_logo.svg" alt="Tippy Logo" />TPrompts<span class="dot"></span></a>
+    <nav class="nav" id="nav">
+      <a href="#/library" data-route="library">提示词库</a>
+      <a href="#/inspire" data-route="inspire">灵感</a>
+      <a href="#/taste" data-route="taste">品味</a>
+      <a href="#/about" data-route="about">Roadmap</a>
+    </nav>
+    <div class="actions"><button class="btn" onclick="toast('TP makes prompts ✦')">TP makes prompts</button></div>
+  </div>
+</header>
+
+<main id="app"></main>
+<div id="dl" aria-hidden="true"><div id="dl-content"></div></div>
+
+<footer>
+  <div class="shell">
+    <div class="foot">
+      <div class="foot-brand-card">
+        <div class="foot-title">
+          <img src="assets/tippy/tippy_19.png" style="width:40px;height:40px;border-radius:12px;border:2px solid var(--lime);background:var(--lime);box-shadow:2px 2px 0 rgba(0,0,0,0.5)" alt="Prompt Planet" />
+          <div>
+            <h4>TPrompts · Prompt Planet</h4>
+            <span style="font-size:11px;font-weight:900;letter-spacing:.08em;color:var(--sand)">PROMPT ECOSYSTEM</span>
+          </div>
+        </div>
+        <p>在 Prompt Planet 上，灵感从来不会消失，它们只是会迷路。提仔与 TP 一起捕捉未成型的微弱想法，用严格标准重组成结构化 Prompt，让每一个好想法都能落地变成真实产品。</p>
+        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px">
+          <a href="https://tpgofighting.top" target="_blank" rel="noopener" class="foot-tpspace-btn">
+            <span>🚀 探索 TP Space 主站 (tpgofighting.top)</span>
+            <span>↗</span>
+          </a>
+          <span style="font-size:12px;font-weight:800;color:var(--sand)">✦ 灵感生态宇宙联动</span>
+        </div>
+      </div>
+      <div class="foot-brand-card">
+        <h4 class="sec-h4">Roadmap · 进化路线</h4>
+        <ul>
+          <li><span>复制量统计，反哺真实热度榜</span></li>
+          <li><span>本地收藏夹（localStorage 统一管理）</span></li>
+          <li><span>预览素材直链（高保真视频与界面）</span></li>
+          <li><span>社区投稿与严选编辑审核流</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+      <span>© 2026 TPrompts · Crafted by TP & Tippy with Taste.</span>
+      <span>Turn ideas into prompts faster ✦</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast">已复制到剪贴板 ✓</div>
+
+<script src="prompts-data.js"></script>
+<script src="inspire-data.js"></script>
+<script src="curated-data.js"></script>
+<script>
+/* ================= 数据与工具 ================= */
+const D = window.PROMPTS_DATA;
+const $ = s => document.querySelector(s);
+const app = $('#app');
+const state = { cat: null, tag: '全部', q: '', tab: 'zh', page: 1, icat: '全部', iq: '', ipage: 1, itab: 'zh' };
+
+/* ===== 详情页 overlay：「从哪来到哪去」 ===== */
+let _tpOrigin = null;   /* 点开卡片的 {x,y,w,h}（视口坐标），进入/返回动画的锚点 */
+let _tpScrollY = null;  /* 打开 overlay 前的滚动位置，返回时恢复 */
+let _tpOriginHash = null;  /* 打开 overlay 前的 hash：返回时据此判断是否原样恢复列表 */
+const dl = $('#dl');
+const dlContent = $('#dl-content');
+const DL_DETAIL = /^#\/(p|i)\//;   /* 详情 hash */
+
+function setNav() {
+  const hash = location.hash;
+  const navMap = { '#/inspire': 'inspire', '#/library': 'library', '#/taste': 'taste', '#/about': 'about' };
+  let active = '';
+  for (const [h, k] of Object.entries(navMap)) if (hash.startsWith(h)) active = k;
+  if (hash.startsWith('#/cat/') || hash.startsWith('#/p/') || hash.startsWith('#/search')) active = 'library';
+  if (hash.startsWith('#/i/')) active = 'inspire';
+  document.querySelectorAll('.nav a').forEach(a =>
+    a.classList.toggle('on', a.dataset.route === active));
+}
+
+/* 详情内容渲染到 overlay（详情间跳转 / 首次展开共用） */
+function renderDetailContent(hash) {
+  let m = hash.match(/^#\/p\/(.+)$/);
+  if (m) renderPrompt(decodeURIComponent(m[1]), dlContent);
+  else {
+    m = hash.match(/^#\/i\/(.+)$/);
+    if (m) renderInspireDetail(decodeURIComponent(m[1]), dlContent);
+  }
+  dl.scrollTop = 0;
+}
+
+/* 展开：从点开的卡片位置「撑开」成全屏详情 */
+function openDetail(hash) {
+  const r = _tpOrigin;
+  const vw = innerWidth, vh = innerHeight;
+  const cx = r.x + r.w / 2, cy = r.y + r.h / 2;
+  dl.style.setProperty('--dx', (cx - vw / 2) + 'px');
+  dl.style.setProperty('--dy', (cy - vh / 2) + 'px');
+  dl.style.setProperty('--sx', r.w / vw);
+  dl.style.setProperty('--sy', r.h / vh);
+  dl.classList.add('anim-in');
+  dl.style.display = 'block';
+  _tpOriginHash = _tpOriginHash || location.hash;   /* 兜底（非点击进入时无来源 hash） */
+  document.documentElement.classList.add('dl-lock');
+  document.body.classList.add('dl-lock');
+  app.classList.add('dimmed');
+  renderDetailContent(hash);
+  void dl.offsetHeight;   /* 强制 reflow：记录起点 transform/opacity */
+  /* 跨帧加 play：CSS 过渡要求起点/终点在不同渲染帧，同步加会导致过渡被跳过 */
+  requestAnimationFrame(() => requestAnimationFrame(() => dl.classList.add('play')));
+  setTimeout(() => dl.classList.add('play'), 80);   /* 兜底：后台/节流页面 rAF 延迟时保证最终挂载 */
+}
+
+/* 收缩：详情缩回卡片位置，底下列表原封不动地回来 */
+function closeDetail() {
+  const wasOpen = dl.classList.contains('anim-in');
+  dl.classList.remove('play');
+  let done = false;
+  const finish = () => {
+    if (done) return;
+    done = true;
+    /* 若期间 hash 已回到详情（用户快速重开），新的 overlay 已接管，放弃清理 */
+    if (DL_DETAIL.test(location.hash)) return;
+    dl.style.display = 'none';
+    dl.classList.remove('anim-in');
+    dlContent.innerHTML = '';
+    app.classList.remove('dimmed');
+    document.documentElement.classList.remove('dl-lock');
+    document.body.classList.remove('dl-lock');
+    const backHome = location.hash === _tpOriginHash;   /* 回到来源页：列表原样保留 + 滚动恢复 */
+    if (_tpScrollY !== null) {
+      const y = _tpScrollY;
+      _tpScrollY = null;
+      if (backHome) window.scrollTo({ top: y, behavior: 'instant' });
+    }
+    _tpOrigin = null;
+    _tpOriginHash = null;
+    setNav();
+    if (!backHome) render();   /* back 跳过了中间页（如直达首页）：正常渲染目标页 */
+  };
+  dl.addEventListener('transitionend', finish, { once: true });
+  setTimeout(finish, wasOpen ? 420 : 60);   /* 兜底：transitionend 可能不触发 */
+}
+
+const CATS = [...new Set(D.map(p => p.cat))].sort((a, b) =>
+  D.filter(p => p.cat === b).length - D.filter(p => p.cat === a).length);
+const CAT_COUNT = Object.fromEntries(CATS.map(c => [c, D.filter(p => p.cat === c).length]));
+
+/* type 归并：21 种原始类型 → 6 类笼统标签 */
+function typeGroup(p) {
+  const t = (p.type || '').toLowerCase();
+  if (t === 'hero') return 'Hero';
+  if (t === 'mobile') return '移动端';
+  if (t === 'landing' || t === 'landing-page') return 'Landing';
+  if (t === 'pricing') return '定价';
+  if (t === 'social-media' || t === 'blog') return '社媒 & 博客';
+  return '组件'; /* features/cta/about/footer/carousel/testimonials/form/dashboard/faq/stats/3d/404 等全部归组件 */
+}
+
+function esc(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function byId(id) { return D.find(p => p.id === id); }
+function go(hash) { location.hash = hash; }
+
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; }
+  catch (e) {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (_) {}
+    ta.remove(); return ok;
+  }
+}
+function toast(msg) {
+  const t = document.querySelector('.toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 1400);
+}
+
+/* 预览图加载失败 → 波普色兜底块（替换整个 thumb 内容，清掉 shimmer） */
+function imgErr(el, id) {
+  const p = byId(id);
+  if (!p) { el.remove(); return; }
+  const i = D.indexOf(p);
+  const thumb = el.closest('.thumb');
+  if (thumb) {
+    thumb.innerHTML = `<div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div>`;
+  }
+}
+
+/* 图片加载完成：移除 shimmer + 淡入 */
+function imgLoaded(el) {
+  el.classList.add('loaded');
+  const s = el.parentElement && el.parentElement.querySelector('.shimmer');
+  if (s) s.remove();
+}
+
+/* 判断 video 是否为「图片/动图」类（可直接 <img> 展示并自带动画） */
+function isAnimVideo(u) { return /\.(webp|gif|png|jpe?g)(\?|$)/i.test(u || ''); }
+
+/* 缩略图 URL 降分辨率：images.higgs.ai 支持 w/q 参数，卡片 560px / 详情 960px，体积可降 70%+ */
+function imgUrl(u, w, q) {
+  return String(u || '')
+    .replace(/[?&]w=\d+/g, '')            // 去掉旧 w
+    .replace(/[?&]q=\d+/g, '')            // 去掉旧 q
+    .replace(/([?&])/, (m, p) => p + 'w=' + w + '&q=' + q + '&'); // 注入新参数
+}
+
+/* ================= 组件 ================= */
+function thumbHTML(p, i) {
+  const id = esc(p.id);
+  if (p.imgLocal) {
+    /* 本地预览图（与模板一一对应，最高优先级；大 gif 走懒加载） */
+    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="images/${esc(p.imgLocal)}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+  }
+  if (p.img) {
+    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.img, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+  }
+  if (p.video && isAnimVideo(p.video)) {
+    /* webp/gif 动图直接当封面，自动播放动画（r2.dev 无参数可降，原样加载） */
+    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.video, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+  }
+  if (p.video && /\.mp4(\?|$)/i.test(p.video)) {
+    /* mp4 悬停播放，避免列表页全部自动加载 */
+    return `<div class="thumb"><video class="thumb-vid" src="${esc(p.video)}" muted loop playsinline preload="metadata"></video>
+      <div class="play-hint">▶</div></div>`;
+  }
+  return `<div class="thumb"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
+}
+
+/* 详情页媒体区：封面（优先本地图）+ 页面内播放（不跳转外链） */
+function mediaHTML(p, i) {
+  const id = esc(p.id);
+  const isMp4 = /\.mp4(\?|$)/i.test(p.video || '');
+  const isM3u8 = /\.m3u8(\?|$)/i.test(p.video || '');
+  const cover = p.imgLocal || p.img || (isAnimVideo(p.video) ? p.video : '');
+  if (isMp4) {
+    /* 封面（本地图/静态图/动图/兜底）+ ▶ 播放按钮，点击后在页面内播放 */
+    const coverHTML = cover
+      ? (p.imgLocal
+        ? `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="images/${esc(p.imgLocal)}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`
+        : `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(imgUrl(cover, 960, 75))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`)
+      : `<div class="thumb"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
+    return `<div class="media-box" id="mb-${id}">
+      <div class="media-cover" style="position:relative">${coverHTML}
+        <div class="play-hint big" onclick="playMedia('${id}')"><span style="font-size:30px">▶</span>页面内预览</div>
+      </div>
+      <video class="media-vid" src="${esc(p.video)}" controls muted loop playsinline preload="none"></video>
+    </div>`;
+  }
+  if (isM3u8) {
+    return thumbHTML(p, i);
+  }
+  return thumbHTML(p, i);
+}
+
+/* ================= Markdown 轻量渲染器（零依赖，防 XSS） ================= */
+function inlineMd(s) {
+  return s
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, u) => {
+      return /^(https?:|file:)/i.test(u)
+        ? `<a href="${u}" target="_blank" rel="noopener">${t}</a>` : t;
+    });
+}
+
+function mdTable(rows) {
+  const cells = r => r.replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+  const head = cells(rows[0]);
+  const body = rows.slice(1).filter(r => !/^\|[\s:\-|]+\|?$/.test(r));
+  let h = '<table><thead><tr>';
+  head.forEach(c => h += `<th>${inlineMd(c)}</th>`);
+  h += '</tr></thead><tbody>';
+  body.forEach(r => { h += '<tr>'; cells(r).forEach(c => h += `<td>${inlineMd(c)}</td>`); h += '</tr>'; });
+  h += '</tbody></table>';
+  return h;
+}
+
+function mdToHtml(md) {
+  if (!md) return '';
+  const safe = esc(md);
+  /* 先提取代码块（esc 后内容原样保留） */
+  let out = safe.replace(/^```(\w*)[^\n]*\r?\n([\s\S]*?)^```[^\n]*$/gm,
+    (m, lang, code) => `<pre class="md-code"><code>${code.replace(/^\n+|\n+$/g, '')}</code></pre>`);
+  const lines = out.split(/\r?\n/);
+  let html = '', i = 0, listType = null;
+  while (i < lines.length) {
+    const line = lines[i];
+    if (/^<pre class="md-code">/.test(line.trim())) { html += line.trim() + '\n'; i++; continue; }
+    if (/^---+$/.test(line.trim())) { html += '<hr>'; i++; continue; }
+    const hm = line.match(/^(#{3,5})\s+(.*)$/);
+    if (hm) { if (listType) { html += `</${listType}>`; listType = null; } html += `<h${hm[1].length}>${inlineMd(hm[2])}</h${hm[1].length}>`; i++; continue; }
+    if (/^\|/.test(line)) {
+      if (listType) { html += `</${listType}>`; listType = null; }
+      const rows = [];
+      while (i < lines.length && /^\|/.test(lines[i].trim())) { rows.push(lines[i].trim()); i++; }
+      html += mdTable(rows); continue;
+    }
+    const ul = line.match(/^[-*]\s+(.*)$/);
+    const ol = line.match(/^\d+\.\s+(.*)$/);
+    if (ul || ol) {
+      const t = ul ? 'ul' : 'ol';
+      if (listType !== t) { if (listType) html += `</${listType}>`; html += `<${t}>`; listType = t; }
+      html += `<li>${inlineMd((ul || ol)[1])}</li>`;
+      i++; continue;
+    }
+    if (listType) { html += `</${listType}>`; listType = null; }
+    if (!line.trim()) { i++; continue; }
+    html += `<p>${inlineMd(line)}</p>`;
+    i++;
+  }
+  if (listType) html += `</${listType}>`;
+  return html;
+}
+
+/* 页面内播放 mp4：隐藏封面层，显示并播放视频 */
+function playMedia(id) {
+  const box = document.getElementById('mb-' + id);
+  if (!box) return;
+  const cover = box.querySelector('.media-cover');
+  const vid = box.querySelector('.media-vid');
+  cover.style.display = 'none';
+  vid.style.display = 'block';
+  vid.muted = false;
+  vid.play().catch(() => { vid.controls = true; });
+}
+
+/* 展示标签：过滤数据源里的权限类标签（初版不区分免费/会员） */
+function showTags(p, n) {
+  return (p.tags || []).filter(t => !['免费开源', '会员专享', '免费', 'FREE'].includes(t)).slice(0, n);
+}
+
+function cardHTML(p, i) {
+  return `<article class="card" data-nav="#/p/${encodeURIComponent(p.id)}">
+    ${thumbHTML(p, i)}
+    <div class="body">
+      <div class="meta"><span>${String(i + 1).padStart(2, '0')} / ${esc(p.cat)}</span></div>
+      <h3>${esc(p.title)}</h3>
+      <p>${esc(p.desc)}</p>
+      <div class="card-foot">
+        <div class="tags">${showTags(p, 3).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</div>
+        <button class="copy" data-id="${p.id}" data-which="zh">COPY ↗</button>
+      </div>
+    </div>
+  </article>`;
+}
+
+function listGrid(list) {
+  if (!list.length) return `<div class="empty">没有匹配的提示词，换个关键词试试？</div>`;
+  return `<div class="grid">${list.map(cardHTML).join('')}</div>`;
+}
+
+function searchBox(id, placeholder) {
+  return `<div class="search">
+    <input id="${id}" type="text" placeholder="${placeholder || '搜索：landing / hero / 暗黑 / 3D…'}" />
+    <button type="button" onclick="document.getElementById('${id}').dispatchEvent(new Event('input'))">GO</button>
+  </div>`;
+}
+
+/* ================= 分页 ================= */
+const PAGE_SIZE = 24; /* 每页 24 条：3 列 × 8 行，控制首屏下载量 */
+
+function pagerHTML(pages, cur) {
+  if (pages <= 1) return '';
+  const btns = [];
+  const shown = new Set();
+  for (let p = 1; p <= pages; p++) {
+    if (p === 1 || p === pages || Math.abs(p - cur) <= 1) shown.add(p);
+  }
+  let prev = 0;
+  for (const p of [...shown].sort((a, b) => a - b)) {
+    if (p - prev > 1) btns.push(`<span class="pg dots">…</span>`);
+    btns.push(`<button class="pg${p === cur ? ' on' : ''}" data-pg="${p}">${p}</button>`);
+    prev = p;
+  }
+  return `<div class="pager">
+    <button class="pg${cur <= 1 ? ' dis' : ''}" data-pg="${cur - 1}">← 上一页</button>
+    ${btns.join('')}
+    <button class="pg${cur >= pages ? ' dis' : ''}" data-pg="${cur + 1}">下一页 →</button>
+  </div>`;
+}
+
+function currentFiltered() {
+  let list;
+  const sm = location.hash.match(/^#\/search\?q=(.+)$/);
+  const sq = sm ? decodeURIComponent(sm[1]).toLowerCase() : null;
+  if (sq !== null) {
+    list = D.filter(p => [p.title, p.desc, p.cat, p.type, (p.tags || []).join(' ')].join(' ').toLowerCase().includes(sq));
+  } else if (state.cat) {
+    list = D.filter(p => p.cat === state.cat);
+  } else {
+    list = D.slice();
+  }
+  if (state.tag !== '全部') list = list.filter(p => typeGroup(p) === state.tag);
+  const q = (state.q || '').toLowerCase();
+  if (q) list = list.filter(p => [p.title, p.desc, p.cat, p.type, (p.tags || []).join(' ')].join(' ').toLowerCase().includes(q));
+  return list;
+}
+
+function renderList() {
+  const list = currentFiltered();
+  const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+  if (state.page > pages) state.page = pages;
+  if (state.page < 1) state.page = 1;
+  const slice = list.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
+  $('#list').innerHTML = listGrid(slice);
+  const cnt = $('#count');
+  if (cnt) cnt.textContent = pages > 1 ? `${list.length} 条 · 第 ${state.page}/${pages} 页` : `${list.length} 条`;
+  const pg = $('#pager');
+  if (pg) pg.innerHTML = pagerHTML(pages, state.page);
+}
+
+/* ================= 灵感板块数据 ================= */
+const ID = window.INSPIRE_DATA || [];
+
+/* 55 个 prompts.chat 分类 → 中文映射 */
+const CAT_ZH = {
+  'academic-writing': '学术写作', 'agent-workflows': '智能体工作流', 'automation-workflows': '自动化工作流',
+  'automations': '自动化', 'blog-writing': '博客写作', 'business': '商业', 'business-planning': '商业规划',
+  'business-strategy': '商业策略', 'coding': '编程', 'copywriting': '文案写作', 'course-creation': '课程创作',
+  'creative': '创意', 'data-science': '数据科学', 'design': '设计', 'devops': '运维开发', 'education': '教育',
+  'email-communication': '邮件沟通', 'exam-preparation': '考试备考', 'finance-budgeting': '财务预算',
+  'habits-routines': '习惯养成', 'health-wellness': '健康生活', 'hr': '人力资源', 'image-generation': '图像生成',
+  'journaling-reflection': '日记反思', 'kids-early-learning': '儿童早教', 'language-learning': '语言学习',
+  'leadership-management': '领导管理', 'learning-skills': '学习技能', 'market-analysis': '市场分析',
+  'marketing': '市场营销', 'marketing-sales': '营销销售', 'meeting-collaboration': '会议协作',
+  'mindset-motivation': '心态激励', 'mobile-development': '移动开发', 'music': '音乐', 'note-taking': '笔记方法',
+  'productivity': '效率提升', 'research-analysis': '研究分析', 'sales': '销售', 'self-improvement': '自我提升',
+  'skill': '技能', 'sponsors': '赞助商', 'startup-entrepreneurship': '创业', 'stem-science': '科学工程',
+  'teaching-instruction': '教学指导', 'technical-writing': '技术写作', 'tutoring-homework-help': '辅导作业',
+  'uncategorized': '未分类', 'vibe': 'Vibe 编程', 'video-generation': '视频生成', 'web-development': '网页开发',
+  'workflows': '工作流', 'writing': '写作'
+};
+function icatZh(en) { return CAT_ZH[en] || en; }
+const ICATS = ['全部', ...new Set(ID.map(p => icatZh(p.cat)))].sort((a, b) => {
+  if (a === '全部') return -1;
+  if (b === '全部') return 1;
+  return ID.filter(p => icatZh(p.cat) === b).length - ID.filter(p => icatZh(p.cat) === a).length;
+});
+const ICAT_COUNT = Object.fromEntries(ICATS.map(c =>
+  [c, c === '全部' ? ID.length : ID.filter(p => icatZh(p.cat) === c).length]));
+
+/* ================= 品味策展数据 ================= */
+const CUR = window.CURATED_DATA || { sections: [] };
+/* 解析策展条目 → 详情链接/标题/分类（library 查 PROMPTS_DATA，inspire 查 INSPIRE_DATA） */
+function curItem(it) {
+  if (it.src === 'library') {
+    const p = D.find(x => x.id === it.id);
+    if (!p) return null;
+    return { href: '#/p/' + encodeURIComponent(p.id), title: p.title, cat: p.cat, note: it.note, src: 'lib' };
+  }
+  const p = ID.find(x => x.id === it.id);
+  if (!p) return null;
+  return { href: '#/i/' + encodeURIComponent(p.id), title: p.titleZh || p.title, en: p.title,
+    cat: icatZh(p.cat), note: it.note, src: 'ins' };
+}
+/* 品味页策展卡 */
+function curCardHTML(it) {
+  const c = curItem(it);
+  if (!c) return '';
+  return `<article class="cur-card" data-nav="${c.href}">
+    <div class="cur-meta"><span class="cur-src ${c.src}">${c.src === 'lib' ? 'LIBRARY' : 'INSPIRE'}</span><span class="itag">#${esc(c.cat)}</span></div>
+    <h4>${esc(c.title)}</h4>
+    <div class="cur-quote">${esc(c.note)}</div>
+    <div class="cur-foot"><span>打开 →</span>${c.src === 'ins' ? `<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:55%">${esc(c.en)}</span>` : ''}</div>
+  </article>`;
+}
+/* 首页编辑推荐小卡 */
+function pickCardHTML(it) {
+  const c = curItem(it);
+  if (!c) return '';
+  return `<article class="pick-card" data-nav="${c.href}">
+    <span class="cur-src ${c.src}">${c.src === 'lib' ? 'LIBRARY' : 'INSPIRE'}</span>
+    <h4>${esc(c.title)}</h4>
+    <div class="pick-note">${esc(c.note)}</div>
+  </article>`;
+}
+
+/* ================= 页面 ================= */
+/* 首页：融入「提仔 Tippy」完整世界观设定、故事剧场、UI Kit 展台、八步工作流与策展推荐 */
+function renderHome() {
+  const pickTotal = CUR.sections.reduce((s, x) => s + x.items.length, 0);
+  const picks = (CUR.sections[0] && CUR.sections[0].items || []).slice(0, 3);
+  app.innerHTML = `
+    <div class="shell hero">
+      <div class="hero-tippy-wrap">
+        <div>
+          <div class="kicker">Prompt Planet · 灵感采集空间</div>
+          <h1>GOOD PROMPTS<br><span class="hl">DESERVE</span> GOOD TASTE.</h1>
+          <p>在 Prompt Planet 上，灵感从来不会消失，它们只是会迷路。
+          来自 Prompt 星球的「灵感采集员」<b>提仔 Tippy</b> 与 <b>TP</b> 一起，把全网漂浮的灵感粒子收集起来，把模糊想法打磨成真正可落地的 Prompt，直接投喂 AI，让好想法真正被做出来。</p>
+          <div class="cta-row">
+            <button class="btn" style="background:var(--lime);font-size:15px;padding:12px 20px" data-nav="#/library">进入提示词库 →</button>
+            <button class="btn" style="background:var(--sky);font-size:15px;padding:12px 20px" data-nav="#/inspire">逛逛灵感 ✦</button>
+            <button class="btn" style="background:var(--sand);font-size:15px;padding:12px 20px" data-nav="#/taste">编辑品味库</button>
+          </div>
+        </div>
+        <div class="tippy-hero-img-box">
+          <img class="tippy-hero-img" src="assets/tippy/tippy_02.png" alt="提仔 Tippy 与 TP Core" />
+          <div class="tippy-radar-badge"><span class="tippy-dot"></span> Radar Active</div>
+        </div>
+      </div>
+
+      <!-- 三大板块门户 -->
+      <div class="portal-grid">
+        <div class="portal-card" data-nav="#/library">
+          <div class="portal-card-top">
+            <div class="pnum">${D.length}</div>
+            <img class="pavatar" src="assets/tippy/tippy_30.png" alt="提示词库" />
+          </div>
+          <div class="plabel">Prompt Library</div>
+          <h3>提示词库</h3>
+          <p>网页组件、交互动效、设计系统与前端模块，带实时预览图，专为前端与 UI 设计定制，直接投喂 AI 编码工具。</p>
+          <div class="pgo">探索组件库 →</div>
+        </div>
+
+        <div class="portal-card" data-nav="#/inspire">
+          <div class="portal-card-top">
+            <div class="pnum">${ID.length}</div>
+            <img class="pavatar" src="assets/tippy/tippy_05.png" alt="灵感板块" />
+          </div>
+          <div class="plabel">Inspiration Planet</div>
+          <h3>灵感板块</h3>
+          <p>55 个专业领域分类，2112 条英文提示词经大模型深度本地化翻译，结构完整保留，附带 100-200 字实战使用说明。</p>
+          <div class="pgo">采集灵感 ✦ →</div>
+        </div>
+
+        <div class="portal-card" data-nav="#/taste">
+          <div class="portal-card-top">
+            <div class="pnum">${pickTotal}</div>
+            <img class="pavatar" src="assets/tippy/tippy_08.png" alt="品味策展" />
+          </div>
+          <div class="plabel">Editor's Picks</div>
+          <h3>品味策展</h3>
+          <p>编辑人工精选，宁缺毋滥。经过反复实测与场景验证的顶尖 Prompt，附带实战批注与心得，宁缺毋滥。</p>
+          <div class="pgo">品味推荐 →</div>
+        </div>
+      </div>
+
+      <!-- 提仔 IP 世界观设定展区 -->
+      <div class="lore-banner">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <span class="idp-badge" style="background:var(--coral);color:#fff">IP UNIVERSE</span>
+          <span style="font-size:12px;font-weight:900;letter-spacing:.1em;color:var(--sand)">PROMPT PLANET · 提仔 TIPPY</span>
+        </div>
+        <h2>Good ideas deserve <span class="lime-txt">good prompts.</span></h2>
+        <p>提仔生活在 Prompt Planet（提示词星球）上。每当一个模糊的想法被整理成清晰、好用的提示词时，就会产生一颗绿色的 Prompt Energy。提仔长期吸收这种能量，身体变成了显眼的 TP Lime Green。它越亮，意味着最近又发现了很多好 Prompt。</p>
+        
+        <div class="lore-grid">
+          <div class="lore-card">
+            <div class="lore-card-head">
+              <img class="lore-card-img" src="assets/tippy/tippy_34.png" alt="Prompt Radar" />
+              <h4>Prompt Radar</h4>
+            </div>
+            <p>头顶的灵感雷达，实时捕捉世界各地微弱的灵感信号——“帮我做一个网站……”“我想画一张图但不知怎么描述……”。当好想法出现，雷达顶端小球就会亮起。</p>
+          </div>
+
+          <div class="lore-card">
+            <div class="lore-card-head">
+              <img class="lore-card-img" src="assets/tippy/tippy_31.png" alt="TP Core" />
+              <h4>TP Core 装置</h4>
+            </div>
+            <p>提仔随身携带的黑绿色方块装置，储存着 Writing、Code、Image、Design、Agent 等海量模块。模糊想法放入后，完成结构化重组：Idea → Prompt → Better Result。</p>
+          </div>
+
+          <div class="lore-card">
+            <div class="lore-card-head">
+              <img class="lore-card-img" src="assets/tippy/tippy_29.png" alt="Good Prompt" />
+              <h4>探索者性格</h4>
+            </div>
+            <p>提仔不是全知全能的 AI，而是你身边最爱折腾 AI 的朋友。好奇、活泼、有点呆萌，始终践行「发现 → 尝试 → 优化 → 分享」的探索哲学。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 《TP makes Prompts.》故事剧场（使用真实故事人物与概念插画） -->
+      <div class="story-strip-sec">
+        <div class="story-strip-head">
+          <span class="idp-badge" style="background:var(--sand);color:var(--ink)">STORY</span>
+          <h3>《TP makes Prompts.》灵感故事</h3>
+          <span style="font-size:13px;font-weight:800;color:#8a837c;margin-left:auto">Tippy finds ideas. TP makes them real.</span>
+        </div>
+        <div class="story-chapters">
+          <div class="chapter-box">
+            <img class="chapter-img" src="assets/tippy/tippy_60.png" alt="一个掉下来的光点" />
+            <div class="chapter-body">
+              <span class="ch-tag">01 · 灵感信号</span>
+              <h4>一个掉下来的光点</h4>
+              <p>雷达闪烁，提仔在星球边缘发现一颗地球掉下的光点，里面只有一句话：“我想做点东西。” 既无上下文也无格式，但这正是一切的开端。</p>
+            </div>
+          </div>
+
+          <div class="chapter-box">
+            <img class="chapter-img" src="assets/tippy/tippy_31.png" alt="装入 TP Core" />
+            <div class="chapter-body">
+              <span class="ch-tag">02 · 相遇搭档</span>
+              <h4>装入 TP Core</h4>
+              <p>TP 抱着电脑走来：“网站，或者一个 AI 工具，先做出来看看。” 提仔啪的一声打开 TP Core：“好，我们从结构化 Prompt 开始。”</p>
+            </div>
+          </div>
+
+          <div class="chapter-box">
+            <img class="chapter-img" src="assets/tippy/tippy_61.png" alt="Prompt · Copy · Create" />
+            <div class="chapter-body">
+              <span class="ch-tag">03 · 一键执行</span>
+              <h4>Prompt · Copy · Create</h4>
+              <p>Goal、Context、Style、Interaction、Output 重新排列，按下 Enter，一个真正可运行的页面瞬间亮起，提仔高兴跳起！</p>
+            </div>
+          </div>
+
+          <div class="chapter-box">
+            <img class="chapter-img" src="assets/tippy/tippy_29.png" alt="GOOD PROMPTS!" />
+            <div class="chapter-body">
+              <span class="ch-tag">04 · TPrompts 诞生</span>
+              <h4>GOOD PROMPTS!</h4>
+              <p>卡片堆满了桌面，他们决定建立 Prompt Library。门口挂上一句话：把脑海里的一点点灵感，变成真正存在的好产品。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prompt Planet · 提仔星际漫游与灵感播种计划 -->
+      <div class="planet-mission-sec">
+        <div class="planet-mission-head">
+          <div>
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+              <span class="idp-badge" style="background:var(--lime);color:var(--ink)">PROMPT PLANET</span>
+              <span style="font-size:12px;font-weight:900;letter-spacing:.1em;color:var(--sand)">DISPATCH & ECOSYSTEM</span>
+            </div>
+            <h3 style="font-size:26px;font-weight:950;margin:0;color:#fff">提仔的星际漫游：把好 Prompt 带到每个角落</h3>
+          </div>
+          <span style="font-size:13px;font-weight:800;color:#b8b0a6">Discover · Curate · Share Across Worlds</span>
+        </div>
+        <div class="planet-mission-grid">
+          <div class="planet-mission-card">
+            <div class="planet-mission-thumb-box bg-card1">
+              <img class="planet-mission-thumb" src="assets/tippy/tippy_19.png" alt="Prompt Planet Base" />
+            </div>
+            <div class="planet-mission-card-body">
+              <div class="planet-mission-card-title">
+                <span>01. 降落母星：Prompt Planet 探索站</span>
+                <span class="idp-badge" style="background:var(--coral);color:#fff">MISSION 01</span>
+              </div>
+              <div class="planet-mission-card-desc">提仔手捧 TP Core 方块降落 Prompt Planet。头顶天线 24 小时高频运转，在全宇宙实时扫描人类最需要的 AI 提示词与前沿方法。</div>
+            </div>
+          </div>
+
+          <div class="planet-mission-card">
+            <div class="planet-mission-thumb-box bg-card2">
+              <img class="planet-mission-thumb" src="assets/tippy/tippy_20.png" alt="Share the Prompt" />
+            </div>
+            <div class="planet-mission-card-body">
+              <div class="planet-mission-card-title">
+                <span>02. 灵感纸飞机：全域播撒好想法</span>
+                <span class="idp-badge" style="background:var(--sky);color:var(--ink)">MISSION 02</span>
+              </div>
+              <div class="planet-mission-card-desc">驾驶 TP PROMPTS 纸飞机穿越星云，将代码、写作、艺术与商业 Prompt 折成信件，分发给每一个渴望用 AI 创造产品的独立开发者。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 提仔的工作流：From Idea to Better Prompts（八步闭环，纯提仔动作与工具插图） -->
+      <div class="tippy-story-sec">
+        <div class="tippy-story-head">
+          <span class="idp-badge" style="background:var(--lime);color:var(--ink)">WORKFLOW</span>
+          <h3>提仔的日常：From Idea to Better Prompts</h3>
+          <span style="font-size:13px;font-weight:800;color:#8a837c;margin-left:auto">Discover · Search · Input · Craft · Checklist · Test · Copy · Celebrate</span>
+        </div>
+        <div class="tippy-story-grid">
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_34.png" alt="Discover" /></div>
+            <span class="story-step-num">01. DISCOVER</span>
+            <h4>捕捉灵感信号</h4>
+            <p>戴上耳机与放大镜，在 Prompt 星球收集人类散落、未成型的微弱灵感粒子。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_62.png" alt="Search" /></div>
+            <span class="story-step-num">02. SEARCH</span>
+            <h4>知识比对检索</h4>
+            <p>钻进 Library 检索前人经验，比对已有结构，寻找最佳提示词解法。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_56.png" alt="Input" /></div>
+            <span class="story-step-num">03. INPUT</span>
+            <h4>拖入原始想法</h4>
+            <p>将人类原始想法粒子一键放入 TP 核心打磨管道，准备结构化提炼。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_63.png" alt="Craft" /></div>
+            <span class="story-step-num">04. CRAFT</span>
+            <h4>结构化重组</h4>
+            <p>在 TP Core 中设定明确角色、目标、上下文、约束与输出格式，让 AI 秒懂。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_53.png" alt="Checklist" /></div>
+            <span class="story-step-num">05. CHECKLIST</span>
+            <h4>品味与语法质检</h4>
+            <p>严格审查半角标点、JSON 格式与逻辑闭环，确认无误后 Ready ✓。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_35.png" alt="Test & Run" /></div>
+            <span class="story-step-num">06. TEST & RUN</span>
+            <h4>大模型实测</h4>
+            <p>紧盯屏幕等待主流大模型生成结果，检验代码执行率与回答质量。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_55.png" alt="Copy" /></div>
+            <span class="story-step-num">07. COPY</span>
+            <h4>一键直达剪贴板</h4>
+            <p>一键直达剪贴板，秒速投喂各类 AI 编码与对话工具，即刻开始构建。</p>
+          </div>
+
+          <div class="story-step-card">
+            <div class="story-step-thumb"><img src="assets/tippy/tippy_29.png" alt="Celebrate" /></div>
+            <span class="story-step-num">08. CELEBRATE</span>
+            <h4>Good Prompt!</h4>
+            <p>好想法终于做成好产品，能量球爆发，提仔举牌为你欢呼！</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 提仔互动百态交互实验室 (Tippy Interactive Stage) -->
+      <div class="tippy-stage-sec">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
+          <span class="idp-badge" style="background:var(--lime);color:var(--ink)">INTERACTIVE LAB</span>
+          <h3 style="font-size:24px;font-weight:950;margin:0">提仔百态实验室 · 切换提仔状态</h3>
+          <span style="font-size:12px;font-weight:850;color:#8a837c;margin-left:auto">点击下方模式，召唤不同心境的提仔 ✦</span>
+        </div>
+        <div class="stage-layout">
+          <div class="stage-avatar-box">
+            <img id="stage-avatar" class="stage-avatar-img" src="assets/tippy/tippy_34.png" alt="提仔当前状态" />
+            <div id="stage-quote" class="stage-quote-bubble">“头顶雷达全天候开启：Discover Better Prompts!”</div>
+          </div>
+          <div class="mood-buttons">
+            <div class="mood-btn active" data-img="assets/tippy/tippy_34.png" data-quote="“头顶雷达全天候开启：Discover Better Prompts!”">
+              <div class="mood-btn-info">
+                <b>01. 灵感雷达 (Discover)</b>
+                <span>手持放大镜，在海量需求中寻找最有潜力的小光点。</span>
+              </div>
+              <span class="mood-btn-tag">RADAR ON</span>
+            </div>
+            <div class="mood-btn" data-img="assets/tippy/tippy_05.png" data-quote="“Daily Inspiration！今天又收录了超多好玩的提示词！”">
+              <div class="mood-btn-info">
+                <b>02. 每日精选 (Daily)</b>
+                <span>充满活力，每天为创作者输送源源不断的新鲜灵感。</span>
+              </div>
+              <span class="mood-btn-tag">DAILY</span>
+            </div>
+            <div class="mood-btn" data-img="assets/tippy/tippy_08.png" data-quote="“Discover、Curate、Inspire，每一条都要能打！”">
+              <div class="mood-btn-info">
+                <b>03. 严选把关 (Curate)</b>
+                <span>TP 亲手勾选 Checklist，宁缺毋滥，拒绝平庸。</span>
+              </div>
+              <span class="mood-btn-tag">CURATE</span>
+            </div>
+            <div class="mood-btn" data-img="assets/tippy/tippy_17.png" data-quote="“戴上学士帽：让我们深入研究思维链与提示词架构！”">
+              <div class="mood-btn-info">
+                <b>04. 研习模式 (Learn & Study)</b>
+                <span>认真研读 TP Learn 提示词方法论，不断汲取 AI 新知识。</span>
+              </div>
+              <span class="mood-btn-tag">LEARN</span>
+            </div>
+            <div class="mood-btn" data-img="assets/tippy/tippy_64.png" data-quote="“TP makes things. Turn ideas into prompts faster!”">
+              <div class="mood-btn-info">
+                <b>05. 终端就绪 (Station)</b>
+                <span>提仔坐在 TP 终端前，随时准备将想法转化成现实。</span>
+              </div>
+              <span class="mood-btn-tag">STATION</span>
+            </div>
+            <div class="mood-btn" data-img="assets/tippy/tippy_29.png" data-quote="“GOOD PROMPTS! 完美运行，好想法值得被实现！”">
+              <div class="mood-btn-info">
+                <b>06. 庆祝达成 (Celebrate)</b>
+                <span>眨眼举牌，为你成功做出的每一个网站和工具喝彩。</span>
+              </div>
+              <span class="mood-btn-tag">CELEBRATE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      ${picks.length ? `
+      <div class="pick-zone">
+        <div class="pick-head">
+          <h3>本周编辑精选推荐</h3><span class="cur-badge">EDITOR PICK</span>
+          <span class="more" data-nav="#/taste">全部精选 →</span>
+        </div>
+        <div class="pick-grid">${picks.map(pickCardHTML).join('')}</div>
+      </div>` : ''}
+    </div>
+
+    <!-- 页面右下角浮动提仔互动伴侣 -->
+    <div class="tippy-floating-pet" onclick="toggleTippyPetSpeech()">
+      <div id="tippy-pet-speech" class="tippy-pet-speech">Hi！我是提仔！今天想做什么好东西？✨</div>
+      <img class="tippy-pet-avatar" src="assets/tippy_logo_transparent.png" alt="提仔伴侣" />
+    </div>`;
+
+  // 绑定百态实验室点击交互
+  document.querySelectorAll('.mood-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const avatar = document.getElementById('stage-avatar');
+      const quote = document.getElementById('stage-quote');
+      if (avatar && quote) {
+        avatar.style.transform = 'scale(0.85) rotate(-6deg)';
+        avatar.style.opacity = '0.7';
+        setTimeout(() => {
+          avatar.src = btn.dataset.img;
+          quote.innerText = btn.dataset.quote;
+          avatar.style.transform = 'scale(1) rotate(0deg)';
+          avatar.style.opacity = '1';
+        }, 150);
+      }
+    });
+  });
+}
+
+/* 提示词库：8 个分类 chips（点击进入分类页）+ 搜索 + 分页 */
+function renderLibrary() {
+  state.cat = null; state.q = ''; state.tag = '全部'; state.page = 1;
+  app.innerHTML = `
+    <div class="shell section">
+      <div class="section-title"><h2>提示词库</h2><span class="note" id="count"></span></div>
+      ${searchBox('libq')}
+      <div class="chips">${CATS.map(c => `<button class="chip" data-nav="#/cat/${encodeURIComponent(c)}">${esc(c)} <b style="opacity:.55;font-weight:800">${CAT_COUNT[c]}</b></button>`).join('')}</div>
+      <div id="list"></div>
+      <div id="pager"></div>
+    </div>`;
+  $('#libq').addEventListener('input', e => { state.q = e.target.value; state.page = 1; renderList(); });
+  renderList();
+}
+
+/* 分类页：type 归并后的筛选 chips */
+function renderCat(cat) {
+  const items = D.filter(p => p.cat === cat);
+  const types = ['全部', ...new Set(items.map(typeGroup))].filter(Boolean);
+  state.cat = cat; state.q = ''; state.tag = '全部'; state.page = 1;
+  app.innerHTML = `
+    <div class="shell section">
+      <button class="back-btn" data-nav="#/library">← 返回提示词库</button>
+      <div class="section-title" style="margin-top:18px">
+        <h2>${esc(cat)}</h2><span class="note" id="count"></span>
+      </div>
+      ${searchBox('catq')}
+      <div class="chips">${types.map(t => `<button class="chip${t === state.tag ? ' on' : ''}" data-t="${t}">${esc(t)}</button>`).join('')}</div>
+      <div id="list"></div>
+      <div id="pager"></div>
+    </div>`;
+  $('#catq').addEventListener('input', e => { state.q = e.target.value; state.page = 1; renderList(); });
+  renderList();
+}
+
+function catZh(en) { return CAT_ZH[en] || en; }
+
+/* 灵感页：2112 条提示词浏览 */
+
+/* 灵感卡片：文本优先（无封面图），中文标题为主 + 英文原标题 + 中文摘要 */
+function inspireCardHTML(p, i) {
+  const cat = icatZh(p.cat);
+  return `<article class="icard" data-nav="#/i/${encodeURIComponent(p.id)}">
+    <span class="icat">${esc(cat)}</span>
+    <h3>${esc(p.titleZh || p.title)}</h3>
+    <div class="ien">${esc(p.title)}</div>
+    <p class="idesc">${esc(p.descZh || '')}</p>
+    <div class="icard-foot">
+      <div class="icard-tags"><span class="itag">#${esc(p.cat)}</span><span class="itag">${String(i + 1).padStart(2, '0')}</span></div>
+      <button class="icopy" data-id="${p.id}" data-which="zh">复制中文</button>
+    </div>
+  </article>`;
+}
+
+/* 灵感过滤：分类 + 关键词（搜标题/正文/说明全字段） */
+function inspireFiltered() {
+  let list = ID.slice();
+  if (state.icat !== '全部') list = list.filter(p => icatZh(p.cat) === state.icat);
+  const q = (state.iq || '').toLowerCase();
+  if (q) list = list.filter(p =>
+    [p.title, p.titleZh, p.cat, icatZh(p.cat), p.zh, p.en, p.usage].join(' ').toLowerCase().includes(q));
+  return list;
+}
+
+function renderInspireChips() {
+  const el = $('#ichips');
+  if (!el) return;
+  el.innerHTML = ICATS.map(c =>
+    `<button class="chip${c === state.icat ? ' on' : ''}" data-icat="${esc(c)}">${esc(c)} <b style="opacity:.55;font-weight:800">${ICAT_COUNT[c]}</b></button>`).join('');
+}
+
+function renderInspireList() {
+  const list = inspireFiltered();
+  const pages = Math.max(1, Math.ceil(list.length / 24));
+  if (state.ipage > pages) state.ipage = pages;
+  if (state.ipage < 1) state.ipage = 1;
+  const slice = list.slice((state.ipage - 1) * 24, state.ipage * 24);
+  const el = $('#ilist');
+  if (!el) return;
+  el.innerHTML = slice.length
+    ? `<div class="igrid">${slice.map(p => inspireCardHTML(p, ID.indexOf(p) + 1)).join('')}</div>`
+    : `<div class="empty">没有匹配的灵感，换个关键词试试？</div>`;
+  const cnt = $('#icount');
+  if (cnt) cnt.textContent = pages > 1 ? `${list.length} 条 · 第 ${state.ipage}/${pages} 页` : `${list.length} 条`;
+  const pg = $('#ipager');
+  if (pg) pg.innerHTML = pagerHTML(pages, state.ipage);
+}
+
+function renderInspire() {
+  state.icat = state.icat || '全部'; state.iq = ''; state.ipage = 1;
+  app.innerHTML = `
+    <div class="shell section">
+      <div class="section-title">
+        <h2>灵感 <span style="font-size:18px">✦</span></h2>
+        <span class="note" id="icount"></span>
+      </div>
+      <div class="search">
+        <input id="iq" type="text" placeholder="搜索：翻译 / 摘要 / 简历 / 代码审查…" />
+        <button type="button" onclick="document.getElementById('iq').dispatchEvent(new Event('input'))">GO</button>
+      </div>
+      <div class="chips" id="ichips"></div>
+      <div id="ilist"></div>
+      <div id="ipager"></div>
+    </div>`;
+  $('#iq').addEventListener('input', e => { state.iq = e.target.value; state.ipage = 1; renderInspireList(); });
+  renderInspireChips();
+  renderInspireList();
+}
+
+/* 灵感详情页（独立设计：idp-* 样式，区别于提示词库详情页；host 支持 overlay 模式） */
+function renderInspireDetail(id, host) {
+  host = host || app;
+  const p = ID.find(x => x.id === id);
+  if (!p) { render404(); return; }
+  const idx = ID.indexOf(p);
+  const prev = ID[idx - 1], next = ID[idx + 1];
+  state.itab = 'zh';
+  host.innerHTML = `
+    ${host === dlContent ? `<div class="shell"><div class="dl-bar"><button class="back-btn" data-dlback>← 返回</button></div></div>` : ''}
+    <div class="shell section ${host === dlContent ? 'dl-in-fade' : ''}">
+      <div class="idp">
+        <div class="idp-head">
+          <div class="idp-bc">
+            <a data-nav="#/">首页</a> ›
+            <a data-nav="#/inspire">灵感</a> ›
+            <span>${esc(p.titleZh || p.title)}</span>
+          </div>
+          <h1 class="idp-title">${esc(p.titleZh || p.title)}</h1>
+          <div class="idp-desc">${esc(p.title)}</div>
+          <div class="idp-meta">
+            <span class="idp-badge">${esc(icatZh(p.cat))}</span>
+            <span class="idp-tag">#${esc(p.cat)}</span>
+            <span class="idp-source">INSPIRE ✦ ${String(idx + 1).padStart(4, '0')} / ${String(ID.length).padStart(4, '0')}</span>
+          </div>
+          <div class="idp-actions">
+            <button class="btn icopy" data-id="${p.id}" data-which="zh">复制中文 ↗</button>
+            <button class="btn icopy" data-id="${p.id}" data-which="en">Copy English ↗</button>
+          </div>
+        </div>
+        <div class="idp-tabs">
+          <button class="idp-tab on" data-itab="zh">🇨🇳 中文翻译</button>
+          <button class="idp-tab" data-itab="en">🇺🇸 English Original</button>
+          <button class="idp-tab" data-itab="usage">📖 使用说明</button>
+        </div>
+        <div class="idp-panel" id="ipanel"></div>
+        <div class="idp-nav">
+          ${prev ? `<button class="back-btn" data-nav="#/i/${encodeURIComponent(prev.id)}">← ${esc(prev.titleZh || prev.title)}</button>` : ''}
+          ${next ? `<button class="back-btn" data-nav="#/i/${encodeURIComponent(next.id)}">${esc(next.titleZh || next.title)} →</button>` : ''}
+        </div>
+      </div>
+    </div>`;
+  renderInspireContent(id);
+}
+
+function renderInspireContent(id) {
+  const p = ID.find(x => x.id === id);
+  if (!p) return;
+  const el = $('#ipanel');
+  if (!el) return;
+  const label = state.itab === 'zh' ? '中文翻译 · 可直接投喂 AI'
+    : state.itab === 'en' ? 'English Original Prompt' : '使用说明';
+  const body = state.itab === 'zh' ? p.zh : state.itab === 'en' ? p.en : p.usage;
+  const which = state.itab === 'en' ? 'en' : state.itab === 'usage' ? 'usage' : 'zh';
+  el.innerHTML = `
+    <div class="idp-panel-head">
+      <span class="idp-panel-label">${label}</span>
+      <button class="icopy" data-id="${p.id}" data-which="${which}">${which === 'en' ? 'COPY ENGLISH ↗' : which === 'usage' ? '复制说明 ↗' : '复制中文 ↗'}</button>
+    </div>
+    <div class="md-body">${mdToHtml(body || '（暂无内容）')}</div>`;
+}
+
+/* 品味页：编辑策展（curated-data.js 驱动，库 + 灵感混编） */
+function renderTaste() {
+  const total = CUR.sections.reduce((s, x) => s + x.items.length, 0);
+  app.innerHTML = `
+    <div class="shell section">
+      <div class="section-title"><h2>品味</h2><span class="note">编辑精选合集 · 宁缺毋滥 · ${total} 条</span></div>
+      <div class="cur-note">策展人手记：这里不是数量竞赛，是反复使用后依然觉得「值得」的提示词。
+      ${CUR.updated ? `更新于 ${esc(CUR.updated)}。` : ''}</div>
+      ${CUR.sections.map(sec => `
+        <div class="cur-sec">
+          <div class="cur-head">
+            <h3>${esc(sec.name)}</h3>
+            <span class="cur-badge">${esc(sec.tag || 'PICK')}</span>
+            ${sec.note ? `<span class="cur-sub">${esc(sec.note)}</span>` : ''}
+          </div>
+          <div class="cur-grid">${sec.items.map(curCardHTML).join('')}</div>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* 详情页（host 参数：默认渲染到 #app；overlay 模式渲染到 #dl-content） */
+function renderPrompt(id, host) {
+  host = host || app;
+  const p = byId(id);
+  if (!p) { render404(); return; }
+  const idx = D.findIndex(x => x.id === id);
+  const prev = D[idx - 1], next = D[idx + 1];
+  state.tab = 'zh';
+  host.innerHTML = `
+    ${host === dlContent ? `<div class="shell"><div class="dl-bar"><button class="back-btn" data-dlback>← 返回</button></div></div>` : ''}
+    <div class="shell section ${host === dlContent ? 'dl-in-fade' : ''}">
+      <div class="crumb">
+        <a data-nav="#/">首页</a> ›
+        <a data-nav="#/cat/${encodeURIComponent(p.cat)}">${esc(p.cat)}</a> ›
+        <span>${esc(p.title)}</span>
+      </div>
+      <div class="detail-grid" style="margin-top:16px">
+        <div class="detail-media">
+          ${mediaHTML(p, idx)}
+          <div class="plabel">${/\.m3u8/i.test(p.video || '') ? '<a class="media-link" href="' + esc(p.video) + '" target="_blank" rel="noopener">▶ HLS 流媒体 ↗</a>' : 'Preview'}</div>
+        </div>
+        <div class="detail-head">
+          <h1>${esc(p.title)}</h1>
+          <div class="desc">${esc(p.desc)}</div>
+          <div class="meta-row">
+            <span class="tag">#${esc(p.cat)}</span>
+            <span class="tag">${esc(p.type)}</span>
+            ${showTags(p, 5).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <button class="tab on" data-tab="zh">🇨🇳 中文提示词</button>
+        <button class="tab" data-tab="en">🇺🇸 英文原版</button>
+        <button class="tab" data-tab="usage">📖 使用说明</button>
+      </div>
+      <div id="pcontent"></div>
+      <div class="pn-nav">
+        ${prev ? `<button class="back-btn" data-nav="#/p/${encodeURIComponent(prev.id)}">← ${esc(prev.title)}</button>` : ''}
+        ${next ? `<button class="back-btn" data-nav="#/p/${encodeURIComponent(next.id)}">${esc(next.title)} →</button>` : ''}
+      </div>
+    </div>`;
+  renderPromptContent();
+}
+
+function renderPromptContent() {
+  const id = location.hash.match(/^#\/p\/(.+)$/)[1];
+  const p = byId(id);
+  if (!p) return;
+  const el = $('#pcontent');
+  if (state.tab === 'zh') {
+    el.innerHTML = `<div class="prompt-panel">
+      <div class="panel-head"><span class="plabel">中文翻译提示词 · 可直接投喂 AI 编码工具</span>
+        <button class="copy" data-id="${p.id}" data-which="zh">COPY 中文 ↗</button></div>
+      <div class="md-body">${mdToHtml(p.zh || '（该模板暂无中文翻译）')}</div></div>`;
+  } else if (state.tab === 'en') {
+    el.innerHTML = `<div class="prompt-panel">
+      <div class="panel-head"><span class="plabel">English Original Prompt</span>
+        <button class="copy" data-id="${p.id}" data-which="en">COPY ENGLISH ↗</button></div>
+      <div class="md-body">${mdToHtml(p.en || '（该模板暂无英文原版）')}</div></div>`;
+  } else {
+    el.innerHTML = `<div class="prompt-panel">
+      <div class="panel-head"><span class="plabel">使用说明与定制指南</span>
+        <button class="copy" data-id="${p.id}" data-which="usage">COPY 说明 ↗</button></div>
+      <div class="md-body">${mdToHtml(p.usage || '（该模板暂无使用说明）')}</div></div>`;
+  }
+}
+
+/* 搜索 */
+/* 搜索（结果同样分页） */
+function renderSearch(q) {
+  state.cat = null; state.q = ''; state.tag = '全部'; state.page = 1;
+  app.innerHTML = `
+    <div class="shell section">
+      <button class="back-btn" data-nav="#/library">← 返回提示词库</button>
+      <div class="section-title" style="margin-top:18px">
+        <h2>搜索「${esc(q)}」</h2><span class="note" id="count"></span>
+      </div>
+      <div id="list"></div>
+      <div id="pager"></div>
+    </div>`;
+  renderList();
+}
+
+/* Roadmap：三阶段时间线（已上线 / 进行中 / 计划中） */
+function renderAbout() {
+  const rm = [
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '灵感板块', p: `${ID.length} 条 prompts.chat 提示词，DeepSeek 大模型中文翻译 + 使用说明，双语对照、分类筛选、三 Tab 详情、上下条导航。` },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '品味策展', p: '编辑精选体系：跨「提示词库 + 灵感」混编，策展语 + 来源徽章，首页编辑推荐位同步。' },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '提示词库', p: `${D.length} 条网页组件提示词，Obsidian 数据源自动构建，预览图即看即用。` },
+    { st: 'wip', badge: '🔧 进行中', t: '全站搜索', p: '一次搜索同时命中提示词库与灵感，结果跨板块聚合展示。' },
+    { st: 'wip', badge: '🔧 进行中', t: '精选扩充', p: '品味页持续更新，覆盖更多主题合集与更多期编辑推荐。' },
+    { st: 'planned', badge: '✦ 计划中', t: '复制统计反哺热度榜', p: '记录复制行为，让真实使用热度说话，反哺「灵感」排序。' },
+    { st: 'planned', badge: '✦ 计划中', t: '本地收藏夹', p: 'localStorage 收藏，提示词库 + 灵感统一管理，跨设备导出。' },
+    { st: 'planned', badge: '✦ 计划中', t: '投稿与编辑审核流', p: '开放投稿，编辑审核后入库，社区共建。' }
+  ];
+  app.innerHTML = `
+    <div class="shell section">
+      <div class="section-title"><h2>Roadmap</h2><span class="note">数据驱动 · 内容优先</span></div>
+      <div class="roadmap">
+        ${rm.map(r => `
+        <div class="rm-item ${r.st}">
+          <div class="rm-card">
+            <span class="rm-badge ${r.st}">${r.badge}</span>
+            <div class="rm-body"><b>${esc(r.t)}</b><p>${esc(r.p)}</p></div>
+            ${r.date ? `<span class="rm-date">${r.date}</span>` : ''}
+          </div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+}
+
+function render404() {
+  app.innerHTML = `
+    <div class="shell nf">
+      <div class="nf-emoji">🫥</div>
+      <h1>404</h1>
+      <p>这条提示词好像被吃掉了…</p>
+      <button class="btn solid" data-nav="#/">返回首页</button>
+    </div>`;
+}
+
+/* ================= 事件与路由 ================= */
+document.addEventListener('click', async e => {
+  /* 灵感板块复制按钮（中文/英文/说明） */
+  const icopy = e.target.closest('.icopy');
+  if (icopy) {
+    e.stopPropagation();
+    const p = ID.find(x => x.id === icopy.dataset.id);
+    if (!p) return;
+    const text = icopy.dataset.which === 'en' ? p.en : icopy.dataset.which === 'usage' ? p.usage : p.zh;
+    const ok = await copyText(text);
+    toast(ok ? '已复制到剪贴板 ✓' : '复制失败，请手动选择文本');
+    if (ok) {
+      const old = icopy.textContent;
+      icopy.textContent = 'COPIED ✓'; icopy.classList.add('done');
+      setTimeout(() => { icopy.textContent = old; icopy.classList.remove('done'); }, 1400);
+    }
+    return;
+  }
+
+  /* 灵感分类 chips */
+  const ichip = e.target.closest('[data-icat]');
+  if (ichip) {
+    state.icat = ichip.dataset.icat;
+    state.ipage = 1;
+    document.querySelectorAll('[data-icat]').forEach(c => c.classList.toggle('on', c === ichip));
+    renderInspireList();
+    return;
+  }
+
+  /* 灵感详情 Tab */
+  const itab = e.target.closest('.idp-tab');
+  if (itab) {
+    state.itab = itab.dataset.itab;
+    document.querySelectorAll('.idp-tab').forEach(t => t.classList.toggle('on', t === itab));
+    const m = location.hash.match(/^#\/i\/(.+)$/);
+    if (m) renderInspireContent(decodeURIComponent(m[1]));
+    return;
+  }
+
+  /* 提示词库复制按钮 */
+  const copyBtn = e.target.closest('.copy');
+  if (copyBtn) {
+    e.stopPropagation();
+    const p = byId(copyBtn.dataset.id);
+    if (!p) return;
+    const text = copyBtn.dataset.which === 'en' ? p.en : copyBtn.dataset.which === 'usage' ? p.usage : p.zh;
+    const ok = await copyText(text);
+    toast(ok ? '已复制到剪贴板 ✓' : '复制失败，请手动选择文本');
+    if (ok) {
+      const old = copyBtn.textContent;
+      copyBtn.textContent = 'COPIED ✓'; copyBtn.classList.add('done');
+      setTimeout(() => { copyBtn.textContent = old; copyBtn.classList.remove('done'); }, 1400);
+    }
+    return;
+  }
+  /* overlay 详情页返回：回到来源页（缩回动画） */
+  const dlBack = e.target.closest('[data-dlback]');
+  if (dlBack) { history.back(); return; }
+
+  const navEl = e.target.closest('[data-nav]');
+  if (navEl) {
+    const h = navEl.dataset.nav;
+    /* 记录来源卡片位置 + 列表滚动位置，供「从哪来到哪去」展开/收缩动画 */
+    if (DL_DETAIL.test(h)) {
+      const card = e.target.closest('.card,.icard,.cur-card,.pick-card');
+      if (card) {
+        const r = card.getBoundingClientRect();
+        _tpOrigin = { x: r.left, y: r.top, w: r.width, h: r.height };
+        _tpScrollY = window.scrollY;   /* 点击时记录（render() 的 scrollTo top 会清零，不能在 openDetail 里取） */
+        _tpOriginHash = location.hash;  /* 点击时记录来源页 hash（openDetail 里已是详情 hash） */
+      } else {
+        _tpOrigin = null;
+      }
+    }
+    go(h);
+    return;
+  }
+  const tab = e.target.closest('.tab');
+  if (tab) {
+    state.tab = tab.dataset.tab;
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t === tab));
+    renderPromptContent();
+    return;
+  }
+  const chip = e.target.closest('.chip');
+  if (chip) {
+    state.tag = chip.dataset.t;
+    state.page = 1;
+    document.querySelectorAll('.chip').forEach(c => c.classList.toggle('on', c === chip));
+    renderList();
+    return;
+  }
+  const pg = e.target.closest('.pg[data-pg]');
+  if (pg) {
+    const p = parseInt(pg.dataset.pg, 10);
+    if (isNaN(p)) return;
+    /* 灵感列表分页（与提示词库分页分流） */
+    if (document.getElementById('ilist')) {
+      if (p === state.ipage) return;
+      state.ipage = p;
+      renderInspireList();
+      const ilist = $('#ilist');
+      if (ilist) ilist.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+    if (p === state.page) return;
+    state.page = p;
+    renderList();
+    const listEl = $('#list');
+    if (listEl) listEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+
+/* mp4 封面：悬停播放 / 移出暂停（事件委托，避免视频全部预载） */
+document.addEventListener('mouseover', e => {
+  const v = e.target.closest('video.thumb-vid');
+  if (!v || !v.paused) return;
+  v.muted = true;
+  const tryPlay = () => v.play().catch(() => {});
+  if (v.readyState === 0) { v.load(); v.addEventListener('loadeddata', tryPlay, { once: true }); }
+  else tryPlay();
+});
+document.addEventListener('mouseout', e => {
+  const v = e.target.closest('video.thumb-vid');
+  if (v) v.pause();
+});
+
+/* 浮动提仔伴侣语录互动 */
+const TIPPY_PET_QUOTES = [
+  "Hi！我是提仔！今天想做什么好东西？✨",
+  "Radar 提示：刚刚捕捉到了一个绝妙的灵感粒子！",
+  "遇到长提示词别慌，装进 TP Core 整理一下！",
+  "好想法配上好 Prompt，才能真正做成产品！",
+  "多模型实测很重要，保持半角标点和清晰结构！",
+  "GOOD PROMPT! 点击上方板块立即探索吧！"
+];
+let _petQuoteIdx = 0;
+let _speechTimer = null;
+function toggleTippyPetSpeech() {
+  const speech = document.getElementById('tippy-pet-speech');
+  if (!speech) return;
+  _petQuoteIdx = (_petQuoteIdx + 1) % TIPPY_PET_QUOTES.length;
+  speech.innerText = TIPPY_PET_QUOTES[_petQuoteIdx];
+  speech.classList.add('active');
+  speech.style.transform = 'translateY(0) scale(1.05)';
+  setTimeout(() => { speech.style.transform = 'translateY(0) scale(1)'; }, 150);
+  if (_speechTimer) clearTimeout(_speechTimer);
+  _speechTimer = setTimeout(() => { speech.classList.remove('active'); }, 3500);
+}
+
+function render() {
+  const hash = location.hash;
+  const isDetail = DL_DETAIL.test(hash);
+  const wasOpen = dl.classList.contains('anim-in');
+
+  /* 详情 → 列表：overlay 缩回卡片位置，底下列表原封不动 */
+  if (wasOpen && !isDetail) { closeDetail(); return; }
+  /* 详情 → 详情（上下条导航）：overlay 内直接换内容，不重新展开 */
+  if (isDetail && wasOpen) { renderDetailContent(hash); return; }
+
+  window.scrollTo({ top: 0 });
+  setNav();
+
+  /* 卡片 → 详情：从点开的卡片位置「撑开」成全屏详情 */
+  if (isDetail && _tpOrigin) { openDetail(hash); return; }
+
+  if (hash === '' || hash === '#' || hash === '#/') return renderHome();
+  if (hash === '#/library') return renderLibrary();
+  let m = hash.match(/^#\/cat\/(.+)$/);
+  if (m) return renderCat(decodeURIComponent(m[1]));
+  m = hash.match(/^#\/p\/(.+)$/);
+  if (m) return renderPrompt(m[1]);
+  m = hash.match(/^#\/i\/(.+)$/);
+  if (m) return renderInspireDetail(decodeURIComponent(m[1]));
+  if (hash === '#/inspire') return renderInspire();
+  if (hash === '#/taste') return renderTaste();
+  m = hash.match(/^#\/search\?q=(.+)$/);
+  if (m) return renderSearch(decodeURIComponent(m[1]));
+  if (hash === '#/about') return renderAbout();
+  render404();
+}
+
+window.addEventListener('hashchange', render);
+
+document.addEventListener('keydown', e => {
+  if (e.key === '/' && !/input|textarea/.test(document.activeElement.tagName)) {
+    const inp = document.querySelector('.search input');
+    if (inp) { e.preventDefault(); inp.focus(); }
+  }
+});
+
+render();
+</script>
+</body>
+</html>

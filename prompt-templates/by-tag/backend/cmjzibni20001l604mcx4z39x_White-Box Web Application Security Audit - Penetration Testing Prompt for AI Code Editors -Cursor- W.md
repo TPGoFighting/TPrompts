@@ -1,0 +1,1 @@
+../../by-category/web-development/cmjzibni20001l604mcx4z39x_White-Box Web Application Security Audit - Penetration Testing Prompt for AI Code Editors -Cursor- W.md

@@ -1,0 +1,1 @@
+../../by-category/health-wellness/cmm202ccv0007jm04u3teb7a5_Dermatology Consultation Guide.md

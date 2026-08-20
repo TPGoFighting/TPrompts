@@ -1,0 +1,1 @@
+../../by-category/automation-workflows/cmlgovy7o000vjv04lqr38ymv_SYSTEM PROMPT- THE INFINITE ROLE GENERATOR.md

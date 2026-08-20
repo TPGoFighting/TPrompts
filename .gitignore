@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+coverage/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 翻译/切分产生的临时中间产物
+agent_chunks/
+chunks/

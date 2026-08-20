@@ -1,0 +1,1 @@
+../../by-category/vibe/vibecoding31_File System Indexer CLI.md

@@ -1,0 +1,1 @@
+../../by-category/image-generation/cml6u282g0001jr040t3d2d0l_LEGO Minifigure Character Transformation.md

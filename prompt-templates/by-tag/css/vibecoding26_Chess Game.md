@@ -1,0 +1,1 @@
+../../by-category/vibe/vibecoding26_Chess Game.md

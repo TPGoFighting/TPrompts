@@ -1,0 +1,1 @@
+../../by-category/vibe/vibecoding7_Interactive Quiz.md

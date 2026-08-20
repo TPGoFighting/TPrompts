@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjgs6lgl0004la04o7j9fujs_Hyper-Realistic 3D Isometric Ottoman Masterpiece.md

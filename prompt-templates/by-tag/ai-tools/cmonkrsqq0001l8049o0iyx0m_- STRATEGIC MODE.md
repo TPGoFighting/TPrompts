@@ -1,0 +1,1 @@
+../../by-category/skill/cmonkrsqq0001l8049o0iyx0m_- STRATEGIC MODE.md

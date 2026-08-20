@@ -1,0 +1,1 @@
+../../by-category/sponsors/githubsponsors18_Student Tier.md

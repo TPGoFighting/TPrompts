@@ -1,0 +1,1 @@
+../../by-category/education/cmlapwzo1000ajx04k7mw265t_Solar System Scale Model Classroom Poster.md

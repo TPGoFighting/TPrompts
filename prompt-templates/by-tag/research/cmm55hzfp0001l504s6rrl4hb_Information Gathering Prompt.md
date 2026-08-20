@@ -1,0 +1,1 @@
+../../by-category/writing/cmm55hzfp0001l504s6rrl4hb_Information Gathering Prompt.md

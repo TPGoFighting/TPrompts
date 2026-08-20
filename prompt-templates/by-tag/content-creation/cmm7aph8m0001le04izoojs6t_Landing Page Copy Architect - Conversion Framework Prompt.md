@@ -1,0 +1,1 @@
+../../by-category/copywriting/cmm7aph8m0001le04izoojs6t_Landing Page Copy Architect - Conversion Framework Prompt.md

@@ -1,0 +1,1 @@
+../../by-category/technical-writing/cmk2zcchl0001kz04ufvdl0kh_Comprehensive Integrative Medical Writing.md

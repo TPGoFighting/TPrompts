@@ -1,0 +1,20 @@
+name: Project checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate static site
+        run: npm run check
+      - name: Run smoke tests
+        run: npm test
+      - name: Validate Python scripts
+        run: find . -type f -name '*.py' -not -path './.git/*' -print0 | xargs -0 -n1 python -m py_compile

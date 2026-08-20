@@ -1,0 +1,98 @@
+# The Digital Frontier: Pixelated Pioneers
+
+**Description:** In a dreamlike world of glowing cubes and deep purple voids, two explorers discover the secrets of a suspended digital island. A 1:1 cinematic view capturing the wonder of finding life and light in a blocky, 8-bit universe.
+
+**Type:** IMAGE
+**Author:** ersinkoc
+**Created:** 2025-12-22T19:48:13.718Z
+**Votes:** 4
+**Views:** 0
+
+**Tags:** Nano Banana
+
+**Category:** Image Generation
+
+## Prompt Content
+
+```
+#version 1.0
+root{details,prompt:str}:
+  details{atmosphere,camera_angle:str,color_palette,emotion,environmental_elements:str,genre:str,lighting,location:str,subject1,subject2,year:str}:
+    atmosphere[4]: Playful,Dreamlike,Digital frontier,Calm isolation
+    camera_angle: "High-angle isometric view, emphasizing the island's isolation and the blocky aesthetics, 1:1 cinematic aspect ratio."
+    color_palette[4]: Saturated primary colors,vibrant greens and blues for the island,deep purples and blacks for the void,pixelated orange accents
+    emotion[4]: Wonder,Curiosity,Discovery,Serenity
+    environmental_elements: "Blocky, geometric trees with glowing leaves, pixelated waterfalls cascading into the void, floating abstract digital dust motes, subtle grid lines on the void's floor."
+    genre: Voxel Art
+    lighting[3]: Emissive light from the voxels themselves,"soft, diffuse ambient light from the digital void",subtle rim lighting on the blocky figures
+    location: "A solitary, blocky floating island made of glowing voxels, suspended in an infinite digital void, with sparse, geometric trees and structures."
+    subject1{costume:str,subject_action:str,subject_expression:str}:
+      costume: "Low-polygon adventurer tunic and trousers in muted greens and browns, a blocky utility belt with voxel tools, simple, chunky voxel boots."
+      subject_action: "Standing with one hand lightly resting on a large, blocky, glowing data crystal embedded in the island."
+      subject_expression: "A subtle, curious expression, eyes wide with wonder at the digital landscape."
+    subject2{costume:str,subject_action:str,subject_expression:str}:
+      costume: "A vibrant, pixelated explorer jumpsuit in electric blue, with contrasting orange accents, chunky voxel goggles pushed up on her head, a small blocky digital compass attached to her wrist."
+      subject_action: "Leaning forward slightly, arm outstretched, pointing excitedly towards a cluster of particularly vibrant voxel flora at the island's edge."
+      subject_expression: "An excited, joyful expression, mouth slightly open in awe."
+    year: "Retro-Futuristic, 8-bit aesthetic"
+  prompt: "You will perform an image edit using the people from the provided photos as the main subjects. Preserve their core likeness. Imagine Subject 1 (male) and Subject 2 (female) as blocky, low-polygon explorers discovering a vibrant, floating voxel island in a vast digital void. Subject 1 is contemplative, while Subject 2 is eagerly pointing out a new discovery amidst the pixelated flora."
+```
+
+**Source:** https://prompts.chat/prompts/cmjhkjbx20001l404l00tc388_the-digital-frontier-pixelated-pioneers
+
+## 中文翻译
+
+### 标题
+数字前沿：像素化先驱
+
+### 提示词内容
+
+```
+#版本1.0
+根{详细信息，提示：str}：
+  详细信息{气氛，camera_angle：str，color_palette，情感，environmental_elements：str，流派：str，灯光，位置：str，subject1，subject2，year：str}：
+    氛围[4]：俏皮、梦幻、数字前沿、平静隔离
+    camera_angle：“高角度等距视图，强调岛屿的孤立性和块状美学，1:1 电影宽高比。”
+    color_palette[4]：饱和的原色，岛屿的活力绿色和蓝色，虚空的深紫色和黑色，像素化的橙色口音
+    情感[4]：惊奇、好奇、发现、宁静
+    Environmental_elements：“带有发光叶子的块状几何树木，瀑布般的像素化瀑布倾泻到虚空中，漂浮着抽象的数字尘埃，虚空地板上微妙的网格线。”
+    类型： 体素艺术
+    照明[3]：来自体素本身的发射光，“来自数字虚空的柔和的漫射环境光”，块状人物上的微妙边缘照明
+    位置：“一个由发光体素组成的孤独的块状浮岛，悬浮在无限的数字空间中，有稀疏的几何树木和结构。”
+    subject1{服装：str，subject_action：str，subject_expression：str}：
+      服装：“低多边形冒险家外衣和裤子采用柔和的绿色和棕色，带有体素工具的块状实用腰带，简单、厚实的体素靴子。”
+      subject_action：“站立，一只手轻轻地放在嵌入岛上的一个大的、块状的、发光的数据晶体上。”
+      subject_expression：“一种微妙而好奇的表情，睁大眼睛，对数字景观充满好奇。”
+    subject2{服装：str，subject_action：str，subject_expression：str}：
+      服装：“充满活力的电蓝色像素化探险家连身裤，带有对比鲜明的橙色口音，头上戴着厚实的体素护目镜，手腕上戴着一个小块状数字指南针。”
+      subject_action：“稍微向前倾，伸出手臂，兴奋地指向岛屿边缘的一群特别充满活力的体素植物群。”
+      subject_expression：“一种兴奋、喜悦的表情，嘴巴因敬畏而微微张开。”
+    年份：“复古未来主义，8 位美学”
+  提示：“您将使用所提供照片中的人物作为主要拍摄对象来进行图像编辑。保留他们的核心相似性。将拍摄对象 1（男性）和拍摄对象 2（女性）想象成块状、低多边形的探险家，在广阔的数字空间中发现一个充满活力、漂浮的体素岛。拍摄对象 1 正在沉思，而拍摄对象 2 则热切地指出像素化植物群中的一个新发现。”
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**UI/UX设计与视觉创作**类的提示词。In a dreamlike world of glowing cubes and deep purple voids, two explorers discover the secrets of a suspended digital island. A 1:1 cinematic view capturing the wonder of finding life and light in a blocky, 8-bit universe.
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

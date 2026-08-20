@@ -1,0 +1,1 @@
+../../by-category/skill/cmokd4yfq0001ib04ksk3wkrp_Borrow Skill.md

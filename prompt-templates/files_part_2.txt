@@ -1,0 +1,212 @@
+by-category/coding/cmjsmc94u0001le04d78hg4b2_Senior Java Backend Engineer Expert.md
+by-category/coding/cmjts5c8v0004l204x4b8bwog_File Analysis API with Node-js and Express.md
+by-category/coding/cmjxt5nmd0004jx04xicfprlp_Code Review Specialist 2.md
+by-category/coding/cmk2a83rk000aie046qvxak8h_Vibe Coding Master.md
+by-category/coding/cmk6x3x210001l804mfcisa4l_Sentry Bug Fixer.md
+by-category/coding/cmk9x7onr0004jx045dn3t1lh_Commit Message Preparation.md
+by-category/coding/cmkb71e8h000tif048slygzk7_Test Automation Expert.md
+by-category/coding/cmkjg2w1w000bjv04sobpgqxr_create a drag-and-drop experience using UniApp.md
+by-category/coding/cmkjggkho000njv04s2vqz5ux_Develop a creative dice generator called -IdeaDice--.md
+by-category/coding/cmkm7oshn0004l204f8mr4gin_GitHubTrends.md
+by-category/coding/cmku23ctf0007ic04j0ur0dda_My-Skills.md
+by-category/coding/cmkvj25ba0001ib04qojno8l7_copilot.md
+by-category/coding/cml0hj6990001js04k1rybszu_Comprehensive Code Review Expert.md
+by-category/coding/cmlacv8nr0001js04s72h7jye_Code Recon.md
+by-category/coding/cmlcf50ex000djv04aw3i0la0_PRD.md
+by-category/coding/cmle7id1v0004l504da9x570u_Code Review Specialist.md
+by-category/coding/cmlo34pev0007jr0463xc248a_Hallucination Vulnerability Prompt Checker.md
+by-category/coding/cmlzc0cnt0001l704zyfn97b7_Python Code Performance - Quality Enhancer.md
+by-category/coding/cmm0fw3st0004jm04nmw4ec5f_Python Code Generator - Clean- Optimized - Production-Ready.md
+by-category/coding/cmm2i5xr70007jx04t8xaq3ng_Minimax Music - Lyrics Generation.md
+by-category/coding/cmm35u3qp0001i804oz3afxdj_Analyze code scanning security issues and dependency updates if vulnerable.md
+by-category/coding/cmm3dl4fh0001l204sf8rctqz_security fixes cves.md
+by-category/coding/cmm3dyzby0008l204v7wb0gkk_security fixes.md
+by-category/coding/cmm86r5ub0001l104oj7titto_Python Security Vulnerability Auditor -OWASP-Mapped - Production-Hardened-.md
+by-category/coding/cmm9mm2br0001jw048ye2xldu_prompts-chat taste.md
+by-category/coding/cmm9os3qa0001ju04ynu0l0a7_Python Unit Test Generator - Comprehensive- Coverage-Mapped - Production-Ready.md
+by-category/coding/cmmaxs1el0001l104sg8u4fdx_Next-js.md
+by-category/coding/cmmb3gii40001l5040sfaolym_Code Translator - Idiomatic- Version-Aware - Production-Ready.md
+by-category/coding/cmmjqpyi10001js043x2cexuc_SQL Query Builder - Optimiser.md
+by-category/coding/cmmlkcl380005l604a6fmy1h3_Tistory Blog Skin UI-UX Enhancement Pipeline.md
+by-category/coding/cmmnyqy0f0004jx04p1ev3bvz_Code Review Specialist 3.md
+by-category/coding/cmmomrahn000dl404xpwplbq1_Claude - Proje çalışma promptu.md
+by-category/coding/cmmx2hvgz0001ks04mcg6dizn_System Architect Agent Role.md
+by-category/coding/cmmx2jlf90001lb04fu7mjvl2_API Design Expert Agent Role.md
+by-category/coding/cmmx2l3950001ic04hgs1q1dz_Database Architect Agent Role.md
+by-category/coding/cmmx2q3te0005k604pbff146u_Backup - Restore Agent Role.md
+by-category/coding/cmmx2ques0005ks04n8akxej1_DevOps Automator Agent Role.md
+by-category/coding/cmmx2rlo50005ic047dm1cvbg_Environment Configuration Agent Role.md
+by-category/coding/cmmx2sc540009ic048r6nmb31_Git Workflow Expert Agent Role.md
+by-category/coding/cmmx2t2o1000dic04l0wwko2c_Repository Workflow Editor Agent Role.md
+by-category/coding/cmmx2tt4g0009ks04iv6hgq99_Documentation Maintainer Agent Role.md
+by-category/coding/cmmx2ya3s000hic04l0i60mil_Legal Document Generator Agent Role.md
+by-category/coding/cmmx2z0s3000jil04s31wfd1c_Caching Architect Agent Role.md
+by-category/coding/cmmx2zrit000nil04y5rs2jxs_Optimization Auditor Agent Role.md
+by-category/coding/cmmx30hyu0005if04r5k8yknq_Performance Tuning Agent Role.md
+by-category/coding/cmmx318m1000ril04som8t501_Diff Security Auditor Agent Role.md
+by-category/coding/cmmx31zon000dk604l79f55ac_Vulnerability Auditor Agent Role.md
+by-category/coding/cmmx32qo80009if04ronmeeg3_API Tester Agent Role.md
+by-category/coding/cmmx33hx10001js04e6xx9e0o_Quality Engineering Agent Role.md
+by-category/coding/cmmx348r70005js04nqpc1mp3_Test Analyzer Agent Role.md
+by-category/coding/cmmx34zl7000vil04rm2wl8yl_Test Engineer Agent Role.md
+by-category/coding/cmmx35q4m000lic049ujrp1eb_Code Formatter Agent Role.md
+by-category/coding/cmmx36gj0000hks04zj5f7249_Code Review Agent Role.md
+by-category/coding/cmmx3775n000dif04fpzd4xww_Code Reviewer Agent Role.md
+by-category/coding/cmmx37xsr000sic044rjkrpbz_Dependency Manager Agent Role.md
+by-category/coding/cmmx38o66000wic04ivu6li83_Error Handler Agent Role.md
+by-category/coding/cmmx39fey000zil04qqq1fqu9_Post-Implementation Audit Agent Role.md
+by-category/coding/cmmx3a64a0013il04ajxk8j0t_Product Planner Agent Role.md
+by-category/coding/cmmx3awrf000hif048zyj6dch_Rapid Prototyper Agent Role.md
+by-category/coding/cmmx3bo9s0010ic04frpnu7rh_Root Cause Analysis Agent Role.md
+by-category/coding/cmmx3ceuh000oks04gkxs44zr_Refactoring Expert Agent Role.md
+by-category/coding/cmmx3d5jf000sks04tfsmoe6a_Shell Script Agent Role.md
+by-category/coding/cmmx3dw3v000wks04ehuzld6v_Tool Evaluator Agent Role.md
+by-category/coding/cmmx3en0s0014ic04je8y43ma_TypeScript Type Expert Agent Role.md
+by-category/coding/cmmx3irso0009js048b2sddmj_Bug Risk Analyst Agent Role.md
+by-category/coding/cmmx3kakv0017il04axj51zi2_Repository Indexer Agent Role.md
+by-category/coding/cmmx3l25d001bil046oqvr24j_Visual Media Analysis Expert Agent Role.md
+by-category/coding/cmn8yqba80004lg04eh5hmaeq_Functional Analyst.md
+by-category/coding/cmn91nz0q0001l70443dnxqm1_Small Functional Analyst mode.md
+by-category/coding/cmn91ps0c0009l704unqtf3eb_Ultra-micro Functional Analyst Prompt.md
+by-category/coding/cmngmckys0004l4043edgh3us_aa-cli taste.md
+by-category/coding/cmnltyu590003mc07um3gtyqx_DOE Framework - Directions Template.md
+by-category/coding/cmnswxodn0007l5041aeyfdwo_Potato Critic.md
+by-category/coding/cmo4sf06s0004jy0400g439y2_Setup and Bootstrap a Flutter Development Environment.md
+by-category/coding/cmo4symio0001if041j38vf8f_GitHub SSH Setup for Students -Existing Repository- Clone - Push Ready-.md
+by-category/coding/cmo8ku9c70001jr073nce3euk_-- PromptForge.md
+by-category/coding/cmobul9j30001ju0432iezz5l_Code Review Professional.md
+by-category/coding/cmoc2mkbm0001jr04k3z0vxrc_Cyber-Pulse- 3D Neon Particle Swarm.md
+by-category/coding/cmoc2puct0009jr04o5h7u5mf_Gravity Shift- Low-Poly Physics Platformer.md
+by-category/coding/cmoc2vjr20001ji04m3z7ffzm_High-Velocity Dogfight.md
+by-category/coding/cmodobx6w0001ks043bzhtda7_Vibe Coding with Commands and Skills.md
+by-category/coding/cmojdlygi0008jv04drsh2mun_Vector-Based Space Combat System.md
+by-category/coding/cmojdmx4o000gjv04mtdpxd3b_Grid-Based Match-3 Chain Reaction Logic.md
+by-category/coding/cmooot7eo0004l404ntb8mi3y_Git Repository Analysis and Knowledge Base Construction.md
+by-category/coding/cmou7om8x0001l5048l9fgfma_Code Review Specialist.md
+by-category/coding/cmqfb0kec0004l1043ahi3ys4_Fix LaTeX dollars.md
+by-category/coding/cmqos55p70004kv04bxwt0mke_Code Review Specialist.md
+by-category/coding/cmqv2kpck0001jr044rji3nxj_Automated Text Typing Every 5 Minutes with Python.md
+by-category/coding/cmrj4tmor0001lc04dv20c18g_Core Systems Architect- Upgrading the TITAN OMEGA Edge Dashboard.md
+by-category/coding/cmsoepp2r0001ie04cgg2lia2_Senior AI - Data Engineering Meta-Prompt Generator.md
+by-category/coding/cmsw5ya9h000el20494lmcqqn_Elite Software Engineer - Product Architect Prompt.md
+by-category/copywriting/cmj1zb2a700novl0rabkdkpoi_LinkedIn Ghostwriter.md
+by-category/copywriting/cmjohrwa50005l504bttpwzof_Open Source - Free License Selection Assistant.md
+by-category/copywriting/cmjoi1mh80009l504d6t10nse_License Selection Assistant from Intellectual Property expert.md
+by-category/copywriting/cmlbyh7xt0001jx04ivlbsqk8_Brotherhood Pressure - CN-EN - EN-EN Street Rewrite.md
+by-category/copywriting/cmm7aph8m0001le04izoojs6t_Landing Page Copy Architect - Conversion Framework Prompt.md
+by-category/copywriting/cmpyajmjq0004le04oe6ofv5e_Conference Invitation Email.md
+by-category/copywriting/cmsuic0io0001jl04635csh2m_Maximum Lexical Compression.md
+by-category/course-creation/cmlohhgf70001jv04wru6pfki_Meme coins knowledge  and trading .md
+by-category/course-creation/cmmjg7fc00001l204shgd09n6_Operating systems .md
+by-category/creative/cmj5wscl40018q10rolnpulg5_Virtual Game Console Simulator.md
+by-category/creative/cmj5wxdzy001mq10r5lbcu91f_Christmas Poster - Festive Holiday Scene.md
+by-category/creative/cmj5y6ly60001wj0r02507d25_Crear un retrato familiar combinando dos personas.md
+by-category/creative/cmj5z2lf5000bwj0rixsymghy_Turkish Cats hanging out nearby of Galata Tower .md
+by-category/creative/cmj66sd0k000txs0qzb1gnqtf_Blender Object Maker.md
+by-category/creative/cmj75qu9j000rql0rrffckw8y_Bakery Merge Bounty Game Overview.md
+by-category/creative/cmj8udw2a0001vt0rr93g4u0d_Create a New Greek God.md
+by-category/creative/cmj9rdxhd0004wt0rkkd9k4z4_Children-s Story about Apples.md
+by-category/creative/cmjaxt3090001wm0qlqrp04md_Documentary on Humanitarian - Refugee Crises.md
+by-category/creative/cmjfejahs0004jm04otpm0lqk_Girl Taking Selfie with Avatar Characters in Cinema.md
+by-category/creative/cmjffc2my0001js04kskcgjiw_UI Designer Role.md
+by-category/creative/cmjfqgy790005jv04mzr2zpg8_Squid Game - Red Light- Green Light Challenge.md
+by-category/creative/cmjg4lbf5000ai9043s7j6mah_Dizi ve Film Özeti Çeviri Asistanı.md
+by-category/creative/cmjhbng03000glh04ame5n4q8_Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu.md
+by-category/creative/cmji802s9000al504v8hozgf2_AI Video Creation Assistant.md
+by-category/creative/cmjiddinq000sjq04pcc5xbu9_Master Chinese Web Novel Author.md
+by-category/creative/cmjisbppi0001l804vf2otb7v_VR Headset Experience Simulator.md
+by-category/creative/cmjits8la000kl1042cjz4ism_Doom Horror Death Image Simulator.md
+by-category/creative/cmjl60jr3000blb043jr6lq6h_Giant Object in City.md
+by-category/creative/cmjlm1n690001l704i8ztolt8_One-Click Design Mockup Creator.md
+by-category/creative/cmjmayr820004l6046vec3ojp_Letter from Lisa- A Heartfelt Plea to Her Father.md
+by-category/creative/cmjn1dbiz0001ju04fftl6xss_Isometric 3D Cartoon Scene with Weather Effects.md
+by-category/creative/cmjo63zoo000al504owz2oio9_Edit a New Year-s Video for Antioch Textile with Nano Banana.md
+by-category/creative/cmjp4psxf0001l704c8uio863_Quiet Glow.md
+by-category/creative/cmjshq2z1000olc04hsl6msok_Bingo Game Creator.md
+by-category/creative/cmjtzux050004l704s9f1re1o_Color Consistency Analysis and Adjustment.md
+by-category/creative/cmju8vxkp0001l7049xnmq8r7_Asistente de Recetas de Cocina Chilena.md
+by-category/creative/cmjufuo0w0001k10442tsryyx_Creative Storytelling Guide.md
+by-category/creative/cmjws5u160004lg04pq6o79o8_AI Character Creation Guide.md
+by-category/creative/cmjx7co3f0001l804phba1vp3_Creative Short Story Writing.md
+by-category/creative/cmjxd1as8000ngl04gdan0ob5_Créer une Carte Mentale pour Séance d-Idéation.md
+by-category/creative/cmjxe5tcz000vgl043ygsh4r7_Cinematic Close-Up of Craftsman with Paper Figures.md
+by-category/creative/cmjxrs5d30004kz04umbqhpkz_Wary Bear in a Hostile Woodland.md
+by-category/creative/cmjzme1qf0001l8042nhezt2u_Dynamic Recipe Generator from Available Ingredients.md
+by-category/creative/cmk8ft2610004l404sohre6y5_Slap Game Challenge- Act as the Ultimate Slap Game Master.md
+by-category/creative/cmk8me1cx0001l204tsam3mnw_Vision-to-json.md
+by-category/creative/cmkb82kar000kjj041ipk306w_Joker- Tech Humor Master.md
+by-category/creative/cmkfgz81t0001l5044zlqd59s_Creative Ideas Generator.md
+by-category/creative/cmkgm6qus0004i304vx1hpbr7_The tyrant King.md
+by-category/creative/cmkvut6zi0007js04pblgxqja_Screenplay Script with Cinematography Details.md
+by-category/creative/cml2aak0m0004jt0487y040w6_Custom Travel Plan Generator.md
+by-category/creative/cmle5iur80001jy04khkjuiuo_Creative Writing Adventure.md
+by-category/creative/cmlfb5mlj0004jm04urfrjldp_Human-Like Creative Writing Challenge.md
+by-category/creative/cmlsvan0t0001jy04iedfw0xy_Create Satirical and Bold Song Lyrics.md
+by-category/creative/cmlu6vaiw0001ju048fvxtgn5_Master Podcast Producer - Sonic Storyteller.md
+by-category/creative/cmlu7m0so0001jl046b8hxh9o_Cinematic Video Essay Director.md
+by-category/creative/cmlzi9coh0004l404fnj1m12v_Innovative Use Case Generator for New Tools.md
+by-category/creative/cmmf1818a000kkw04emk191kf_Fantasy Console Simulator.md
+by-category/creative/cmnimo1qg0001ih04don946sv_The Colorful Fish Learning Emotions.md
+by-category/creative/cmo8yjuxq0004lh04v9w0vtzj_Augmented Reality Real Estate Staging.md
+by-category/creative/cmoema5vo0001la04vwi0o4jz_6-Panel Storyboard Mastery.md
+by-category/creative/cmofskfg30001js04gbz0woaf_电影视觉指导与AIGC分镜生成器.md
+by-category/creative/cmorerr340001j607yqx98r2e_Wonder Land Adventure.md
+by-category/creative/cmov7papw0001ju043grkjum1_Horror Story in Hindi.md
+by-category/creative/cmowr7ps10001jr04z7iclqf6_YouTube Script Engine - High Retention.md
+by-category/creative/cmpknszsz0001l7040cyz029n_Creative Writing- Exploring Inner Desires.md
+by-category/creative/cmqakc9s60001jr045azemkyz_Name and Prompt for Digital Avatar Application.md
+by-category/creative/cmqpnrxrp0004la04to9nvf2h_Creative Coloring Book Creations.md
+by-category/creative/cmqqhcaou0007l204rxm1x70k_Small .md
+by-category/creative/cmrl8g96g0001jh09dcuevw3p_Copy Script Style.md
+by-category/creative/cmrvutke2000hkz04jhnh3v4w_Design a Military Uniform.md
+by-category/creative/cmsxpu30x0004ih040n3uicfq_Kaomoji Chat.md
+by-category/data-science/cmj2xpzoy0001vr0rki0x5f85_AI2sql SQL Model - Query Generator.md
+by-category/data-science/cmj63h699000ap50r5y89t1kw_Detailed Analysis of YouTube Channels- Databases- and Profiles.md
+by-category/data-science/cmj8fpwoe0001uh0qt4lo47wp_Analyse Énergétique avec DJU- Consommation et Coûts.md
+by-category/data-science/cmj8gwumj000yv40rm9hmcuba_Viral Video Analyzer for TikTok and Xiaohongshu.md
+by-category/data-science/cmj8jjos90001yj0qzhgtvfzl_Analyse Énergétique avec DJU- Consommation et Coûts.md
+by-category/data-science/cmj9l3pkq0001u10s1a0x9lcm_Product Image Highlight Extraction.md
+by-category/data-science/cmjc4egev0001v80rm56oug7b_Data Analyst.md
+by-category/data-science/cmjc4l40m0007u00rkzqzruqh_Lead Data Analyst with Data Engineering Expertise.md
+by-category/data-science/cmjfs8fqm0001ky04upwuwdoj_Crypto Market Outlook Analyst.md
+by-category/data-science/cmjfymbqt000fjp04fa9b4vny_Pathology Slide Analysis Assistant.md
+by-category/data-science/cmjgi0jqy0004ky04o7qqt2hx_Quantitative Factor Research Engineer.md
+by-category/data-science/cmjhx5hal0007l704g98nqns8_提取查询 json 中的查询条件.md
+by-category/data-science/cmjiosifa0010jp04u1jnf5st_Algorithm Analysis and Improvement Advisor.md
+by-category/data-science/cmjl2a77d000fjy04ln3oi8p5_Using StanfordVL-BEHAVIOR-1K for Robotics and AI Tasks.md
+by-category/data-science/cmjllplbk000cl7046mnllh80_Personalized Technical Intelligence Briefing for Edge AI in Defense.md
+by-category/data-science/cmjmngz6d0007ic044ylth6jb_FDTD Simulations of Nanoparticles.md
+by-category/data-science/cmjthcle70004ib044eacwbnw_Advanced Text Converter for Large Datasets.md
+by-category/data-science/cmjz1k3aq0007ky04igtxwt8n_SQL Query Generator from Natural Language.md
+by-category/data-science/cmjzaypob000dky041c68zq4p_Semantic Intent Analysis for Report Generation.md
+by-category/data-science/cmlp2szmu0001lb047jvk26rh_Lead Data Analyst for Actionable Insights.md
+by-category/data-science/cmm7manvr000dl504i52kbw0l_Data Architect - Business Strategist -CSV Audit - Pipeline-.md
+by-category/data-science/cmmnar19t0004le043y9x238x_MISSING VALUES HANDLER.md
+by-category/data-science/cmmx2lu6d0001l804foa0s1mz_Data Validator Agent Role.md
+by-category/data-science/cmmx2pcnd0001k604fhc6cq9k_Mock Data Generator Agent Role.md
+by-category/data-science/cmmx3jj8c000hk604w8fmzk8j_Deep Research Agent Role.md
+by-category/data-science/cmoka75o60004l404kpaw0njw_Grok Research Agent.md
+by-category/data-science/cmosybkff0001jj04jjj076vr_Fantasy Dataset Creator for Machine Learning.md
+by-category/data-science/cmrcsnw700001ie04irato2m3_explain a Concept via Allegorical Story.md
+by-category/design/cmmnb9dxg0001l8047jcrujr5_Kickstart Prompt for Web UX - UI Design .md
+by-category/design/cmmoikk3b000jkz04xgxb1t9s_Design System Extraction Prompt Kit.md
+by-category/design/cmmopznp10009le041evkm0nx_Design Handoff Notes - AI First- Human Readable.md
+by-category/design/cmmoq1aqr000kle046h0960yk_Visual QA - Cross-Browser Audit.md
+by-category/design/cmmoq2i9d000sle049zrs991x_Lighthouse - Performance Optimization.md
+by-category/design/cmmoq6w7o0004la042h9mga36_Pre-Launch Checklist Generator.md
+by-category/design/cmmxtom5d0001jy04k8n66wqv_UX Conversion Deconstruction Engine.md
+by-category/design/cmmxtsuq40001l704dlqlgxdr_AI-First Design Handoff Generator -Dev-Ready Spec-.md
+by-category/design/cmmxtuy2w0004l704mt7xxlr3_Design System Consistency Auditor.md
+by-category/design/cmmxtz3690005l704lv6dp3h5_Apple-Level UI System Designer -2026 Standard-.md
+by-category/design/cmn089nzq0004l104lmz1atha_Illustrator Style Describer Weavy.md
+by-category/design/cmnedfduc0001l104i919vl6s_Picture design .md
+by-category/design/cmnrbjdrn0001ky047nuc6gd0_AI-Generated Patent Illustration Instructions.md
+by-category/design/cmnx9n87w0004i604fqxukj6b_Web Typography.md
+by-category/design/cmobbg6a50007jv042pfx03v8_Designing a Feature Testing Page for Enterprise WeChat-DingTalk.md
+by-category/design/cmobfhjz3000el1043ccbflbw_High-End Technology-Inspired Website UI Redesign.md
+by-category/design/cmobko15m0004l4047a41x2lz_RPA-Agentic AI Process Developer Portfolio Design for Claude.md
+by-category/design/cmp2nnvma0001l704v43f48t8_The Lovelyline .md
+by-category/design/cmp9lkk550005kv0476lgujwd_Dota 2 Hero Stats and Builds Website Design.md
+by-category/design/cmpvl2nex0001l204z3m0xqw3_GRAPHICS.md
+by-category/design/cmqdpf4240001jv04m93hle15_Intricate Stippling Illustration of Istanbul Street Scene.md
+by-category/design/cmqpjk1ur0007ju043rw8ryds_Action video .md

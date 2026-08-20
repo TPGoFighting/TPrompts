@@ -1,0 +1,1 @@
+../../by-category/market-analysis/cmlxzddh00006jx042xw25s0h_Big 4 style report for retail traders - Enter the name and ticker of a U-S- publicly traded company-.md

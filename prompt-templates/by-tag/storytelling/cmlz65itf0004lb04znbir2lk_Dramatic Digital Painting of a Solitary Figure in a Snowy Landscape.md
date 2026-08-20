@@ -1,0 +1,1 @@
+../../by-category/uncategorized/cmlz65itf0004lb04znbir2lk_Dramatic Digital Painting of a Solitary Figure in a Snowy Landscape.md

@@ -1,0 +1,1 @@
+../../by-category/marketing/cmjjyrkce000dl704jbyci77e_Optimize E-commerce Listing for High CTR with Holiday Design.md

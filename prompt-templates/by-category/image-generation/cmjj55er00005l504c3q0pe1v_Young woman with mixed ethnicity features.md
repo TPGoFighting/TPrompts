@@ -1,0 +1,115 @@
+# Young woman with mixed ethnicity features
+
+**Type:** IMAGE
+**Author:** gunebak4n
+**Created:** 2025-12-23T22:13:02.316Z
+**Votes:** 2
+**Views:** 0
+
+**Tags:** Art, Content Creation
+
+**Category:** Image Generation
+
+## Prompt Content
+
+```
+{
+    "subject": {
+      "appearance": "Young woman with mixed ethnicity features, fair skin, and long, layered dark brunette hair falling loosely around her shoulders. Natural, fresh-faced makeup look with groomed brows and soft pink lips.",
+      "outfit": "Simple black spaghetti-strap camisole or tank top.",
+      "environment": "Bright, airy bedroom setting. Lying on a bed with crisp white duvet/sheets. A grey upholstered headboard is visible behind. White sheer curtains covering a window in the background, letting in soft light."
+    },
+    "technical_style": "Social media selfie aesthetic, triptych or collage style, soft focus, high-key lighting, intimate and casual atmosphere."
+  },
+  "pose_specs": {
+    "body_position": "Prone position (lying on stomach) on the bed, facing the camera. Shoulders and upper chest lifted off the mattress.",
+    "arms": "Elbows resting on the bed to support the upper body. One hand (right hand) brought up to touch the face—fingers resting gently on the chin or cheek.",
+    "head": "Tilted slightly, creating a playful and engaging angle.",
+    "expression": "Varied playful expressions: 1) A soft, sweet smile with direct eye contact. 2) A candid laugh looking away to the side. 3) A playful wink with a scrunched nose.",
+    "framing": "Close-up portrait framing, cutting off at the shoulders/chest."
+  },
+  "camera_settings": {
+    "viewpoint": "Eye-level relative to the subject on the bed (low angle relative to the room).",
+    "focal_length": "24mm to 35mm (Front-facing smartphone camera focal length).",
+    "aperture": "f/2.0 to f/2.8 (Soft background blur to keep focus on the face).",
+    "shutter_speed": "1/100s",
+    "iso": "200",
+    "composition": "Centered subject, intimate proximity to the lens."
+  },
+  "lighting_setup": {
+    "type": "Natural Window Light.",
+    "qualities": "Soft, diffused, wrapping light.",
+    "direction": "Side lighting coming from the window (left side of the frame), illuminating the face evenly while creating very soft, flattering modeling shadows on the opposite side.",
+    "color_temperature": "Daylight balanced (approx 5500K), clean white tones."
+  }
+}
+
+```
+
+**Source:** https://prompts.chat/prompts/cmjj55er00005l504c3q0pe1v_young-woman-with-mixed-ethnicity-features
+
+## 中文翻译
+
+### 标题
+具有混合种族特征的年轻女性
+
+### 提示词内容
+
+```
+{
+    “主题”：{
+      "appearance": "具有混合种族特征的年轻女性，白皙的皮肤，长而分层的深色黑发松散地垂落在肩上。自然清新的妆容，整齐的眉毛和柔软的粉红色嘴唇。",
+      "outfit": "简单的黑色细肩带吊带背心或背心。",
+      “环境”：“明亮、通风的卧室环境。躺在床上，床上铺着洁白的羽绒被/床单。后面可以看到灰色的软垫床头板。白色的透明窗帘覆盖着背景的窗户，让柔和的光线透进来。”
+    },
+    "technical_style": "社交媒体自拍美学、三联或拼贴风格、柔焦、高调灯光、亲密和休闲的氛围。"
+  },
+  “姿势规格”：{
+    "body_position": "俯卧（俯卧）在床上，面向镜头。肩膀和上胸部抬离床垫。",
+    "arms": "肘部放在床上以支撑上半身。一只手（右手）抬起来触摸脸部 - 手指轻轻放在下巴或脸颊上。",
+    "head": "稍微倾斜，创造一个有趣且迷人的角度。",
+    "express": "各种俏皮的表情：1) 柔和、甜蜜的微笑，目光直接接触。2) 望向一边的坦率大笑。3) 皱着鼻子俏皮地眨眼。",
+    "framing": "特写肖像取景，在肩膀/胸部切掉。"
+  },
+  “相机设置”：{
+    "viewpoint": "相对于床上拍摄对象的眼睛水平（相对于房间的低角度）。",
+    "focal_length": "24mm 至 35mm（智能手机前置摄像头焦距）。",
+    "aperture": "f/2.0 到 f/2.8（柔和的背景模糊以保持焦点在脸部）。",
+    "shutter_speed": "1/100s",
+    “iso”：“200”，
+    “构图”：“主体居中，靠近镜头。”
+  },
+  “照明设置”：{
+    "type": "自然窗光。",
+    "quality": "柔和、漫射、包裹的光线。",
+    "direction": "来自窗户（框架左侧）的侧光，均匀地照亮脸部，同时在另一侧创建非常柔和、讨人喜欢的造型阴影。",
+    "color_Temperature": "日光平衡（约 5500K），干净的白色色调。"
+  }
+}
+```
+
+## 使用说明
+### 这个提示词能帮你做什么
+这是一个**营销内容与SEO优化**类的提示词。它可以帮助你完成与Young woman with mixed ethnicity features相关的任务。
+
+### 适用人群
+通用用户
+
+### 使用步骤
+1. 复制下方完整的中文提示词内容
+2. 打开任意AI工具（ChatGPT、Claude、Gemini、Copilot等）
+3. 粘贴提示词到对话框
+4. 根据需要修改变量部分（如有）
+5. 发送并获取AI生成的响应
+6. 根据结果进一步调整或追问
+
+### 使用技巧
+- 如果AI生成的结果不满意，可以提供更多上下文或具体要求
+- 可以要求AI用不同的风格或角度重新生成
+- 对于复杂任务，可以分步骤进行，先让AI理解需求再执行
+- 保留变量的默认值通常就能获得不错的效果，如需个性化可修改
+
+### 注意事项
+- 不同AI模型可能产生不同效果，可以多尝试对比
+- 对于专业领域内容，建议人工审核AI输出
+- 提示词中的变量可以根据实际需求自由调整

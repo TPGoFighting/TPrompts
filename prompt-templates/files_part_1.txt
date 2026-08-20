@@ -1,0 +1,212 @@
+by-category/academic-writing/cmjwphuqd0001i3043hx6ewgf_Article Summarizer.md
+by-category/academic-writing/cmjwpib580005i304kmvgpciq_Research Paper Feature Diagram.md
+by-category/academic-writing/cmjy93woa0001jl04r8vxwqf8_Exploring Gaps in Thesis Writing Literature with ChatGPT.md
+by-category/academic-writing/cmk60pvav0001kx04xjcz6mg8_Bibliographic Review Writing Assistant.md
+by-category/academic-writing/cmk6493rz0001ib04i8m1nzvy_Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña.md
+by-category/academic-writing/cmkaidl6x000dla04otvk9a8a_Article Summary Prompt.md
+by-category/academic-writing/cmklaisaa000ajo0430f86gka_Statement of Purpose .md
+by-category/academic-writing/cml3zfix90004ic04fjwjk104_Senior Academic Advisor.md
+by-category/academic-writing/cmlf1pn130001js04qs4rden7_Innovative Research Enhancement Ideas Generator.md
+by-category/academic-writing/cmlncusp10009le043z0kd9sl_Scientific Paper Drafting for Analytical Data.md
+by-category/academic-writing/cmn5udi7e0004ld048zutvoli_presentation making.md
+by-category/academic-writing/cmnc0ig8m0001l104hxkdvv39_subculture.md
+by-category/academic-writing/cmoufr4l30001k104mald8h1g_Literature Reading Assistant.md
+by-category/academic-writing/cmr4nd4pv0001jl04slyzaozb_Subject-Wise School Performance Dashboard Generator.md
+by-category/academic-writing/cmrlicbz30001jf0ab2pwgi3q_----------.md
+by-category/academic-writing/cmrlidpot0001l904aq5l1jgy_论文实验细节分析助手-UTF-8-.md
+by-category/academic-writing/cmrsraz2n0001ja0a8fbokjxx_Western-Centric Bias Correction Prompt.md
+by-category/agent-workflows/cmj60e0k3000mvw0qmdbbt44k_Ultrathinker.md
+by-category/agent-workflows/cmj6run3p000gqz0ru57m1835_Senior System Architect Agent.md
+by-category/agent-workflows/cmj79k3is0001zc0rivis7u3z_Senior Prompt Engineer Role Guide.md
+by-category/agent-workflows/cmj8ah1x30018u90r5cty5sw9_AI Agent Security Evaluation Checklist.md
+by-category/agent-workflows/cmjbfdtbb0001sc0rtm5gh8f5_Act as a Conversational AI.md
+by-category/agent-workflows/cmjcj2c0p0001y70qzhfg8ay2_Chimera AI-Powered Prompt Optimization System.md
+by-category/agent-workflows/cmjcylywm000bxp0szynzyi52_Orchestration Agent -PowerPlatformSupervisor-.md
+by-category/agent-workflows/cmjh0yk8s0004l904hr05whcq_prompt 生成.md
+by-category/agent-workflows/cmjh18y7e000bl904cpwc3lna_emails Professionals.md
+by-category/agent-workflows/cmjjhhw1f0003js04vz0vhkwd_HCCVN-AI-VN Pro Max- Optimal AI System Design.md
+by-category/agent-workflows/cmjjuph2w0004ld048qt3q76v_Continue and Recap Assistant.md
+by-category/agent-workflows/cmjv8hf8i0001l704keptlrw5_Senior Product Engineer - Data Scientist for Turkish Car Valuation Platform.md
+by-category/agent-workflows/cmk1g42ix0009jo04smngh1gj_VSCode CodeTour Expert Agent.md
+by-category/agent-workflows/cmk447ta70001jp04mao5nhrq_Context Migration.md
+by-category/agent-workflows/cmm2lxb2u0001l2047r4ztp0f_AI Grounding Prompt.md
+by-category/agent-workflows/cmnkjwnkc0001jx04b3xhotnf_Creating PWA AI Chatbot .md
+by-category/agent-workflows/cmnue4w3e0007l104uy1p8t1b_Meta Agent Builder for Letta Platform.md
+by-category/agent-workflows/cmnuvhayo0001l504s0ta1x93_ AI Productivity Artifact Generator.md
+by-category/agent-workflows/cmpf9uz4h0001jo046v1ufsj0_Legal AI Amplifier.md
+by-category/agent-workflows/cmrcnuxap0005l804xxktlxyd_ai model card.md
+by-category/agent-workflows/cmrr9h7jb0001l404ehg91prf_General Assistant System Prompt.md
+by-category/agent-workflows/cmruqluzt0001ju04y8mp3xg7_Exuvia.md
+by-category/automation-workflows/cmk1fkiua0001jy04l4fusfhw_Convert PDF to Markdown.md
+by-category/automation-workflows/cml0l5irl0004la04vnl8q7eh_Claude Code Statusline Design.md
+by-category/automation-workflows/cmlgop9gr0004ld041fbywpmm_Strategic Decision-Making Matrix.md
+by-category/automation-workflows/cmlgovy7o000vjv04lqr38ymv_SYSTEM PROMPT- THE INFINITE ROLE GENERATOR.md
+by-category/automation-workflows/cmlzpn0oq0004l504v49hawdk_Software Implementor AI Agent for Data Entry and Testing.md
+by-category/automation-workflows/cmo1aosbt000djv04nm8ord8v_- PromptAudit.md
+by-category/automation-workflows/cmrv6ony20001jq040lghln0x_workflow_builder_using_python.md
+by-category/automations/cmj7xtpdb0004rj0rf202wt8l_Readability Logic Simulator - 全功能翻译版.md
+by-category/automations/cmj85j4850008y20qo5ff8div_Diabetes Treatment Advisor.md
+by-category/automations/cmjbhuasx0008ze0rw76kgotz_Shift Tracking Telegram Mini App.md
+by-category/automations/cmjd5z3j2000bsk0s0izgnvck_Paladin Octem Plus -Research Swarm-.md
+by-category/automations/cmjeypolg0001jm04poi51mlg_Glyth_Maker.md
+by-category/automations/cmjh2ptd30005js04via9008u_Developer Daily Report Generator.md
+by-category/automations/cmjjb364y0004l404gfs3a0b2_自动写作-图片生成与发布工具.md
+by-category/automations/cmjk315n80004jr046ud6pvb9_Excel Formula Sensei.md
+by-category/automations/cmjk4ehsh000elh04o85jnll2_FAQ Generator.md
+by-category/automations/cmjljjo9t000clb049r1mvd8w_PowerShell Script for Managing Disabled AD Users.md
+by-category/automations/cmjljmtgf0001js049upukmeb_PowerShell Script to Move Disabled AD Users to Specific OU.md
+by-category/automations/cmjmny21l000fic04qegqrfk3_Default Meeting Summary.md
+by-category/automations/cmjn1ux4o0007ju04uepjfdon_Node-js Automation Script Developer.md
+by-category/automations/cmjwrr4l40004la04fc2bl6pc_AI Workflow Automation Specialist.md
+by-category/automations/cmkc6yvpy0007jr044u5hm1t9_UiPath XAML Code Review Specialist.md
+by-category/automations/cml7nt8ag0001la044ayc6s42_AI builder .md
+by-category/automations/cmla31mlz000iju04lji3ioxn_Implementador de Tarefas.md
+by-category/automations/cmn4dm5h60004l504mhq1adw9_GitHub Stars Fetcher with Agent Browser.md
+by-category/automations/cmo046kny000djp04nvtnj3tj_ubuntu audio input-output-loop-virtual connection specialist.md
+by-category/automations/cmp73vpzy0001jp04rftbgpe4_Structured Text Captioning.md
+by-category/automations/cmqqcif720004l50444lr1fr2_Comprehensive Car Specifications and Upgrade Guide.md
+by-category/blog-writing/cmj78iw840004zc0swraq0obl_In-Depth Article Enhancement with Research.md
+by-category/blog-writing/cmja63mal0004s20qh43r83x6_ LinkedIn comments .md
+by-category/blog-writing/cmjthc97w0007kw049bqdmcfi_Topic Article.md
+by-category/blog-writing/cmk8e4iyd0007la047uqf2dud_professional linguistic expert and translator.md
+by-category/blog-writing/cmky59q980001ii04r93mgh2e_Blogging prompt.md
+by-category/blog-writing/cmlu85d1v0004l804qy5fnq3f_The Elite SEO Blog Architect - Ghostwriter.md
+by-category/blog-writing/cmm8yoz9l000ajx04z5h3ctnx_National safety week.md
+by-category/blog-writing/cmmycsrxc0004l5040crsieef_Grok customize.md
+by-category/blog-writing/cmn0y96s50001l804ohpvkjki_KJV Harmony Companion .md
+by-category/blog-writing/cmn4zm6lg0005jx045jfz7est_Linkedin Post Create Prompt.md
+by-category/blog-writing/cmnohssg10001le047s5sncdm_Sacrifice in obedience .md
+by-category/blog-writing/cmoipxsoq0007jv04cjunxzzl_Alternative Text Generator.md
+by-category/blog-writing/cmowstgio0001l204jcf0mkjq_Socially Neutral Social Media Commentary Prompt.md
+by-category/business-planning/cmjyai6kp0004kw04uqss2y4n_Business Idea Feasibility and Technical Challenges Analysis.md
+by-category/business-planning/cmjzd3n7b000dl704ddur0jyo_Policy Agent Client Manager.md
+by-category/business-planning/cmkccblmd0001l404jberaqiu_The PRD Mastermind.md
+by-category/business-planning/cmp25ji880001ju04ymff1rz0_Smart Project Timeline Builder.md
+by-category/business-planning/cmpi3d8810001l704bpmkozeq_Master Pitch Deck Creation.md
+by-category/business-planning/cmpki27km0001l10413s86pmj_Investor Pitch Presentation.md
+by-category/business-planning/cmqdyli400001l10467g0t9z4_Business Engineer Dashboard Creator.md
+by-category/business-planning/cmrm780b10004l704fuj5twvf_Project Name and Title Generator.md
+by-category/business-planning/cmrmajn4b0007jx04ywoqsyjr_Etsy POD Masterclass- From Zero to Hero.md
+by-category/business-strategy/cmjvij7tg0007l804bx9ax5ee_Professional Vision Statement for Transportation Company.md
+by-category/business-strategy/cmkb7mh2e000cjj04n6ipkk7q_Sprint Prioritizer.md
+by-category/business-strategy/cmkl3ofxw0004jr04qjm3mq47_NOOMS Brand Story - Portfolio Background - Storytelling Format.md
+by-category/business-strategy/cml94a8b80001lb049a4qmcah_Enterprise Talent Development Management System Design.md
+by-category/business-strategy/cmmidd4pj0007k004ugbuzdl9_Brainstorming Technically Grounded Product Ideas.md
+by-category/business-strategy/cmohtbatn0001l504y0vknri9_Oracle Payroll Unsupported Localization Guide.md
+by-category/business-strategy/cmpv35alp0001l404vfppw7bc_Crafting the Ultimate Question for Maximum Value Creation.md
+by-category/business-strategy/cmqmzavqq0001l804kckgv1wd_Premortem Analysis.md
+by-category/business/cmj75yueq000sty0r569hhind_Monetization Strategy for Blockchain-Based Merging Games.md
+by-category/business/cmj81buvg0004tw0q1in0rkal_AI Customer Support Specialist.md
+by-category/business/cmj9et91y0008rt0r9b5mp9yn_Internal Project Proposal for Hospital Collaboration.md
+by-category/business/cmj9ntiel000m020qyitw6fec_AI Stocks Investment Helper.md
+by-category/business/cmj9upf1f0001yz0shyhmmq92_Tumor Medical Industry Solution Business Plan.md
+by-category/business/cmj9upi020005yz0s0g04aoio_Tumor Medical Industry Solution Business Plan.md
+by-category/business/cmjc44o8d0004p90rqb0vkhxv_Stock Market Analyst- Market Move Suggestions.md
+by-category/business/cmjcp4aym0007tm0rhygyk2vv_AI Tour Guide Business Plan for Foreign Tourists in China.md
+by-category/business/cmject3y90004rj0rjw8fu3ok_Act as a Product Manager.md
+by-category/business/cmjfd0fzq0001i5048f3fvaf4_Career Path Deliberation Assistant.md
+by-category/business/cmjgpv55n0004lb04khmz8s9j_Cryptocurrency Contract Trading System.md
+by-category/business/cmjh66pgz000all04ae9psar0_Act as an Etsy Niche Product Researcher.md
+by-category/business/cmjilahip000ajr04rupwstp6_Trade Contract Review Expert.md
+by-category/business/cmjiq8lyp0004jx04zas9fqym_ERP to Feishu Data Integration Solution.md
+by-category/business/cmjithnyy000al104mrzzkilf_How to Obtain a Radio and TV License in Nigeria.md
+by-category/business/cmjjbmb2r0004ju04a7jw8rlt_Project Evaluation for Production Decision.md
+by-category/business/cmjm9o1mm000hjr04cq6injg4_Customized Gift Idea Brainstorm Assistant.md
+by-category/business/cmjmcp23w0004l704bp0hgtrj_商业演示设计专家指南.md
+by-category/business/cmjpx07fl0001jx04rztqvu8e_Guía para Diseñar y Vender un Libro en Hotmart.md
+by-category/business/cmjs14o0o0001jy04k4d3bx3e_Comprehensive POS Application Development with FIFO and Reporting.md
+by-category/business/cmjzm1ooj0001l104xzugw3aj_Collaborative AI Marketing Platform.md
+by-category/business/cmk13k4gp000gjy04nzielztx_Business Coaching Mentor.md
+by-category/business/cmk27u4hq000cl8044e49kkfg_Fintech Product and Operations Assistant.md
+by-category/business/cmk9r2bgj0001hz04zk5v81l8_Network Engineer.md
+by-category/business/cmkracv9a0001l804r2z6726m_Comprehensive Data Integration and Customer Profiling Tool.md
+by-category/business/cml1rfwp60001la04ohr1bkom_Elite B2B Lead Generation and SEO Audit Specialist.md
+by-category/business/cml4thhc40001l404oir6yg2e_Business Legal Assistant.md
+by-category/business/cml4tn7x80001l704xssq3u98_China Business Law Assistant.md
+by-category/business/cml9ip2ga0001kz04xi0ozgxg_ Gen Z Content - Online Sales Prompt Generator.md
+by-category/business/cmlpgu1c80001l504gb6j4f5p_ATS Resume Scanner Simulator.md
+by-category/business/cmlu7s4px0001jp04i4qbgt7p_Micro-SaaS -Vibecoder- Architect.md
+by-category/business/cmm7a8jfh0001kz043uk6iyxt_Agency Growth Bottleneck Identifier.md
+by-category/business/cmmb1dtkz0001kx04yrjhg998_Job Posting Snapshot - Preservation Engine.md
+by-category/business/cmmjheml50005l204jnyxuhye_Stripe Payment Builder.md
+by-category/business/cmmxuw0zx0007l504ou4ia8ed_Strategic Business Blueprint Generator.md
+by-category/business/cmmxuzb88000dky041oekd3s3_Market Entry Strategy Engine.md
+by-category/business/cmmxv0hs7000fl7046z3kirym_Revenue Model - Unit Economics Analyzer.md
+by-category/business/cmmxv1byn000jl704lwleiyx9_Go-To-Market Execution Planner.md
+by-category/business/cmmxv2b4u000bl504tfuo4mkz_Business Risk - Scenario Analyzer.md
+by-category/business/cmo3lzptr0004lg0486ea8rtz_Brandable Domain Name Finder.md
+by-category/business/cmocyrzw50007kz040dg4907m_Car Buying Intake Interview.md
+by-category/business/cmp7quvkx0001ju04jcttilpr_Pro Closer for Small Business Loans.md
+by-category/business/cmpfu4jg50001jp04ihvvnq1d_Professional Real Estate Appointment Setter.md
+by-category/business/cmq85oxu40004l704ks9f2074_Automated Time Tracking via Image Recognition.md
+by-category/business/cmrvxy3jo0001la046ev31c31_Professional Legal Assistant for International and Iranian Law.md
+by-category/coding/cmj1zb0xe0006vl0rorq3zz68_Ethereum Developer.md
+by-category/coding/cmj1zb0xv000avl0raiql5yyi_Linux Terminal.md
+by-category/coding/cmj1zb0yo000nvl0ry0078mft_JavaScript Console.md
+by-category/coding/cmj1zb0yv000rvl0rodvcdntg_Excel Sheet.md
+by-category/coding/cmj1zb14o003pvl0resywfieo_UX-UI Developer.md
+by-category/coding/cmj1zb14v003tvl0r94ohb87r_Cyber Security Specialist.md
+by-category/coding/cmj1zb17l005avl0rn2t38f1q_Web Design Consultant.md
+by-category/coding/cmj1zb1ca007svl0rzggssn7v_SQL Terminal.md
+by-category/coding/cmj1zb1d30086vl0rxjzmq5pz_Smart Domain Name Generator.md
+by-category/coding/cmj1zb1da008avl0re5sw6zgz_Tech Reviewer.md
+by-category/coding/cmj1zb1dl008fvl0ryrwvbump_Developer Relations Consultant.md
+by-category/coding/cmj1zb1e4008ovl0r4ridf6f2_IT Architect.md
+by-category/coding/cmj1zb1gt00a8vl0rxvpqktcw_Scientific Data Visualizer.md
+by-category/coding/cmj1zb1j900blvl0r5q6agq0p_Tech Writer.md
+by-category/coding/cmj1zb1jl00bqvl0rzhc15fdq_Ascii Artist.md
+by-category/coding/cmj1zb1jw00bvvl0rzu0wl496_Python Interpreter.md
+by-category/coding/cmj1zb1lt00cuvl0r4u4188ap_Machine Learning Engineer.md
+by-category/coding/cmj1zb1me00d4vl0r729l0y4y_SVG designer.md
+by-category/coding/cmj1zb1nh00dnvl0r46zk8nxi_Fullstack Software Developer.md
+by-category/coding/cmj1zb1nz00dwvl0r69cth06m_RegEx Generator.md
+by-category/coding/cmj1zb1oz00eevl0r0t7j2aps_R Programming Interpreter.md
+by-category/coding/cmj1zb1pa00ejvl0rqvzfet6r_StackOverflow Post.md
+by-category/coding/cmj1zb1pr00esvl0rsmx0r6to_PHP Interpreter.md
+by-category/coding/cmj1zb1qg00f5vl0rga17tasv_Software Quality Assurance Tester.md
+by-category/coding/cmj1zb1qv00fdvl0re4aqpyo3_Password Generator.md
+by-category/coding/cmj1zb1ri00fnvl0rka10d5na_Web Browser.md
+by-category/coding/cmj1zb1rt00fsvl0rtconwigr_Senior Frontend Developer.md
+by-category/coding/cmj1zb1s500fxvl0r9njv9d9m_Code Reviewer.md
+by-category/coding/cmj1zb1sc00g1vl0rejahw7ag_Accessibility Auditor.md
+by-category/coding/cmj1zb1sn00g6vl0r223crl0d_Solr Search Engine.md
+by-category/coding/cmj1zb1uh00h0vl0raevznjsa_Conventional Commit Message Generator.md
+by-category/coding/cmj1zb1v300havl0r5mfv318q_Diagram Generator.md
+by-category/coding/cmj1zb1yb00iovl0r689hi8p7_Technology Transferer.md
+by-category/coding/cmj1zb22c00kfvl0rc4tmt93c_Prompt Enhancer.md
+by-category/coding/cmj1zb22y00kpvl0rz6qspf9j_Data Scientist.md
+by-category/coding/cmj1zb24b00l9vl0r8hwtbgus_LLM Researcher.md
+by-category/coding/cmj1zb24r00levl0r7wmgbtrh_Unit Tester Assistant.md
+by-category/coding/cmj1zb26i00m3vl0r3tdwpr71_Knowledgeable Software Development Mentor.md
+by-category/coding/cmj1zb26u00m8vl0rslh3gn4i_Logic Builder Tool.md
+by-category/coding/cmj1zb27i00mivl0rbv8bwxy2_Teacher of React-js.md
+by-category/coding/cmj1zb27v00mnvl0rrs57s4ns_GitHub Expert.md
+by-category/coding/cmj1zb28200mrvl0rpyjnj8q6_Any Programming Language to Python Converter.md
+by-category/coding/cmj1zb29800n9vl0rj7m333x4_DAX Terminal.md
+by-category/coding/cmj1zb2am00nwvl0r3xconax9_Top Programming Expert.md
+by-category/coding/cmj1zb2au00o0vl0rqni8umtx_Architect Guide for Programmers.md
+by-category/coding/cmj1zb2k600prvl0rq0cslr2u_Large Language Models Security Specialist.md
+by-category/coding/cmj1zb2ki00pwvl0rxsdf94zd_Tech Troubleshooter.md
+by-category/coding/cmj1zb2lw00qjvl0rjxnmlgzq_SEO Prompt.md
+by-category/coding/cmj1zb2m800qovl0rh69ohzkj_Devops Engineer.md
+by-category/coding/cmj1zb2mj00qtvl0rr3f7bdy4_Linux Script Developer.md
+by-category/coding/cmj1zb2mv00qyvl0rg6wlgkol_Reverse Prompt Engineer.md
+by-category/coding/cmj1zb2ne00r7vl0riki88zjz_Code Review Assistant.md
+by-category/coding/cmj1zb2nm00rbvl0r82583ieo_Data Transformer.md
+by-category/coding/cmj45oc1f0001t50qev8kwhqw_Predictive Eye Tracking Heatmap Generator.md
+by-category/coding/cmj5s53n50007u40rq2ewwlc7_Django Unit Test Generator for Viewsets.md
+by-category/coding/cmj61etry0001v20rn8g0yrsc_Code Review Assistant.md
+by-category/coding/cmj6mo57x0001yo0rcu9mgk6g_Code Review Agent.md
+by-category/coding/cmj78p0qy0008zc0stixt91xw_Test Python Algorithmic Trading Project.md
+by-category/coding/cmj8tyyt60005xh0rq8vpptmz_Continue Coding Assistant.md
+by-category/coding/cmja0ah08000bxt0q5ru37ah5_Optimize Large Data Reading in Code.md
+by-category/coding/cmjcylib30007xp0skiid83dk_Code Translator- Any Language to Any Language.md
+by-category/coding/cmjh4uuno0001kw04znasmjtm_担任Go语言开发者.md
+by-category/coding/cmjics5gb0001jl04kyjhpvut_Developer Work Analysis from Git Diff and Commit Message.md
+by-category/coding/cmjjz9h9v000kl704tak8aqg6_Coding Structure with MVC and SOLID Principles.md
+by-category/coding/cmjl1vohw000bjy04pxl54lsm_Hata Tespiti için Kod İnceleme Asistanı.md
+by-category/coding/cmjl7u7z10009jl043x30pejp_Deep Copy Functionality.md
+by-category/coding/cmjr5taks0001l104oh0cavlz_Bug Discovery Code Assistant.md
+by-category/coding/cmjse8zdi0001lc04u0f6zx31_Build a UI Library for ESP32.md
+by-category/coding/cmjsf2tv40005lc049tbpo3vk_ESP32 UI Library Development.md
+by-category/coding/cmjskdrp80001le043u1ql9bx_Code Review Expert.md

@@ -1,0 +1,1 @@
+../../by-category/vibe/cmlw34lsz0001jy04rhpeqkq8_Senior Software Engineer  - Software Architect Rules.md

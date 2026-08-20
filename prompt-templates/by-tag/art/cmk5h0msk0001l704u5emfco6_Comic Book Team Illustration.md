@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmk5h0msk0001l704u5emfco6_Comic Book Team Illustration.md

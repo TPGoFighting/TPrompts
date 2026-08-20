@@ -1,0 +1,1 @@
+../../by-category/skill/cmoful8k30001kz04h34k5efo_- ULTRA-STRICT MODE.md

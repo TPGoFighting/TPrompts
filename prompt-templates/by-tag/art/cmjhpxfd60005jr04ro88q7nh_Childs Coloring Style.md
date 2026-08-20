@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjhpxfd60005jr04ro88q7nh_Childs Coloring Style.md

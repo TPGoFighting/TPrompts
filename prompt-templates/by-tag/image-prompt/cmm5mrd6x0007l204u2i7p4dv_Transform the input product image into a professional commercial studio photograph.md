@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmm5mrd6x0007l204u2i7p4dv_Transform the input product image into a professional commercial studio photograph.md

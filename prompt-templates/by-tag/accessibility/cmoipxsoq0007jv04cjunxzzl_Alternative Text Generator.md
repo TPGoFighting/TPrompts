@@ -1,0 +1,1 @@
+../../by-category/blog-writing/cmoipxsoq0007jv04cjunxzzl_Alternative Text Generator.md

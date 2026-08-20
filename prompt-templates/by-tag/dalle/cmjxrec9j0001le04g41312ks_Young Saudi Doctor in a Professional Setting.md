@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjxrec9j0001le04g41312ks_Young Saudi Doctor in a Professional Setting.md

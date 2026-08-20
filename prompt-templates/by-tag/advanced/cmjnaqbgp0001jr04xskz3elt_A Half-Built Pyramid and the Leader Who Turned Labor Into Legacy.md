@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmjnaqbgp0001jr04xskz3elt_A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy.md

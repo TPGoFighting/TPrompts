@@ -1,0 +1,1 @@
+../../by-category/image-generation/cmnaws8ya0001jm049fum3xt5_Minimalist Graphic Illustration of a Stylized Dachshund.md

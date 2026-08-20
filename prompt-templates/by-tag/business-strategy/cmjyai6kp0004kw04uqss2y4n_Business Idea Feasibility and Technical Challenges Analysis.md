@@ -1,0 +1,1 @@
+../../by-category/business-planning/cmjyai6kp0004kw04uqss2y4n_Business Idea Feasibility and Technical Challenges Analysis.md
