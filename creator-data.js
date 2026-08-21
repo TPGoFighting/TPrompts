@@ -7,7 +7,7 @@ window.CREATOR_DATA = {
     {
       id: 'khazix',
       name: '数字生命卡兹克',
-      avatar: 'assets/creators/khazix.jpg',
+      avatar: 'assets/creators/khazix.jpg?v=20260821',
       handle: '@Khazix0918',
       focus: 'Agent · Skills · 工作流',
       bio: '把 AI 从一次性对话，变成可以重复调用的工作流。',
@@ -19,7 +19,7 @@ window.CREATOR_DATA = {
     {
       id: 'aiwarts',
       name: '卡尔的 AI 沃茨',
-      avatar: 'assets/creators/aiwarts.jpg',
+      avatar: 'assets/creators/aiwarts.jpg?v=20260821',
       handle: '@aiwarts',
       focus: '提问 · 反思 · 表达',
       bio: '先把问题说清楚，再让模型开始做事，减少“它替我猜”的情况。',
@@ -31,7 +31,7 @@ window.CREATOR_DATA = {
     {
       id: 'nomad',
       name: '数字游牧人 Samuel',
-      avatar: 'assets/creators/samuel.jpg',
+      avatar: 'assets/creators/samuel.jpg?v=20260821',
       handle: '',
       focus: '效率 · 生活 · 迁徙',
       bio: '收录位已建，等一条可核对的文章、视频或原帖再正式入库。',
