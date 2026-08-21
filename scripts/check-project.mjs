@@ -64,7 +64,7 @@ function checkHtml(html) {
   assert(/<html[^>]+lang=["']zh-CN["']/i.test(html), 'index.html 缺少 lang="zh-CN"');
   assert(/<title>[^<]+<\/title>/i.test(html), 'index.html 缺少页面标题');
 
-  for (const script of ['prompts-data.js', 'inspire-data.js', 'curated-data.js']) {
+  for (const script of ['prompts-data.js', 'inspire-data.js', 'curated-data.js', 'creator-data.js']) {
     assert(new RegExp(`<script[^>]+src=["']${script}["']`).test(html), `index.html 未加载 ${script}`);
   }
 
@@ -101,6 +101,7 @@ export function checkProject() {
   const prompts = loadBrowserData('prompts-data.js', 'PROMPTS_DATA');
   const inspiration = loadBrowserData('inspire-data.js', 'INSPIRE_DATA');
   const curated = loadBrowserData('curated-data.js', 'CURATED_DATA');
+  const creators = loadBrowserData('creator-data.js', 'CREATOR_DATA');
 
   assert(Array.isArray(prompts) && prompts.length > 0, 'PROMPTS_DATA 必须是非空数组');
   assert(Array.isArray(inspiration) && inspiration.length > 0, 'INSPIRE_DATA 必须是非空数组');
@@ -108,6 +109,26 @@ export function checkProject() {
   assertRequiredFields(inspiration, ['id', 'title', 'cat', 'en', 'zh'], 'INSPIRE_DATA');
   assertUniqueIds(prompts, 'PROMPTS_DATA');
   assertUniqueIds(inspiration, 'INSPIRE_DATA');
+  const importedPrompts = prompts.filter((prompt) => prompt.isImported);
+  if (importedPrompts.length) {
+    assertRequiredFields(importedPrompts, ['id', 'title', 'cat', 'en', 'zh', 'usage'], 'PROMPTS_DATA.imported');
+    assert(importedPrompts.every((prompt) => prompt.free !== false), '导入提示词必须全部保持未上锁');
+  }
+  assert(creators && Array.isArray(creators.creators), 'CREATOR_DATA.creators 必须是数组');
+  assert(creators && Array.isArray(creators.prompts), 'CREATOR_DATA.prompts 必须是数组');
+  assertUniqueIds(creators.creators, 'CREATOR_DATA.creators');
+  assertUniqueIds(creators.prompts, 'CREATOR_DATA.prompts');
+  assertRequiredFields(creators.creators, ['id', 'name', 'bio'], 'CREATOR_DATA.creators');
+  assertRequiredFields(creators.prompts, ['id', 'creatorId', 'title', 'prompt', 'sourceNote'], 'CREATOR_DATA.prompts');
+  creators.creators.forEach((creator) => {
+    if (creator.avatar) {
+      assert(localFileExists(creator.avatar), `CREATOR_DATA.${creator.id} 缺少博主头像: ${creator.avatar}`);
+    }
+  });
+  const creatorIds = new Set(creators.creators.map((creator) => creator.id));
+  creators.prompts.forEach((prompt) => {
+    assert(creatorIds.has(prompt.creatorId), `CREATOR_DATA 提示词找不到来源博主: ${prompt.creatorId}`);
+  });
 
   prompts.forEach((prompt) => {
     if (prompt.imgLocal) {
@@ -141,13 +162,15 @@ export function checkProject() {
     promptCount: prompts.length,
     inspirationCount: inspiration.length,
     curatedSectionCount: curated.sections.length,
+    creatorCount: creators.creators.length,
+    creatorPromptCount: creators.prompts.length,
   };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {
   try {
     const result = checkProject();
-    console.log(`项目检查通过：${result.promptCount} 条提示词、${result.inspirationCount} 条灵感、${result.curatedSectionCount} 个策展分区`);
+    console.log(`项目检查通过：${result.promptCount} 条提示词、${result.inspirationCount} 条灵感、${result.curatedSectionCount} 个策展分区、${result.creatorCount} 位博主、${result.creatorPromptCount} 条博主提示词`);
   } catch (error) {
     console.error(`项目检查失败：${error.message}`);
     process.exitCode = 1;

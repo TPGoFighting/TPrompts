@@ -92,6 +92,9 @@
   .thumb img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .35s ease}
   .thumb img.loaded{opacity:1}
   .thumb video{width:100%;height:100%;object-fit:cover;display:block;background:#1a1613}
+  .thumb.locked img,.thumb.locked video{filter:grayscale(.8) brightness(.9)}
+  .thumb.locked::after{content:'待开放';position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(31,27,25,.5);color:#fff;font-size:14px;font-weight:950;letter-spacing:.04em;text-shadow:0 1px 3px rgba(0,0,0,.45);pointer-events:none}
   .thumb .play-hint.big{font-size:15px;letter-spacing:.06em;pointer-events:auto;cursor:pointer;
     background:rgba(31,27,25,.45);border-radius:12px;flex-direction:column;gap:6px}
   .thumb .play-hint.big:hover{background:var(--coral)}
@@ -112,6 +115,8 @@
     padding:7px 13px;font-weight:900;font-size:12px;cursor:pointer;transition:.15s;white-space:nowrap;font-family:inherit}
   .copy:hover{background:var(--coral);border-color:var(--coral)}
   .copy.done{background:var(--coral);border-color:var(--coral)}
+  .copy.locked{background:#e9e3da;border-color:#b8afa5;color:#6c645c;cursor:not-allowed;box-shadow:none}
+  .card.locked{background:#fcfaf6}
   .empty{grid-column:1/-1;text-align:center;padding:56px 0;font-weight:900;font-size:16px}
   #list{scroll-margin-top:96px}
 
@@ -252,6 +257,69 @@
   .cur-foot{margin-top:12px;padding-top:10px;border-top:1.5px dashed #e8e2d8;font-size:11.5px;
     font-weight:850;color:#8a837c;display:flex;justify-content:space-between;gap:8px}
   .cur-foot .tag{font-size:10px}
+
+  /* ===== 他们在用：来源型提示词收录 ===== */
+  .creator-intro{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:22px}
+  .creator-lead{border:2px solid var(--ink);border-radius:20px;padding:24px;box-shadow:5px 5px 0 var(--ink)}
+  .creator-lead{background:var(--lime);position:relative;overflow:hidden}
+  .creator-lead::after{content:'USE / SHARE / REMIX';position:absolute;right:-12px;bottom:12px;font-size:11px;font-weight:950;letter-spacing:.12em;transform:rotate(-8deg);opacity:.25}
+  .creator-lead h1{font-size:clamp(34px,5vw,62px);line-height:.92;letter-spacing:-.06em;margin:12px 0 14px;max-width:600px}
+  .creator-profiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:26px}
+  .creator-profile{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:18px 20px;box-shadow:4px 4px 0 var(--ink);display:flex;flex-direction:column;min-width:0}
+  .creator-profile[data-accent="lime"]{background:var(--lime)}
+  .creator-profile[data-accent="sky"]{background:var(--sky)}
+  .creator-profile[data-accent="pink"]{background:var(--pink)}
+  .creator-profile-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .creator-monogram{width:46px;height:46px;border:2px solid var(--ink);border-radius:14px;background:var(--ink);color:var(--cream);display:grid;place-items:center;font-weight:950;font-size:19px;flex:none;overflow:hidden}
+  .creator-monogram img{width:100%;height:100%;display:block;object-fit:cover}
+  .creator-profile .creator-state{font-size:10px;font-weight:950;border:1.5px solid var(--ink);border-radius:999px;padding:4px 8px;background:#fff;white-space:nowrap}
+  .creator-profile h3{font-size:18px;line-height:1.15;letter-spacing:-.025em;margin:14px 0 5px}
+  .creator-handle{font-size:11px;font-weight:850;opacity:.55;min-height:16px}
+  .creator-focus{font-size:11px;font-weight:950;letter-spacing:.05em;margin-top:12px}
+  .creator-profile p{font-size:13px;line-height:1.6;color:#4a4542;margin:8px 0 14px;flex:1}
+  .creator-profile-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1.5px dashed rgba(31,27,25,.3);padding-top:11px}
+  .creator-source{font-size:11px;font-weight:900;color:inherit;text-decoration:underline;text-underline-offset:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .creator-source.muted{text-decoration:none;opacity:.55}
+  .creator-filter{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+  .creator-filter .section-title{margin:0;flex:1;min-width:190px}
+  .creator-filter .section-title h2{font-size:25px}
+  .creator-chips{display:flex;gap:8px;flex-wrap:wrap}
+  .creator-chip{border:2px solid var(--ink);border-radius:999px;background:#fff;padding:8px 13px;font-size:12px;font-weight:900;cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:.15s;font-family:inherit}
+  .creator-chip:hover{transform:translate(1px,1px);box-shadow:1px 1px 0 var(--ink)}
+  .creator-chip.on{background:var(--ink);color:var(--cream)}
+  .creator-search{display:flex;gap:8px;margin-bottom:18px}
+  .creator-search input{width:100%;border:2px solid var(--ink);border-radius:13px;padding:12px 15px;background:#fff;font-size:14px;outline:none;font-family:inherit}
+  .creator-search input:focus{box-shadow:4px 4px 0 var(--ink)}
+  .creator-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .creator-prompt{border:2px solid var(--ink);border-radius:18px;background:#fff;padding:19px 20px;box-shadow:4px 4px 0 var(--ink);display:flex;flex-direction:column;min-width:0;transition:.15s}
+  .creator-prompt:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}
+  .creator-prompt-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+  .creator-pill{border:1.5px solid var(--ink);border-radius:999px;padding:4px 9px;font-size:10px;font-weight:950;white-space:nowrap;background:var(--sky)}
+  .creator-status{font-size:10px;font-weight:900;color:#8a837c;white-space:nowrap}
+  .creator-prompt h3{font-size:19px;line-height:1.2;letter-spacing:-.025em;margin-bottom:7px}
+  .creator-prompt p{font-size:13px;line-height:1.65;color:#625d59;min-height:64px}
+  .creator-tags{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 13px}
+  .creator-tag{border:1.5px solid var(--ink);border-radius:999px;padding:3px 8px;font-size:10px;font-weight:850;background:var(--lime)}
+  .creator-prompt-foot{border-top:1.5px dashed #e8e2d8;padding-top:11px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .creator-source-note{font-size:10.5px;line-height:1.45;color:#8a837c;flex:1}
+  .creator-copy{border:2px solid var(--ink);background:var(--ink);color:#fff;border-radius:9px;padding:7px 11px;font-weight:900;font-size:11px;cursor:pointer;transition:.15s;white-space:nowrap;font-family:inherit}
+  .creator-copy:hover,.creator-copy.done{background:var(--coral);border-color:var(--coral)}
+  .creator-empty{grid-column:1/-1;border:2px dashed var(--ink);border-radius:16px;padding:38px;text-align:center;font-weight:850;background:#fff}
+  .creator-detail{max-width:820px;margin:0 auto}
+  .creator-detail-head{border:2px solid var(--ink);border-radius:20px;background:var(--lime);padding:26px 28px;box-shadow:5px 5px 0 var(--ink);position:relative;overflow:hidden;margin-bottom:16px}
+  .creator-detail-head::after{content:'CREATOR NOTE';position:absolute;right:-8px;bottom:16px;font-size:11px;font-weight:950;letter-spacing:.14em;opacity:.22;transform:rotate(-7deg)}
+  .creator-detail-crumb{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;font-weight:850;margin-bottom:15px}
+  .creator-detail-crumb a{text-decoration:underline;cursor:pointer}
+  .creator-detail-head h1{font-size:clamp(28px,5vw,48px);line-height:1.02;letter-spacing:-.05em;margin-bottom:10px;max-width:700px}
+  .creator-detail-desc{font-size:14px;line-height:1.7;color:#4a4542;max-width:650px}
+  .creator-detail-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:17px}
+  .creator-detail-meta .creator-pill{background:#fff}
+  .creator-detail-source{font-size:11px;font-weight:850;color:inherit;margin-left:auto;text-decoration:underline;text-underline-offset:3px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .creator-detail-panel{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:23px 25px;box-shadow:5px 5px 0 var(--ink)}
+  .creator-detail-panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+  .creator-detail-panel-label{font-size:12px;font-weight:950;letter-spacing:.09em;text-transform:uppercase}
+  .creator-detail-panel pre{font:13px/1.8 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;word-break:break-word;background:#fff6e9;border:1.5px dashed var(--ink);border-radius:14px;padding:18px;margin:0}
+  .creator-detail-note{font-size:12px;line-height:1.65;color:#8a837c;margin-top:13px}
 
   /* ===== 首页门户 + 提仔 IP 视觉体系 ===== */
   .hero-tippy-wrap{display:grid;grid-template-columns:1fr 380px;gap:36px;align-items:center}
@@ -454,6 +522,13 @@
   .tab.on{background:var(--ink);color:var(--cream)}
   .prompt-panel{border:2px solid var(--ink);border-radius:20px;background:#fff;padding:22px;
     box-shadow:5px 5px 0 var(--ink)}
+  .access-status{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ink);border-radius:999px;
+    padding:5px 11px;font-size:11px;font-weight:900;background:var(--lime)}
+  .access-status.locked{background:var(--sand)}
+  .locked-panel{display:flex;flex-direction:column;align-items:center;text-align:center;padding:48px 24px}
+  .locked-panel .locked-icon{display:grid;place-items:center;margin-bottom:14px}
+  .locked-panel h2{font-size:26px;letter-spacing:-.03em;margin-bottom:8px}
+  .locked-panel p{font-size:14px;line-height:1.7;color:#625d59;max-width:420px}
   .panel-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;gap:10px;flex-wrap:wrap}
   .panel-head .plabel{font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
   .prompt-panel pre{font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;
@@ -486,12 +561,12 @@
   /* ===== 404 ===== */
   .nf{text-align:center;padding:90px 0}
   .nf h1{font-size:clamp(60px,12vw,140px);letter-spacing:-.06em;font-weight:950;line-height:1}
-  .nf .nf-emoji{font-size:56px;margin-bottom:10px}
   .nf p{color:#625d59;font-weight:700;margin:14px 0 26px}
 
   /* ===== 页脚（全新高级暗黑新丑风卡片系统） ===== */
   footer{border-top:3px solid var(--ink);padding:60px 0 48px;background:var(--ink);color:var(--cream);margin-top:72px}
-  .foot{display:grid;grid-template-columns:1.3fr 0.9fr;gap:48px}
+  .foot{display:grid;grid-template-columns:1fr;gap:48px}
+  .ui-icon{width:1em;height:1em;display:inline-block;vertical-align:-.15em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
   .foot-brand-card{background:rgba(255,255,255,0.06);border:2px solid rgba(255,255,255,0.15);border-radius:20px;padding:24px;box-shadow:4px 4px 0 rgba(0,0,0,0.3)}
   .foot-title{display:flex;align-items:center;gap:12px;margin-bottom:14px}
   .foot-title h4{font-size:18px;font-weight:950;letter-spacing:-.02em;color:#fff;margin:0}
@@ -515,6 +590,8 @@
     .igrid{grid-template-columns:repeat(2,1fr)}
     .ideas{grid-template-columns:1fr}
     .detail-grid{grid-template-columns:1fr}
+    .creator-intro{grid-template-columns:1fr}
+    .creator-profiles{grid-template-columns:repeat(2,1fr)}
   }
   @media(max-width:800px){
     .header{padding:10px 0}
@@ -532,7 +609,7 @@
   @media(max-width:600px){
     .shell{width:min(1160px,calc(100% - 24px))}
     .section{padding:28px 0 48px}
-    .grid,.igrid,.portal-grid,.cur-grid,.pick-grid,.foot{grid-template-columns:1fr}
+    .grid,.igrid,.portal-grid,.cur-grid,.pick-grid,.foot,.creator-profiles,.creator-list{grid-template-columns:1fr}
     .chips{flex-wrap:nowrap;overflow-x:auto;padding:2px 3px 8px;margin-inline:-3px;
       scrollbar-width:none;-webkit-overflow-scrolling:touch}
     .chips::-webkit-scrollbar{display:none}
@@ -552,6 +629,11 @@
     .idp-source{margin-left:0;width:100%}
     .idp-actions .btn{width:100%}
     .icard-foot{flex-wrap:wrap}
+    .creator-lead{padding:19px}
+    .creator-lead h1{font-size:42px}
+    .creator-filter{align-items:flex-start;flex-direction:column}
+    .creator-detail-head,.creator-detail-panel{padding:17px}
+    .creator-detail-source{margin-left:0;width:100%}
     .rm-card{padding:14px;flex-wrap:wrap}
     .rm-card .rm-date{margin-left:0}
     .foot{gap:18px}
@@ -602,6 +684,7 @@
       <a href="#/library" data-route="library">提示词库</a>
       <a href="#/inspire" data-route="inspire">灵感</a>
       <a href="#/taste" data-route="taste">品味</a>
+      <a href="#/creators" data-route="creators">他们在用</a>
       <a href="#/about" data-route="about">Roadmap</a>
     </nav>
     <div class="actions"><button class="btn" onclick="toast('TP makes prompts ✦')">TP makes prompts</button></div>
@@ -625,20 +708,12 @@
         <p>在 Prompt Planet 上，灵感从来不会消失，它们只是会迷路。提仔与 TP 一起捕捉未成型的微弱想法，用严格标准重组成结构化 Prompt，让每一个好想法都能落地变成真实产品。</p>
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px">
           <a href="https://tpgofighting.top" target="_blank" rel="noopener" class="foot-tpspace-btn">
-            <span>🚀 探索 TP Space 主站 (tpgofighting.top)</span>
+            <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 3.5c2.4-.8 4.2-.5 5.9-.1.4 1.7.7 3.5-.1 5.9-1.1 3.1-4.1 6.1-7.9 7.5l-2.9-2.9c1.4-3.8 4.4-6.8 7.5-7.9Z"/><path d="m9.5 14.5-3.7 1-.3 3.2 3.2-.3 1-3.7Z"/><path d="M14.4 9.6h.01"/><path d="m5.5 18.5-2 2"/></svg>
+            <span>探索 TP Space 主站 (tpgofighting.top)</span>
             <span>↗</span>
           </a>
           <span style="font-size:12px;font-weight:800;color:var(--sand)">✦ 灵感生态宇宙联动</span>
         </div>
-      </div>
-      <div class="foot-brand-card">
-        <h4 class="sec-h4">Roadmap · 进化路线</h4>
-        <ul>
-          <li><span>复制量统计，反哺真实热度榜</span></li>
-          <li><span>本地收藏夹（localStorage 统一管理）</span></li>
-          <li><span>预览素材直链（高保真视频与界面）</span></li>
-          <li><span>社区投稿与严选编辑审核流</span></li>
-        </ul>
       </div>
     </div>
     <div class="copyright" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
@@ -650,15 +725,18 @@
 
 <div class="toast">已复制到剪贴板 ✓</div>
 
+<script src="prompt-access.js"></script>
 <script src="prompts-data.js" defer></script>
 <script src="inspire-data.js" defer></script>
 <script src="curated-data.js"></script>
+<script src="creator-data.js"></script>
 <script>
 /* ================= 数据与工具 ================= */
-let D = window.PROMPTS_DATA || [];
+const PROMPT_ACCESS = window.TPROMPT_ACCESS;
+let D = PROMPT_ACCESS.sortByAccess(window.PROMPTS_DATA || []);
 const $ = s => document.querySelector(s);
 const app = $('#app');
-const state = { cat: null, tag: '全部', q: '', tab: 'zh', page: 1, icat: '全部', iq: '', ipage: 1, itab: 'zh' };
+const state = { cat: null, tag: '全部', q: '', tab: 'zh', page: 1, icat: '全部', iq: '', ipage: 1, itab: 'zh', creatorId: 'all', creatorQ: '' };
 
 /* ===== 详情页 overlay：「从哪来到哪去」 ===== */
 let _tpOrigin = null;   /* 点开卡片的 {x,y,w,h}（视口坐标），进入/返回动画的锚点 */
@@ -666,15 +744,16 @@ let _tpScrollY = null;  /* 打开 overlay 前的滚动位置，返回时恢复 *
 let _tpOriginHash = null;  /* 打开 overlay 前的 hash：返回时据此判断是否原样恢复列表 */
 const dl = $('#dl');
 const dlContent = $('#dl-content');
-const DL_DETAIL = /^#\/(p|i)\//;   /* 详情 hash */
+const DL_DETAIL = /^#\/(p|i|c)\//;   /* 详情 hash */
 
 function setNav() {
   const hash = location.hash;
-  const navMap = { '#/inspire': 'inspire', '#/library': 'library', '#/taste': 'taste', '#/about': 'about' };
+  const navMap = { '#/inspire': 'inspire', '#/library': 'library', '#/taste': 'taste', '#/creators': 'creators', '#/about': 'about' };
   let active = '';
   for (const [h, k] of Object.entries(navMap)) if (hash.startsWith(h)) active = k;
   if (hash.startsWith('#/cat/') || hash.startsWith('#/p/') || hash.startsWith('#/search')) active = 'library';
   if (hash.startsWith('#/i/')) active = 'inspire';
+  if (hash.startsWith('#/c/')) active = 'creators';
   document.querySelectorAll('.nav a').forEach(a =>
     a.classList.toggle('on', a.dataset.route === active));
 }
@@ -686,6 +765,10 @@ function renderDetailContent(hash) {
   else {
     m = hash.match(/^#\/i\/(.+)$/);
     if (m) renderInspireDetail(decodeURIComponent(m[1]), dlContent);
+    else {
+      m = hash.match(/^#\/c\/(.+)$/);
+      if (m) renderCreatorPrompt(decodeURIComponent(m[1]), dlContent);
+    }
   }
   dl.scrollTop = 0;
 }
@@ -766,7 +849,16 @@ function typeGroup(p) {
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
+function svgIcon(name) {
+  const paths = {
+    lock: '<rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/>',
+    language: '<circle cx="12" cy="12" r="8.5"/><path d="M3.8 12h16.4M12 3.5c2.1 2.3 3.2 5.1 3.2 8.5S14.1 18.2 12 20.5c-2.1-2.3-3.2-5.1-3.2-8.5S9.9 5.8 12 3.5Z"/>',
+    book: '<path d="M4.5 5.5a2 2 0 0 1 2-2H19v16H6.5a2 2 0 0 0-2 2v-16Z"/><path d="M4.5 19.5a2 2 0 0 1 2-2H19M8 7h7M8 10h7"/>'
+  };
+  return `<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">${paths[name] || ''}</svg>`;
+}
 function byId(id) { return D.find(p => p.id === id); }
+function isPromptLocked(p) { return PROMPT_ACCESS.isLocked(p); }
 function go(hash) { location.hash = hash; }
 function localOriginalPath(p) { return `images/${encodeURI(String(p.imgLocal || ''))}`; }
 function localThumbPath(p) {
@@ -836,23 +928,48 @@ function imgUrl(u, w, q) {
 /* ================= 组件 ================= */
 function thumbHTML(p, i) {
   const id = esc(p.id);
-  if (p.imgLocal) {
-    /* 本地预览图优先使用 480px WebP，缺失时回退原图 */
-    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`;
-  }
-  if (p.img) {
-    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.img, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
-  }
+  const thumbClass = `thumb${isPromptLocked(p) ? ' locked' : ''}`;
+  const poster = p.imgLocal ? localThumbPath(p) : p.img ? imgUrl(p.img, 560, 70) : '';
+  const posterAttr = poster ? ` poster="${esc(poster)}"` : '';
   if (p.video && isAnimVideo(p.video)) {
-    /* webp/gif 动图直接当封面，自动播放动画（r2.dev 无参数可降，原样加载） */
-    return `<div class="thumb"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.video, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+    /* 动态 WebP/GIF 优先于静态封面，直接保留动画。 */
+    return `<div class="${thumbClass}"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.video, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
   }
   if (p.video && /\.mp4(\?|$)/i.test(p.video)) {
-    /* mp4 悬停播放，避免列表页全部自动加载 */
-    return `<div class="thumb"><video class="thumb-vid" src="${esc(p.video)}" muted loop playsinline preload="metadata"></video>
-      <div class="play-hint">▶</div></div>`;
+    /* MP4 进入视口后自动播放，离开视口暂停，避免整页同时加载。 */
+    return `<div class="${thumbClass}"><video class="thumb-vid" src="${esc(p.video)}"${posterAttr} muted loop autoplay playsinline preload="metadata" aria-label="${esc(p.title)}"></video></div>`;
   }
-  return `<div class="thumb"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
+  if (p.imgLocal) {
+    /* 本地预览图优先使用 480px WebP，缺失时回退原图 */
+    return `<div class="${thumbClass}"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`;
+  }
+  if (p.img) {
+    return `<div class="${thumbClass}"><div class="shimmer"></div><img loading="lazy" decoding="async" src="${esc(imgUrl(p.img, 560, 70))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`;
+  }
+  return `<div class="${thumbClass}"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
+}
+
+let thumbVideoObserver = null;
+function setupThumbVideos() {
+  if (thumbVideoObserver) thumbVideoObserver.disconnect();
+  const videos = [...document.querySelectorAll('video.thumb-vid')];
+  if (!videos.length) return;
+  const play = video => {
+    video.muted = true;
+    const promise = video.play();
+    if (promise) promise.catch(() => {});
+  };
+  if (!('IntersectionObserver' in window)) {
+    videos.forEach(play);
+    return;
+  }
+  thumbVideoObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) play(entry.target);
+      else entry.target.pause();
+    });
+  }, { rootMargin: '120px 0px' });
+  videos.forEach(video => thumbVideoObserver.observe(video));
 }
 
 /* 详情页媒体区：封面（优先本地图）+ 页面内播放（不跳转外链） */
@@ -865,9 +982,9 @@ function mediaHTML(p, i) {
     /* 封面（本地图/静态图/动图/兜底）+ ▶ 播放按钮，点击后在页面内播放 */
     const coverHTML = cover
       ? (p.imgLocal
-        ? `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`
-        : `<div class="thumb" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(imgUrl(cover, 960, 75))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`)
-      : `<div class="thumb"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
+        ? `<div class="${isPromptLocked(p) ? 'thumb locked' : 'thumb'}" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(localThumbPath(p))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="thumbErr(this,'${id}')"></div>`
+        : `<div class="${isPromptLocked(p) ? 'thumb locked' : 'thumb'}" style="aspect-ratio:auto;max-height:240px"><div class="shimmer"></div><img decoding="async" src="${esc(imgUrl(cover, 960, 75))}" alt="${esc(p.title)}" onload="imgLoaded(this)" onerror="imgErr(this,'${id}')"></div>`)
+      : `<div class="${isPromptLocked(p) ? 'thumb locked' : 'thumb'}"><div class="thumb-fb fb-${(i % 6) + 1}">${esc((p.title || '?').trim()[0] || '?')}</div></div>`;
     return `<div class="media-box" id="mb-${id}">
       <div class="media-cover" style="position:relative">${coverHTML}
         <div class="play-hint big" onclick="playMedia('${id}')"><span style="font-size:30px">▶</span>页面内预览</div>
@@ -960,7 +1077,8 @@ function showTags(p, n) {
 }
 
 function cardHTML(p, i) {
-  return `<article class="card" data-nav="#/p/${encodeURIComponent(p.id)}">
+  const locked = isPromptLocked(p);
+  return `<article class="card${locked ? ' locked' : ''}" data-nav="#/p/${encodeURIComponent(p.id)}"${locked ? ' aria-label="提示词待开放"' : ''}>
     ${thumbHTML(p, i)}
     <div class="body">
       <div class="meta"><span>${String(i + 1).padStart(2, '0')} / ${esc(p.cat)}</span></div>
@@ -968,7 +1086,7 @@ function cardHTML(p, i) {
       <p>${esc(p.desc)}</p>
       <div class="card-foot">
         <div class="tags">${showTags(p, 3).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</div>
-        <button class="copy" data-id="${p.id}" data-which="zh">COPY ↗</button>
+        <button class="copy${locked ? ' locked' : ''}" data-id="${p.id}" data-which="zh"${locked ? ' disabled title="待开放"' : ''}>${locked ? `${svgIcon('lock')} 待开放` : 'COPY ↗'}</button>
       </div>
     </div>
   </article>`;
@@ -1037,12 +1155,13 @@ function renderList() {
   if (cnt) cnt.textContent = pages > 1 ? `${list.length} 条 · 第 ${state.page}/${pages} 页` : `${list.length} 条`;
   const pg = $('#pager');
   if (pg) pg.innerHTML = pagerHTML(pages, state.page);
+  setupThumbVideos();
 }
 
 /* ================= 灵感板块数据 ================= */
 let ID = window.INSPIRE_DATA || [];
 
-/* 55 个 prompts.chat 分类 → 中文映射 */
+/* 来源分类 → 中文映射（保留原始标签，展示层再收敛为 10 个主题） */
 const CAT_ZH = {
   'academic-writing': '学术写作', 'agent-workflows': '智能体工作流', 'automation-workflows': '自动化工作流',
   'automations': '自动化', 'blog-writing': '博客写作', 'business': '商业', 'business-planning': '商业规划',
@@ -1061,52 +1180,161 @@ const CAT_ZH = {
   'workflows': '工作流', 'writing': '写作'
 };
 function icatZh(en) { return CAT_ZH[en] || en; }
+/* 灵感页展示分类：将 53 个来源分类收敛为 10 个用户易懂的主题。 */
+const INSPIRE_GROUPS = {
+  '图像与视频': ['image-generation', 'video-generation', 'creative'],
+  '编程与开发': ['coding', 'devops', 'mobile-development', 'vibe', 'web-development'],
+  '智能体与自动化': ['agent-workflows', 'automation-workflows', 'automations', 'skill', 'workflows'],
+  '学习与教育': ['course-creation', 'education', 'exam-preparation', 'kids-early-learning', 'language-learning', 'learning-skills', 'teaching-instruction', 'tutoring-homework-help'],
+  '商业与营销': ['business', 'business-planning', 'business-strategy', 'finance-budgeting', 'hr', 'leadership-management', 'market-analysis', 'marketing', 'marketing-sales', 'meeting-collaboration', 'sales', 'startup-entrepreneurship'],
+  '写作与表达': ['blog-writing', 'copywriting', 'email-communication', 'technical-writing', 'writing'],
+  '研究与科学': ['academic-writing', 'data-science', 'research-analysis', 'stem-science'],
+  '效率与成长': ['habits-routines', 'journaling-reflection', 'mindset-motivation', 'note-taking', 'productivity', 'self-improvement'],
+  '生活与设计': ['design', 'health-wellness', 'music'],
+  '其他': ['sponsors', 'uncategorized']
+};
+const INSPIRE_GROUP_BY_CAT = Object.fromEntries(
+  Object.entries(INSPIRE_GROUPS).flatMap(([group, categories]) => categories.map(category => [category, group]))
+);
+function inspireGroup(en) { return INSPIRE_GROUP_BY_CAT[en] || '其他'; }
 let ICATS = [];
 let ICAT_COUNT = {};
 function refreshInspireIndex() {
-  ICATS = ['全部', ...new Set(ID.map(p => icatZh(p.cat)))].sort((a, b) => {
+  ICATS = ['全部', ...new Set(ID.map(p => inspireGroup(p.cat)))].sort((a, b) => {
     if (a === '全部') return -1;
     if (b === '全部') return 1;
-    return ID.filter(p => icatZh(p.cat) === b).length - ID.filter(p => icatZh(p.cat) === a).length;
+    return ID.filter(p => inspireGroup(p.cat) === b).length - ID.filter(p => inspireGroup(p.cat) === a).length;
   });
   ICAT_COUNT = Object.fromEntries(ICATS.map(c =>
-    [c, c === '全部' ? ID.length : ID.filter(p => icatZh(p.cat) === c).length]));
+    [c, c === '全部' ? ID.length : ID.filter(p => inspireGroup(p.cat) === c).length]));
 }
 refreshInspireIndex();
 
 /* ================= 品味策展数据 ================= */
 const CUR = window.CURATED_DATA || { sections: [] };
+const CRE = window.CREATOR_DATA || { updated: '', creators: [], prompts: [] };
+function creatorById(id) { return CRE.creators.find(c => c.id === id); }
+function creatorPromptMatches(item) {
+  const q = state.creatorQ.trim().toLowerCase();
+  const creator = creatorById(item.creatorId);
+  if (state.creatorId !== 'all' && item.creatorId !== state.creatorId) return false;
+  if (!q) return true;
+  return [item.title, item.desc, item.category, ...(item.tags || []), creator && creator.name]
+    .filter(Boolean).join(' ').toLowerCase().includes(q);
+}
+function creatorProfileHTML(c) {
+  const count = CRE.prompts.filter(p => p.creatorId === c.id).length;
+  const source = c.sourceUrl
+    ? `<a class="creator-source" href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">${esc(c.sourceLabel)} ↗</a>`
+    : `<span class="creator-source muted">${esc(c.sourceLabel)}</span>`;
+  const avatar = c.avatar
+    ? `<img src="${esc(c.avatar)}" alt="${esc(c.name)} 头像" loading="lazy" decoding="async">`
+    : esc(c.name.slice(0, 2));
+  return `<article class="creator-profile" data-accent="${esc(c.accent)}">
+    <div class="creator-profile-top"><div class="creator-monogram">${avatar}</div><span class="creator-state">${c.sourceVerified ? '已核对来源' : '待补出处'}</span></div>
+    <h3>${esc(c.name)}</h3><div class="creator-handle">${esc(c.handle || '公开身份待补')}</div>
+    <div class="creator-focus">${esc(c.focus)}</div><p>${esc(c.bio)}</p>
+    <div class="creator-profile-foot">${source}<button class="creator-chip${state.creatorId === c.id ? ' on' : ''}" data-creator-profile data-creator="${esc(c.id)}">${count ? `看 ${count} 条` : '待收录'} →</button></div>
+  </article>`;
+}
+function creatorPromptHTML(item) {
+  const creator = creatorById(item.creatorId);
+  return `<article class="creator-prompt" data-nav="#/c/${encodeURIComponent(item.id)}">
+    <div class="creator-prompt-top"><span class="creator-pill">${esc(creator ? creator.name : '来源待补')}</span><span class="creator-status">${esc(item.status)}</span></div>
+    <h3>${esc(item.title)}</h3><p>${esc(item.desc)}</p>
+    <div class="creator-tags">${(item.tags || []).map(tag => `<span class="creator-tag">#${esc(tag)}</span>`).join('')}</div>
+    <div class="creator-prompt-foot"><span class="creator-source-note">${esc(item.sourceNote)}</span><button class="creator-copy" data-creator-copy="${esc(item.id)}">复制提示词</button></div>
+  </article>`;
+}
+function renderCreatorList() {
+  const list = $('#creator-list');
+  if (!list) return;
+  const items = CRE.prompts.filter(creatorPromptMatches);
+  list.innerHTML = items.length ? items.map(creatorPromptHTML).join('')
+    : '<div class="creator-empty">没有匹配的收录。试试换个博主、主题或关键词。</div>';
+  document.querySelectorAll('[data-creator]').forEach(el => el.classList.toggle('on', el.dataset.creator === state.creatorId));
+}
+function renderCreators() {
+  const total = CRE.prompts.length;
+  app.innerHTML = `<div class="shell section">
+    <div class="section-title"><h2>他们在用</h2><span class="note">博主推荐与整理 · ${total} 条提示词 · 更新于 ${esc(CRE.updated)}</span></div>
+    <div class="creator-intro">
+      <div class="creator-lead"><span class="kicker">CREATOR PICKS · SOURCE FIRST</span><h1>他们怎么用，<br><span class="hl">我们就怎么学。</span></h1></div>
+    </div>
+    <div class="creator-profiles">${CRE.creators.map(creatorProfileHTML).join('')}</div>
+    <div class="creator-filter"><div class="section-title"><h2>提示词收录</h2></div><div class="creator-chips"><button class="creator-chip${state.creatorId === 'all' ? ' on' : ''}" data-creator="all">全部 · ${total}</button>${CRE.creators.map(c => `<button class="creator-chip${state.creatorId === c.id ? ' on' : ''}" data-creator="${esc(c.id)}">${esc(c.name)} · ${CRE.prompts.filter(p => p.creatorId === c.id).length}</button>`).join('')}</div></div>
+    <div class="creator-search"><input id="creator-search" type="search" value="${esc(state.creatorQ)}" placeholder="搜索提示词、主题或博主，例如：Agent / 盲区" aria-label="搜索他们在用提示词" /></div>
+    <div class="creator-list" id="creator-list"></div>
+  </div>`;
+  renderCreatorList();
+}
+function renderCreatorPrompt(id, host) {
+  host = host || app;
+  const item = CRE.prompts.find(p => p.id === id);
+  if (!item) { render404(); return; }
+  const creator = creatorById(item.creatorId);
+  const sourceUrl = item.sourceUrl || (creator && creator.sourceUrl);
+  const sourceLabel = item.sourceLabel || (creator && creator.sourceLabel);
+  const source = sourceUrl
+    ? `<a class="creator-detail-source" href="${esc(sourceUrl)}" target="_blank" rel="noopener">${esc(sourceLabel)} ↗</a>`
+    : '<span class="creator-detail-source">来源链接待补</span>';
+  host.innerHTML = `${host === dlContent ? `<div class="shell"><div class="dl-bar"><button class="back-btn" data-dlback>← 返回</button></div></div>` : ''}
+    <div class="shell section ${host === dlContent ? 'dl-in-fade' : ''}"><div class="creator-detail">
+      <div class="creator-detail-head">
+        <div class="creator-detail-crumb"><a data-nav="#/creators">他们在用</a><span>›</span><span>${esc(creator ? creator.name : '来源待补')}</span></div>
+        <h1>${esc(item.title)}</h1><p class="creator-detail-desc">${esc(item.desc)}</p>
+        <div class="creator-detail-meta"><span class="creator-pill">${esc(item.category)}</span><span class="creator-status">${esc(item.status)}</span>${source}</div>
+      </div>
+      <div class="idp-tabs creator-tabs">
+        <button class="idp-tab on" data-itab="zh">${svgIcon('language')} 中文提示词</button>
+        <button class="idp-tab" data-itab="en">${svgIcon('language')} English Original</button>
+        <button class="idp-tab" data-itab="usage">${svgIcon('book')} 使用说明</button>
+      </div>
+      <div class="idp-panel" id="creator-panel"></div>
+    </div></div>`;
+  state.itab = 'zh';
+  renderCreatorContent(id);
+}
+function renderCreatorContent(id) {
+  const item = CRE.prompts.find(p => p.id === id);
+  const panel = $('#creator-panel');
+  if (!item || !panel) return;
+  const which = state.itab === 'en' ? 'en' : state.itab === 'usage' ? 'usage' : 'zh';
+  const label = which === 'en' ? 'English Original Prompt' : which === 'usage' ? '使用说明与定制指南' : '中文提示词';
+  const body = which === 'en' ? (item.en || '（暂无英文版本）') : which === 'usage' ? (item.usage || item.desc) : (item.zh || item.prompt);
+  panel.innerHTML = `<div class="idp-panel-head"><span class="idp-panel-label">${label}</span><button class="creator-copy" data-creator-copy="${esc(item.id)}" data-which="${which}">${which === 'en' ? 'COPY ENGLISH ↗' : which === 'usage' ? '复制说明 ↗' : '复制中文 ↗'}</button></div><div class="md-body">${mdToHtml(body || '（暂无内容）')}</div><p class="creator-detail-note">${esc(item.sourceNote)}</p>`;
+}
 /* 解析策展条目 → 详情链接/标题/分类（library 查 PROMPTS_DATA，inspire 查 INSPIRE_DATA） */
 function curItem(it) {
   if (it.src === 'library') {
     const p = D.find(x => x.id === it.id);
     if (!p) return null;
-    return { href: '#/p/' + encodeURIComponent(p.id), title: p.title, cat: p.cat, note: it.note, src: 'lib' };
+    return { href: '#/p/' + encodeURIComponent(p.id), title: p.title, cat: p.cat, note: it.note, src: 'lib', locked: isPromptLocked(p) };
   }
   const p = ID.find(x => x.id === it.id);
   if (!p) return null;
   return { href: '#/i/' + encodeURIComponent(p.id), title: p.titleZh || p.title, en: p.title,
-    cat: icatZh(p.cat), note: it.note, src: 'ins' };
+    cat: inspireGroup(p.cat), note: it.note, src: 'ins' };
 }
 /* 品味页策展卡 */
 function curCardHTML(it) {
   const c = curItem(it);
   if (!c) return '';
-  return `<article class="cur-card" data-nav="${c.href}">
+  return `<article class="cur-card${c.locked ? ' locked' : ''}" data-nav="${c.href}">
     <div class="cur-meta"><span class="cur-src ${c.src}">${c.src === 'lib' ? 'LIBRARY' : 'INSPIRE'}</span><span class="itag">#${esc(c.cat)}</span></div>
     <h4>${esc(c.title)}</h4>
     <div class="cur-quote">${esc(c.note)}</div>
-    <div class="cur-foot"><span>打开 →</span>${c.src === 'ins' ? `<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:55%">${esc(c.en)}</span>` : ''}</div>
+    <div class="cur-foot"><span>${c.locked ? `${svgIcon('lock')} 待开放` : '打开 →'}</span>${c.src === 'ins' ? `<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:55%">${esc(c.en)}</span>` : ''}</div>
   </article>`;
 }
 /* 首页编辑推荐小卡 */
 function pickCardHTML(it) {
   const c = curItem(it);
   if (!c) return '';
-  return `<article class="pick-card" data-nav="${c.href}">
+  return `<article class="pick-card${c.locked ? ' locked' : ''}" data-nav="${c.href}">
     <span class="cur-src ${c.src}">${c.src === 'lib' ? 'LIBRARY' : 'INSPIRE'}</span>
     <h4>${esc(c.title)}</h4>
-    <div class="pick-note">${esc(c.note)}</div>
+    <div class="pick-note">${c.locked ? `${svgIcon('lock')} 待开放` : esc(c.note)}</div>
   </article>`;
 }
 
@@ -1155,7 +1383,7 @@ function renderHome() {
           </div>
           <div class="plabel">Inspiration Planet</div>
           <h3>灵感板块</h3>
-          <p>55 个专业领域分类，2112 条英文提示词经大模型深度本地化翻译，结构完整保留，附带 100-200 字实战使用说明。</p>
+          <p>10 个主题分类，2112 条英文提示词经大模型深度本地化翻译，结构完整保留，附带 100-200 字实战使用说明。</p>
           <div class="pgo">采集灵感 ✦ →</div>
         </div>
 
@@ -1431,7 +1659,7 @@ function renderHome() {
 
     <!-- 页面右下角浮动提仔互动伴侣 -->
     <div class="tippy-floating-pet" onclick="toggleTippyPetSpeech()">
-      <div id="tippy-pet-speech" class="tippy-pet-speech">Hi！我是提仔！今天想做什么好东西？✨</div>
+      <div id="tippy-pet-speech" class="tippy-pet-speech">Hi！我是提仔！今天想做什么好东西？✦</div>
       <img loading="lazy" decoding="async" class="tippy-pet-avatar" src="assets/tippy_logo_transparent.png" alt="提仔伴侣" />
     </div>`;
 
@@ -1493,18 +1721,18 @@ function renderCat(cat) {
 
 function catZh(en) { return CAT_ZH[en] || en; }
 
-/* 灵感页：2112 条提示词浏览 */
+/* 灵感页：2112 条提示词浏览，按 10 个主题分类筛选 */
 
 /* 灵感卡片：文本优先（无封面图），中文标题为主 + 英文原标题 + 中文摘要 */
 function inspireCardHTML(p, i) {
-  const cat = icatZh(p.cat);
+  const cat = inspireGroup(p.cat);
   return `<article class="icard" data-nav="#/i/${encodeURIComponent(p.id)}">
     <span class="icat">${esc(cat)}</span>
     <h3>${esc(p.titleZh || p.title)}</h3>
     <div class="ien">${esc(p.title)}</div>
     <p class="idesc">${esc(p.descZh || '')}</p>
     <div class="icard-foot">
-      <div class="icard-tags"><span class="itag">#${esc(p.cat)}</span><span class="itag">${String(i + 1).padStart(2, '0')}</span></div>
+      <div class="icard-tags"><span class="itag">#${esc(cat)}</span><span class="itag">${String(i + 1).padStart(2, '0')}</span></div>
       <button class="icopy" data-id="${p.id}" data-which="zh">复制中文</button>
     </div>
   </article>`;
@@ -1513,10 +1741,10 @@ function inspireCardHTML(p, i) {
 /* 灵感过滤：分类 + 关键词（搜标题/正文/说明全字段） */
 function inspireFiltered() {
   let list = ID.slice();
-  if (state.icat !== '全部') list = list.filter(p => icatZh(p.cat) === state.icat);
+  if (state.icat !== '全部') list = list.filter(p => inspireGroup(p.cat) === state.icat);
   const q = (state.iq || '').toLowerCase();
   if (q) list = list.filter(p =>
-    [p.title, p.titleZh, p.cat, icatZh(p.cat), p.zh, p.en, p.usage].join(' ').toLowerCase().includes(q));
+    [p.title, p.titleZh, p.cat, icatZh(p.cat), inspireGroup(p.cat), p.zh, p.en, p.usage].join(' ').toLowerCase().includes(q));
   return list;
 }
 
@@ -1594,8 +1822,8 @@ function renderInspireDetail(id, host) {
           <h1 class="idp-title">${esc(p.titleZh || p.title)}</h1>
           <div class="idp-desc">${esc(p.title)}</div>
           <div class="idp-meta">
-            <span class="idp-badge">${esc(icatZh(p.cat))}</span>
-            <span class="idp-tag">#${esc(p.cat)}</span>
+            <span class="idp-badge">${esc(inspireGroup(p.cat))}</span>
+            <span class="idp-tag">#${esc(inspireGroup(p.cat))}</span>
             <span class="idp-source">INSPIRE ✦ ${String(idx + 1).padStart(4, '0')} / ${String(ID.length).padStart(4, '0')}</span>
           </div>
           <div class="idp-actions">
@@ -1604,9 +1832,9 @@ function renderInspireDetail(id, host) {
           </div>
         </div>
         <div class="idp-tabs">
-          <button class="idp-tab on" data-itab="zh">🇨🇳 中文翻译</button>
-          <button class="idp-tab" data-itab="en">🇺🇸 English Original</button>
-          <button class="idp-tab" data-itab="usage">📖 使用说明</button>
+          <button class="idp-tab on" data-itab="zh">${svgIcon('language')} 中文翻译</button>
+          <button class="idp-tab" data-itab="en">${svgIcon('language')} English Original</button>
+          <button class="idp-tab" data-itab="usage">${svgIcon('book')} 使用说明</button>
         </div>
         <div class="idp-panel" id="ipanel"></div>
         <div class="idp-nav">
@@ -1623,7 +1851,7 @@ function renderInspireContent(id) {
   if (!p) return;
   const el = $('#ipanel');
   if (!el) return;
-  const label = state.itab === 'zh' ? '中文翻译 · 可直接投喂 AI'
+  const label = state.itab === 'zh' ? '中文翻译'
     : state.itab === 'en' ? 'English Original Prompt' : '使用说明';
   const body = state.itab === 'zh' ? p.zh : state.itab === 'en' ? p.en : p.usage;
   const which = state.itab === 'en' ? 'en' : state.itab === 'usage' ? 'usage' : 'zh';
@@ -1660,6 +1888,7 @@ function renderPrompt(id, host) {
   host = host || app;
   const p = byId(id);
   if (!p) { render404(); return; }
+  const locked = isPromptLocked(p);
   const idx = D.findIndex(x => x.id === id);
   const prev = D[idx - 1], next = D[idx + 1];
   state.tab = 'zh';
@@ -1680,34 +1909,40 @@ function renderPrompt(id, host) {
           <h1>${esc(p.title)}</h1>
           <div class="desc">${esc(p.desc)}</div>
           <div class="meta-row">
+            ${locked ? `<span class="access-status locked">${svgIcon('lock')} 待开放</span>` : '<span class="access-status">✓ 可直接使用</span>'}
             <span class="tag">#${esc(p.cat)}</span>
             <span class="tag">${esc(p.type)}</span>
             ${showTags(p, 5).map(t => `<span class="tag">#${esc(t)}</span>`).join('')}
           </div>
         </div>
       </div>
-      <div class="tabs">
-        <button class="tab on" data-tab="zh">🇨🇳 中文提示词</button>
-        <button class="tab" data-tab="en">🇺🇸 英文原版</button>
-        <button class="tab" data-tab="usage">📖 使用说明</button>
+      ${locked ? `<div class="prompt-panel locked-panel" role="status">
+        <div class="locked-icon">${svgIcon('lock')}</div>
+        <h2>待开放</h2>
+        <p>这条提示词需要解锁后才能查看和复制。解锁功能暂未开放，敬请期待。</p>
+      </div>` : `<div class="tabs">
+        <button class="tab on" data-tab="zh">${svgIcon('language')} 中文提示词</button>
+        <button class="tab" data-tab="en">${svgIcon('language')} 英文原版</button>
+        <button class="tab" data-tab="usage">${svgIcon('book')} 使用说明</button>
       </div>
-      <div id="pcontent"></div>
+      <div id="pcontent"></div>`}
       <div class="pn-nav">
         ${prev ? `<button class="back-btn" data-nav="#/p/${encodeURIComponent(prev.id)}">← ${esc(prev.title)}</button>` : ''}
         ${next ? `<button class="back-btn" data-nav="#/p/${encodeURIComponent(next.id)}">${esc(next.title)} →</button>` : ''}
       </div>
     </div>`;
-  renderPromptContent();
+  if (!locked) renderPromptContent();
 }
 
 function renderPromptContent() {
   const id = location.hash.match(/^#\/p\/(.+)$/)[1];
   const p = byId(id);
   if (!p) return;
+  if (isPromptLocked(p)) return;
   const el = $('#pcontent');
   if (state.tab === 'zh') {
     el.innerHTML = `<div class="prompt-panel">
-      <div class="panel-head"><span class="plabel">中文翻译提示词 · 可直接投喂 AI 编码工具</span>
+      <div class="panel-head"><span class="plabel">中文翻译提示词</span>
         <button class="copy" data-id="${p.id}" data-which="zh">COPY 中文 ↗</button></div>
       <div class="md-body">${mdToHtml(p.zh || '（该模板暂无中文翻译）')}</div></div>`;
   } else if (state.tab === 'en') {
@@ -1742,11 +1977,13 @@ function renderSearch(q) {
 /* Roadmap：三阶段时间线（已上线 / 进行中 / 计划中） */
 function renderAbout() {
   const rm = [
-    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '灵感板块', p: `${ID.length} 条 prompts.chat 提示词，DeepSeek 大模型中文翻译 + 使用说明，双语对照、分类筛选、三 Tab 详情、上下条导航。` },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '他们在用', p: `${CRE.creators.length} 位 AI 博主、${CRE.prompts.length} 条来源型提示词，支持博主筛选、独立详情页、中文 / 英文 / 使用说明三 Tab。` },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '灵感板块', p: `${ID.length} 条 prompts.chat 提示词，收敛为 10 个主题分类，保留中文翻译、英文原文、使用说明与详情导航。` },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '提示词库动效', p: `${D.filter(p => p.video).length} 条带动态素材的封面支持视口内自动播放，离开视口自动暂停，静态封面继续保持轻量加载。` },
     { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '品味策展', p: '编辑精选体系：跨「提示词库 + 灵感」混编，策展语 + 来源徽章，首页编辑推荐位同步。' },
-    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '提示词库', p: `${D.length} 条网页组件提示词，Obsidian 数据源自动构建，预览图即看即用。` },
-    { st: 'wip', badge: '🔧 进行中', t: '全站搜索', p: '一次搜索同时命中提示词库与灵感，结果跨板块聚合展示。' },
-    { st: 'wip', badge: '🔧 进行中', t: '精选扩充', p: '品味页持续更新，覆盖更多主题合集与更多期编辑推荐。' },
+    { st: 'done', badge: '✓ 已上线', date: '2026-08', t: '界面清理', p: '移除冗余说明卡片与页脚路线卡片，统一使用 SVG UI 图标，保留核心浏览、筛选与复制交互。' },
+    { st: 'wip', badge: '进行中', t: '全站搜索', p: '一次搜索同时命中提示词库与灵感，结果跨板块聚合展示。' },
+    { st: 'wip', badge: '进行中', t: '精选扩充', p: '品味页持续更新，覆盖更多主题合集与更多期编辑推荐。' },
     { st: 'planned', badge: '✦ 计划中', t: '复制统计反哺热度榜', p: '记录复制行为，让真实使用热度说话，反哺「灵感」排序。' },
     { st: 'planned', badge: '✦ 计划中', t: '本地收藏夹', p: 'localStorage 收藏，提示词库 + 灵感统一管理，跨设备导出。' },
     { st: 'planned', badge: '✦ 计划中', t: '投稿与编辑审核流', p: '开放投稿，编辑审核后入库，社区共建。' }
@@ -1770,7 +2007,6 @@ function renderAbout() {
 function render404() {
   app.innerHTML = `
     <div class="shell nf">
-      <div class="nf-emoji">🫥</div>
       <h1>404</h1>
       <p>这条提示词好像被吃掉了…</p>
       <button class="btn solid" data-nav="#/">返回首页</button>
@@ -1779,6 +2015,30 @@ function render404() {
 
 /* ================= 事件与路由 ================= */
 document.addEventListener('click', async e => {
+  const creatorCopy = e.target.closest('.creator-copy');
+  if (creatorCopy) {
+    e.stopPropagation();
+    const item = CRE.prompts.find(p => p.id === creatorCopy.dataset.creatorCopy);
+    if (!item) return;
+    const which = creatorCopy.dataset.which || 'zh';
+    const text = which === 'en' ? (item.en || '暂无英文版本') : which === 'usage' ? (item.usage || item.desc) : (item.zh || item.prompt);
+    const ok = await copyText(text);
+    toast(ok ? '已复制整理稿 ✓' : '复制失败，请手动选择文本');
+    if (ok) {
+      const old = creatorCopy.textContent;
+      creatorCopy.textContent = '已复制 ✓'; creatorCopy.classList.add('done');
+      setTimeout(() => { creatorCopy.textContent = old; creatorCopy.classList.remove('done'); }, 1400);
+    }
+    return;
+  }
+
+  const creatorFilter = e.target.closest('[data-creator]');
+  if (creatorFilter) {
+    state.creatorId = creatorFilter.dataset.creator;
+    renderCreatorList();
+    return;
+  }
+
   /* 灵感板块复制按钮（中文/英文/说明） */
   const icopy = e.target.closest('.icopy');
   if (icopy) {
@@ -1813,6 +2073,8 @@ document.addEventListener('click', async e => {
     document.querySelectorAll('.idp-tab').forEach(t => t.classList.toggle('on', t === itab));
     const m = location.hash.match(/^#\/i\/(.+)$/);
     if (m) renderInspireContent(decodeURIComponent(m[1]));
+    const cm = location.hash.match(/^#\/c\/(.+)$/);
+    if (cm) renderCreatorContent(decodeURIComponent(cm[1]));
     return;
   }
 
@@ -1822,6 +2084,10 @@ document.addEventListener('click', async e => {
     e.stopPropagation();
     const p = byId(copyBtn.dataset.id);
     if (!p) return;
+    if (isPromptLocked(p)) {
+      toast('该提示词暂未开放');
+      return;
+    }
     const text = copyBtn.dataset.which === 'en' ? p.en : copyBtn.dataset.which === 'usage' ? p.usage : p.zh;
     const ok = await copyText(text);
     toast(ok ? '已复制到剪贴板 ✓' : '复制失败，请手动选择文本');
@@ -1841,7 +2107,7 @@ document.addEventListener('click', async e => {
     const h = navEl.dataset.nav;
     /* 记录来源卡片位置 + 列表滚动位置，供「从哪来到哪去」展开/收缩动画 */
     if (DL_DETAIL.test(h)) {
-      const card = e.target.closest('.card,.icard,.cur-card,.pick-card');
+      const card = e.target.closest('.card,.icard,.cur-card,.pick-card,.creator-prompt');
       if (card) {
         const r = card.getBoundingClientRect();
         _tpOrigin = { x: r.left, y: r.top, w: r.width, h: r.height };
@@ -1890,23 +2156,15 @@ document.addEventListener('click', async e => {
   }
 });
 
-/* mp4 封面：悬停播放 / 移出暂停（事件委托，避免视频全部预载） */
-document.addEventListener('mouseover', e => {
-  const v = e.target.closest('video.thumb-vid');
-  if (!v || !v.paused) return;
-  v.muted = true;
-  const tryPlay = () => v.play().catch(() => {});
-  if (v.readyState === 0) { v.load(); v.addEventListener('loadeddata', tryPlay, { once: true }); }
-  else tryPlay();
-});
-document.addEventListener('mouseout', e => {
-  const v = e.target.closest('video.thumb-vid');
-  if (v) v.pause();
+document.addEventListener('input', e => {
+  if (e.target.id !== 'creator-search') return;
+  state.creatorQ = e.target.value;
+  renderCreatorList();
 });
 
 /* 浮动提仔伴侣语录互动 */
 const TIPPY_PET_QUOTES = [
-  "Hi！我是提仔！今天想做什么好东西？✨",
+  "Hi！我是提仔！今天想做什么好东西？✦",
   "Radar 提示：刚刚捕捉到了一个绝妙的灵感粒子！",
   "遇到长提示词别慌，装进 TP Core 整理一下！",
   "好想法配上好 Prompt，才能真正做成产品！",
@@ -1951,8 +2209,11 @@ function render() {
   if (m) return renderPrompt(m[1]);
   m = hash.match(/^#\/i\/(.+)$/);
   if (m) return renderInspireDetail(decodeURIComponent(m[1]));
+  m = hash.match(/^#\/c\/(.+)$/);
+  if (m) return renderCreatorPrompt(decodeURIComponent(m[1]));
   if (hash === '#/inspire') return renderInspire();
   if (hash === '#/taste') return renderTaste();
+  if (hash === '#/creators') return renderCreators();
   m = hash.match(/^#\/search\?q=(.+)$/);
   if (m) return renderSearch(decodeURIComponent(m[1]));
   if (hash === '#/about') return renderAbout();
@@ -1965,7 +2226,7 @@ window.addEventListener('hashchange', render);
 function refreshLoadedData() {
   let changed = false;
   if (Array.isArray(window.PROMPTS_DATA)) {
-    D = window.PROMPTS_DATA;
+    D = PROMPT_ACCESS.sortByAccess(window.PROMPTS_DATA);
     refreshLibraryIndex();
     changed = true;
   }
