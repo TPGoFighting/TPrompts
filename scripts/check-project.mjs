@@ -65,7 +65,7 @@ function checkHtml(html) {
   assert(/<title>[^<]+<\/title>/i.test(html), 'index.html 缺少页面标题');
 
   for (const script of ['prompts-data.js', 'inspire-data.js', 'curated-data.js', 'creator-data.js']) {
-    assert(new RegExp(`<script[^>]+src=["']${script}["']`).test(html), `index.html 未加载 ${script}`);
+    assert(new RegExp(`<script[^>]+(?:src|data-lazy-src)=["']${script}["']`).test(html), `index.html 未加载 ${script}`);
   }
 
   const inlineScripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)]
