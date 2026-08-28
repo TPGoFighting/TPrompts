@@ -1,1 +1,0 @@
-../../by-category/automations/cmla31mlz000iju04lji3ioxn_Implementador de Tarefas.md

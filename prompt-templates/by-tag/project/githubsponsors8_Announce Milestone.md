@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors8_Announce Milestone.md

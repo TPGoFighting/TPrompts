@@ -1,1 +1,0 @@
-../../by-category/design/cmp2nnvma0001l704v43f48t8_The Lovelyline .md

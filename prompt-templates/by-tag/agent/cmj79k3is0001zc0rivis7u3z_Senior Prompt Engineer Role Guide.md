@@ -1,1 +1,0 @@
-../../by-category/agent-workflows/cmj79k3is0001zc0rivis7u3z_Senior Prompt Engineer Role Guide.md

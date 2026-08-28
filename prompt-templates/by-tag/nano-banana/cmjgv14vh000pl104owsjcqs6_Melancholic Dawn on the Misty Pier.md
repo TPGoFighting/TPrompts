@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjgv14vh000pl104owsjcqs6_Melancholic Dawn on the Misty Pier.md

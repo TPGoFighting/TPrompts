@@ -1,1 +1,0 @@
-../../by-category/teaching-instruction/cmmow6wwi000djr04ufkaipyf_Deep Learning Loop.md

@@ -1,1 +1,0 @@
-../../by-category/marketing/cmjo672nn000el504bla7l5ov_New Year Celebration Video for Antioch Textile.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmk6qxmqq000aic04s5cjjglu_Ultra-High-Resolution Portrait Restoration.md

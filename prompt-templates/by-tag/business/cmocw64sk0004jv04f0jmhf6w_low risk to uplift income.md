@@ -1,1 +1,0 @@
-../../by-category/startup-entrepreneurship/cmocw64sk0004jv04f0jmhf6w_low risk to uplift income.md

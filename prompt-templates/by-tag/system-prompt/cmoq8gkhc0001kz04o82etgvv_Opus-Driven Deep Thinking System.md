@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmoq8gkhc0001kz04o82etgvv_Opus-Driven Deep Thinking System.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj8duum00008r20qm2ttvni0_Studio Portraits with Professional Postures.md

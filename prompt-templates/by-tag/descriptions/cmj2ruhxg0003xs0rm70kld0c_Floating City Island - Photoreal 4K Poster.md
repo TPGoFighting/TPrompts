@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj2ruhxg0003xs0rm70kld0c_Floating City Island - Photoreal 4K Poster.md

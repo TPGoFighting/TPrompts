@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjoafqsh0001l204ktnp9u02_Photorealistic Selfie Portrait Description.md

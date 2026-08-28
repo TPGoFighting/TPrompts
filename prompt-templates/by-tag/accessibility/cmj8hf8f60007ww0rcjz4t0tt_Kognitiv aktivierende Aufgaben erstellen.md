@@ -1,1 +1,0 @@
-../../by-category/education/cmj8hf8f60007ww0rcjz4t0tt_Kognitiv aktivierende Aufgaben erstellen.md

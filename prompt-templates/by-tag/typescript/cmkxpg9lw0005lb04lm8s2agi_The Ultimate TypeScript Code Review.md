@@ -1,1 +1,0 @@
-../../by-category/vibe/cmkxpg9lw0005lb04lm8s2agi_The Ultimate TypeScript Code Review.md

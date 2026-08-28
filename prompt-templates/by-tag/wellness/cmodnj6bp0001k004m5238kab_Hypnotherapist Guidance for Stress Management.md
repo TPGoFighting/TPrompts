@@ -1,1 +1,0 @@
-../../by-category/health-wellness/cmodnj6bp0001k004m5238kab_Hypnotherapist Guidance for Stress Management.md

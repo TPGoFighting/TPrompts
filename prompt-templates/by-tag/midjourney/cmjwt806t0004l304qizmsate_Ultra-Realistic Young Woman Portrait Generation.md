@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjwt806t0004l304qizmsate_Ultra-Realistic Young Woman Portrait Generation.md

@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjm8f1260007jp0471611ixd_Blog System Development Guide.md

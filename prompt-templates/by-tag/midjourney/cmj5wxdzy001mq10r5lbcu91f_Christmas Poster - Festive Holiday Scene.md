@@ -1,1 +1,0 @@
-../../by-category/creative/cmj5wxdzy001mq10r5lbcu91f_Christmas Poster - Festive Holiday Scene.md

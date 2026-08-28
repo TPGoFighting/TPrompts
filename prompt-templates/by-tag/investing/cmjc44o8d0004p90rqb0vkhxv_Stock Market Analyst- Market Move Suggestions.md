@@ -1,1 +1,0 @@
-../../by-category/business/cmjc44o8d0004p90rqb0vkhxv_Stock Market Analyst- Market Move Suggestions.md

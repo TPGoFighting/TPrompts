@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmnge18dy0001la04v1izt3ez_Research Prompt -Mistral- .md

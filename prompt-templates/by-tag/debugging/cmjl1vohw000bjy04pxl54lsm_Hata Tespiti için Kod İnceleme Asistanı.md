@@ -1,1 +1,0 @@
-../../by-category/coding/cmjl1vohw000bjy04pxl54lsm_Hata Tespiti için Kod İnceleme Asistanı.md

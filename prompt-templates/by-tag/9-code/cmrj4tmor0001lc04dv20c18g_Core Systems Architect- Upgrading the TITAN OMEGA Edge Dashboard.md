@@ -1,1 +1,0 @@
-../../by-category/coding/cmrj4tmor0001lc04dv20c18g_Core Systems Architect- Upgrading the TITAN OMEGA Edge Dashboard.md

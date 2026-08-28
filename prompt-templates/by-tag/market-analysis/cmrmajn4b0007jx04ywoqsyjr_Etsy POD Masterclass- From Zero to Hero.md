@@ -1,1 +1,0 @@
-../../by-category/business-planning/cmrmajn4b0007jx04ywoqsyjr_Etsy POD Masterclass- From Zero to Hero.md

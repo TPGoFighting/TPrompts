@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjmcptmw0008l7047ef2i1sv_Ultra-Realistic Handwritten Hospital Note Image.md

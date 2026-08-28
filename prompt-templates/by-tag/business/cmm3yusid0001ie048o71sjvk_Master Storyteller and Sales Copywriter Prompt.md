@@ -1,1 +1,0 @@
-../../by-category/marketing/cmm3yusid0001ie048o71sjvk_Master Storyteller and Sales Copywriter Prompt.md

@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding4_Scientific Calculator.md

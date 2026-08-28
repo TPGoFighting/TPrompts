@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmju1de8z0009l50471gapkhf_Fashion Photo Pose - Setting Transformation Editor.md

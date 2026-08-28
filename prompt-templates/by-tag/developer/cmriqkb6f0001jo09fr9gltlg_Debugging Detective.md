@@ -1,1 +1,0 @@
-../../by-category/web-development/cmriqkb6f0001jo09fr9gltlg_Debugging Detective.md

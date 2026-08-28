@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmlgfwyv7000dl504hvtwan7c_Professional Image Enhancement for Clarity and Quality.md

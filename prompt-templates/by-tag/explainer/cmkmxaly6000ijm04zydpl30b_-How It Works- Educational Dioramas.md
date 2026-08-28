@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkmxaly6000ijm04zydpl30b_-How It Works- Educational Dioramas.md

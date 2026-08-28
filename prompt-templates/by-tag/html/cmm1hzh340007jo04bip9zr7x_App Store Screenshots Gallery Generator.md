@@ -1,1 +1,0 @@
-../../by-category/web-development/cmm1hzh340007jo04bip9zr7x_App Store Screenshots Gallery Generator.md

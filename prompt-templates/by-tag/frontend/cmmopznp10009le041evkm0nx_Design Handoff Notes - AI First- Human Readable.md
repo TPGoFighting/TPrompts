@@ -1,1 +1,0 @@
-../../by-category/design/cmmopznp10009le041evkm0nx_Design Handoff Notes - AI First- Human Readable.md

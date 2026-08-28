@@ -1,1 +1,0 @@
-../../by-category/skill/cmnm9d9vi0004i8042ogw1f6c_Packer Automation - Imaging Expert.md

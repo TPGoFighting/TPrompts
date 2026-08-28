@@ -1,1 +1,0 @@
-../../by-category/skill/cmm7ai7l3000cl1041bb5g985_Expert Discovery Interviewer Guide.md

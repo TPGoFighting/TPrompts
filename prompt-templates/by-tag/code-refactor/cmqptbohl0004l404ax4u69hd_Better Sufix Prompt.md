@@ -1,1 +1,0 @@
-../../by-category/vibe/cmqptbohl0004l404ax4u69hd_Better Sufix Prompt.md

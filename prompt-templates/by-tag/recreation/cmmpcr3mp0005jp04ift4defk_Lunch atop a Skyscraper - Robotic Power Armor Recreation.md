@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmmpcr3mp0005jp04ift4defk_Lunch atop a Skyscraper - Robotic Power Armor Recreation.md

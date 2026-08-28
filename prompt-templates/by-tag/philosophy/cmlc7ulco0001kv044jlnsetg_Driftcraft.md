@@ -1,1 +1,0 @@
-../../by-category/mindset-motivation/cmlc7ulco0001kv044jlnsetg_Driftcraft.md

@@ -1,1 +1,0 @@
-../../by-category/video-generation/cmm2b91h00001kv04k2rkx3r9_Miniature Artist.md

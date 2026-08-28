@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkwok2o30001lg04wlxa4bb7_Lego Movie Style Prompt.md

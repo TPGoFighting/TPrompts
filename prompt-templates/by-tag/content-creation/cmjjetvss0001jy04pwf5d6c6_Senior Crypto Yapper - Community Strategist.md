@@ -1,1 +1,0 @@
-../../by-category/marketing/cmjjetvss0001jy04pwf5d6c6_Senior Crypto Yapper - Community Strategist.md

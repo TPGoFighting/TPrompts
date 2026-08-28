@@ -1,1 +1,0 @@
-../../by-category/design/cmmoikk3b000jkz04xgxb1t9s_Design System Extraction Prompt Kit.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjwk3kax0004js04wio5vwij_Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca.md

@@ -1,1 +1,0 @@
-../../by-category/marketing/cmqdswzwv0001l504h8hxh0of_Create Marketing Videos for Magnifiscentss.md

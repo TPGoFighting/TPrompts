@@ -1,1 +1,0 @@
-../../by-category/coding/cmmjqpyi10001js043x2cexuc_SQL Query Builder - Optimiser.md

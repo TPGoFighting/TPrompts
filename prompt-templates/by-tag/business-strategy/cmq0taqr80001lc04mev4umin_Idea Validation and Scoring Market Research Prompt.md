@@ -1,1 +1,0 @@
-../../by-category/market-analysis/cmq0taqr80001lc04mev4umin_Idea Validation and Scoring Market Research Prompt.md

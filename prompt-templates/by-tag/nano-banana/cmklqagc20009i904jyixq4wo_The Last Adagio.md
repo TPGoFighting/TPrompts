@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmklqagc20009i904jyixq4wo_The Last Adagio.md

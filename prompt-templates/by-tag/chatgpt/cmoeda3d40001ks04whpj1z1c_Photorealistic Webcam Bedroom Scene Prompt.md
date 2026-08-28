@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmoeda3d40001ks04whpj1z1c_Photorealistic Webcam Bedroom Scene Prompt.md

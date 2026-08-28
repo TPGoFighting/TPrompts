@@ -1,1 +1,0 @@
-../../by-category/coding/cmkjggkho000njv04s2vqz5ux_Develop a creative dice generator called -IdeaDice--.md

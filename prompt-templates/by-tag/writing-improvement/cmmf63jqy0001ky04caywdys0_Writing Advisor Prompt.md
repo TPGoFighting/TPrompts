@@ -1,1 +1,0 @@
-../../by-category/writing/cmmf63jqy0001ky04caywdys0_Writing Advisor Prompt.md

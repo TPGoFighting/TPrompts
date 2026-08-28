@@ -1,1 +1,0 @@
-../../by-category/stem-science/cmma1qydn0005kz0420fqf4rz_SciSim Pro - Simulator for science -ASCII-Textual Art spatial diagrams support-.md

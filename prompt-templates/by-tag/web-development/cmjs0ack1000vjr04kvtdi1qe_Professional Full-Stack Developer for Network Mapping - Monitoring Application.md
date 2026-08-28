@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjs0ack1000vjr04kvtdi1qe_Professional Full-Stack Developer for Network Mapping - Monitoring Application.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmklq4f4g0001i90403ll803s_Wings of the Dust Bowl.md

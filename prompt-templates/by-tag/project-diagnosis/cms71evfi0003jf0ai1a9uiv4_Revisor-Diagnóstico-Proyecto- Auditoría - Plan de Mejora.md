@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cms71evfi0003jf0ai1a9uiv4_Revisor-Diagnóstico-Proyecto- Auditoría - Plan de Mejora.md

@@ -1,1 +1,0 @@
-../../by-category/creative/cmjxe5tcz000vgl043ygsh4r7_Cinematic Close-Up of Craftsman with Paper Figures.md

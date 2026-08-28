@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmrsmptpo0001lc04cz4jcyho_Personalized Remedy from Gemini.md

@@ -1,1 +1,0 @@
-../../by-category/finance-budgeting/cmp1s3fhy0004js04p0er6i4y_-sigrex-io- Full Kitchen Sink.md

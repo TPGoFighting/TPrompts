@@ -1,1 +1,0 @@
-../../by-category/skill/cmn77d8qc000el2049cm06qey_Lazyvim expert.md

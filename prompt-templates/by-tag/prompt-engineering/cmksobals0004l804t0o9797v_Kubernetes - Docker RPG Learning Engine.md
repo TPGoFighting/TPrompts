@@ -1,1 +1,0 @@
-../../by-category/education/cmksobals0004l804t0o9797v_Kubernetes - Docker RPG Learning Engine.md

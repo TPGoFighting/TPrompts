@@ -1,1 +1,0 @@
-../../by-category/technical-writing/cml19tr820006js04qu8aipvc_LinkedIn- About-Summary draft prompt.md

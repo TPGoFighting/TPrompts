@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmku9to550004l604awvl3a6h_Research Weapon.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjz3ud4j000gld04ps1av4np_Generate Implementation Ideas from Word Document.md

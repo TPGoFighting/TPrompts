@@ -1,1 +1,0 @@
-../../by-category/vibe/cmjasv4vh000dze0rkqarpeg2_Fierce Medieval Queen on Iron Throne Portrait.md

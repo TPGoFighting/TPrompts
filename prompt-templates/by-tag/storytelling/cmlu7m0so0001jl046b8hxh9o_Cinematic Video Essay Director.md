@@ -1,1 +1,0 @@
-../../by-category/creative/cmlu7m0so0001jl046b8hxh9o_Cinematic Video Essay Director.md

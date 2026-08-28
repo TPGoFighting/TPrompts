@@ -1,1 +1,0 @@
-../../by-category/devops/cmkb4b3xu0001l4049hn8f9at_DevOps Automator.md

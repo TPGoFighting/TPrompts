@@ -1,1 +1,0 @@
-../../by-category/business-strategy/cmjvij7tg0007l804bx9ax5ee_Professional Vision Statement for Transportation Company.md

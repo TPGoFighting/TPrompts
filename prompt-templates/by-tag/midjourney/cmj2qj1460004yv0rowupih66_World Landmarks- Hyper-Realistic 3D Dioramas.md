@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj2qj1460004yv0rowupih66_World Landmarks- Hyper-Realistic 3D Dioramas.md

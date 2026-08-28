@@ -1,1 +1,0 @@
-../../by-category/teaching-instruction/cmkjw1mi30001jr04f6aco1s4_Prompt Architect Pro.md

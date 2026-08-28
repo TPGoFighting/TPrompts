@@ -1,1 +1,0 @@
-../../by-category/education/cmjczkats000dyb0rgx08948e_Analyze Previous Year Question Papers.md

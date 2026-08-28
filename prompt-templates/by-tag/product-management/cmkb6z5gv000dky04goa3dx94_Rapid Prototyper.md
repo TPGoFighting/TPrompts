@@ -1,1 +1,0 @@
-../../by-category/startup-entrepreneurship/cmkb6z5gv000dky04goa3dx94_Rapid Prototyper.md

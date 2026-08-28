@@ -1,1 +1,0 @@
-../../by-category/business-strategy/cmkb7mh2e000cjj04n6ipkk7q_Sprint Prioritizer.md

@@ -1,1 +1,0 @@
-../../by-category/education/cmlguavs40001l504dc1gvfng_Cyberscam Survival Simulator.md

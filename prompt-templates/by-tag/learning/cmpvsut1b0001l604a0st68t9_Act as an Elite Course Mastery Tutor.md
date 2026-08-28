@@ -1,1 +1,0 @@
-../../by-category/teaching-instruction/cmpvsut1b0001l604a0st68t9_Act as an Elite Course Mastery Tutor.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmnoirlww0004jp04zwe8ekdp_Typographic Portrait Artwork Creation.md

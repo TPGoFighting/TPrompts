@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors9_Recognize Sponsors.md

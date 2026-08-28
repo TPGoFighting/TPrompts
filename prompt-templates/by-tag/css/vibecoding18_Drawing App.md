@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding18_Drawing App.md

@@ -1,1 +1,0 @@
-../../by-category/business/cmject3y90004rj0rjw8fu3ok_Act as a Product Manager.md

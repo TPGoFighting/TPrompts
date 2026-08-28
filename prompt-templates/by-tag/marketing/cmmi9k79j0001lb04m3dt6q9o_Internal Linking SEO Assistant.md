@@ -1,1 +1,0 @@
-../../by-category/marketing-sales/cmmi9k79j0001lb04m3dt6q9o_Internal Linking SEO Assistant.md

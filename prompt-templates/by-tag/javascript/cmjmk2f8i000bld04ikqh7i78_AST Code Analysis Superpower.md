@@ -1,1 +1,0 @@
-../../by-category/skill/cmjmk2f8i000bld04ikqh7i78_AST Code Analysis Superpower.md

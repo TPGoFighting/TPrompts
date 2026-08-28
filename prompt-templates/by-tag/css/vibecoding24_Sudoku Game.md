@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding24_Sudoku Game.md

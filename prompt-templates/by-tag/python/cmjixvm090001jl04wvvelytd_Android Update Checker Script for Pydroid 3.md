@@ -1,1 +1,0 @@
-../../by-category/mobile-development/cmjixvm090001jl04wvvelytd_Android Update Checker Script for Pydroid 3.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkk38cis000gji040hjuh7er_Analog camera.md

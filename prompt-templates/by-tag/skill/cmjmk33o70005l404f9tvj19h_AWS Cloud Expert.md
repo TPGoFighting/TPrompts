@@ -1,1 +1,0 @@
-../../by-category/skill/cmjmk33o70005l404f9tvj19h_AWS Cloud Expert.md

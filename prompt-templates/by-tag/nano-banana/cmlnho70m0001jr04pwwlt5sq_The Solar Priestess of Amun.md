@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmlnho70m0001jr04pwwlt5sq_The Solar Priestess of Amun.md

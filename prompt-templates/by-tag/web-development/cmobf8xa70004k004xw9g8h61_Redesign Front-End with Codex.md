@@ -1,1 +1,0 @@
-../../by-category/web-development/cmobf8xa70004k004xw9g8h61_Redesign Front-End with Codex.md

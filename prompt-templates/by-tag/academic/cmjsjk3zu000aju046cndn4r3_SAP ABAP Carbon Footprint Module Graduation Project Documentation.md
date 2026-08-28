@@ -1,1 +1,0 @@
-../../by-category/technical-writing/cmjsjk3zu000aju046cndn4r3_SAP ABAP Carbon Footprint Module Graduation Project Documentation.md

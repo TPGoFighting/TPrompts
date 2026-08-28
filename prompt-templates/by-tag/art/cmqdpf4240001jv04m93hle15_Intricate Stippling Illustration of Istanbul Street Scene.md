@@ -1,1 +1,0 @@
-../../by-category/design/cmqdpf4240001jv04m93hle15_Intricate Stippling Illustration of Istanbul Street Scene.md

@@ -1,1 +1,0 @@
-../../by-category/devops/cmn53q23u0001l704joetf0uj_Terraform Platform Engineer.md

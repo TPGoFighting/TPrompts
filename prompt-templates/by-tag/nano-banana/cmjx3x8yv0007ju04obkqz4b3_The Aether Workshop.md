@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjx3x8yv0007ju04obkqz4b3_The Aether Workshop.md

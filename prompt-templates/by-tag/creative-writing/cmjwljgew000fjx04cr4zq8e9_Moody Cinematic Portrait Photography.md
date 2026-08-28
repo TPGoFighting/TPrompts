@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjwljgew000fjx04cr4zq8e9_Moody Cinematic Portrait Photography.md

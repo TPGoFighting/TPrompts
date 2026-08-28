@@ -1,1 +1,0 @@
-../../by-category/writing/cmlpgwjbz0009l504u0pdsimm_Resume Quality Reviewer - Green Flag Edition.md

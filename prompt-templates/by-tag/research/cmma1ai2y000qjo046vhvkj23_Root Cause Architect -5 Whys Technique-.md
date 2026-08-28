@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmma1ai2y000qjo046vhvkj23_Root Cause Architect -5 Whys Technique-.md

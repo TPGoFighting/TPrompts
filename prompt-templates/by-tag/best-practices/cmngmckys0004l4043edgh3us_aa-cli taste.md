@@ -1,1 +1,0 @@
-../../by-category/coding/cmngmckys0004l4043edgh3us_aa-cli taste.md

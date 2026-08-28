@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkd6q1dl0001l204zthzorxn_The Gravedigger-s Vigil.md

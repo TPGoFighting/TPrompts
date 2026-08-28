@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjpoaika0001l504junm1h6c_Extreme Close-up Macro Photography of a Young Woman-s Face.md

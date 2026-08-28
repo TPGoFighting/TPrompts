@@ -1,1 +1,0 @@
-../../by-category/creative/cmpknszsz0001l7040cyz029n_Creative Writing- Exploring Inner Desires.md

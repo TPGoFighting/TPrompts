@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml0s4egl0001jw04j1rjuc35_Design App Store Style Icons.md

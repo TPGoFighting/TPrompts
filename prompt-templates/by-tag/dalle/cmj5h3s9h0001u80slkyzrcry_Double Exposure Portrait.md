@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj5h3s9h0001u80slkyzrcry_Double Exposure Portrait.md

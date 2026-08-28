@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmm6krwdq0007i604fd6y2cea_Abstract Portrait.md

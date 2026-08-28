@@ -1,1 +1,0 @@
-../../by-category/stem-science/cmmm0gnm0000gjr04apt9tgpr_Civil Engineering Bridge Mentor.md

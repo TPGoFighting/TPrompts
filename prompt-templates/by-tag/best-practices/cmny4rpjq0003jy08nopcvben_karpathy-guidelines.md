@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmny4rpjq0003jy08nopcvben_karpathy-guidelines.md

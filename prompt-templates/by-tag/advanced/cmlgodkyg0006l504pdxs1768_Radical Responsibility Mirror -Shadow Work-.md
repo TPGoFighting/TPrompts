@@ -1,1 +1,0 @@
-../../by-category/mindset-motivation/cmlgodkyg0006l504pdxs1768_Radical Responsibility Mirror -Shadow Work-.md

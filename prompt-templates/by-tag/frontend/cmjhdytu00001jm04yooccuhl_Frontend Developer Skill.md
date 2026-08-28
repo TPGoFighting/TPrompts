@@ -1,1 +1,0 @@
-../../by-category/skill/cmjhdytu00001jm04yooccuhl_Frontend Developer Skill.md

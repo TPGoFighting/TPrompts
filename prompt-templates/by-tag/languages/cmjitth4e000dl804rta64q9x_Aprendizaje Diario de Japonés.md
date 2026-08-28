@@ -1,1 +1,0 @@
-../../by-category/education/cmjitth4e000dl804rta64q9x_Aprendizaje Diario de Japonés.md

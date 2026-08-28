@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors12_Break Down Costs.md

@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding34_3D Racing Game.md

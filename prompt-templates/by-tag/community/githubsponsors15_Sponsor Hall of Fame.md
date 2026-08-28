@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors15_Sponsor Hall of Fame.md

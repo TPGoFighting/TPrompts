@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding10_Health Metrics Calculator.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmlw7oh7r0001ii04dh8p0p3r_Test-First Bug Fixing Approach.md

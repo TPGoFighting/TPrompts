@@ -1,1 +1,0 @@
-../../by-category/vibe/cmkxptx8o000dla040bsgdu4c_PHP Microscope- Forensic Codebase Autopsy Protocol.md

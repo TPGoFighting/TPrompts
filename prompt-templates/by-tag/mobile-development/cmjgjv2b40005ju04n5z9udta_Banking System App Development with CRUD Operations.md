@@ -1,1 +1,0 @@
-../../by-category/mobile-development/cmjgjv2b40005ju04n5z9udta_Banking System App Development with CRUD Operations.md

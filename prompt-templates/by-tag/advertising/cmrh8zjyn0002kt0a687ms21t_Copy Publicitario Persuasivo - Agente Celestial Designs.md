@@ -1,1 +1,0 @@
-../../by-category/marketing/cmrh8zjyn0002kt0a687ms21t_Copy Publicitario Persuasivo - Agente Celestial Designs.md

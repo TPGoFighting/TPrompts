@@ -1,1 +1,0 @@
-../../by-category/skill/cmlclefzg0001if04v3tuu43n_Second Opinion.md

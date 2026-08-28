@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmm9ptc480001l804233h3u9x_Illustrative Hand-Drawn Istanbul Skyline Prompt.md

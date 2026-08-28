@@ -1,1 +1,0 @@
-../../by-category/writing/cmmtxmmew0001kz0458493x28_Resume Customization Prompt - STRATEGIC INTEGRITY.md

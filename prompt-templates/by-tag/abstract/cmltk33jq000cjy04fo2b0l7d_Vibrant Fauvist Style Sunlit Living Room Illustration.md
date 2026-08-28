@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmltk33jq000cjy04fo2b0l7d_Vibrant Fauvist Style Sunlit Living Room Illustration.md

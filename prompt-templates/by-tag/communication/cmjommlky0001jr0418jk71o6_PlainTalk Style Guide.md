@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjommlky0001jr0418jk71o6_PlainTalk Style Guide.md

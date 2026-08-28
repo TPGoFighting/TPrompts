@@ -1,1 +1,0 @@
-../../by-category/business-strategy/cmqmzavqq0001l804kckgv1wd_Premortem Analysis.md

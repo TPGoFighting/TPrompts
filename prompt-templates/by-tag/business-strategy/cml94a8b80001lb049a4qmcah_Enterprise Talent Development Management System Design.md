@@ -1,1 +1,0 @@
-../../by-category/business-strategy/cml94a8b80001lb049a4qmcah_Enterprise Talent Development Management System Design.md

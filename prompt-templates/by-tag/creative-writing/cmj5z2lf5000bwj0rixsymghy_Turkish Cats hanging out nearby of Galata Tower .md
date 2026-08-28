@@ -1,1 +1,0 @@
-../../by-category/creative/cmj5z2lf5000bwj0rixsymghy_Turkish Cats hanging out nearby of Galata Tower .md

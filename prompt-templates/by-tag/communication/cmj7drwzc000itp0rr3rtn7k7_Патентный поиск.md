@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmj7drwzc000itp0rr3rtn7k7_Патентный поиск.md

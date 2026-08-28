@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjndr4620001l504hzfb1ab2_The Missing Woman.md

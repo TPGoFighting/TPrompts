@@ -1,1 +1,0 @@
-../../by-category/video-generation/cmm2a8iqh000al1046qnmeopo_The Fighter.md

@@ -1,1 +1,0 @@
-../../by-category/business/cmlpgu1c80001l504gb6j4f5p_ATS Resume Scanner Simulator.md

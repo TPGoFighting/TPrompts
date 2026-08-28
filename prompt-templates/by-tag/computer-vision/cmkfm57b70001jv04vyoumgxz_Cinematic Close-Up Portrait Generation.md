@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkfm57b70001jv04vyoumgxz_Cinematic Close-Up Portrait Generation.md

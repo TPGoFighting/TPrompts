@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors14_Impact Metrics.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmp7nkqea0001ld044aas0ax4_-Syntactic Stack- Kinetic Grammar-.md

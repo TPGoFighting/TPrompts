@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj2qoa290008yv0ryd7wicbi_3D Isometric Miniature Diorama.md

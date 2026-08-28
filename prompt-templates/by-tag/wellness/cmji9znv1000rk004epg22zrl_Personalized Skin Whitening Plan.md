@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmji9znv1000rk004epg22zrl_Personalized Skin Whitening Plan.md

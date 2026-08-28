@@ -1,1 +1,0 @@
-../../by-category/copywriting/cmjohrwa50005l504bttpwzof_Open Source - Free License Selection Assistant.md

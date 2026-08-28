@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjid4gbk0001ju040ms30bj4_The Covert Exchange in the Fog.md

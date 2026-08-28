@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmqv40mne0004jp0492kp2r1h_Python Auto Typer with Customizable Delay.md

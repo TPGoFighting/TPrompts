@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjnfkqa40001k10464qbkfnt_Shadows of the Blue Note.md

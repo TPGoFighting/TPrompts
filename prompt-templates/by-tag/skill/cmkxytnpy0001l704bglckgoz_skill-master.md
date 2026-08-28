@@ -1,1 +1,0 @@
-../../by-category/skill/cmkxytnpy0001l704bglckgoz_skill-master.md

@@ -1,1 +1,0 @@
-../../by-category/leadership-management/cmpp9yk3u0001ie04cpk0w9al_Building a Comprehensive Programming Team.md

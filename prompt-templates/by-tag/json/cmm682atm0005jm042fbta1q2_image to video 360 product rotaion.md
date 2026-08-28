@@ -1,1 +1,0 @@
-../../by-category/video-generation/cmm682atm0005jm042fbta1q2_image to video 360 product rotaion.md

@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmlhw8e8p0004lb04pifve9ts_Whiteboard Diagrams.md

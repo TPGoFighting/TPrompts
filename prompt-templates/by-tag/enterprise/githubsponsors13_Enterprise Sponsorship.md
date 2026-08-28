@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors13_Enterprise Sponsorship.md

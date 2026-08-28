@@ -1,1 +1,0 @@
-../../by-category/finance-budgeting/cmp1hf04k000fjs04gd82p7bj_-sigrex-io- RSI - MACD Momentum.md

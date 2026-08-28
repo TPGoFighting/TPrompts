@@ -1,1 +1,0 @@
-../../by-category/creative/cmjhbng03000glh04ame5n4q8_Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmja8kak5000ptr0sihtoh9iq_High-End Beauty Editorial Photo Shoot Specification.md

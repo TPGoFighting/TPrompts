@@ -1,1 +1,0 @@
-../../by-category/technical-writing/cmj8deijw000dun0rngurzmxz_Compare Top Virtualization Solutions.md

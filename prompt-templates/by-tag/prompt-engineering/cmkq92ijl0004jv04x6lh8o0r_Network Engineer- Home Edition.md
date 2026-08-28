@@ -1,1 +1,0 @@
-../../by-category/education/cmkq92ijl0004jv04x6lh8o0r_Network Engineer- Home Edition.md

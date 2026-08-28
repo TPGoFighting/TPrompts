@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkdqfv3c0001l704hruam98q_Terminal Drift.md

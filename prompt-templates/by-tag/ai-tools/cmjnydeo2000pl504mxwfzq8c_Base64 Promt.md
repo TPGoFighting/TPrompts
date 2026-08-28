@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjnydeo2000pl504mxwfzq8c_Base64 Promt.md

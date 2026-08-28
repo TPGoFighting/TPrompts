@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjguxw2v000dl804d09biqdn_Miniature Claymation Adventures on the Mushroom Cap.md

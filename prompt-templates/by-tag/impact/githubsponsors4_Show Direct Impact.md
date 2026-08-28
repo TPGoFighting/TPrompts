@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors4_Show Direct Impact.md

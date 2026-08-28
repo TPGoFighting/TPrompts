@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmlcbncuq0005ky04a39ncbn4_Socratic Lens.md

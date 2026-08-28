@@ -1,1 +1,0 @@
-../../by-category/skill/cmo1nxm6a0001k004p6xsj3xz_Notion Transcript Designer Prompt.md

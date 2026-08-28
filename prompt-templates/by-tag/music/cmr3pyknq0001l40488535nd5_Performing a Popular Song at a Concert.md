@@ -1,1 +1,0 @@
-../../by-category/music/cmr3pyknq0001l40488535nd5_Performing a Popular Song at a Concert.md

@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmo3bss8l0001l8043vjne1vs_Business Idea Evaluation and Scoring.md

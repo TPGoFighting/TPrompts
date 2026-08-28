@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmsexuabg0001ky04slb4jnfo_Cozy Cabin in a Rainy Forest.md

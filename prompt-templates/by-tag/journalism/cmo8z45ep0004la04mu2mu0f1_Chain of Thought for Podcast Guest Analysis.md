@@ -1,1 +1,0 @@
-../../by-category/teaching-instruction/cmo8z45ep0004la04mu2mu0f1_Chain of Thought for Podcast Guest Analysis.md

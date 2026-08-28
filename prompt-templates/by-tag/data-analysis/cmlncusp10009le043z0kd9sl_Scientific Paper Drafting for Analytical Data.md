@@ -1,1 +1,0 @@
-../../by-category/academic-writing/cmlncusp10009le043z0kd9sl_Scientific Paper Drafting for Analytical Data.md

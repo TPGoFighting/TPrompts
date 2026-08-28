@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjl1fj8x0007jy04rd7o9z6l_Mirror Product Photo.md

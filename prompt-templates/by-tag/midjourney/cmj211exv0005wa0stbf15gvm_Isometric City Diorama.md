@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj211exv0005wa0stbf15gvm_Isometric City Diorama.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkxq5uv30001jo04ldypig51_Isometric miniature 3D model.md

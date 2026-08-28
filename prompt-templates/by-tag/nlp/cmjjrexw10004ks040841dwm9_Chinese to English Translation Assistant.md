@@ -1,1 +1,0 @@
-../../by-category/education/cmjjrexw10004ks040841dwm9_Chinese to English Translation Assistant.md

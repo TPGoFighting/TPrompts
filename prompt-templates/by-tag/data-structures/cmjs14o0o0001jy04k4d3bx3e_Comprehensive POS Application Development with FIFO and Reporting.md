@@ -1,1 +1,0 @@
-../../by-category/business/cmjs14o0o0001jy04k4d3bx3e_Comprehensive POS Application Development with FIFO and Reporting.md

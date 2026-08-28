@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmkfmnaro0003ld04klts1ln9_Skill Creator.md

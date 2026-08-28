@@ -1,1 +1,0 @@
-../../by-category/mobile-development/cmj9yexu6000ns80rshl4m7vr_Comprehensive UI-UX Mobile App Analysis.md

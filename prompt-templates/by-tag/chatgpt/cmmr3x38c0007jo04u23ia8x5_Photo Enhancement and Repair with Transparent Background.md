@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmmr3x38c0007jo04u23ia8x5_Photo Enhancement and Repair with Transparent Background.md

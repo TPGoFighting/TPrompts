@@ -1,1 +1,0 @@
-../../by-category/skill/cmjem343u0009vf0rhldtvt6p_Web Application Testing Skill.md

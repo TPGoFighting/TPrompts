@@ -1,1 +1,0 @@
-../../by-category/data-science/cmjc4l40m0007u00rkzqzruqh_Lead Data Analyst with Data Engineering Expertise.md

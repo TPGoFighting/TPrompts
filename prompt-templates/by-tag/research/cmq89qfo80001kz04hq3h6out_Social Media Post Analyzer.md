@@ -1,1 +1,0 @@
-../../by-category/skill/cmq89qfo80001kz04hq3h6out_Social Media Post Analyzer.md

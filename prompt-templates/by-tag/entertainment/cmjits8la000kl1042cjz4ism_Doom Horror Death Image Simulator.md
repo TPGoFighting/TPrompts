@@ -1,1 +1,0 @@
-../../by-category/creative/cmjits8la000kl1042cjz4ism_Doom Horror Death Image Simulator.md

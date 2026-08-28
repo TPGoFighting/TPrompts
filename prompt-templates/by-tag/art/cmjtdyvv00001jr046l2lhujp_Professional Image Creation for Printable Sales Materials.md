@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjtdyvv00001jr046l2lhujp_Professional Image Creation for Printable Sales Materials.md

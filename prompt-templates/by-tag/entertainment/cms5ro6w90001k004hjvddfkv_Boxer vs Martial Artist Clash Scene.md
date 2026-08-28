@@ -1,1 +1,0 @@
-../../by-category/video-generation/cms5ro6w90001k004hjvddfkv_Boxer vs Martial Artist Clash Scene.md

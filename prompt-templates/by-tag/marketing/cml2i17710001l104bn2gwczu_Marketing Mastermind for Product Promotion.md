@@ -1,1 +1,0 @@
-../../by-category/marketing-sales/cml2i17710001l104bn2gwczu_Marketing Mastermind for Product Promotion.md

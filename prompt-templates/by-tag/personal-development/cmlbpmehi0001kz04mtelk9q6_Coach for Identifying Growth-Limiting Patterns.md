@@ -1,1 +1,0 @@
-../../by-category/self-improvement/cmlbpmehi0001kz04mtelk9q6_Coach for Identifying Growth-Limiting Patterns.md

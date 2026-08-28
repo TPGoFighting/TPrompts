@@ -1,1 +1,0 @@
-../../by-category/skill/cmjmk3s57000fld04vp51f77c_Accessibility Expert.md

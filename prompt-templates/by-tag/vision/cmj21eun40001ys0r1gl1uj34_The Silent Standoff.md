@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj21eun40001ys0r1gl1uj34_The Silent Standoff.md

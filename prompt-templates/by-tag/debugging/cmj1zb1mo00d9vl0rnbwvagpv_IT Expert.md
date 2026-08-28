@@ -1,1 +1,0 @@
-../../by-category/skill/cmj1zb1mo00d9vl0rnbwvagpv_IT Expert.md

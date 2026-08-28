@@ -1,1 +1,0 @@
-../../by-category/coding/cmmlkcl380005l604a6fmy1h3_Tistory Blog Skin UI-UX Enhancement Pipeline.md

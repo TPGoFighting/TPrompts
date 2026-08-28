@@ -1,1 +1,0 @@
-../../by-category/language-learning/cmrmg7l0o0001j70aun6mqcaa_Adaptive AI Tutor - Personalized Learning Track with 6 Study Modes.md

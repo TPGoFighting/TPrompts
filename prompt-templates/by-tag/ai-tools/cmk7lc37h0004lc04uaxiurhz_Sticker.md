@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmk7lc37h0004lc04uaxiurhz_Sticker.md

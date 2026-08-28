@@ -1,1 +1,0 @@
-../../by-category/finance-budgeting/cmp1s12gl0003kz04yp1l3rlk_-sigrex-io- Fear - Greed Sentiment Filter.md

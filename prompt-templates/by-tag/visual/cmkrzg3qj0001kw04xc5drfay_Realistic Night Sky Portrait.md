@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmkrzg3qj0001kw04xc5drfay_Realistic Night Sky Portrait.md

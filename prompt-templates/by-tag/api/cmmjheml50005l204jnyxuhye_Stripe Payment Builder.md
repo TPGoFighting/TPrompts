@@ -1,1 +1,0 @@
-../../by-category/business/cmmjheml50005l204jnyxuhye_Stripe Payment Builder.md

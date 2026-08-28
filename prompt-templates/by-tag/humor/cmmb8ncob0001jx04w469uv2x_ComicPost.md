@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmmb8ncob0001jx04w469uv2x_ComicPost.md

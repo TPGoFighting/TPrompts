@@ -1,1 +1,0 @@
-../../by-category/startup-entrepreneurship/cmq9vgmm80004l204bxpgupks_Act as a Startup Co-Founder.md

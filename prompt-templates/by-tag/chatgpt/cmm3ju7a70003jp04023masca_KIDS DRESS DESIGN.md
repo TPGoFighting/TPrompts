@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmm3ju7a70003jp04023masca_KIDS DRESS DESIGN.md

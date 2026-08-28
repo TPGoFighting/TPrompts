@@ -1,1 +1,0 @@
-../../by-category/data-science/cmjfymbqt000fjp04fa9b4vny_Pathology Slide Analysis Assistant.md

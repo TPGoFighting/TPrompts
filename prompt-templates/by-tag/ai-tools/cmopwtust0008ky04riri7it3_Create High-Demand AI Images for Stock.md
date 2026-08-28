@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmopwtust0008ky04riri7it3_Create High-Demand AI Images for Stock.md

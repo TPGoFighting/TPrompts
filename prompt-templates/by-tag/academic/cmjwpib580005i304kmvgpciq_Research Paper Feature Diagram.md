@@ -1,1 +1,0 @@
-../../by-category/academic-writing/cmjwpib580005i304kmvgpciq_Research Paper Feature Diagram.md

@@ -1,1 +1,0 @@
-../../by-category/creative/cmrvutke2000hkz04jhnh3v4w_Design a Military Uniform.md

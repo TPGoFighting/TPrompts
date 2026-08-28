@@ -1,1 +1,0 @@
-../../by-category/startup-entrepreneurship/cmlks9vgu0001l804hx3ztol5_Universal System Design Prompt.md

@@ -1,1 +1,0 @@
-../../by-category/technical-writing/cmkg3lgqr0001lb04p3uxoz5l_Universal Context Document -UCD- Generator.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjzm4h7n0001ie0414ybt4q9_A night in paris.md

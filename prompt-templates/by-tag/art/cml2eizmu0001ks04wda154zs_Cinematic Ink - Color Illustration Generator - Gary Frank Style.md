@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml2eizmu0001ks04wda154zs_Cinematic Ink - Color Illustration Generator - Gary Frank Style.md

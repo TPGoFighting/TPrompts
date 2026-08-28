@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding8_Advanced Color Picker Tool.md

@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjs4vrgm0001ju04om3vv6k2_Node Web App for Czech Invoice PDF Generation.md

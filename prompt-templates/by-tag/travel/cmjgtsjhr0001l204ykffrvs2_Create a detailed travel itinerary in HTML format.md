@@ -1,1 +1,0 @@
-../../by-category/education/cmjgtsjhr0001l204ykffrvs2_Create a detailed travel itinerary in HTML format.md

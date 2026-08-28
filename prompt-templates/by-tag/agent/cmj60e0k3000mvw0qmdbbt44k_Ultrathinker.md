@@ -1,1 +1,0 @@
-../../by-category/agent-workflows/cmj60e0k3000mvw0qmdbbt44k_Ultrathinker.md

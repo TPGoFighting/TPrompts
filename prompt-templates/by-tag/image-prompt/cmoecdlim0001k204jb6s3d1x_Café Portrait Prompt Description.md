@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmoecdlim0001k204jb6s3d1x_Café Portrait Prompt Description.md

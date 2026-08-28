@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors11_Tell Your Story.md

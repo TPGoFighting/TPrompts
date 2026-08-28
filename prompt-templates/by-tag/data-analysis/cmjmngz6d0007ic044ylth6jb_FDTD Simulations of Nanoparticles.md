@@ -1,1 +1,0 @@
-../../by-category/data-science/cmjmngz6d0007ic044ylth6jb_FDTD Simulations of Nanoparticles.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmmidnmi4000ik00488pm7qjy_Transform the provided clothing product image-.md

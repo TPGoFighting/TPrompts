@@ -1,1 +1,0 @@
-../../by-category/coding/cmmx2hvgz0001ks04mcg6dizn_System Architect Agent Role.md

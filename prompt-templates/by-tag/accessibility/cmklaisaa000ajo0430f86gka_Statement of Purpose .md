@@ -1,1 +1,0 @@
-../../by-category/academic-writing/cmklaisaa000ajo0430f86gka_Statement of Purpose .md

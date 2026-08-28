@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmj5vm6lv000drf0rn6kyjzll_Ultra-Realistic Noir Portrait Creation.md

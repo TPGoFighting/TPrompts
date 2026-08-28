@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmlklu4si0001ld043nlo3cle_Spotify room cinematic.md

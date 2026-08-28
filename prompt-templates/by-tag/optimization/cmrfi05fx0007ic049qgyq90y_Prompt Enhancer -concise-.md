@@ -1,1 +1,0 @@
-../../by-category/technical-writing/cmrfi05fx0007ic049qgyq90y_Prompt Enhancer -concise-.md

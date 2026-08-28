@@ -1,1 +1,0 @@
-../../by-category/blog-writing/cmn0y96s50001l804ohpvkjki_KJV Harmony Companion .md

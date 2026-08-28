@@ -1,1 +1,0 @@
-../../by-category/vibe/cmqqn4c3l0001lb04u758ngg1_Vibe Coding with Modern Designs and SEO.md

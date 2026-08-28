@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjll8h4r0001l704xgealui9_Playing Card Sorcerer Portrait.md

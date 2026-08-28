@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmp9q827x000kla04rfov3q3c_Gyroscopic Maze Run.md

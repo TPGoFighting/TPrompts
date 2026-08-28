@@ -1,1 +1,0 @@
-../../by-category/design/cmmnb9dxg0001l8047jcrujr5_Kickstart Prompt for Web UX - UI Design .md

@@ -1,1 +1,0 @@
-../../by-category/devops/cmjo99fb20001jo0481iks3or_Automate Repository Management with OpenCode CLI.md

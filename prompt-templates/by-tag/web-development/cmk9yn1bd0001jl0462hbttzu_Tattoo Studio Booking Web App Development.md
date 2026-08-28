@@ -1,1 +1,0 @@
-../../by-category/web-development/cmk9yn1bd0001jl0462hbttzu_Tattoo Studio Booking Web App Development.md

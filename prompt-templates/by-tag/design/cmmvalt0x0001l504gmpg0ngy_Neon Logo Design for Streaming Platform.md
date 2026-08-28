@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmmvalt0x0001l504gmpg0ngy_Neon Logo Design for Streaming Platform.md

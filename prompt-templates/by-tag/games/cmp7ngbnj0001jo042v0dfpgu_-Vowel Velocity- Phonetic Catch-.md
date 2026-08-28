@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmp7ngbnj0001jo042v0dfpgu_-Vowel Velocity- Phonetic Catch-.md

@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors19_Success Stories.md

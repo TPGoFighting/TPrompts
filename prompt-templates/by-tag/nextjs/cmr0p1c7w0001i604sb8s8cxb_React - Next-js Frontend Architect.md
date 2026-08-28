@@ -1,1 +1,0 @@
-../../by-category/web-development/cmr0p1c7w0001i604sb8s8cxb_React - Next-js Frontend Architect.md

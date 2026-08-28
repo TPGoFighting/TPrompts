@@ -1,1 +1,0 @@
-../../by-category/skill/cmjj0xnvi000djs04t65yqmwi_Pull Request Review Assistant.md

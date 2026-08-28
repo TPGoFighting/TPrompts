@@ -1,1 +1,0 @@
-../../by-category/skill/cmjmk4gsv000jld04pplcmo1e_Accessibility Testing Superpower.md

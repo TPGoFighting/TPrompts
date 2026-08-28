@@ -1,1 +1,0 @@
-../../by-category/education/cmji4umv00001l404ujtbaoha_Act as a Health Recovery and Weight Loss Specialist.md

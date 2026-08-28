@@ -1,1 +1,0 @@
-../../by-category/automations/cmjljmtgf0001js049upukmeb_PowerShell Script to Move Disabled AD Users to Specific OU.md

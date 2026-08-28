@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding35_3D Space Explorer.md

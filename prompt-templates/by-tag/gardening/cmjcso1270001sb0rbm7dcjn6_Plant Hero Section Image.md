@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjcso1270001sb0rbm7dcjn6_Plant Hero Section Image.md

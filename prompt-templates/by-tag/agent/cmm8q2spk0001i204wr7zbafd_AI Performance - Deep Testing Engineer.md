@@ -1,1 +1,0 @@
-../../by-category/skill/cmm8q2spk0001i204wr7zbafd_AI Performance - Deep Testing Engineer.md

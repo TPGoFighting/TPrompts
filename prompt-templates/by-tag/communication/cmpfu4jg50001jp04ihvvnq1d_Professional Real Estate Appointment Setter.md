@@ -1,1 +1,0 @@
-../../by-category/business/cmpfu4jg50001jp04ihvvnq1d_Professional Real Estate Appointment Setter.md

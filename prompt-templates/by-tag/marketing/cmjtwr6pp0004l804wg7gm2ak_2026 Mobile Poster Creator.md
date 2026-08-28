@@ -1,1 +1,0 @@
-../../by-category/marketing/cmjtwr6pp0004l804wg7gm2ak_2026 Mobile Poster Creator.md

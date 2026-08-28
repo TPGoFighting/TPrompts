@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmnzrvce20007l5042gctzuyv_Serene Autumn Lakeside Illustration.md

@@ -1,1 +1,0 @@
-../../by-category/web-development/cml8v1x090006k2049vph95lw_Building a Scalable Search Service with FastAPI and PostgreSQL.md

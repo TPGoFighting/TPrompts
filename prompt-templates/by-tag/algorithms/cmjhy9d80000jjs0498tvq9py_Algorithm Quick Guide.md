@@ -1,1 +1,0 @@
-../../by-category/education/cmjhy9d80000jjs0498tvq9py_Algorithm Quick Guide.md

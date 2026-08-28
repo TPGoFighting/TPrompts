@@ -1,1 +1,0 @@
-../../by-category/skill/cmq4uji2o0001la04s5svv00u_requirement-analysis-and-planning-agent.md

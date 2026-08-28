@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmpi6lst80007js04ctpifsuh_Real-Time Geological Disaster Information Query.md

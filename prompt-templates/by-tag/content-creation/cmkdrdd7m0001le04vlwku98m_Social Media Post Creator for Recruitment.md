@@ -1,1 +1,0 @@
-../../by-category/marketing/cmkdrdd7m0001le04vlwku98m_Social Media Post Creator for Recruitment.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmp21xy890004l804qpafppic_Abstract 3D Topology Puzzle Architect.md

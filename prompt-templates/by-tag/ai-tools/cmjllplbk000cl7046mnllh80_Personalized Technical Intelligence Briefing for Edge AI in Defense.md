@@ -1,1 +1,0 @@
-../../by-category/data-science/cmjllplbk000cl7046mnllh80_Personalized Technical Intelligence Briefing for Edge AI in Defense.md

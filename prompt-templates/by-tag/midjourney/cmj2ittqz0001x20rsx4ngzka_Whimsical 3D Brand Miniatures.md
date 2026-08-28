@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj2ittqz0001x20rsx4ngzka_Whimsical 3D Brand Miniatures.md

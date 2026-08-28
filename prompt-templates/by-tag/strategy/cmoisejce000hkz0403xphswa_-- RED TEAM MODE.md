@@ -1,1 +1,0 @@
-../../by-category/skill/cmoisejce000hkz0403xphswa_-- RED TEAM MODE.md

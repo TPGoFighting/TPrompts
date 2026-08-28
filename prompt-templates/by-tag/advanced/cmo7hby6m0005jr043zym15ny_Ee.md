@@ -1,1 +1,0 @@
-../../by-category/skill/cmo7hby6m0005jr043zym15ny_Ee.md

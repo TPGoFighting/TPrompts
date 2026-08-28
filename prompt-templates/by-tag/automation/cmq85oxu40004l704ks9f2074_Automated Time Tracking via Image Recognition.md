@@ -1,1 +1,0 @@
-../../by-category/business/cmq85oxu40004l704ks9f2074_Automated Time Tracking via Image Recognition.md

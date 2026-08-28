@@ -1,1 +1,0 @@
-../../by-category/health-wellness/cmjwpsjps0003kz04i06ngq6k_Couples Therapy App Development Guide.md

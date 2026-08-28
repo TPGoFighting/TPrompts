@@ -1,1 +1,0 @@
-../../by-category/skill/cmjnbn5360001l10469bjhnpt_App Store Submission Agent.md

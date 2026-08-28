@@ -1,1 +1,0 @@
-../../by-category/automation-workflows/cml0l5irl0004la04vnl8q7eh_Claude Code Statusline Design.md

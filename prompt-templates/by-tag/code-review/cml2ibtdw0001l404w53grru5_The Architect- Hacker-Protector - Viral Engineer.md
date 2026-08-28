@@ -1,1 +1,0 @@
-../../by-category/vibe/cml2ibtdw0001l404w53grru5_The Architect- Hacker-Protector - Viral Engineer.md

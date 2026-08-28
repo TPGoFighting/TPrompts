@@ -1,1 +1,0 @@
-../../by-category/marketing/cmngzkqlk0001jc04vs6env6y_Claude Opus as SEO Auditor.md

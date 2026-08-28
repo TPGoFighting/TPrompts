@@ -1,1 +1,0 @@
-../../by-category/education/cmjgryq190009jo04hd30cote_Real-Time Screen Translation Assistant.md

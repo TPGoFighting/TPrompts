@@ -1,1 +1,0 @@
-../../by-category/devops/cmrj59l0l0001js04qdg863iw_Supabase Principal Architect Infrastructure Optimization.md

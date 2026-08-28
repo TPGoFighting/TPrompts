@@ -1,1 +1,0 @@
-../../by-category/workflows/cmmpcaors0006k104wmt6k6du_Repository Security - Architecture Audit Framework.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmj65oz92000gwn0rszs1qs14_Turn Your Photo Into a Simpsons Scene.md

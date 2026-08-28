@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjhdlecu000ajs04bjptct5u_Table with Various Items.md

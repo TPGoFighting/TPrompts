@@ -1,1 +1,0 @@
-../../by-category/academic-writing/cmkaidl6x000dla04otvk9a8a_Article Summary Prompt.md

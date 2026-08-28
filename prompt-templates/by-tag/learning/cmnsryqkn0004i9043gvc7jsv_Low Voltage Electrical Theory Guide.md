@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmnsryqkn0004i9043gvc7jsv_Low Voltage Electrical Theory Guide.md

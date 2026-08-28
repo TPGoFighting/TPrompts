@@ -1,1 +1,0 @@
-../../by-category/teaching-instruction/cmqxkeith0005jp04jzsqj5r6_Casual Code Explanation Video Script.md

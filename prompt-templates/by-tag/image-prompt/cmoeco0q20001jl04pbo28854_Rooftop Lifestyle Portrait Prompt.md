@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmoeco0q20001jl04pbo28854_Rooftop Lifestyle Portrait Prompt.md

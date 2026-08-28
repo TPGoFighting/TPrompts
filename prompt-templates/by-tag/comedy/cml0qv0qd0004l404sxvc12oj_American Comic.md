@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml0qv0qd0004l404sxvc12oj_American Comic.md

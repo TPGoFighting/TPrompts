@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmkd3kagk0004ld04edt5c36n_Serene Yoga - Mindfulness Lifestyle Photography.md

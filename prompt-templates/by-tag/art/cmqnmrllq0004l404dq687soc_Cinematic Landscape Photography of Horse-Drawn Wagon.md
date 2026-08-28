@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmqnmrllq0004l404dq687soc_Cinematic Landscape Photography of Horse-Drawn Wagon.md

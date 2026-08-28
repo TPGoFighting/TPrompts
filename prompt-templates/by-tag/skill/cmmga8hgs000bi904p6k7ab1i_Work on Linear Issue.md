@@ -1,1 +1,0 @@
-../../by-category/skill/cmmga8hgs000bi904p6k7ab1i_Work on Linear Issue.md

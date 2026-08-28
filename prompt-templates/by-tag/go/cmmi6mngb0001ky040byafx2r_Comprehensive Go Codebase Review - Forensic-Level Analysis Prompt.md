@@ -1,1 +1,0 @@
-../../by-category/vibe/cmmi6mngb0001ky040byafx2r_Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt.md

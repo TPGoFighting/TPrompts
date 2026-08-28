@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmla2u7b10009ju04uozulkog_Criar-Alterar Documentação de Projeto.md

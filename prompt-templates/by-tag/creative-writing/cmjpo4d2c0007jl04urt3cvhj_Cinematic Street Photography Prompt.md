@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjpo4d2c0007jl04urt3cvhj_Cinematic Street Photography Prompt.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmj82d1bq000atl0ryabhf4zr_Medical Consultant.md

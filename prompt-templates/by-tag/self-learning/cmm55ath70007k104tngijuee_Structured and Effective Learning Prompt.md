@@ -1,1 +1,0 @@
-../../by-category/education/cmm55ath70007k104tngijuee_Structured and Effective Learning Prompt.md

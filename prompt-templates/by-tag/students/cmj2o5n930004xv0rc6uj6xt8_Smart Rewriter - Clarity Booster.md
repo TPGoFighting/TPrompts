@@ -1,1 +1,0 @@
-../../by-category/writing/cmj2o5n930004xv0rc6uj6xt8_Smart Rewriter - Clarity Booster.md

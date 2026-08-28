@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjter86b0004jp04vh8d1ygq_Security Monitoring with Wazuh- A Comprehensive Research Project.md

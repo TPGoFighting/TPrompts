@@ -1,1 +1,0 @@
-../../by-category/creative/cmjmayr820004l6046vec3ojp_Letter from Lisa- A Heartfelt Plea to Her Father.md

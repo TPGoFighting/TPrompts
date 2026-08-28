@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmnawu97w0009jm04kba8eim2_Abstract Geometric Art Prompt Inspired by Wassily Kandinsky.md

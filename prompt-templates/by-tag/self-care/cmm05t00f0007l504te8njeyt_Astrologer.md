@@ -1,1 +1,0 @@
-../../by-category/self-improvement/cmm05t00f0007l504te8njeyt_Astrologer.md

@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjkalo700001js04jlmhaa75_Nietzschean Mentor for Holistic Growth.md

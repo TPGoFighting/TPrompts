@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjwllexn0001jv04nndeg5e9_Warm-Toned Creative Scene with Paper Figures.md

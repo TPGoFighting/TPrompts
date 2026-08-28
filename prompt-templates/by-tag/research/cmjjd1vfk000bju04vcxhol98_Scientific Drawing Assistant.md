@@ -1,1 +1,0 @@
-../../by-category/education/cmjjd1vfk000bju04vcxhol98_Scientific Drawing Assistant.md

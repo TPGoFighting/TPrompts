@@ -1,1 +1,0 @@
-../../by-category/hr/cmn67pkfg0004l004gop18eim_Refine Your Resume for Professionalism and ATS Compatibility.md

@@ -1,1 +1,0 @@
-../../by-category/skill/cmjrlg1r1000ajp04094h3k05_OpenAI Create Plan Skill.md

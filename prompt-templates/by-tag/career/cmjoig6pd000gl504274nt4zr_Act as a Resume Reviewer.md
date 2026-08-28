@@ -1,1 +1,0 @@
-../../by-category/hr/cmjoig6pd000gl504274nt4zr_Act as a Resume Reviewer.md

@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding23_Image Editor.md

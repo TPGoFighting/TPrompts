@@ -1,1 +1,0 @@
-../../by-category/business/cmk13k4gp000gjy04nzielztx_Business Coaching Mentor.md

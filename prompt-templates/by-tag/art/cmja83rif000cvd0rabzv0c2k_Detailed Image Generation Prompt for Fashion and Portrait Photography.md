@@ -1,1 +1,0 @@
-../../by-category/web-development/cmja83rif000cvd0rabzv0c2k_Detailed Image Generation Prompt for Fashion and Portrait Photography.md

@@ -1,1 +1,0 @@
-../../by-category/education/cmo841clv0001l504ukew1w3c_School Report Management System for SMP Negeri 7 Sentani.md

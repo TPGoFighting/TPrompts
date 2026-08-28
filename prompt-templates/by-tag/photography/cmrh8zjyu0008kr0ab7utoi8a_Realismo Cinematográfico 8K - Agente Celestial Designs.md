@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmrh8zjyu0008kr0ab7utoi8a_Realismo Cinematográfico 8K - Agente Celestial Designs.md

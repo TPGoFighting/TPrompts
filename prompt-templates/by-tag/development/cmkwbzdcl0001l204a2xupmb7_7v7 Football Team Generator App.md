@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmkwbzdcl0001l204a2xupmb7_7v7 Football Team Generator App.md

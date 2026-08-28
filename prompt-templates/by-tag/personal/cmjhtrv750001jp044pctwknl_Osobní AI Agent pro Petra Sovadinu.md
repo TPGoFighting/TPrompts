@@ -1,1 +1,0 @@
-../../by-category/skill/cmjhtrv750001jp044pctwknl_Osobní AI Agent pro Petra Sovadinu.md

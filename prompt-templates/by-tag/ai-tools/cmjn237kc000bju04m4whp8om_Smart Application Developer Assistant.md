@@ -1,1 +1,0 @@
-../../by-category/skill/cmjn237kc000bju04m4whp8om_Smart Application Developer Assistant.md

@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjahcxzc0001ss0rsj1oxtes_Next-js Specialized Front-End Developer.md

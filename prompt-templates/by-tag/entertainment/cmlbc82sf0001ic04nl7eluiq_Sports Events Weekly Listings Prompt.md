@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmlbc82sf0001ic04nl7eluiq_Sports Events Weekly Listings Prompt.md

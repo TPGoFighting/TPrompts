@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjzruajn000al4047satebyb_Super Trader Model for Stock Analysis.md

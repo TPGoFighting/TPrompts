@@ -1,1 +1,0 @@
-../../by-category/coding/cmojdlygi0008jv04drsh2mun_Vector-Based Space Combat System.md

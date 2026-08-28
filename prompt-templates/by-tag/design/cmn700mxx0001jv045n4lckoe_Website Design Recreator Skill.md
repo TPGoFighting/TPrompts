@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmn700mxx0001jv045n4lckoe_Website Design Recreator Skill.md

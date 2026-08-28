@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding28_Typing Speed Test.md

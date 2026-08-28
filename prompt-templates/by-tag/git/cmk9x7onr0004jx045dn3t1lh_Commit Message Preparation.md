@@ -1,1 +1,0 @@
-../../by-category/coding/cmk9x7onr0004jx045dn3t1lh_Commit Message Preparation.md

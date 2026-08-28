@@ -1,1 +1,0 @@
-../../by-category/vibe/cmlayl2xh0004jp04855zh5is_4 Optimized Versions of A Prompt -in Arabic-.md

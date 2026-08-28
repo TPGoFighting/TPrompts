@@ -1,1 +1,0 @@
-../../by-category/creative/cmjn1dbiz0001ju04fftl6xss_Isometric 3D Cartoon Scene with Weather Effects.md

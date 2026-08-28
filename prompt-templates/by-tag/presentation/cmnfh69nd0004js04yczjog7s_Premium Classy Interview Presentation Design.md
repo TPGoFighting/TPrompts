@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmnfh69nd0004js04yczjog7s_Premium Classy Interview Presentation Design.md

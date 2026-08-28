@@ -1,1 +1,0 @@
-../../by-category/automations/cmkc6yvpy0007jr044u5hm1t9_UiPath XAML Code Review Specialist.md

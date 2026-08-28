@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml69k3pw0004jp04qrmm70vc_Ultra-Realistic 3D Character Avatar Creation.md

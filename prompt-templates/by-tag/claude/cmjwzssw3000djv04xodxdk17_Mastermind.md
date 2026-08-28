@@ -1,1 +1,0 @@
-../../by-category/skill/cmjwzssw3000djv04xodxdk17_Mastermind.md

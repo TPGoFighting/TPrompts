@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml3mbxkv0001jr043zia5oa8_Futuristic Supercar Brand Logo.md

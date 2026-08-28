@@ -1,1 +1,0 @@
-../../by-category/business-strategy/cmkl3ofxw0004jr04qjm3mq47_NOOMS Brand Story - Portfolio Background - Storytelling Format.md

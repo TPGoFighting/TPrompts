@@ -1,1 +1,0 @@
-../../by-category/education/cmjosrw4b0001l704ohphcdef_İngilizce-Türkçe Kelime ve Cümle Çevirmeni.md

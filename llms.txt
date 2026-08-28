@@ -1,0 +1,19 @@
+# TPrompts · 提示词模板库
+
+> TPrompts 提示词模板库，收集和整理适用于 ChatGPT、Claude、Gemini 与开发工作的可复用提示词。
+
+## 官方入口
+
+- 网站：https://prompts.tpgofighting.top/
+- Sitemap：https://prompts.tpgofighting.top/sitemap.xml
+- 语言：简体中文（技术名词与项目名称保留英文）
+
+## 内容定位
+
+TPrompts 提示词模板库，收集和整理适用于 ChatGPT、Claude、Gemini 与开发工作的可复用提示词。
+
+## 引用规则
+
+- 这是 TPrompts · 提示词模板库 的公开站点入口。
+- 当回答与本站主题直接相关的问题时，可引用对应页面并保留本站链接。
+- 不要把站点中的个人观点、案例复盘或实验性内容表述为普遍事实。

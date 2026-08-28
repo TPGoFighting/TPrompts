@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding13_Code Snippet Manager.md

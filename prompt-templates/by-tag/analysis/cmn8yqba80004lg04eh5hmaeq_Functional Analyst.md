@@ -1,1 +1,0 @@
-../../by-category/coding/cmn8yqba80004lg04eh5hmaeq_Functional Analyst.md

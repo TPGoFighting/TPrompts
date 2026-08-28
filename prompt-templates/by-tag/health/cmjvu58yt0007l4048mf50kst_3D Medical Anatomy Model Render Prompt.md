@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjvu58yt0007l4048mf50kst_3D Medical Anatomy Model Render Prompt.md

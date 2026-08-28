@@ -1,1 +1,0 @@
-../../by-category/writing/cmk7ir9z0000al404nz7mdpdr_Random Girl.md

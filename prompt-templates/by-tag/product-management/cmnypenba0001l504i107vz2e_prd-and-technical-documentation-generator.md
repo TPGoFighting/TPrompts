@@ -1,1 +1,0 @@
-../../by-category/vibe/cmnypenba0001l504i107vz2e_prd-and-technical-documentation-generator.md

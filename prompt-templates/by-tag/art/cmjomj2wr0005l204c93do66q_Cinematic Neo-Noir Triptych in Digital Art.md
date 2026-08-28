@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjomj2wr0005l204c93do66q_Cinematic Neo-Noir Triptych in Digital Art.md

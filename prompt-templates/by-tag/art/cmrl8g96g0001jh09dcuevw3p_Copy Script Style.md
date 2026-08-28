@@ -1,1 +1,0 @@
-../../by-category/creative/cmrl8g96g0001jh09dcuevw3p_Copy Script Style.md

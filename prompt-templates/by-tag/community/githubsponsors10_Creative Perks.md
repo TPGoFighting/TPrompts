@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors10_Creative Perks.md

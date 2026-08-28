@@ -1,1 +1,0 @@
-../../by-category/web-development/cmlwrnfx60001l1045jope6es_Spring Boot - SOLID Specialist.md

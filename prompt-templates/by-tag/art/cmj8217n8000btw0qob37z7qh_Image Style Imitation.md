@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmj8217n8000btw0qob37z7qh_Image Style Imitation.md

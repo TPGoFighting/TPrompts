@@ -1,1 +1,0 @@
-../../by-category/exam-preparation/cmpk5emld0001l704osgxjsx9_IELTS preparation plan for STEM students.md

@@ -1,1 +1,0 @@
-../../by-category/market-analysis/cmlb81i0c0001k104wd656gvq_Industry-Market Intelligence.md

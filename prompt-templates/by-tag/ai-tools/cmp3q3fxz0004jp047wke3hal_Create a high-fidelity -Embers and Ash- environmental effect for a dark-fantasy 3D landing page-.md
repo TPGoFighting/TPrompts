@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmp3q3fxz0004jp047wke3hal_Create a high-fidelity -Embers and Ash- environmental effect for a dark-fantasy 3D landing page-.md

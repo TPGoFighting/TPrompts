@@ -1,1 +1,0 @@
-../../by-category/vibe/cmmoj4mgt000mky04auetwkzp_-Explain It Like I Built It-  Technical Documentation for Non-Technical Founders.md

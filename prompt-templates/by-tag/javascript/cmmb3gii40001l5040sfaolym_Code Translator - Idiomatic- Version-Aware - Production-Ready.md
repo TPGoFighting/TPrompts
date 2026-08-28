@@ -1,1 +1,0 @@
-../../by-category/coding/cmmb3gii40001l5040sfaolym_Code Translator - Idiomatic- Version-Aware - Production-Ready.md

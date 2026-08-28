@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjscivao000jl5047gw3t4fv_Sophisticated Istanbul Stroll.md

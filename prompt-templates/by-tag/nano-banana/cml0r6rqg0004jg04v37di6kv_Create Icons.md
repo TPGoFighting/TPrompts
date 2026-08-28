@@ -1,1 +1,0 @@
-../../by-category/image-generation/cml0r6rqg0004jg04v37di6kv_Create Icons.md

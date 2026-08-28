@@ -1,1 +1,0 @@
-../../by-category/creative/cmkb82kar000kjj041ipk306w_Joker- Tech Humor Master.md

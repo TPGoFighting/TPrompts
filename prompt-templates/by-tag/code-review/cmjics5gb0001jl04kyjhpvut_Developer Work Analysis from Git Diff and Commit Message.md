@@ -1,1 +1,0 @@
-../../by-category/coding/cmjics5gb0001jl04kyjhpvut_Developer Work Analysis from Git Diff and Commit Message.md

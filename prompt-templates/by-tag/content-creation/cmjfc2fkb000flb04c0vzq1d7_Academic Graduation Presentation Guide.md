@@ -1,1 +1,0 @@
-../../by-category/education/cmjfc2fkb000flb04c0vzq1d7_Academic Graduation Presentation Guide.md

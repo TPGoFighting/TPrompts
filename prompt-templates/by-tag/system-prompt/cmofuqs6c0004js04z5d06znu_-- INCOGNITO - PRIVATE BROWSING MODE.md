@@ -1,1 +1,0 @@
-../../by-category/skill/cmofuqs6c0004js04z5d06znu_-- INCOGNITO - PRIVATE BROWSING MODE.md

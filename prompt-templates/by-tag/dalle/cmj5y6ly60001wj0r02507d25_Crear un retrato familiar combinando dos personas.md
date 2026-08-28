@@ -1,1 +1,0 @@
-../../by-category/creative/cmj5y6ly60001wj0r02507d25_Crear un retrato familiar combinando dos personas.md

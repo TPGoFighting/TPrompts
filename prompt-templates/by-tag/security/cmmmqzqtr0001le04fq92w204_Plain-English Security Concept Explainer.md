@@ -1,1 +1,0 @@
-../../by-category/education/cmmmqzqtr0001le04fq92w204_Plain-English Security Concept Explainer.md

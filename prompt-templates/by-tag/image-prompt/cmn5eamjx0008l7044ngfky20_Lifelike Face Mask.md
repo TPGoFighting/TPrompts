@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmn5eamjx0008l7044ngfky20_Lifelike Face Mask.md

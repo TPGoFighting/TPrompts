@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjx2yn2b0001lb041gf8slq8_Corsairs of the Crimson Void.md

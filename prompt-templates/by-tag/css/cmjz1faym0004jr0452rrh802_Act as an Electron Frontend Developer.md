@@ -1,1 +1,0 @@
-../../by-category/web-development/cmjz1faym0004jr0452rrh802_Act as an Electron Frontend Developer.md

@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors7_Create Project Spotlight.md

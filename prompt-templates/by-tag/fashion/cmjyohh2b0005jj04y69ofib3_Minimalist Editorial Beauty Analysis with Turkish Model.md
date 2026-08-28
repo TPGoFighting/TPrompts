@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjyohh2b0005jj04y69ofib3_Minimalist Editorial Beauty Analysis with Turkish Model.md

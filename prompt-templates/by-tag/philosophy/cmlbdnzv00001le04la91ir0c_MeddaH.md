@@ -1,1 +1,0 @@
-../../by-category/mindset-motivation/cmlbdnzv00001le04la91ir0c_MeddaH.md

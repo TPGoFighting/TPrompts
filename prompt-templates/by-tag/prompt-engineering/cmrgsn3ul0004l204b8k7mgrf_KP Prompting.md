@@ -1,1 +1,0 @@
-../../by-category/skill/cmrgsn3ul0004l204b8k7mgrf_KP Prompting.md

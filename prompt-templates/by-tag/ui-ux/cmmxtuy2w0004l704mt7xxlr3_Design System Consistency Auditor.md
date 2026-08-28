@@ -1,1 +1,0 @@
-../../by-category/design/cmmxtuy2w0004l704mt7xxlr3_Design System Consistency Auditor.md

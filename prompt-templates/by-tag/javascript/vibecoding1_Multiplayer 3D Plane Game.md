@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding1_Multiplayer 3D Plane Game.md

@@ -1,1 +1,0 @@
-../../by-category/design/cmmoq2i9d000sle049zrs991x_Lighthouse - Performance Optimization.md

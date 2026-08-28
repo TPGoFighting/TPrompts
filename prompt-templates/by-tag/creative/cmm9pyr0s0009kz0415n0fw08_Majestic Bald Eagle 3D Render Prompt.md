@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmm9pyr0s0009kz0415n0fw08_Majestic Bald Eagle 3D Render Prompt.md

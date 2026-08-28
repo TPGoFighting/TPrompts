@@ -1,1 +1,0 @@
-../../by-category/creative/cmjxd1as8000ngl04gdan0ob5_Créer une Carte Mentale pour Séance d-Idéation.md

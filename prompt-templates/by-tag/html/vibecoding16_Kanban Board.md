@@ -1,1 +1,0 @@
-../../by-category/vibe/vibecoding16_Kanban Board.md

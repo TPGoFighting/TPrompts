@@ -1,1 +1,0 @@
-../../by-category/research-analysis/cmlc926650004jp04embli3bd_Lagrange Lens- Blue Wolf.md

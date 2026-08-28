@@ -1,1 +1,0 @@
-../../by-category/writing/cmlaz86mp0001la04klhwdly0_Analogy Generator.md

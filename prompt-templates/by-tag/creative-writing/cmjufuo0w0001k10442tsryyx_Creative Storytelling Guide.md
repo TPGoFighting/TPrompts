@@ -1,1 +1,0 @@
-../../by-category/creative/cmjufuo0w0001k10442tsryyx_Creative Storytelling Guide.md

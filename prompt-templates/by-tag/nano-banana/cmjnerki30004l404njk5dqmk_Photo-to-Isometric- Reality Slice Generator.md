@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjnerki30004l404njk5dqmk_Photo-to-Isometric- Reality Slice Generator.md

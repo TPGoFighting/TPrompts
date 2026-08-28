@@ -1,1 +1,0 @@
-../../by-category/mobile-development/cmq0w1zq40007ld04bdk6xd13_Android AI App Security Specialist Task.md

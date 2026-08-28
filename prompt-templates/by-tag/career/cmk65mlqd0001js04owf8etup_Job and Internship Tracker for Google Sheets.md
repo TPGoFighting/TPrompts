@@ -1,1 +1,0 @@
-../../by-category/learning-skills/cmk65mlqd0001js04owf8etup_Job and Internship Tracker for Google Sheets.md

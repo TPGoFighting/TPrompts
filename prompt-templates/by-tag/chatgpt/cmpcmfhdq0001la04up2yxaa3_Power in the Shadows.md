@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmpcmfhdq0001la04up2yxaa3_Power in the Shadows.md

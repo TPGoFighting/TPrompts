@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmj1zb2nu00rfvl0rwi7xtz97_Story Generator.md

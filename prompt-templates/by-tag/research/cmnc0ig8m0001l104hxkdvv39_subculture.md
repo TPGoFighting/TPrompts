@@ -1,1 +1,0 @@
-../../by-category/academic-writing/cmnc0ig8m0001l104hxkdvv39_subculture.md

@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjyogpyi0001jj04lxbo00gj_Minimalist Editorial Beauty Analysis with European Model.md

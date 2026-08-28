@@ -1,1 +1,0 @@
-../../by-category/vibe/cmmpb078l0001jx04idzwstsh_SaaS Analytics Dashboard - Knowledge-Anchored Frontend Prompt.md

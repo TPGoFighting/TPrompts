@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmp48ntzf0004jp04dpdwelme_Crossover arts.md

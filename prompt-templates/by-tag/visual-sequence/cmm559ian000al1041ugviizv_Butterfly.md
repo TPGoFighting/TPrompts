@@ -1,1 +1,0 @@
-../../by-category/video-generation/cmm559ian000al1041ugviizv_Butterfly.md

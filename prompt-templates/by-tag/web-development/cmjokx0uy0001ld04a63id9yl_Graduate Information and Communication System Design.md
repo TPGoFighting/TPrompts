@@ -1,1 +1,0 @@
-../../by-category/education/cmjokx0uy0001ld04a63id9yl_Graduate Information and Communication System Design.md

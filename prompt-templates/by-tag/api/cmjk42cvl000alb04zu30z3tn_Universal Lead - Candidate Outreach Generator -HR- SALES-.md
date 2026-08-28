@@ -1,1 +1,0 @@
-../../by-category/skill/cmjk42cvl000alb04zu30z3tn_Universal Lead - Candidate Outreach Generator -HR- SALES-.md

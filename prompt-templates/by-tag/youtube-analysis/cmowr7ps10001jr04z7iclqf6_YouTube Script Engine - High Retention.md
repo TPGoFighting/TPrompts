@@ -1,1 +1,0 @@
-../../by-category/creative/cmowr7ps10001jr04z7iclqf6_YouTube Script Engine - High Retention.md

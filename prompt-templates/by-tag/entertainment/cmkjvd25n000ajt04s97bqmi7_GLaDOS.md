@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmkjvd25n000ajt04s97bqmi7_GLaDOS.md

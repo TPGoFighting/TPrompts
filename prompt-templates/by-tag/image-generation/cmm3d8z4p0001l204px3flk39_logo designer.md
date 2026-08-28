@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmm3d8z4p0001l204px3flk39_logo designer.md

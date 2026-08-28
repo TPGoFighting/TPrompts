@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjomfi8i0001i704m3c0ulnm_Cinematic Triptych- A Day in the Countryside.md

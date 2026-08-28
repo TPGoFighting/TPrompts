@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjztfkhn0001jo04cua3tqbj_The Witcher - Double Exposure Effect.md

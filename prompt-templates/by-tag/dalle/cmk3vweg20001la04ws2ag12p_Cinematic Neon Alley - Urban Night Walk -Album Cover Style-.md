@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmk3vweg20001la04ws2ag12p_Cinematic Neon Alley - Urban Night Walk -Album Cover Style-.md

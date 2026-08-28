@@ -1,1 +1,0 @@
-../../by-category/creative/cmlfb5mlj0004jm04urfrjldp_Human-Like Creative Writing Challenge.md

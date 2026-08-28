@@ -1,1 +1,0 @@
-../../by-category/sponsors/githubsponsors3_Explain Funding Impact.md

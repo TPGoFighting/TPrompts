@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmjrggy0h0001jx04fiyxm5yj_Excel Data to Figma Presentation Designer.md

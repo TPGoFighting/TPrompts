@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmnn5ojom000al204ohzp8ivr_Interstellar Movie Poster Illustration.md

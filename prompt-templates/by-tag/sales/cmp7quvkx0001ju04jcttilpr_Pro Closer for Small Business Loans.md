@@ -1,1 +1,0 @@
-../../by-category/business/cmp7quvkx0001ju04jcttilpr_Pro Closer for Small Business Loans.md

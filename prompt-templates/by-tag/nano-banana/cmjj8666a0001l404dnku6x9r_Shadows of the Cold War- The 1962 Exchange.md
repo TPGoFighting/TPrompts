@@ -1,1 +1,0 @@
-../../by-category/image-generation/cmjj8666a0001l404dnku6x9r_Shadows of the Cold War- The 1962 Exchange.md

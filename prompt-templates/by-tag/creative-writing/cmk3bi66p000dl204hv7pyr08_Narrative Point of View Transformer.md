@@ -1,1 +1,0 @@
-../../by-category/uncategorized/cmk3bi66p000dl204hv7pyr08_Narrative Point of View Transformer.md

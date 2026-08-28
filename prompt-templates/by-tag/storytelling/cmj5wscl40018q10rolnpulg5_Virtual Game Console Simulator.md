@@ -1,1 +1,0 @@
-../../by-category/creative/cmj5wscl40018q10rolnpulg5_Virtual Game Console Simulator.md
